@@ -5,6 +5,6 @@
 - Null
 - Undefined
 
-## Numbers
+## Number
 
 ## String
