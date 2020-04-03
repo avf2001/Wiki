@@ -4,3 +4,7 @@
 - Boolean
 - Null
 - Undefined
+
+## Numbers
+
+## String
