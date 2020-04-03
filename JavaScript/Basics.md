@@ -1,8 +1,8 @@
 # Table of Contents
-1. [Primitives](#number)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+- [Primitive Types](#primitive-types)
+- [Example2](#example2)
+- [Third Example](#third-example)
+- [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
 
 [Primitives|(Primitives)]
 [Variables]
