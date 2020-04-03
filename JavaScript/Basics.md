@@ -6,5 +6,13 @@
 - Undefined
 
 ## Number
+Возведение в степень: 2 ** 3 = 8
 
-## String
+NaN - Not a Number
+```javascript
+0/0 //NaN
+1/0 // Infinity
+-1/0 // -Infinity
+-0 // -0
+1 + NaN // NaN
+```
