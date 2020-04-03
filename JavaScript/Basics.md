@@ -1,3 +1,12 @@
+# Table of Contents
+1. [Primitives](#number)
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+
+[Primitives|(Primitives)]
+[Variables]
+
 # Primitive Types
 - Number
 - String
@@ -15,4 +24,8 @@ NaN - Not a Number
 -1/0 // -Infinity
 -0 // -0
 1 + NaN // NaN
+```
+# Variables
+```javascript
+let someName = value;
 ```
