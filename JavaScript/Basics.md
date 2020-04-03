@@ -23,4 +23,5 @@ NaN - Not a Number
 # Variables
 ```javascript
 let someName = value;
+const age = 17;
 ```
