@@ -1,11 +1,6 @@
-# Table of Contents
 - [Primitive Types](#primitive-types)
-- [Example2](#example2)
-- [Third Example](#third-example)
-- [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
-
-[Primitives|(Primitives)]
-[Variables]
+  - [Number](#number)
+- [Variables](#variables)
 
 # Primitive Types
 - Number
