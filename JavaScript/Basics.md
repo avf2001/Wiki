@@ -24,4 +24,5 @@ NaN - Not a Number
 ```javascript
 let someName = value;
 const age = 17;
+var tripDistance = 7.4; // Old way, obsolete
 ```
