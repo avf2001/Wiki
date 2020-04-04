@@ -34,11 +34,19 @@ Strings are zero-based indexed.
 "hello"[0] // "h"
 "hello"[5] // undefined
 ```
+String escapes
+```
+\n - new line
+\' - single quote
+\" - double quote
+\\ - baclslash
+```
 Strings are immutable.
 ### String methods
 ```javascript
 string.toUpperCase();
 string.toLowrCase();
+string.indexOf(substring);
 ```
 ## Boolean
 # Variables
