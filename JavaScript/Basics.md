@@ -28,6 +28,18 @@ let string1 = "string1";
 let string2 = 'string2';
 let stringWithQuote = "This string contains \"quote\" inside";
 ```
+Strings are zero-based indexed. 
+```javascript
+"hello".length // 5
+"hello"[0] // "h"
+"hello"[5] // undefined
+```
+Strings are immutable.
+### String methods
+```javascript
+string.toUpperCase();
+string.toLowrCase();
+```
 ## Boolean
 # Variables
 ```javascript
