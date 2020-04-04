@@ -48,6 +48,11 @@ string.toUpperCase();
 string.toLowrCase();
 string.indexOf(substring);
 ```
+### String template literals
+```javascript
+`I counted ${3 + 4} sheep`;
+```
+MDN link: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/template_strings
 ## Boolean
 # Variables
 ```javascript
