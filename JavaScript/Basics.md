@@ -1,5 +1,6 @@
 - [Primitive Types](#primitive-types)
   - [Number](#number)
+  - [String](#string)
   - [Boolean](#boolean)
 - [Variables](#variables)
 
@@ -20,6 +21,12 @@ NaN - Not a Number
 -1/0 // -Infinity
 -0 // -0
 1 + NaN // NaN
+```
+## String
+```javascript
+let string1 = "string1";
+let string2 = 'string2';
+let stringWithQuote = "This string contains \"quote\" inside";
 ```
 ## Boolean
 # Variables
