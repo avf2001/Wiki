@@ -1,5 +1,6 @@
 - [Primitive Types](#primitive-types)
   - [Number](#number)
+  - [Boolean](#boolean)
 - [Variables](#variables)
 
 # Primitive Types
@@ -20,9 +21,16 @@ NaN - Not a Number
 -0 // -0
 1 + NaN // NaN
 ```
+## Boolean
 # Variables
 ```javascript
 let someName = value;
 const age = 17;
 var tripDistance = 7.4; // Old way, obsolete
+```
+Variables can change type:
+```javascript
+let numDonuts = 12;
+numDonuts = false;
+numDonuts = 2736401238561;
 ```
