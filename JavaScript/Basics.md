@@ -54,6 +54,8 @@ string.indexOf(substring);
 ```
 MDN link: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/template_strings
 ## Boolean
+## Null
+## Undefined
 # Variables
 ```javascript
 let someName = value;
