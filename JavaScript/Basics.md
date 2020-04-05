@@ -63,6 +63,10 @@ Falsy values:
 - NaN
 
 Everything elese is truthy.
+### Logical operators
+- && (AND)
+- || (OR)
+- ! (NOT)
 ## Null
 ## Undefined
 # Variables
