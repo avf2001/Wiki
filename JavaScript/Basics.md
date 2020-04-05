@@ -54,6 +54,14 @@ string.indexOf(substring);
 ```
 MDN link: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/template_strings
 ## Boolean
+Falsy values:
+- false
+- 0
+- "" (empty string)
+- null
+- undefined
+- NaN
+Everything elese is truthy.
 ## Null
 ## Undefined
 # Variables
