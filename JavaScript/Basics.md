@@ -61,6 +61,7 @@ Falsy values:
 - null
 - undefined
 - NaN
+
 Everything elese is truthy.
 ## Null
 ## Undefined
