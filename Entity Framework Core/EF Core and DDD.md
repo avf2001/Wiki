@@ -79,3 +79,57 @@ public abstract class Entity
 }
 ```
 Use Find(), not Single() or First()
+
+## One-to-many
+modelBuilder.Entity<Student>( x => {
+x.HasMany(p => p.Enrollments).WithOne(p => p.Student);
+});
+
+Bad Ways:
+- student.Enrollments.Add(new Enrollment(course, student, grade));
+- student.Enrollments.Clear()
+- student.Enrollments = null;
+
+public class Student : Entity
+{
+  private readonly List<Enrollment> _enrollments = new List<Enrollment>();
+  public virtual IReadOnlyList<Enrollment> Enrollments => _enrollments.ToList();
+  
+  public void AddEnrollment(Course course, Grade grade)
+  {
+    var enrollment = new Enrollment(course, this, grade);
+    _enrollments.Add(enrollment);
+  }
+}
+
+x.HasMany(p => p.Enrollments).WithOne(p => p.Student)
+  .OnDelete(DeleteBehavior.Cascade)
+  .Metadata.PrinciaplToDependent(SetPropertyAccessMode(PropertyAccessMode.Field));
+
+public class StudentRepository
+{
+  public Student GetById(long studentId)
+  {
+    Student student = _context.Students.Find(studentId);
+    
+    if (student == null) return null;
+    
+    _context.Entry(student).Collection(x => x.Enrollments).Load();
+    
+    return student;
+  }
+}
+
+## Working with disconnected objects
+- Detached
+- Unchanged
+- Deleted
+- Modified
+- Added
+
+_context.Students.Attach(student);
+Always prefer Attach over Update or Add for new objects;
+
+Add marks the whole aggregate as added.
+
+The use of Update() is an anti-pattern (except for desktop applications).
