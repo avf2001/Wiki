@@ -186,3 +186,25 @@ x.OwnsOne(...)
 
 ```
 Owned entity - id is shadow property.
+
+## Domain Events
+```csharp
+public interface IDomainEvent {}
+
+public abstract class Entity
+{
+  private readonly List<DomainEvent> _domainEvents = new List<IDomainEvent>();
+  public IReadOnlyList<IDomainEvent> DomainEvents => _domainEvents;
+
+  protected void RaiseDomainEvent(IDomainEvent)
+  {
+    _domainEvents.Add(domainEvent);
+  }
+}
+```
+Domain events for communication with external systems, not in the domain.
+
+## Many-to-many relationship
+EF Core doesn't support many-to-many.
+
+## One-to-one relationship
