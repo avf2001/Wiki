@@ -20,3 +20,9 @@ TimeZoneInfo - time zone information
 DateTimeOffset - includes time zone information
 
 DateTimeOffset should be preferred over using DateTime
+
+## Date and Time arithmetics
+TimeSpan class
+Calendar class
+ISOWeek
+## Common scenarios
