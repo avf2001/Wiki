@@ -6,3 +6,9 @@ docker version
 ```shell
 docker info
 ```
+Проверка работы с docker hub
+```shell
+docker run - -rm hello-world
+// или
+docker container run - -rm hello-world
+```
