@@ -17,3 +17,10 @@ docker container run --rm hello-world
 ```shell
 docker container create <options> <image name:tag>
 ```
+Получение информации о контейнерах
+```shell
+docker ps <options>
+docler container ls <options>
+
+docker ps # информация только по запущенным контейнерам
+```
