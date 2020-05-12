@@ -24,3 +24,7 @@ docler container ls <options>
 
 docker ps # информация только по запущенным контейнерам
 ```
+Полученине информации о контейнере
+```shell
+docker container stats
+```
