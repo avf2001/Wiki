@@ -8,7 +8,7 @@ docker info
 ```
 Проверка работы с docker hub
 ```shell
-docker run - -rm hello-world
+docker run --rm hello-world
 // или
-docker container run - -rm hello-world
+docker container run --rm hello-world
 ```
