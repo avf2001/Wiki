@@ -12,3 +12,8 @@ docker run --rm hello-world
 // или
 docker container run --rm hello-world
 ```
+# Контейнеры
+Создание контейнера
+```shell
+docker container create <options> <image name:tag>
+```
