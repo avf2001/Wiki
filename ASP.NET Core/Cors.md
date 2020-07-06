@@ -9,7 +9,7 @@ https://www.mysite.com:80
 - Domain - mysite
 - Port - 80
 
-Acce-Control-Allow-Origin: *
+Access-Control-Allow-Origin: *
 
 Startup.cs
 ```csharp
