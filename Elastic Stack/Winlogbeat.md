@@ -19,3 +19,11 @@ setup.kibana:
 ```powershell
 PS C:\Program Files\Winlogbeat> .\winlogbeat.exe test config -c .\winlogbeat.yml -e
 ```
+7. Запуск службы Winlogbeat
+```powershell
+PS C:\Program Files\Winlogbeat> Start-Service winlogbeat
+```
+Остановка службы
+```powershell
+PS C:\Program Files\Winlogbeat> Stop-Service winlogbeat
+```
