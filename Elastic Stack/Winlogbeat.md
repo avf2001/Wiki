@@ -15,3 +15,7 @@ output.elasticsearch:
 setup.kibana:
   host: "10.10.10.10:5601"
 ```
+6. Проверить конфигурацию следующей командой:
+```powershell
+PS C:\Program Files\Winlogbeat> .\winlogbeat.exe test config -c .\winlogbeat.yml -e
+```
