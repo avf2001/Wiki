@@ -13,3 +13,8 @@ output.elasticsearch:
 setup.kibana:
   host: "10.10.10.10:9200"
 ```
+5. Подключить необходимые модули.  
+Например
+```cmd
+C:\Program Files\Metricbeat> .\metricbeat.exe modules enable windows
+```
