@@ -18,3 +18,8 @@ setup.kibana:
 ```cmd
 C:\Program Files\Metricbeat> .\metricbeat.exe modules enable windows
 ```
+6.
+```powershell
+PS > .\metricbeat.exe setup --index-management -E output.logstash.enabled=false -E 'output.elasticsearch.hosts=["localhost:9200"]'
+```
+7. Запустить службу **metricbeat**.
