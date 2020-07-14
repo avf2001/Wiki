@@ -22,3 +22,9 @@ PS > .\metricbeat.exe setup --index-management -E output.logstash.enabled=false 
 ```powershell
 PS > Start-Service heartbeat
 ```
+# Создание индекса вручную
+1. Запустить **PowerShell** с правами администратора.
+2. Перейти в папку **C:\Program Files\Heartbeat**. Выполнить команду:
+```powershell
+PS > .\heartbeat.exe setup --index-management -E output.logstash.enabled=false -E 'output.elasticsearch.hosts=["localhost:9200"]'
+```
