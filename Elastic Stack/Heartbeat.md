@@ -14,10 +14,7 @@ output.elasticsearch:
 setup.kibana:
   host: "10.10.10.10:9200"
 ```
-6. Подключить необходимые модули.
-Например
-C:\Program Files\Metricbeat> .\metricbeat.exe modules enable windows
-PS > .\metricbeat.exe setup --index-management -E output.logstash.enabled=false -E 'output.elasticsearch.hosts=["localhost:9200"]'
+6. Настроить ...
 7. Запустить службу **heartbeat**:
 ```powershell
 PS > Start-Service heartbeat
