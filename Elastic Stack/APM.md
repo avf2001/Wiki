@@ -37,7 +37,8 @@ PS > Start-Service apm-server
   * Elastic.Apm.AspNetCore
   * Elastic.Apm.EntityFrameworkCore
 2. Настроить приложение.
-ASP.NET Core:
+ASP.NET Core:  
+Файл **startup.cs**
 ```csharp
 using Elastic.Apm.NetCoreAll;
 
@@ -50,5 +51,23 @@ public class Startup
     //…rest of the method
   }
   //…rest of the class
+}
+```
+Файл **appsettings.json**
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning",
+      "Elastic.Apm": "Debug"                      // This
+    }
+  },
+  "AllowedHosts": "*",
+  "ElasticApm":
+    {
+      "ServerUrls":  "http://myapmserver:8200",   // This
+      "SecretToken":  "apm-server-secret-token",  // This
+      "TransactionSampleRate": 1.0                // This
+    }
 }
 ```
