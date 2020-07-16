@@ -21,3 +21,7 @@ kibana:
 ```powershell
 PS C:\Program Files\APM-Server> .\apm-server.exe setup --index-management
 ```
+6. Запустить службу **APM Server**:
+```powershell
+PS > Start-Service apm-server
+```
