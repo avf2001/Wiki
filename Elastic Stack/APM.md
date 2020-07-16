@@ -36,3 +36,19 @@ PS > Start-Service apm-server
   * Elastic.Apm.NetCoreAll
   * Elastic.Apm.AspNetCore
   * Elastic.Apm.EntityFrameworkCore
+2. Настроить приложение.
+ASP.NET Core:
+```csharp
+using Elastic.Apm.NetCoreAll;
+
+public class Startup
+{
+  public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+  {
+    // Must be the first line in the method to properly measure statistics
+    app.UseAllElasticApm(Configuration);
+    //…rest of the method
+  }
+  //…rest of the class
+}
+```
