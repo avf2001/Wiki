@@ -1,5 +1,5 @@
 # Установка
-## Сервер
+## Сервер (7.8)
 1. Скачать архив.
 2. Распаковать архив в папку **C:\Program Files\APM-Server**.
 3. Выполнить команду **PowerShell** с правами администратора:
@@ -25,3 +25,5 @@ PS C:\Program Files\APM-Server> .\apm-server.exe setup --index-management
 ```powershell
 PS > Start-Service apm-server
 ```
+## Клиент (1.x)
+1. Подключить Nuget-пакет.
