@@ -59,15 +59,15 @@ public class Startup
   "Logging": {
     "LogLevel": {
       "Default": "Warning",
-      "Elastic.Apm": "Debug"                      // This
+      "Elastic.Apm": "Debug"                      //This
     }
   },
   "AllowedHosts": "*",
   "ElasticApm":
     {
-      "ServerUrls":  "http://myapmserver:8200",   // This
-      "SecretToken":  "apm-server-secret-token",  // This
-      "TransactionSampleRate": 1.0                // This
+      "ServerUrls":  "http://myapmserver:8200",   //This
+      "SecretToken":  "apm-server-secret-token",  //This
+      "TransactionSampleRate": 1.0                //This
     }
 }
 ```
