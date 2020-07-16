@@ -27,12 +27,12 @@ PS > Start-Service apm-server
 ```
 ## Клиент (1.x)
 1. Подключить Nuget-пакет.
-* .NET Framework:
+* Для **.NET Framework**:
   * Elastic.Apm
   * Elastic.Apm.AspNetFullFramework
   * Elastic.Apm.EntityFramework6
   * Elastic.Apm.SqlClient
-* .NET Core:
+* Для **.NET Core**:
   * Elastic.Apm.NetCoreAll
   * Elastic.Apm.AspNetCore
   * Elastic.Apm.EntityFrameworkCore
