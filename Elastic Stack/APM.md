@@ -17,3 +17,7 @@ output.elasticsearch:
 kibana:
   host: "10.10.10.10:9200"
 ```
+5. Насторить индексы:
+```powershell
+PS C:\Program Files\APM-Server> .\apm-server.exe setup --index-management
+```
