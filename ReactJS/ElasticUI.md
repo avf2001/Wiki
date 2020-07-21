@@ -5,7 +5,6 @@ yarn add @elastic/eui @elastic/datemath moment
 ```
 3. Файл **index.js**:
 ```javascript
-index.js:
 import 'react-app-polyfill/ie11';
 import 'react-app-polyfill/stable'
 import React from 'react';
