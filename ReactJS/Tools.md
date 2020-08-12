@@ -1,1 +1,1 @@
-React Developer Tools
+React Developer Tools - Chrome extension
