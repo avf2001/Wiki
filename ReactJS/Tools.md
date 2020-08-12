@@ -7,3 +7,4 @@ https://flow.org/
 > npm i flow-bin --save-dev
 
 # ESLint
+> npm i -g eslint
