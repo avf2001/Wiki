@@ -11,4 +11,4 @@ https://flow.org/
 
 # Jest
 https://jestjs.io/
-
+> npm i react-test-renderer
