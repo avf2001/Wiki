@@ -12,3 +12,6 @@ https://flow.org/
 # Jest
 https://jestjs.io/
 > npm i react-test-renderer
+"scripts: {
+  "coverage: "npm run test -- --coverage"
+}
