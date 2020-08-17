@@ -8,3 +8,7 @@ https://flow.org/
 
 # ESLint
 > npm i -g eslint
+
+# Jest
+https://jestjs.io/
+
