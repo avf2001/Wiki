@@ -1,5 +1,7 @@
+```cmd
 npm install react-router-dom
-
+```
+```javascript
 import {BrowserRouter} from 'react-router-dom';
 
 ReactDOM.render(
@@ -8,3 +10,4 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById('root')
 );
+```
