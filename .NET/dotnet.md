@@ -10,3 +10,7 @@
 ```cmd
 > dotnet new classlib -o <Project.Classlib>
 ```
+Добавление проекта в солюшен
+```cmd
+> dotnet sln add Project.Api/Project.Api.csproj
+```
