@@ -14,6 +14,7 @@
 ```cmd
 > dotnet sln add Project.Api/Project.Api.csproj
 ```
+Entity Framework command command line tool
 ```cmd
 > dotnet tool install --global dotnet-ef
 ```
