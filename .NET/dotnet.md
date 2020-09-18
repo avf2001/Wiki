@@ -14,3 +14,6 @@
 ```cmd
 > dotnet sln add Project.Api/Project.Api.csproj
 ```
+```cmd
+> dotnet tool install --global dotnet-ef
+```
