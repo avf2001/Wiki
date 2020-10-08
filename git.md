@@ -14,5 +14,13 @@ git status
 
 Отменить изменения в staging area для filename.txt
 ```cmd
-git reset filename.ext
+> git reset filename.ext
+```
+Разница между working directory и staging area
+```cmd
+> git diff
+```
+History of commits
+```cmd
+> git log
 ```
