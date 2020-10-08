@@ -8,3 +8,4 @@
 > git config user.email "User@mail.com"
 > git config --list
 ```
+working directory -> [git add] -> staging area -> [git commit] -> repository
