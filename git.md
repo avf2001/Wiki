@@ -23,4 +23,5 @@ git status
 History of commits
 ```cmd
 > git log
+> git log --pretty=oneline одна строчка на коммит
 ```
