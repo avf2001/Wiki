@@ -60,3 +60,10 @@ git status
 ```cmd
 > git branch -D branchname
 ```
+## Слияние двух бранчей
+
+```cmd
+# Сначало необходимо переключиться на бранч, который будет принимать изменения.
+> git checkout master
+> git merge branchname
+```
