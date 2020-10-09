@@ -47,3 +47,7 @@ History of commits
 ```cmd
 > git branch
 ```
+## Переключение бранча
+```cmd
+> git checkout branchname
+```
