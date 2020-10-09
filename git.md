@@ -38,3 +38,8 @@ History of commits
 ```cmd
 > git reset --hard HEAD`1
 ```
+# Бранчи
+## Создание бранча
+```cmd
+> git branch branchname
+```
