@@ -43,3 +43,7 @@ History of commits
 ```cmd
 > git branch branchname
 ```
+## Отображение списка бранчей
+```cmd
+> git branch
+```
