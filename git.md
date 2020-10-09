@@ -21,10 +21,11 @@ git status
 ```cmd
 > git diff
 ```
-History of commits
+## История коммитов
 ```cmd
 > git log
-> git log --pretty=oneline одна строчка на коммит
+> git log --pretty=oneline # одна строчка на коммит
+> git log --graph # графическая визаулизация коммитов
 ```
 Изменить текст коммита
 ```cmd
