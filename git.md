@@ -52,3 +52,7 @@ git status
 ```cmd
 > git checkout branchname
 ```
+## Просмотр разницы между двумя бранчами
+```cmd
+> git diff branchname1 branchname2
+```
