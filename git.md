@@ -56,3 +56,7 @@ git status
 ```cmd
 > git diff branchname1 branchname2
 ```
+## Удаление бранча
+```cmd
+> git branch -D branchname
+```
