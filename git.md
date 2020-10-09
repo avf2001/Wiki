@@ -34,3 +34,7 @@ History of commits
 ```cmd
 > git reset --soft HEAD`1
 ```
+Откатить изменения на 1 коммит назад и удалить измененнные файлы
+```cmd
+> git reset --hard HEAD`1
+```
