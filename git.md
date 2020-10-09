@@ -30,3 +30,7 @@ History of commits
 ```cmd
 > git commit --amend
 ```
+Откатить изменения на 1 коммит назад и сохранить измененнные файлы
+```cmd
+> git reset --soft HEAD`1
+```
