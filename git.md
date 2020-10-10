@@ -67,3 +67,9 @@ git status
 > git checkout master
 > git merge branchname
 ```
+# Файлы
+## Удаление файла
+```cmd
+> git rm filename.ext
+> git commit -m "File filename.ext deleted"
+```
