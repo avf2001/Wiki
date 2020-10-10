@@ -61,7 +61,6 @@ git status
 > git branch -D branchname
 ```
 ## Слияние двух бранчей
-
 ```cmd
 # Сначало необходимо переключиться на бранч, который будет принимать изменения.
 > git checkout master
@@ -76,4 +75,9 @@ git status
 ## Восстановление последних удаленных файлов (откат репозитория)
 ```cmd
 > git reset --hard HEAD~1
+```
+## Переименование файла
+```cmd
+> git mv filename.ext filename-new.ext
+> git commit -m "File rename"
 ```
