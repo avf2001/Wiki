@@ -73,3 +73,7 @@ git status
 > git rm filename.ext
 > git commit -m "File filename.ext deleted"
 ```
+## Восстановление последних удаленных файлов (откат репозитория)
+```cmd
+> git reset --hard HEAD~1
+```
