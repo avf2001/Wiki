@@ -28,3 +28,7 @@ docker ps # информация только по запущенным конт
 ```shell
 docker container stats
 ```
+Подключение к работающему контейнеру
+```shell
+docker attach <CONTAINER_ID | CONTAINER_NAME>
+```
