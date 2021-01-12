@@ -1,7 +1,7 @@
 sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y
 sudo apt autoremove
 
-1. Install open ssh server
+# 1. Install open ssh server
 -----------------------
 check if open ssh server installed:
 $ man sshd_config
@@ -10,7 +10,7 @@ To install open
 $ sudo apt update
 $ sudo apt install openssh-server -y
 
-2. Setup network rules
+# 2. Setup network rules
 --------
 Check firewall status
 $ sudo ufw status
@@ -29,7 +29,7 @@ $ sudo ufw status
 or more detailed
 $ sudo ufw status verbose
 
-3. Start SSH Server
+# 3. Start SSH Server
 -------------------
 $ sudo service ssh start
 
