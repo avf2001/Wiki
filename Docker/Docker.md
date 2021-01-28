@@ -32,3 +32,16 @@ docker container stats
 ```shell
 docker attach <CONTAINER_ID | CONTAINER_NAME>
 ```
+# Образы
+## Получение списка образов
+```shell
+> docker images
+```
+## Удаление образа
+```shell
+> docker rmi <IMAGE_ID>
+```
+Удаление всех образов (только для Powershell)
+```powershell
+> docker rm $(docker ps -a -q)
+```
