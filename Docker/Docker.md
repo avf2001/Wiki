@@ -1,8 +1,10 @@
 # Содержание
+* Общая информация
+  * Информация о Docker
 * Контейнеры
 * Образы
-
-Получить информацию по docker
+# Общая информация
+## Информация о Docker
 ```shell
 docker version
 ```
@@ -15,6 +17,10 @@ docker info
 docker run --rm hello-world
 // или
 docker container run --rm hello-world
+```
+## Использование дискового пространства
+```shell
+docker system df
 ```
 # Контейнеры
 Создание контейнера
