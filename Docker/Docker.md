@@ -22,6 +22,9 @@ docker container run --rm hello-world
 ```shell
 docker system df
 ```
+```shell
+docker system prune
+```
 # Контейнеры
 Создание контейнера
 ```shell
