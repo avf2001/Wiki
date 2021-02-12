@@ -1,6 +1,7 @@
 # Content
 * Using with ASP.NET Core (3.1 example)
 * Adding UserName to log
+* Logging unhandled exceptions
 # Using with ASP.NET Core (3.1 example)
 ## 1. Install nuget packages
 ```cmd
@@ -101,4 +102,46 @@ app.UseAuthentication();
 
 // After UseAuthentication or Authorization
 app.UseMiddleware<LogUserNameMiddleware>();
+```
+# Logging unhandled exceptions
+```csharp
+/* UnhandledExceptionMiddleware */
+public class UnhandledExceptionMiddleware
+{
+    private readonly ILogger _logger;
+    private readonly RequestDelegate _next;
+
+    public UnhandledExceptionMiddleware(ILogger<UnhandledExceptionMiddleware> logger, RequestDelegate next)
+    {
+        this._logger = logger;
+        this._next = next;
+    }
+
+    public async Task Invoke(HttpContext context)
+    {
+        try
+        {
+            await _next(context);
+        }
+        catch (Exception exception)
+        {
+            _logger.LogError(exception, $"Request {context.Request?.Method}: {context.Request?.Path.Value} failed");
+        }
+    }
+}
+```
+```csharp
+/* Startup.cs */
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    if (env.IsDevelopment())
+    {
+        app.UseDeveloperExceptionPage();
+    }
+
+    // After app.UseDeveloperExceptionPage();
+    app.UseMiddleware<UnhandledExceptionMiddleware>();
+    
+    ...    
+}
 ```
