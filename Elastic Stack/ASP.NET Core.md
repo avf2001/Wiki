@@ -2,6 +2,7 @@
 * Using with ASP.NET Core (3.1 example)
 * Adding UserName to log
 * Logging unhandled exceptions
+* Logging request body
 # Using with ASP.NET Core (3.1 example)
 ## 1. Install nuget packages
 ```cmd
@@ -143,5 +144,45 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     app.UseMiddleware<UnhandledExceptionMiddleware>();
     
     ...    
+}
+```
+# Logging request body
+```csharp
+/* HttpRequestBodyMiddleware.cs */
+public class HttpRequestBodyMiddleware
+{
+    private readonly ILogger _logger;
+    private readonly RequestDelegate _next;
+
+    public HttpRequestBodyMiddleware(ILogger<HttpRequestBodyMiddleware> logger, RequestDelegate next)
+    {
+        _logger = logger;
+        _next = next;
+    }
+
+    public async Task Invoke(HttpContext context)
+    {
+        context.Request.EnableBuffering();
+
+        var reader = new StreamReader(context.Request.Body);
+
+        var body = await reader.ReadToEndAsync();
+
+        _logger.LogInformation($"Request {context.Request?.Method}: {context.Request?.Path.Value}\n{body}");
+
+        context.Request.Body.Position = 0L;
+
+        await _next(context);
+    }
+}
+```
+```csharp
+/* Startup.cs */
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    ...
+    // Place does not matter
+    app.UseMiddleware<HttpRequestBodyMiddleware>();
+    ...
 }
 ```
