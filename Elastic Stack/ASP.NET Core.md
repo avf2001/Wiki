@@ -147,8 +147,8 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 }
 ```
 # Logging request body
+**`HttpRequestBodyMiddleware.cs`**
 ```csharp
-/* HttpRequestBodyMiddleware.cs */
 public class HttpRequestBodyMiddleware
 {
     private readonly ILogger _logger;
@@ -176,8 +176,8 @@ public class HttpRequestBodyMiddleware
     }
 }
 ```
+**`Startup.cs`**
 ```csharp
-/* Startup.cs */
 public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 {
     ...
