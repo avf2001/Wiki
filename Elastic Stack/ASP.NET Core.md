@@ -1,10 +1,14 @@
-# 1. Install nuget packages
+# Content
+* Using with ASP.NET Core (3.1 example)
+* Adding UserName to log
+# Using with ASP.NET Core (3.1 example)
+## 1. Install nuget packages
 ```cmd
 > install-package Serilog.AspNetCore
 > install-package Serilog.Enrichers.Environment
 > install-package Serilog.Sinks.Elasticsearch
 ```
-# 2. appsettings.config
+## 2. appsettings.config
 ```json
 {
     "Serilog": {
@@ -22,7 +26,7 @@
     "AllowedHosts": "*"
 }
 ```
-# 3. Program.cs
+## 3. Program.cs
 ```csharp
 // Добавить
 using Serilog;
@@ -53,4 +57,48 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
         {
             webBuilder.UseStartup<Startup>();
         });
+```
+# Adding UserName to log
+
+```csharp
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Serilog.Context;
+
+namespace Skz.ReportForms.Internal.WebApiCore.Middleware
+{
+    public class LogUserNameMiddleware
+    {
+        private readonly RequestDelegate _next;
+
+        public LogUserNameMiddleware(RequestDelegate next)
+        {
+            this._next = next;
+        }
+
+        public Task Invoke(HttpContext context)
+        {
+            LogContext.PushProperty("UserName", context.User.Identity.Name);
+
+            return _next(context);
+        }
+    }
+}
+```
+```csharp
+/* Program.cs */
+.UseSerilog((context, configuration) =>
+{
+    configuration
+        ...
+        .Enrich.FromLogContext()
+        ...
+})
+```
+```csharp
+/* Startup.cs */
+app.UseAuthentication();     
+
+// After UseAuthentication or Authorization
+app.UseMiddleware<LogUserNameMiddleware>();
 ```
