@@ -6,3 +6,7 @@ $ awk -F: '{ print $1}' /etc/passwd
 ```shell
 $ sudo useradd username
 ```
+# Change password for another user
+```shell
+$ sudo passwd <username> <password>
+```
