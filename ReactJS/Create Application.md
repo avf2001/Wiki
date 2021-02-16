@@ -16,12 +16,12 @@
 ```cmd
 > yarn add react-app-polyfill
 ```
-2. В самое начало файла **index.js** добавить строчки:
+2. В самое начало файла `src\index.js` добавить строчки:
 ```javascript
 import 'react-app-polyfill/ie11';
 import 'react-app-polyfill/stable';
 ```
-3. В файле **package.json** в разделе **browserslist** добавить следующие строки:
+3. В файле `package.json` в разделе **browserslist** добавить следующие строки:
 ```json
 "browserslist": {
   "production": [
