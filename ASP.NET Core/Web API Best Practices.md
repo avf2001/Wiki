@@ -56,6 +56,11 @@ namespace Books.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateBook([FromBody] BookForCreation book)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+        
             var bookEntity = _mapper.Map<Entities.Book>(book);
             _booksRepository.AddBook(bookEntity);
 
