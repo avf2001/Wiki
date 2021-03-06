@@ -37,3 +37,13 @@ function App() {
   );
 }
 ```
+```javascript
+// Navbar.js
+import { Link } from 'react-router-dom';
+
+...
+<Link to="/" />
+...
+<Link to="/about">About</Link>
+...
+```
