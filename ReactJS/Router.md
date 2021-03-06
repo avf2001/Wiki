@@ -19,13 +19,20 @@ ReactDOM.render(
 ```
 ```javascript
 // App.js
+import './App.css';
+import Navbar from './components/Navbar';
+import { Switch, Route } from 'react-router-dom';
 
 function App() {
-  return (
+  return (  
     <div>
       <Navbar />
-      <Home />
-      <AboutView />
+      <Switch>
+        <Route path="/" exact>
+          <Home />
+        <Route>
+        <Route path="/about" component={AboutView} />        
+      <Switch>
     </div>
   );
 }
