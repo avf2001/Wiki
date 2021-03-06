@@ -4,12 +4,29 @@ npm install react-router-dom
 ```
 # Использование в приложении
 ```javascript
-import {BrowserRouter} from 'react-router-dom';
+// index.js
+
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
-  <BrowserRouter>  
-    <App />
-  </BrowserRouter>,
+  <React.StrictMode>
+    <BrowserRouter>  
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>,
   document.getElementById('root')
 );
+```
+```javascript
+// App.js
+
+function App() {
+  return (
+    <div>
+      <Navbar />
+      <Home />
+      <AboutView />
+    </div>
+  );
+}
 ```
