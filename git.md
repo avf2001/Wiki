@@ -2,6 +2,7 @@
 * Репозиторий
   * Создание репозитория
   * Настройка репозитория
+  * Клонирование репозитория
 
 # Репозиторий
 ## Создание репозитория
@@ -14,6 +15,10 @@
 > git config user.email "User@mail.com"
 > git config --list
 > git config --global core.editor "'c:/program files/tortoisegit/bin/notepad2.exe'" # Установить Notepad2 как редактор по умолчанию
+```
+## Клонирование репозитория
+```cmd
+> git clone git@bitbucket.com:owner/opensource.git
 ```
 working directory (modified) -> [git add] -> staging area (staged) -> [git commit] -> repository (commited)
 
