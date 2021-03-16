@@ -1,6 +1,7 @@
 # VS Code
 * Useful Extensions
 * Hot Keys
+* User Snippets
 
 # Usefile Extensions
 * Live Server
@@ -28,3 +29,26 @@ rafc - создание компонента React
 * Alt + Set cursor - Multiple cursors
 * Select text + F2 - Symbol rename
 * Alt + Arrow up; Alt + Arrow down - Move lines up/down
+
+# User Snippets
+## 1. Generate configuration file
+```
+File > Preferences > User snippets
+```
+Select one of existing files or create new one
+## 2. Write snippet
+```json
+"html5 autocomplete": {
+  "prefix": "html5",
+  "body": [
+    "<!DOCTYPE html>",
+    "<html lang=\"en\">",
+    "<head>",
+    "  <title></title>",
+    "</head>",
+    "<body>",
+    "</body>",
+    "</html>"
+  ]
+}
+```
