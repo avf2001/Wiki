@@ -25,7 +25,7 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 
 	app.UseSwagger();
 
-	app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "ASP.NET Core API Documentation"); });
+	app.UseSwaggerUI(c => { c.SwaggerEndpoint("v1/swagger.json", "ASP.NET Core API Documentation"); });
 
 	app.UseHttpsRedirection();
 	
