@@ -1,5 +1,6 @@
 # Содержание
 * Установка (Windows)
+* Установка (Linux)
 # Установка (Windows)
 1. Скачать архив
 2. Распаковать архив в папку **C:\Program Files\Metricbeat**
@@ -25,3 +26,9 @@ C:\Program Files\Metricbeat> .\metricbeat.exe modules enable windows
 PS > .\metricbeat.exe setup --index-management -E output.logstash.enabled=false -E 'output.elasticsearch.hosts=["localhost:9200"]'
 ```
 7. Запустить службу **metricbeat**.
+# Установка (Linux)
+1. Скачать файл (например, metricbeat-7.12.1-amd64.deb)
+2. Выполнить команду
+```bash
+$ sudo dpkg -i metricbeat-7.12.1-amd64.deb
+```
