@@ -40,7 +40,7 @@ output.elasticsearch:
 setup.kibana:
   host: "10.10.10.10:9200"
 ```
-5. Подключить необходимые модули.
+4. Подключить необходимые модули.
 Например
 ```yml
 metricbeat.modules:
