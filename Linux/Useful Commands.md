@@ -3,13 +3,12 @@
 mkdir foldername
 mkdir -p a/b/c/d
 ```
-
-pwd
-
-2. rmdir
+2. pwd
+3. rmdir
+```
 rmdir foldername
 rm -rf <foldername> // remove non empty dir
-
+```
 3. touch
 Create epmty file
 ```
