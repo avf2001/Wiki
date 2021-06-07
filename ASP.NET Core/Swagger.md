@@ -22,10 +22,14 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 	{
 		app.UseDeveloperExceptionPage();
 	}
+	
+	#region Swagger
 
 	app.UseSwagger();
 
 	app.UseSwaggerUI(c => { c.SwaggerEndpoint("v1/swagger.json", "ASP.NET Core API Documentation"); });
+	
+	#endregion
 
 	app.UseHttpsRedirection();
 	
