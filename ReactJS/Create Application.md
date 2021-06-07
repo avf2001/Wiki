@@ -19,7 +19,7 @@
 ```cmd
 > yarn add react-app-polyfill
 ```
-2. В самое начало файла `src\index.js` добавить строчки:
+2. В самое начало файла `src\index.js` или `src\index.tsx` добавить строчки:
 ```javascript
 import 'react-app-polyfill/ie11';
 import 'react-app-polyfill/stable';
