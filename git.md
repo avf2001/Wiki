@@ -3,6 +3,7 @@
   * [Создание репозитория](#создание-репозитория)
   * Настройка репозитория
   * Клонирование репозитория
+  * [Статус репозитория](#статус-репозитория)
 * [Бранчи](#бранчи)
   * Создание бранча
   * Отображение списка бранчей
@@ -40,9 +41,10 @@
 > git clone git@bitbucket.com:owner/opensource.git
 ```
 working directory (modified) -> [git add] -> staging area (staged) -> [git commit] -> repository (commited)
-
-git status
-
+## Статус репозитория
+```cmd
+> git status
+```
 Отменить изменения в staging area для filename.txt
 ```cmd
 > git reset filename.ext
