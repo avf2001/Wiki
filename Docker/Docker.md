@@ -23,11 +23,9 @@ docker run --rm hello-world
 docker container run --rm hello-world
 ```
 ## Использование дискового пространства
-```shell
-docker system df
-```
-```shell
-docker system prune
+```cmd
+> docker system df # статистика использования системных ресурсов
+> docker system prune # удаление неиспользуемых ресурсов (контейнеров, сетей, образов и т.д.)
 ```
 # Контейнеры
 ## Создание контейнера
