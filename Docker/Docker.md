@@ -3,6 +3,8 @@
   * Информация о Docker
 * Контейнеры
 * Образы
+  * [Получение списка образов](#получение-списка-образов)
+  * [Удаление образа](#удаление-образа)
 # Общая информация
 ## Информация о Docker
 ```shell
@@ -53,6 +55,8 @@ docker attach <CONTAINER_ID | CONTAINER_NAME>
 ## Удаление образа
 ```shell
 > docker rmi <IMAGE_ID>
+# или
+> docker rmi <IMAGE_NAME>
 ```
 Удаление всех образов (только для Powershell)
 ```powershell
