@@ -8,5 +8,6 @@ $ docker run -it --user 1001:1001 alpine sh # good - run container from specific
 ```
 or use `USER username` in `dockerfile`
 ```dockerfile
+RUN addgroup -S user && adduser -S user -G user
 USER user
 ```
