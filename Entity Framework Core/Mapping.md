@@ -1,7 +1,7 @@
 * Set Default Schema
 * Primary Key
   * Composite Primary Key
-* Default Value
+* [Default Value](#default-value)
 # Set Default Schema
 ```csharp
 protected override void OnModelCreating(ModelBuilder modelBuilder)
