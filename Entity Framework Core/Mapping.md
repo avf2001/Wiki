@@ -11,6 +11,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 # Primary Key
 ```csharp
 modelBuilder.Entity<Person>().HasKey(c => c.Id);
+modelBuilder.Entity<Person>().HasKey(c => c.Id).HasName("PK_Custom_Name");
 ```
 ## Composite Primary Key
 ```csharp
