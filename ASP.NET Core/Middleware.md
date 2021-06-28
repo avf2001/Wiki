@@ -1,4 +1,6 @@
-1.
+# Http Logging Middleware
+https://github.com/abierhaus/httprequestresponse-logging-middleware-example/blob/master/Middleware/HttpLoggingMiddleware.cs
+1. Create class
 ```csharp
 public class HttpLoggingMiddleware
 {
@@ -78,4 +80,31 @@ public static class HttpLoggingMiddlewareExtensions
         return builder.UseMiddleware<HttpLoggingMiddleware>();
     }
 }
+```
+2. Startup.cs
+```csharp
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    ...
+    app.UseHttpLogging();
+
+    app.UseEndpoints(endpoints =>
+    {
+        endpoints.MapControllers();
+    });
+}
+```
+3. Program.cs
+```csharp
+public static IHostBuilder CreateHostBuilder(string[] args) =>
+    Host.CreateDefaultBuilder(args)
+        .ConfigureLogging(logging =>  // !!!
+        {
+            logging.ClearProviders(); // !!!
+            logging.AddConsole();     // !!!
+        })
+        .ConfigureWebHostDefaults(webBuilder =>
+        {
+            webBuilder.UseStartup<Startup>();
+        });
 ```
