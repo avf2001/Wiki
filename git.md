@@ -102,7 +102,7 @@ working directory (modified) -> [git add] -> staging area (staged) -> [git commi
 # Файлы
 ## Добавление нового файла
 ```cmd
-> git add .
+> git add . # добавление всех файлов, не включенных в .gitignore
 ```
 ## Удаление файла
 `git rm` удаляет файл из индекса и рабочего каталога (файл не отслеживатеся)
