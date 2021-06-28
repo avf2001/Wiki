@@ -8,9 +8,11 @@ public class SelectTests
     [SetUp]
     public void Setup()
     {
+        var connectionString = "Server=(localdb)\\mssqllocaldb;Database=EfCore5App;Trusted_Connection=True;MultipleActiveResultSets=true";
+        
         _context = new AppDbContext(
             new DbContextOptionsBuilder<AppDbContext>()
-                .UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=EfCore5App;Trusted_Connection=True;MultipleActiveResultSets=true")
+                .UseSqlServer(connectionString)
                 .Options
         );
     }
