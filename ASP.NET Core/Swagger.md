@@ -44,3 +44,12 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 	...
 }
 ```
+4. Файл `.csproj`
+```xml
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+    </PropertyGroup>
+</Project>
+```
