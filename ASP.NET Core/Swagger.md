@@ -27,7 +27,15 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 
 	app.UseSwagger();
 
-	app.UseSwaggerUI(c => { c.SwaggerEndpoint("v1/swagger.json", "ASP.NET Core API Documentation"); });
+	app.UseSwaggerUI(
+	    c => { 
+	        c.SwaggerEndpoint("v1/swagger.json", "ASP.NET Core API Documentation");
+		
+		var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
+	    }
+	);
 	
 	#endregion
 
