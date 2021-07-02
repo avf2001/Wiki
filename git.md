@@ -71,6 +71,10 @@ working directory (modified) -> [git add] -> staging area (staged) -> [git commi
 ```cmd
 > git reset --hard HEAD`1
 ```
+## Импорт из SVN (Subversion)
+```cmd
+> git.exe svn clone "svn://server/path/SvnRepo" "C:\Users\username\projects\Destination.git" -T trunk -b branches -t tags
+```
 # Бранчи
 ## Создание бранча
 ```cmd
