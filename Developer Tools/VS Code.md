@@ -3,7 +3,7 @@
   * [Useful Settings](#useful-settings)
   * [Useful Extensions](#usefile-extensions)
   * [Hot Keys](#hot-keys)
-  * User Snippets
+  * [User Snippets](#hot-keys)
 # VS Code
 ## Useful Settings
 ```
