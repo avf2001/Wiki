@@ -1,9 +1,11 @@
 # Содержание
 * VS Code
+  * [Useful Settings]()
   * Useful Extensions
   * Hot Keys
   * User Snippets
 # VS Code
+## Useful Settings
 ## Usefile Extensions
 * Live Server
 * Auto Close Tag
