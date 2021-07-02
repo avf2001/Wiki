@@ -2,6 +2,7 @@
 * [Useful Settings](#useful-settings)
 * [Useful Extensions](#usefile-extensions)
   * [SQLite](#sqlite)
+  * [ES7 React/Redux/React-Native/JS snippets](#es7-reactreduxreact-nativejs-snippets)
 * [Hot Keys](#hot-keys)
 * [User Snippets](#hot-keys)
 # Useful Settings
