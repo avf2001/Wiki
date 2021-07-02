@@ -1,6 +1,7 @@
 # Content
 * [Useful Settings](#useful-settings)
 * [Useful Extensions](#usefile-extensions)
+  * [SQLite](#sqlite)
 * [Hot Keys](#hot-keys)
 * [User Snippets](#hot-keys)
 # Useful Settings
