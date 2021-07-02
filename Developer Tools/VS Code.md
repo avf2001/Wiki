@@ -51,6 +51,7 @@ rafc - создание компонента React
 File > Preferences > User snippets
 ```
 Select one of existing files or create new one
+
 2. Write snippet
 ```json
 "html5 autocomplete": {
