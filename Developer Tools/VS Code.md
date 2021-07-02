@@ -1,5 +1,5 @@
-# Содержание
-* VS Code
+# Content
+* [VS Code](#vs-code)
   * [Useful Settings](#useful-settings)
   * [Useful Extensions](#usefile-extensions)
   * [Hot Keys](#hot-keys)
