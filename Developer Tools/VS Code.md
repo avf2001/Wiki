@@ -46,12 +46,12 @@ rafc - создание компонента React
 * Alt + Arrow up; Alt + Arrow down - Move lines up/down
 
 # User Snippets
-## 1. Generate configuration file
+1. Generate configuration file
 ```
 File > Preferences > User snippets
 ```
 Select one of existing files or create new one
-## 2. Write snippet
+2. Write snippet
 ```json
 "html5 autocomplete": {
   "prefix": "html5",
