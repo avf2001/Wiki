@@ -13,6 +13,11 @@ or
 ```
 Ctrl + ,
 ```
+* Editor: Format On Save = checked
+* JavaScript > Fromat: Place Open Brace On New Line For Control Blocks = checked
+* JavaScript > Fromat: Place Open Brace On New Line For Functions = checked
+* TypeScript > Fromat: Place Open Brace On New Line For Control Blocks = checked
+* TypeScript > Fromat: Place Open Brace On New Line For Functions = checked
 ## Usefile Extensions
 * Live Server
 * Auto Close Tag
