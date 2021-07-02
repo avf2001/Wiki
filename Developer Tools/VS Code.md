@@ -1,6 +1,6 @@
 # Содержание
 * VS Code
-  * [Useful Settings](useful-settings)
+  * [Useful Settings](#useful-settings)
   * Useful Extensions
   * Hot Keys
   * User Snippets
