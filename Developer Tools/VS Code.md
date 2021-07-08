@@ -30,6 +30,7 @@ Ctrl + ,
 * Prettier - Code formatter
 * ident-rainbow
 * Better Comments
+* Blockman
 ## SQLite
 https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite  
 VSCode extension to explore and query SQLite databases.
