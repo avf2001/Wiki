@@ -22,8 +22,11 @@
 ```powershell
 > echo $profile
 ```
-Отобразиться путь к файлу, например:
+Отобразится путь к файлу, например:
 ```powershell
 > C:\Users\Admin\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 ```
-
+5. Открыть файл для редактирования
+```powershell
+> notepad $profile
+```
