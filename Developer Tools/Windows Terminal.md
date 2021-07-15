@@ -30,3 +30,9 @@
 ```powershell
 > notepad $profile
 ```
+6. Внести в файл следующие строки и сохранить его:
+```
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-PoshPrompt -Theme Paradox
+```
