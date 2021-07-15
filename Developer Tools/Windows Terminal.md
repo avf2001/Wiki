@@ -1,0 +1,2 @@
+# Установка
+Из Microsoft Store
