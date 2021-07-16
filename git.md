@@ -59,7 +59,7 @@ working directory (modified) -> [git add] -> staging area (staged) -> [git commi
 ```cmd
 > git log
 > git log --pretty=oneline # одна строчка на коммит
-> git log --graph # графическая визаулизация коммитов
+> git log --graph # графическая визаулизация коммитов; q - выход, h - справка
 ```
 Изменить текст коммита
 ```cmd
