@@ -37,6 +37,7 @@
 > git config user.email "User@mail.com"
 > git config --list
 > git config --global core.editor "'c:/program files/tortoisegit/bin/notepad2.exe'" # Установить Notepad2 как редактор по умолчанию
+> git config --global core.editor "code --wait" # Установить VS Code как редактор по умолчанию
 ```
 ## Клонирование репозитория
 ```cmd
