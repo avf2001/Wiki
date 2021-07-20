@@ -94,4 +94,5 @@ public class UnitTest1
 ```
 NUnit
 NUnit3TestAdapter
+Microsoft.Net.Test.Sdk
 ```
