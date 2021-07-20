@@ -104,6 +104,7 @@ Microsoft.Net.Test.Sdk
 |Category||
 |TestCase||
 |Values||
+|SetUp||
 ## Командная строка
 ```
 > dotnet test # запустить выполнение тестов
