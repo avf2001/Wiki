@@ -90,3 +90,8 @@ public class UnitTest1
 }
 ```
 # NUnit
+## Необхолимые библиотеки
+```
+NUnit
+NUnit3TestAdapter
+```
