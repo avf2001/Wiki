@@ -90,13 +90,13 @@ public class UnitTest1
 }
 ```
 # NUnit
-## Необхолимые библиотеки
+## Необходимые библиотеки
 ```
 NUnit
 NUnit3TestAdapter
 Microsoft.Net.Test.Sdk
 ```
-## Attributes
+## Атрибуты
 | Attribute | Meaning |
 |-|-|
 | TestFixture | test class attribute |
