@@ -123,6 +123,7 @@ Assert.That(sut.Years, Is.Equal(1)); // value equality
 Assert.That(sut.Years, Is.Equal(1), "Error Message");
 Assert.That(a, Is.SameAs(b)); // reference equality
 Assert.That(a, Is.Not.SameAs(c)); // reference equality
+Assert.That(() => new ..., Throws.TypeOf<Exception>()); // exception
 ```
 ## Полезные ссылки
 [Introduction to .NET Testing with NUnit 3](https://www.pluralsight.com/courses/nunit-3-dotnet-testing-introduction)
