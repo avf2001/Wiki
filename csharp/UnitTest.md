@@ -112,6 +112,7 @@ Microsoft.Net.Test.Sdk
 |SetUp||
 |OneTimeSetUp||
 |Ignore||
+|TearDown||
 ## Командная строка
 ```
 > dotnet test # запустить выполнение тестов
