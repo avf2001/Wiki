@@ -99,8 +99,11 @@ Microsoft.Net.Test.Sdk
 ## Атрибуты
 | Attribute | Meaning |
 |-|-|
-| TestFixture | test class attribute |
-| Test | test method |
+|TestFixture | test class attribute |
+|Test | test method |
+|Category||
+|TestCase||
+|Values||
 ## Командная строка
 ```
 > dotnet test # запустить выполнение тестов
