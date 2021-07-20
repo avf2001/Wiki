@@ -101,3 +101,8 @@ Microsoft.Net.Test.Sdk
 |-|-|
 | TestFixture | test class attribute |
 | Test | test method |
+## Командная строка
+```
+> dotnet test # запустить выполнение тестов
+> dotnet test --list-tests # отобразить список всех доступных тестов
+```
