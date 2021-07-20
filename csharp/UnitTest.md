@@ -112,3 +112,7 @@ Microsoft.Net.Test.Sdk
 > dotnet test --list-tests # отобразить список всех доступных тестов
 > dotnet test /? # справка по команде
 ```
+## Assertions
+```csharp
+Assert.That(sut.Years, Is.Equal(1));
+```
