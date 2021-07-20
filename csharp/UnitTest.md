@@ -5,6 +5,7 @@
   * [Атрибуты](#атрибуты)
   * [Командная строка](#командная-строка)
   * [Assertions](#assertions)
+  * [Полезные ссылки](#полезные-ссылки)
 
 https://docs.microsoft.com/ru-ru/visualstudio/test/unit-test-your-code?view=vs-2019
 
@@ -120,3 +121,5 @@ Microsoft.Net.Test.Sdk
 ```csharp
 Assert.That(sut.Years, Is.Equal(1));
 ```
+## Полезные ссылки
+[Introduction to .NET Testing with NUnit 3](https://www.pluralsight.com/courses/nunit-3-dotnet-testing-introduction)
