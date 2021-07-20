@@ -97,3 +97,4 @@ NUnit3TestAdapter
 Microsoft.Net.Test.Sdk
 ```
 TestFixture - test class attribute
+Test - test method
