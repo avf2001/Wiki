@@ -105,6 +105,7 @@ Microsoft.Net.Test.Sdk
 |TestCase||
 |Values||
 |SetUp||
+|OneTimeSetUp||
 ## Командная строка
 ```
 > dotnet test # запустить выполнение тестов
