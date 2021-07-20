@@ -96,5 +96,8 @@ NUnit
 NUnit3TestAdapter
 Microsoft.Net.Test.Sdk
 ```
-TestFixture - test class attribute
-Test - test method
+| Attribute | Meaning |
+|-|-|
+| TestFixture | test class attribute |
+|-|-|
+| Test | test method |
