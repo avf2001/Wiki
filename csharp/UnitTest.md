@@ -125,9 +125,10 @@ Assert.That(a, Is.SameAs(b)); // reference equality
 Assert.That(a, Is.Not.SameAs(c)); // reference equality
 
 /* Exception */
-Assert.That(() => new ..., Throws.TypeOf<Exception>()); // exception
+Assert.That(() => new ..., Throws.TypeOf<Exception>());
 Assert.That(() => new ..., Throws.TypeOf<Exception>().With.Property("Message").EqualTo("Expected Message"));
-Assert.That(() => new ..., Throws.TypeOf<Exception>().With.Message.EqualTo("Expected Message")); // exception
+Assert.That(() => new ..., Throws.TypeOf<Exception>().With.Message.EqualTo("Expected Message"));
+Assert.That(() => new ..., Throws.TypeOf<Exception>().With.Matches<Exception>(ex => ex.Message == "Expected Message"));
 ```
 ## Полезные ссылки
 [Introduction to .NET Testing with NUnit 3](https://www.pluralsight.com/courses/nunit-3-dotnet-testing-introduction)
