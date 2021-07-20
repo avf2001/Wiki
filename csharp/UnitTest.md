@@ -105,4 +105,5 @@ Microsoft.Net.Test.Sdk
 ```
 > dotnet test # запустить выполнение тестов
 > dotnet test --list-tests # отобразить список всех доступных тестов
+> dotnet test /? # справка по команде
 ```
