@@ -2,6 +2,7 @@
 * MSTest
 * [NUnit](#nunit)
   * [Необходимые библиотеки](#необходимые-библиотеки)
+  * [Атрибуты](#атрибуты)
 
 https://docs.microsoft.com/ru-ru/visualstudio/test/unit-test-your-code?view=vs-2019
 
