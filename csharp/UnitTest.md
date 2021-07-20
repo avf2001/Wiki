@@ -99,5 +99,4 @@ Microsoft.Net.Test.Sdk
 | Attribute | Meaning |
 |-|-|
 | TestFixture | test class attribute |
-|-|-|
 | Test | test method |
