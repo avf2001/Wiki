@@ -120,6 +120,7 @@ Microsoft.Net.Test.Sdk
 ## Assertions
 ```csharp
 Assert.That(sut.Years, Is.Equal(1)); // value equality
+Assert.That(sut.Years, Is.Equal(1), "Error Message");
 Assert.That(a, Is.SameAs(b)); // reference equality
 Assert.That(a, Is.Not.SameAs(c)); // reference equality
 ```
