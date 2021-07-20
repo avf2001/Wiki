@@ -114,6 +114,7 @@ Microsoft.Net.Test.Sdk
 |Ignore||
 |TearDown||
 |OneTimeTearDown||
+|TestCaseSource||
 ## Командная строка
 ```
 > dotnet test # запустить выполнение тестов
