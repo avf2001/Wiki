@@ -129,6 +129,28 @@ Assert.That(() => new ..., Throws.TypeOf<Exception>());
 Assert.That(() => new ..., Throws.TypeOf<Exception>().With.Property("Message").EqualTo("Expected Message"));
 Assert.That(() => new ..., Throws.TypeOf<Exception>().With.Message.EqualTo("Expected Message"));
 Assert.That(() => new ..., Throws.TypeOf<Exception>().With.Matches<Exception>(ex => ex.Message == "Expected Message"));
+
+Assert.That(name, Is.Null);
+Assert.That(name, Is.Not.Null);
+Assert.That(name, Is.Empty);
+Assert.That(name, Is.Not.Empty);
+Assert.That(name, Is.EqualTo("Some value"));
+Assert.That(name, Is.EqualTo("Some value").IgnoreCase);
+Assert.That(name, Does.StartWith("Aaa"));
+Assert.That(name, Does.EndWith("Aaa"));
+Assert.That(name, Does.Contain("Aaa"));
+Assert.That(name, Does.Not.Contain("Aaa"));
+Assert.That(name, Does.StartWith("Aaa").And.EndWith("Bbb"));
+Assert.That(name, Does.StartWith("Aaa").Or.EndWith("Bbb"));
+
+Assert.That(boolValue, Is.True);
+Assert.That(boolValue, Is.False);
+Assert.That(boolValue, Is.Not.True);
+
+Assert.That(intValue, Is.GreaterThan(17));
+Assert.That(intValue, Is.GreaterThanOrEqualTo(17));
+Assert.That(intValue, Is.LessThan(17));
+Assert.That(intValue, Is.InRange(10, 20));
 ```
 ## Полезные ссылки
 [Introduction to .NET Testing with NUnit 3](https://www.pluralsight.com/courses/nunit-3-dotnet-testing-introduction)
