@@ -67,6 +67,7 @@ working directory (modified) -> [git add] -> staging area (staged) -> [git commi
 > git log
 > git log --pretty=oneline # одна строчка на коммит
 > git log --graph # графическая визаулизация коммитов; q - выход, h - справка
+> git log --graph --all
 > git --no-pager log --oneline -n 10 # без постраничной разбивки, в одну строку, последние 10 записей
 ```
 Изменить текст коммита
