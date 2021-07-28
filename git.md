@@ -176,3 +176,7 @@ $ git stash branch <name>
 > git checkout -b NewBranchName # 3. Создаем новый бранч и переключаемся на него
 > git stash pop                 # 4. Восстанавливаем локальные изменения из stash
 ```
+## Добавление измененных файлов в завершенный коммит
+```cmd
+> git commit --amend --no-edit
+```
