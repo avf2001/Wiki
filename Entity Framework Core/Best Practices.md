@@ -27,3 +27,5 @@ foreach(var x in items)
    }
 }
 ```
+# Use ExecuteSqlCommand only when necessary
+# Avoid defining Foreign Keys on Model classes
