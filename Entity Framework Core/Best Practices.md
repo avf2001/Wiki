@@ -9,3 +9,21 @@ Do
 // use Z.EntityFramework.Extensions.EFCore nuget package
 db.Table.Where(a => a.Price <= 0).DeleteFromQuery()
 ```
+# Never loop inside DbContext instance!
+Don't
+```csharp
+using (AppDbContext db = new AppDbContext())
+{
+   // your code here
+}
+```
+Do
+```csharp
+foreach(var x in items)
+{
+   using (AppDbContext db = new AppDbContext())
+   {
+       // your code here
+   }
+}
+```
