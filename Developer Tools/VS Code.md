@@ -40,6 +40,8 @@ https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snipp
 ```
 rafc - создание компонента React
 ```
+## Quokka.js
+Quokka.js is a developer productivity tool for rapid JavaScript / TypeScript prototyping. Runtime values are updated and displayed in your IDE next to your code, as you type.
 # Hot Keys
 * Format Document (`Shift` + `Alt` + `F`) - Format the entire active file.
 * `Alt` + Set cursor - Multiple cursors
