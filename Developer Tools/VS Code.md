@@ -3,7 +3,7 @@
 * [Useful Extensions](#usefile-extensions)
   * [SQLite](#sqlite)
   * [ES7 React/Redux/React-Native/JS snippets](#es7-reactreduxreact-nativejs-snippets)
-  * [Quokka.js]
+  * [Quokka.js](#quokkajs)
 * [Hot Keys](#hot-keys)
 * [User Snippets](#hot-keys)
 # Useful Settings
