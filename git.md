@@ -181,3 +181,22 @@ $ git stash branch <name>
 ```cmd
 > git commit --amend --no-edit
 ```
+# Именование коммитов
+Источник: https://www.conventionalcommits.org
+* `fix` - исправление бага
+* `feat` - новая фича
+* `build`
+* `chore`
+* `ci`
+* `docs` - изменения в документации
+* `perf`
+* `refactor` - рефакторинг
+* `revert`
+* `style`
+* `test`
+Дополнительные опции:
+* добавление дополнительной информации:
+```
+feat(SBPTLWB-418): Nea feature
+fix(parser): fixed parser error
+```
