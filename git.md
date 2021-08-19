@@ -31,6 +31,7 @@
 * [Именование коммитов](#именование-коммитов)
   * [Описание ключевых слов](#описание-ключевых-слов)
   * [Дополнительные опции](#дополнительные-опции)
+  * [Дополнительная информация](#дополнительная-информация)
 
 # Репозиторий
 ## Создание репозитория
@@ -185,7 +186,6 @@ $ git stash branch <name>
 > git commit --amend --no-edit
 ```
 # Именование коммитов
-Источник: https://www.conventionalcommits.org
 ## Описание ключевых слов 
 * `fix` - исправление бага
 * `feat` - новая фича
@@ -210,3 +210,6 @@ fix(parser): fixed parser error
 ```
 refactor!: drop support for Node 6
 ```
+# Дополнительная информация
+* [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+* [Conventional Commits](https://www.conventionalcommits.org)
