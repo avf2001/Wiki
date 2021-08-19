@@ -210,6 +210,6 @@ fix(parser): fixed parser error
 ```
 refactor!: drop support for Node 6
 ```
-# Дополнительная информация
+## Дополнительная информация
 * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 * [Conventional Commits](https://www.conventionalcommits.org)
