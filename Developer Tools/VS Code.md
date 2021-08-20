@@ -4,6 +4,7 @@
   * [SQLite](#sqlite)
   * [ES7 React/Redux/React-Native/JS snippets](#es7-reactreduxreact-nativejs-snippets)
   * [Quokka.js](#quokkajs)
+  * [Thunder Client](#thunder-client)
 * [Hot Keys](#hot-keys)
 * [User Snippets](#hot-keys)
 # Useful Settings
@@ -49,7 +50,8 @@ Quokka.js is a developer productivity tool for rapid JavaScript / TypeScript pro
 * Select text + `F2` - Symbol rename
 * `Alt` + `Arrow up`; `Alt` + `Arrow down` - Move lines up/down
 * `Ctrl` + `W` - close tab
-
+## Thunder Client
+Thunder Client is a lightweight Rest API Client Extension for Visual Studio Code.
 # User Snippets
 1. Generate configuration file
 ```
