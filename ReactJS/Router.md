@@ -7,6 +7,7 @@ npm install react-router-dom
 // index.js
 
 import { BrowserRouter } from 'react-router-dom';
+import React from 'react';
 
 ReactDOM.render(
   <React.StrictMode>
