@@ -31,7 +31,7 @@ function App() {
       <Switch>
         <Route path="/" exact>
           <Home />
-        <Route>
+        </Route>
         <Route path="/about" component={AboutView} />        
       <Switch>
     </div>
