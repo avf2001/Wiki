@@ -2,6 +2,14 @@
 ```shell
 $ systemctl
 ```
+Получение статуса службы
+```shell
+$ sudo service transmission-daemon status
+```
+Запуск службы
+```shell
+$ sudo service transmission-daemon start
+```
 Удаление службы
 ```shell
 $ sudo systemctl stop [servicename]
