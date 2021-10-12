@@ -1,10 +1,14 @@
-sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y
-sudo apt autoremove
+```bash
+$ sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y
+$ sudo apt autoremove
+```
 
 # 1. Install open ssh server
 check if open ssh server installed:
 ~~~bash
 $ man sshd_config
+# or
+$ ssh -V
 ~~~
 To install open ssh
 ~~~bash
