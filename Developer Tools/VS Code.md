@@ -21,6 +21,10 @@ $ sudo apt-get install alien
 # 3. Convert rpm package to deb package
 $ sudo alien code-<...>.rpm
 ```
+3. Install deb package
+```
+$ sudo dpkg -i <name of package>.deb
+```
 # Useful Settings
 ```
 File > Preferences > Settings
