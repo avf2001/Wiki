@@ -7,6 +7,17 @@
   * [Thunder Client](#thunder-client)
 * [Hot Keys](#hot-keys)
 * [User Snippets](#hot-keys)
+# Install Offline on Ubuntu
+1. Download rpm package from Microsoft site
+2. Convert rpm package to deb package
+```
+# 1. Add Universe repository
+$ sudo add-apt-repository universe
+$ sudo apt-get update
+
+# 2. Install Alien package
+$ sudo apt-get install alien
+```
 # Useful Settings
 ```
 File > Preferences > Settings
