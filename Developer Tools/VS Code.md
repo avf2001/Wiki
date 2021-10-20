@@ -17,6 +17,9 @@ $ sudo apt-get update
 
 # 2. Install Alien package
 $ sudo apt-get install alien
+
+# 3. Convert rpm package to deb package
+$ sudo alien code-<...>.rpm
 ```
 # Useful Settings
 ```
