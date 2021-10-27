@@ -1,3 +1,7 @@
+# Content
+* [List all users]()
+* [Create new user]()
+* [Change password for another user]()
 # List all users
 ```shell
 $ awk -F: '{ print $1}' /etc/passwd
