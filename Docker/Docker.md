@@ -60,9 +60,8 @@ docker attach <CONTAINER_ID | CONTAINER_NAME>
 ```
 ## Удаление образа
 ```shell
-> docker rmi <IMAGE_ID>
-# или
-> docker rmi <IMAGE_NAME>
+> docker rmi <IMAGE_ID|IMAGE_NAME>
+> docker rmi <IMAGE_ID|IMAGE_NAME> --force # принудительное удаление
 ```
 Удаление всех образов (только для Powershell)
 ```powershell
