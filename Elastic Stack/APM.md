@@ -2,6 +2,8 @@
 * [Установка](#установка)
   * [Сервер (7.8)](#сервер-78)
   * [Клиент (1.x)](#клиент-1x)
+    * [1. Подключить Nuget-пакеты]()
+    * [2. Настроить приложение]
 * [Использование](#использование)
 
 # Установка
@@ -32,7 +34,7 @@ PS C:\Program Files\APM-Server> .\apm-server.exe setup --index-management
 PS > Start-Service apm-server
 ```
 ## Клиент (1.x)
-1. Подключить Nuget-пакет.
+### 1. Подключить Nuget-пакеты
 * Для **.NET Framework**:
   * Elastic.Apm
   * Elastic.Apm.AspNetFullFramework
@@ -42,7 +44,7 @@ PS > Start-Service apm-server
   * Elastic.Apm.NetCoreAll
   * Elastic.Apm.AspNetCore
   * Elastic.Apm.EntityFrameworkCore
-2. Настроить приложение.
+### 2. Настроить приложение
 ASP.NET Core:  
 Файл **startup.cs**
 ```csharp
