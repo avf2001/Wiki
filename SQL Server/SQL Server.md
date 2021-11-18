@@ -1,4 +1,5 @@
-Статистика количества строк во всех таблицах базs данных **DatabaseName**
+Статистика количества строк во всех таблицах базs данных **DatabaseName**  
+Источник: https://www.mssqltips.com/sqlservertip/2537/sql-server-row-count-for-all-tables-in-a-database/
 ```sql
 USE DatabaseName
 GO
