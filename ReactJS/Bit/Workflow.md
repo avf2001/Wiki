@@ -51,9 +51,9 @@
 > bit compile
 ```
 ## 3.1. Структура файлов
-* index.ts
 * component-name.composition.tsx
 * component-name.docs.mdx
 * component-name.spec.tsx
 * component-name.tsx
+* index.ts
 # 4.
