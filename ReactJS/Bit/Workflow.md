@@ -14,6 +14,15 @@
 > cd <my-workspace-name>
 > bit init
 ```
+Далее необходимо отредактировать файл `workspace.jsonc`.
+```json
+{
+  "teambit.workspace/workspace": {    
+    "name": "my-workspace-name", //
+    "defaultScope": "my-scope" //
+  }  
+}
+```
 # 2.
 # 3.
 # 4.
