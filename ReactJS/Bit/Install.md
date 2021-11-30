@@ -8,3 +8,8 @@
 ```cmd
 > setx path "%path%;%LocalAppData%\.bvm"
 ```
+## 3. Проверка работы
+```cmd
+> bit --version
+0.0.576
+```
