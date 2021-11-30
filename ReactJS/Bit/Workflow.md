@@ -28,6 +28,10 @@
   }
 }
 ```
-# 2.
+# 2. Установка необходимых пакетов
+```cmd
+> bit install react --type peer
+> bit install react-dom --type peer
+```
 # 3.
 # 4.
