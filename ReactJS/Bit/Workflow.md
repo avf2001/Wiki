@@ -42,4 +42,8 @@
 > bit create react-component ui/button             # вариант 1
 > bit create react-component button --namespace ui # вариант 2
 ```
+Установить библиотеку для тестирования
+```cmd
+> bit install @testing-library/react
+```
 # 4.
