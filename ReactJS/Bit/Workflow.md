@@ -37,6 +37,7 @@
 ```cmd
 > bit install @elastic/eui --type peer
 ```
+Возможно для Elastic UI необходимо будет установить библиотеки autofixer, postcss
 # 3. Создание компонента (TypeScript)
 ```cmd
 > bit create react-component ui/button             # вариант 1
