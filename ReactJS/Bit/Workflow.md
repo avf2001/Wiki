@@ -12,7 +12,7 @@
 ```cmd
 > mkdir <my-workspace-name>
 > cd <my-workspace-name>
-> bit init --harmony
+> bit init
 ```
 # 2.
 # 3.
