@@ -33,5 +33,9 @@
 > bit install react --type peer
 > bit install react-dom --type peer
 ```
+Пример других пакетов
+```cmd
+> bit install @elastic/eui --type peer
+```
 # 3.
 # 4.
