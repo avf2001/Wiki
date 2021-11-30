@@ -37,5 +37,9 @@
 ```cmd
 > bit install @elastic/eui --type peer
 ```
-# 3.
+# 3. Создание компонента (TypeScript)
+```cmd
+> bit create react-component ui/button             # вариант 1
+> bit create react-component button --namespace ui # вариант 2
+```
 # 4.
