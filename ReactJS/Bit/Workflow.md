@@ -56,4 +56,10 @@
 * component-name.spec.tsx
 * component-name.tsx
 * index.ts
-# 4.
+# 4. Отладка компонентов
+Выполнить следующие команды:
+```cmd
+> bit compile
+> bit start
+```
+Далее откроется браузер с адресом http://localhost:3000/.
