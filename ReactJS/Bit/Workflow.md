@@ -20,7 +20,12 @@
   "teambit.workspace/workspace": {    
     "name": "my-workspace-name", //
     "defaultScope": "my-scope" //
-  }  
+  },
+  "teambit.workspace/variants": {    
+    "*": {      
+      "teambit.react/react": { } //
+    }
+  }
 }
 ```
 # 2.
