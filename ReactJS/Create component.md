@@ -11,7 +11,11 @@ Edit package.json file. Change name setting:
 ```json
 "name: "@scope-name/library-name"
 ```
-# 2. Publish library
+# 2. Add Storybook
+```cmd
+> npx sb init
+```
+# 3. Publish library
 View npm setting and check scope settings.
 ```cmd
 > npm view
