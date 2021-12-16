@@ -40,8 +40,6 @@ $ cd /home
 
 10. pwd
 
-11. rm
-
 12. reboot
 
 13. poweroff
