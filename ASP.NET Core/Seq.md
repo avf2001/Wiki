@@ -66,3 +66,12 @@ namespace WebApplication3
 ```
 6. Remove Logging section from appsettings.json (appsettings.Development.json) file.
 7. Add package Serilog.Sinks.Seq
+8. Add line
+```csharp
+Log.Logger = new LoggerConfiguration()
+            .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
+            .Enrich.FromLogContext()
+            .WriteTo.Console()
+            .WriteTo.Seq("http://localhost:5341") // This line!!!
+            .CreateLogger();
+```
