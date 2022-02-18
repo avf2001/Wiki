@@ -64,3 +64,5 @@ namespace WebApplication3
 }
 
 ```
+6. Remove Logging section from appsettings.json (appsettings.Development.json) file.
+7. Add package Serilog.Sinks.Seq
