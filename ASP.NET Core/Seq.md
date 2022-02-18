@@ -15,3 +15,4 @@ public void ConfigureServices(IServiceCollection services)
   ...
 }
 ```
+4. Add package Serilog.AspNetCore
