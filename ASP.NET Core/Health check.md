@@ -6,14 +6,22 @@ https://docs.microsoft.com/ru-ru/aspnet/core/host-and-deploy/health-checks?view=
 
 There are different types of healthcheck.
 
+File `Startup.cs`
 ```csharp
-// ConfigureServices method
-services.AddHealthCheck();
+public void ConfigureServices(IServiceCollection services)
+{  
+  ...
+  // Place does not matter, at the end of the method, for example
+  services.AddHealthCheck();
+  ...
+}
 
-// Configure method
-app.UseEndpoints(endpoints => {
-  endpoints.MapHealthChecks("/health"); //.RequireHost("www.test.com:5000");
-});
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+  app.UseEndpoints(endpoints => {
+    endpoints.MapHealthChecks("/health"); //.RequireHost("www.test.com:5000");
+  });
+}
 ```
 ## Configuring database dependency health checks
 Option 1
@@ -35,11 +43,21 @@ services.AddHealthChecks()
     }
   });
 ```
-Option 2 - Using nuget package **AspNetCore.HealthChecks.SqlServer**.
+Option 2  
+Install nuget packages:  
+AspNetCore.HealthChecks.SqlServer - for SQL Server
 ```csharp
 // ConfigureServices method
-services.AddHealthChecks()
-  .AddSqlServer(connectionString, failureStatus: HealthStatus.Unhealthy);
+services
+  .AddHealthChecks()
+  .AddSqlServer(connectionString, failureStatus: HealthStatus.Unhealthy, name: "SQL Server");
+```
+AspNetCore.HealthChecks.Oracle - for Oracle
+```csharp
+// ConfigureServices method
+services
+  .AddHealthChecks()
+  .AddOracle(connectionString, failureStatus: HealthStatus.Unhealthy, name: "Oracle");
 ```
 ## Configuring API dependency health checks
 Using nuget package **AspNetCore.HealthChecks.Uris**.
