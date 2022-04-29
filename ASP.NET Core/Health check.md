@@ -1,6 +1,8 @@
 # ASP.NET Core health checks
 * Initial setup
 * Configuring database dependency health checks
+  * Option 1 - Using SqlConnection
+  * Option 2 - Using nuget packages
 * Configuring API dependency health checks
 
 Based on https://app.pluralsight.com/library/courses/asp-dot-net-core-health-checks/table-of-contents
@@ -26,7 +28,7 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 }
 ```
 ## Configuring database dependency health checks
-Option 1
+### Option 1 - Using SqlConnection
 ```csharp
 // ConfigureServices method
 services.AddHealthChecks()
@@ -45,7 +47,7 @@ services.AddHealthChecks()
     }
   });
 ```
-Option 2  
+### Option 2 - Using nuget packages
 Install nuget packages:  
 AspNetCore.HealthChecks.SqlServer - for SQL Server
 ```csharp
