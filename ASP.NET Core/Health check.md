@@ -1,9 +1,12 @@
 # ASP.NET Core health checks
+* Initial setup
+* Configuring database dependency health checks
+
 Based on https://app.pluralsight.com/library/courses/asp-dot-net-core-health-checks/table-of-contents
 
 Links:  
 https://docs.microsoft.com/ru-ru/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-3.1
-
+## Initial setup
 There are different types of healthcheck.
 
 File `Startup.cs`
