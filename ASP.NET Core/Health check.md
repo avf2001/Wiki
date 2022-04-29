@@ -115,11 +115,13 @@ private static Task WriteHealthCheckReadyResponse(HttpContext httpContext, Healt
 ## Writing your own custom health checks
 **IHealthCheck** interface
 ## Adding a health check UI
-Nuget package **AspNetCore.Healthchecks.UI**.
+Nuget package **AspNetCore.Healthchecks.UI**.  
+File **`Startup.cs`**
 ```csharp
-// Startup.cs file
-// ConfigureServices method
-services.AddHealthChecksUI();
+public void ConfigureServices(IServiceCollection services)
+{
+  services.AddHealthChecksUI();
+}
 
 // Configure method
 endpoints.MapHealthChecks("/healthui", newHealthCheckOptions(){
