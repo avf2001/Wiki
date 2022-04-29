@@ -123,15 +123,15 @@ public void ConfigureServices(IServiceCollection services)
   services.AddHealthChecksUI();
 }
 
-// Configure method
-endpoints.MapHealthChecks("/healthui", newHealthCheckOptions(){
-  Predicate = _ => true,
-  ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
-});
-
-...
-
-app.UseHealthChecksUI();
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+  endpoints.MapHealthChecks("/healthui", newHealthCheckOptions(){
+    Predicate = _ => true,
+    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+  });
+  
+  app.UseHealthChecksUI();
+}
 ```
 ```js
 // appsettings.json file
