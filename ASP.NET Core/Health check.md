@@ -6,7 +6,7 @@
 * Configuring API dependency health checks
 * Customizing the HTTP status codes and response
 * Writing your own custom health checks
-* Adding a health check UI
+* [Adding a health check UI](#adding-a-health-check-ui)
 * Securing the health check endpoint
 * Publishing health check information
 
