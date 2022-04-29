@@ -48,15 +48,14 @@ services.AddHealthChecks()
   });
 ```
 ### Option 2 - Using nuget packages
-Install nuget packages:  
-AspNetCore.HealthChecks.SqlServer - for SQL Server
+**`AspNetCore.HealthChecks.SqlServer`** - for SQL Server
 ```csharp
 // ConfigureServices method
 services
   .AddHealthChecks()
   .AddSqlServer(connectionString, failureStatus: HealthStatus.Unhealthy, name: "SQL Server");
 ```
-AspNetCore.HealthChecks.Oracle - for Oracle
+**`AspNetCore.HealthChecks.Oracle`** - for Oracle
 ```csharp
 // ConfigureServices method
 services
