@@ -4,6 +4,11 @@
   * Option 1 - Using SqlConnection
   * Option 2 - Using nuget packages
 * Configuring API dependency health checks
+* Customizing the HTTP status codes and response
+* Writing your own custom health checks
+* Adding a health check UI
+* Securing the health check endpoint
+* Publishing health check information
 
 Based on https://app.pluralsight.com/library/courses/asp-dot-net-core-health-checks/table-of-contents
 
