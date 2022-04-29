@@ -15,7 +15,7 @@ public void ConfigureServices(IServiceCollection services)
 {  
   ...
   // Place does not matter, at the end of the method, for example
-  services.AddHealthCheck();
+  services.AddHealthChecks();
   ...
 }
 
