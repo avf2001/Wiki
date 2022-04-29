@@ -7,9 +7,7 @@ Based on https://app.pluralsight.com/library/courses/asp-dot-net-core-health-che
 Links:  
 https://docs.microsoft.com/ru-ru/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-3.1
 ## Initial setup
-There are different types of healthcheck.
-
-File `Startup.cs`
+File **`Startup.cs`**
 ```csharp
 public void ConfigureServices(IServiceCollection services)
 {  
