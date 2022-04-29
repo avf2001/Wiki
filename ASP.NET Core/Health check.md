@@ -1,6 +1,7 @@
 # ASP.NET Core health checks
 * Initial setup
 * Configuring database dependency health checks
+* Configuring API dependency health checks
 
 Based on https://app.pluralsight.com/library/courses/asp-dot-net-core-health-checks/table-of-contents
 
