@@ -37,4 +37,9 @@ When we are done we should use git bisect reset to clean up the state and return
 ## Просмотр имен измененных файлов между двумя бранчами
 ```cmd
 > git diff <branch1> <branch2> --name-only
+> git diff master --name-only
+```
+## Просмотр списка коммитов, в которых был измемен определенный файл
+```cmd
+> git log --follow -- build/build.ps1
 ```
