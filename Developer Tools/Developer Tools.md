@@ -5,10 +5,10 @@
 * Командная строка
 * VS Code
 * SSH киенты
-* Базы данных
-  * Azure Data Studio
-  * SqlElectron
-  * Dbml
+* [Базы данных](#базы-данных)
+  * [Azure Data Studio](#)
+  * [SqlElectron](#)
+  * [Dbml](#)
 # HTTP
 cURL  
 https://curl.haxx.se/windows/
