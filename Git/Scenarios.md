@@ -3,7 +3,6 @@
 * Добавление измененных файлов в завершенный коммит
 * Удаление файла из коммита
 * Поиск коммита с ошибкой
-* Просмотр истории коммитов в виде графа
 * Просмотр имен измененных файлов между двумя бранчами
 * Просмотр списка коммитов, в которых был измемен определенный файл
 * Отмена локальных изменений
@@ -37,10 +36,6 @@ Have you been in a situation when a bug was introduced and you had to search whe
 When we are done we should use git bisect reset to clean up the state and return to the original HEAD.
 ```cmd
 > git bisect reset
-```
-## Просмотр истории коммитов в виде графа
-```cmd
-> git log --all --decorate --oneline --graph
 ```
 ## Просмотр имен измененных файлов между двумя бранчами
 ```cmd
