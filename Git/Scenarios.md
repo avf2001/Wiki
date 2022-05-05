@@ -34,3 +34,7 @@ When we are done we should use git bisect reset to clean up the state and return
 ```cmd
 > git log --all --decorate --oneline --graph
 ```
+## Просмотр имен измененных файлов между двумя бранчами
+```cmd
+> git diff <branch1> <branch2> --name-only
+```
