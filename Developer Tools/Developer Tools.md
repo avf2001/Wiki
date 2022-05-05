@@ -6,6 +6,9 @@
 * VS Code
 * SSH киенты
 * Базы данных
+  * Azure Data Studio
+  * SqlElectron
+  * Dbml
 # HTTP
 cURL  
 https://curl.haxx.se/windows/
@@ -28,8 +31,11 @@ https://cmder.net/
 # SSH клиенты
 ## MobaXterm
 https://mobaxterm.mobatek.net/
+
 # Базы данных
 ## Azure Data Studio
 https://github.com/microsoft/azuredatastudio
 ## SqlElectron
 https://sqlectron.github.io/
+## Dbml
+https://www.dbml.org
