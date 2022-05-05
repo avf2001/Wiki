@@ -44,5 +44,20 @@ When we are done we should use git bisect reset to clean up the state and return
 > git log --follow -- build/build.ps1
 ```
 ## Отмена локальных изменений
+There are different ways to remove local changes depending the scenario you have.  
+If you want to revert the changes to your working copy use:
 ```cmd
+> git restore .
+```
+If you want to remove all unpushed commits to master use:
+```cmd
+> git reset
+```
+If you want to revert a change by a commit use:
+```cmd
+> git revert <commit>
+```
+If you want to remove untracked files or directories or use:
+```cmd
+> git clean -f or git clean -fd
 ```
