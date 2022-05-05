@@ -30,3 +30,7 @@ When we are done we should use git bisect reset to clean up the state and return
 ```cmd
 > git bisect reset
 ```
+## Просмотр истории коммитов в виде графа
+```cmd
+> git log --all --decorate --oneline --graph
+```
