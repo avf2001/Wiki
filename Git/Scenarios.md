@@ -43,3 +43,6 @@ When we are done we should use git bisect reset to clean up the state and return
 ```cmd
 > git log --follow -- build/build.ps1
 ```
+## Отмена локальных изменений
+```cmd
+```
