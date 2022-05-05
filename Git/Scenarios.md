@@ -10,3 +10,12 @@
 ```cmd
 > git commit --amend --no-edit
 ```
+## Удаление файла из коммита
+Выполнить команду:
+```cmd
+> git reset --soft HEAD^
+```
+Это откатит закоммиченные файлы в staging area. Далее можно удалить необходимый файл:
+```cmd
+> git reset HEAD <filename>
+```
