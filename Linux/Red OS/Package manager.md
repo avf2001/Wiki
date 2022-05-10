@@ -4,3 +4,7 @@ Source: https://code.visualstudio.com/docs/setup/linux?msclkid=142188ccd05811eca
 $ dnf check-update
 $ sudo dnf install code
 ```
+# Search a package
+```bash
+$ sudo dnf search <package_name>
+```
