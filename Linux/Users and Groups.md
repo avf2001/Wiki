@@ -37,5 +37,5 @@ $ groups <username>
 ```
 ## Add user to group
 ```shell
-$ groups <username>
+$ sudo usermod -a -G <groupname> <username>
 ```
