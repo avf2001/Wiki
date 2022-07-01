@@ -8,7 +8,7 @@ $ awk -F: '{ print $1}' /etc/passwd
 ```
 # Create new user
 ```shell
-$ sudo useradd username
+$ sudo adduser <username>
 ```
 # Change password for another user
 ```shell
