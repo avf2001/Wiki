@@ -35,3 +35,7 @@ $ sudo groupadd <groupuname>
 ```shell
 $ groups <username>
 ```
+## Add user to group
+```shell
+$ groups <username>
+```
