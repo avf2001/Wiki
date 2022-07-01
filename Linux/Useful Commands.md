@@ -1,9 +1,3 @@
-1. mkdir
-```
-mkdir foldername
-mkdir -p a/b/c/d
-```
-2. pwd
 3. rmdir
 ```
 rmdir foldername
@@ -37,8 +31,6 @@ ls foldername
 $ cd ..
 $ cd /home
 ```
-
-10. pwd
 
 12. reboot
 
