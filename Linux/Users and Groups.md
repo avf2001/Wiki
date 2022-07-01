@@ -4,6 +4,7 @@
 * [Change password for another user]()
 * [List groups of specific user]()
 * [List all groups]()
+* [Create new group]()
 # List all users
 ```shell
 $ awk -F: '{ print $1}' /etc/passwd
