@@ -24,3 +24,7 @@ $ groups <username>
 ```shell
 $ less /etc/group
 ```
+# Create new group
+```shell
+$ sudo groupadd <groupuname>
+```
