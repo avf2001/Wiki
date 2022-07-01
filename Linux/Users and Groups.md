@@ -14,3 +14,7 @@ $ sudo adduser <username>
 ```shell
 $ sudo passwd <username> <password>
 ```
+# List groups of specific user
+```shell
+$ groups <username>
+```
