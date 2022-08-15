@@ -1,3 +1,7 @@
+# Обновление Yarn
+```cmd
+> npm install --global yarn
+```
 # Сборка проекта
 ```cmd
 > yarn build
