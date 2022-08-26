@@ -53,6 +53,10 @@ docker container stats
 ```shell
 docker attach <CONTAINER_ID | CONTAINER_NAME>
 ```
+## Остановка контейнера
+```shell
+$ sudo docker rm -f <CONTAINER_ID | CONTAINER_NAME> # остановка и удаление контейнера
+```
 # Образы
 ## Получение списка образов
 ```shell
