@@ -6,6 +6,7 @@
 > git stash -u # аналогично --include-untracked
 > git stash --all
 > git stash push # аналогично git stash
+> git stash push --message "Какое-нибудь сообщение"
 > git stash save # deprecated
 ```
 ```cmd
