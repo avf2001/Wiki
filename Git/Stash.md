@@ -1,5 +1,7 @@
-\\\
-git stash --include-untracked
-git stash -u
-git stash --all
-\\\
+**stash** - сохранение локальных изменений.
+```cmd
+> git stash --include-untracked
+> git stash -u
+
+> git stash --all
+```
