@@ -65,8 +65,6 @@ Showing loading indicator.
   });
 }
 ```
-## Waiting for all promises to resolve
-
 
 ```javascript
 const promise1 = new Promise((resolve, reject) => {
