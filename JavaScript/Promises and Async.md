@@ -66,3 +66,56 @@ Showing loading indicator.
 }
 ```
 ## Waiting for all promises to resolve
+
+
+```javascript
+const promise1 = new Promise((resolve, reject) => {
+    console.log('begin' + '\r');
+
+    setTimeout(() => {
+      resolve('promise1');
+    }, 1000);
+  });
+
+let promise = (text) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => resolve(text), 1000);
+  });
+}
+  
+promise1
+  .then((value) => {
+    console.log(value + '\r');    
+
+    return new Promise((resolve, reject) => {
+      setTimeout(() => resolve('promise2'), 1000);
+    });
+  })
+  .then((value) => {
+    console.log(value + '\r');
+
+    return new Promise((resolve, reject) => {
+      setTimeout(() => resolve('promise3'), 1000);
+    });
+  })
+  .then((value) => {
+    console.log(value + '\r');
+
+    return new Promise((resolve, reject) => {
+      setTimeout(() => resolve('promise4'), 1000);
+    });    
+  })
+  .then((value) => {
+    console.log(value + '\r');
+
+    return new Promise((resolve, reject) => {
+      setTimeout(() => resolve('promise5'), 1000);
+    });    
+  })
+  .then((value) => {
+    console.log(value + '\r');
+
+    console.log('end');
+  })
+;
+```
