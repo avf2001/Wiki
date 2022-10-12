@@ -7,8 +7,11 @@ https://flow.org/
 > npm i flow-bin --save-dev
 
 # ESLint
-> npm i -g eslint
-
+## Установка
+```shell
+> npm install eslint eslint-plugin-react --save-dev # npm
+> yarn add eslint eslint-plugin-react --dev # yarn
+```
 # Jest
 https://jestjs.io/
 > npm i react-test-renderer
