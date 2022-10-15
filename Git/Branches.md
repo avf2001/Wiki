@@ -2,6 +2,7 @@
 ## Создание бранча
 ```cmd
 > git branch branchname
+> git checkout -b branchname # создание бранча и переключение на него
 ```
 ## Отображение списка бранчей
 ```cmd
