@@ -25,3 +25,7 @@ $ docker-compose rm -f
 ```shell
 $ docker-compose stop && docker-compose rm -f
 ```
+# Status of Containers
+```shell
+$ docker-compose ps
+```
