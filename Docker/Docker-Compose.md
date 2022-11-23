@@ -22,6 +22,11 @@ $ docker-compose stop
 $ docker-compose rm -f
 ```
 # Stop and Remove Containers
+Option 1 - preffered
+```shell
+$ docker-compose down
+```
+Option 2
 ```shell
 $ docker-compose stop && docker-compose rm -f
 ```
