@@ -1,3 +1,4 @@
+* Offline installation (Linux)
 # Offline installation (Linux)
 1. Download `docker-compose-Linux-x86_64` file from https://github.com/docker/compose/releases.
 2. Rename `docker-compose-Linux-x86_64` file to `docker-compose`.
@@ -11,4 +12,16 @@ $ mv docker-compose /usr/local/bin/
 4. Set permissions to `/usr/local/bin/` directory
 ```
 $ chmod +x /usr/local/bin/docker-compose
+```
+# Stop Running Containers
+```shell
+$ docker-compose stop
+```
+# Remove Containers
+```shell
+$ docker-compose rm -f
+```
+# Stop and Remove Containers
+```shell
+$ docker-compose stop && docker-compose rm -f
 ```
