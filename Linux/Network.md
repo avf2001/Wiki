@@ -19,6 +19,7 @@ iface enp0s5  inet static
 ```
 # Check Remote Open Port
 ```shell
-$ nc -zvw10 localhost 9090
+$ nc -zvw10 <IP Address or Host Name> <Port Number>
+$ nc -zvw10 192.168.0.100 1234
 ```
 
