@@ -25,5 +25,8 @@ $ nc -zvw10 192.168.0.100 1234
 ```
 ## Nmap
 ```shell
-sudo apt-get install nmap
+$ sudo apt-get install nmap
+```
+```shell
+$ nmap localhost -p 22
 ```
