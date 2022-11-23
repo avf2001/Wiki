@@ -1,4 +1,5 @@
-# Debian
+# Settings
+## Debian
 ```bash
 $ sudo nano /etc/network/interfaces
 ```
@@ -16,3 +17,8 @@ iface enp0s5  inet static
  dns-domain sweet.home
  dns-nameservers 192.168.2.254
 ```
+# Check Remote Open Port
+```shell
+$ nc -zvw10 localhost 9090
+```
+
