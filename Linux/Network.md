@@ -30,3 +30,7 @@ $ sudo apt-get install nmap
 ```shell
 $ nmap localhost -p 22
 ```
+## Telnet
+```shell
+$ telnet localhost 22
+```
