@@ -3,7 +3,11 @@
 https://github.com/shouldly/shouldly
 ## Fluent Assertions
 https://fluentassertions.com/introduction
-### Collections
+### Collection
 ```csharp
 items.Should().HaveCount(2);
+```
+### String
+```sharp
+stringValue.Should().Be("value to assert");
 ```
