@@ -1,3 +1,9 @@
+# Content
+* Don’t use RemoveRange, ever
+* Never loop inside DbContext instance!
+* Use ExecuteSqlCommand only when necessary
+* Avoid defining Foreign Keys on Model classes
+* Use AsNoTracking for Read Only Queries
 # Don’t use RemoveRange, ever
 Don't
 ```csharp
@@ -29,3 +35,4 @@ foreach(var x in items)
 ```
 # Use ExecuteSqlCommand only when necessary
 # Avoid defining Foreign Keys on Model classes
+# Use AsNoTracking for Read Only Queries

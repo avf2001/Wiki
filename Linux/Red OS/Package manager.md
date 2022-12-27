@@ -10,3 +10,9 @@ $ sudo dnf install code
 ```bash
 $ sudo dnf search <package_name>
 ```
+# Yum
+## Repository Config Files
+/etc/yum.repos.d/  
+RedOS-Base.repo  
+RedOS-kernels.repo  
+RedOS-update.repo  

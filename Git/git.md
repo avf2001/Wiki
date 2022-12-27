@@ -6,12 +6,6 @@
   * [Статус репозитория](#статус-репозитория)
   * [История коммитов](#история-коммитов)
   * [Импорт из SVN (Subversion)](#импорт-из-svn-subversion)
-* [Бранчи](#бранчи)
-  * [Создание бранча](#создание-бранча)
-  * Отображение списка бранчей
-  * Переключение бранча
-  * Просмотр разницы между двумя бранчами
-  * [Удаление бранча](#удаление-бранча)
 * [Файлы](#файлы)
   * [Добавление нового файла](#добавление-нового-файла)
   * Удаление файла
@@ -81,55 +75,6 @@ working directory (modified) -> [git add] -> staging area (staged) -> [git commi
 ## Импорт из SVN (Subversion)
 ```cmd
 > git.exe svn clone "svn://server/path/SvnRepo" "C:\Users\username\projects\Destination.git" -T trunk -b branches -t tags
-```
-# Бранчи
-## Создание бранча
-```cmd
-> git branch branchname
-```
-## Отображение списка бранчей
-```cmd
-> git branch
-```
-## Переключение бранча
-```cmd
-> git checkout branchname
-> git checkout - # переключение между двумя бранчами попеременно
-```
-## Просмотр разницы между двумя бранчами
-```cmd
-> git diff branchname1 branchname2
-```
-## Удаление бранча
-```cmd
-> git branch -D branchname
-```
-## Слияние двух бранчей
-```cmd
-# Сначало необходимо переключиться на бранч, который будет принимать изменения.
-> git checkout master
-> git merge branchname
-```
-# Файлы
-## Добавление нового файла
-```cmd
-> git add . # добавление всех файлов из текущей директории, не включенных в .gitignore
-> git add --all # добавление всех измененный файлов из текущей директории и поддерикторий, не включенных в .gitignore
-```
-## Удаление файла
-`git rm` удаляет файл из индекса и рабочего каталога (файл не отслеживатеся)
-```cmd
-> git rm filename.ext
-> git commit -m "File filename.ext deleted"
-```
-## Восстановление последних удаленных файлов (откат репозитория)
-```cmd
-> git reset --hard HEAD~1
-```
-## Переименование файла
-```cmd
-> git mv filename.ext filename-new.ext
-> git commit -m "File rename"
 ```
 # Stash
 ## Создание
