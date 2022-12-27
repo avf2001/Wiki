@@ -9,6 +9,7 @@
   * [Azure Data Studio](#)
   * [SqlElectron](#)
   * [Dbml](#)
+* Git
 # HTTP
 cURL  
 https://curl.haxx.se/windows/
@@ -43,3 +44,7 @@ DBML (Database Markup Language) is an open-source DSL language designed to defin
 It also comes with command-line tool and open-source module to help you convert between DBML and SQL.
 
 https://www.dbml.org
+
+# Git
+## Meld
+Visual diff and merge tool - http://meldmerge.org/
