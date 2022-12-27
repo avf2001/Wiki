@@ -51,6 +51,10 @@ Ctrl + ,
 * ident-rainbow
 * Better Comments
 * Blockman
+* Prettier
+* ESlint
+* ES7 React/Redux/GraphQL/React-Native snippets
+* JS JSX Snippets
 ## SQLite
 https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite  
 VSCode extension to explore and query SQLite databases.
