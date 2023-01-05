@@ -13,6 +13,7 @@
 * [Образы](#образы)
   * [Получение списка образов](#получение-списка-образов)
   * [Удаление образа](#удаление-образа)
+    * [Удаление всех образов (только для Powershell)]() 
 # Общая информация
 ## Информация о Docker
 ```shell
@@ -80,7 +81,7 @@ $ sudo docker exec -it <CONTAINER_ID | CONTAINER_NAME> sh
 > docker rmi <IMAGE_ID|IMAGE_NAME>
 > docker rmi <IMAGE_ID|IMAGE_NAME> --force # принудительное удаление
 ```
-Удаление всех образов (только для Powershell)
+### Удаление всех образов (только для Powershell)
 ```powershell
 > docker rm $(docker ps -a -q)
 ```
