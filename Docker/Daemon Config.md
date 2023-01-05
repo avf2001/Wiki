@@ -1,4 +1,4 @@
-# COnfig File Location
+# Config File Location
 ```
 /etc/docker/daemon.json
 ```
