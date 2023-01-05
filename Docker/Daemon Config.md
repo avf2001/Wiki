@@ -1,3 +1,7 @@
+# COnfig File Location
+```
+/etc/docker/daemon.json
+```
 As user root, make or edit the following file: `/etc/docker/daemon.json`
 ```json
 {
