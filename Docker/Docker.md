@@ -83,5 +83,5 @@ $ sudo docker exec -it <CONTAINER_ID | CONTAINER_NAME> sh
 ```
 ### Удаление всех образов (только для Powershell)
 ```powershell
-> docker rm $(docker ps -a -q)
+> docker rmi $(docker ps -a -q)
 ```
