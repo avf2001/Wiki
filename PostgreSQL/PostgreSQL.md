@@ -1,2 +1,2 @@
 # VS Code Extension
-https://marketplace.visualstudio.com/items?itemName=ckolkman.vscode-postgres
+[PostgreSQL](https://marketplace.visualstudio.com/items?itemName=ckolkman.vscode-postgres)
