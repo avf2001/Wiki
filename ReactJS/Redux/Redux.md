@@ -1,11 +1,13 @@
 store.tsx
+```javascript
 import { configureStore } from "@reduxjs/toolkit";
 
 export default configureStore({
     reducer: {},
 });
-
-indexed.tsx
+```
+index.tsx
+```javascript
 import { Provider } from 'react-redux';
 import store from './app/store';
 
@@ -15,3 +17,4 @@ import store from './app/store';
     <App />
   </Provider>
 // ...
+```
