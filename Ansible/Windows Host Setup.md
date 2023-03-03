@@ -6,6 +6,9 @@
   * WinRM Listener
     * View WinRm settings
 * Enable Basic Authentication
+* Config Trusted Hosts
+  * View Trusted Hosts
+  * Add Trusted Host To List
 # Host Requirements
 ## Windows Version
 ``` cmd
@@ -55,6 +58,11 @@ Listener [Source="GPO"]
 > winrm set winrm/config/service/auth '@{Basic="true"}'
 ```
 # Config Trusted Hosts
-```
+## View Trusted Hosts
+```powershell
 PS > Get-Item WSMan:\localhost\Client\TrustedHosts
+```
+## Add Trusted Host To List
+```powershell
+PS > Set-Item WSMan:\localhost\Client\TrustedHosts -Value 'machineC' -Concatenate
 ```
