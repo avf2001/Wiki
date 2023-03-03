@@ -54,3 +54,7 @@ Listener [Source="GPO"]
 ```cmd
 > winrm set winrm/config/service/auth '@{Basic="true"}'
 ```
+# Config Trusted Hosts
+```
+PS > Get-Item WSMan:\localhost\Client\TrustedHosts
+```
