@@ -1,3 +1,11 @@
+* Host Requirements
+  * Windows Version
+  * PowerShell Version
+    * Option 1
+    * Option 2
+  * WinRM Listener
+    * View WinRm settings
+* Enable Basic Authentication
 # Host Requirements
 ## Windows Version
 ``` cmd
