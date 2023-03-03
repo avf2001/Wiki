@@ -1,1 +1,2 @@
-http://www.developer-cheatsheets.com/
+* http://www.developer-cheatsheets.com/
+* https://www.patterns.dev
