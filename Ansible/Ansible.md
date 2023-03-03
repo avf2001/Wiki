@@ -42,3 +42,7 @@ Listener [Source="GPO"]
     CertificateThumbprint
     ListeningOn = 10.83.248.99, 127.0.0.1, ::1, fe80::5efe:10.83.248.99%14
 ```
+# Enable Basic Authentication
+```cmd
+> winrm set winrm/config/service/auth '@{Basic="true"}'
+```
