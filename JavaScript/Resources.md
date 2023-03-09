@@ -9,3 +9,6 @@ https://codesandbox.io/
 
 # API для тестирования
 https://reqres.in/
+
+# Визуализация Event Loop
+http://latentflip.com/loupe
