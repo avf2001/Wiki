@@ -4,6 +4,8 @@
   * Font Awesome
 * Изображения
   * unDraw
+* [AI](#ai)
+  * [Phind](#phind)
 # Иконки
 ## Tabler Icons
 [https://tabler-icons.io/](https://tabler-icons.io/)
@@ -14,3 +16,6 @@
 # Изображения
 ## unDraw
 [https://undraw.co/](https://undraw.co/)  
+# AI
+## [Phind](https://www.phind.com/)
+The AI search engine for developers.
