@@ -1,4 +1,4 @@
-* Иконки
+* [Иконки](#иконки)
   * Tabler Icons
   * Hero Icons
   * Font Awesome
