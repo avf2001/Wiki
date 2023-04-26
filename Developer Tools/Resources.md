@@ -1,9 +1,9 @@
 * [Иконки](#иконки)
-  * Tabler Icons
-  * Hero Icons
-  * Font Awesome
-* Изображения
-  * unDraw
+  * [Tabler Icons](#tabler-icons)
+  * [Hero Icons](#hero-icons)
+  * [Font Awesome](#font-awesome)
+* [Изображения](#изображения)
+  * [unDraw](#unDraw)
 * [AI](#ai)
   * [Phind](#phind)
   * [You](#you)
