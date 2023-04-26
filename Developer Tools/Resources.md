@@ -6,6 +6,7 @@
   * unDraw
 * [AI](#ai)
   * [Phind](#phind)
+  * [You](#you)
 # Иконки
 ## Tabler Icons
 [https://tabler-icons.io/](https://tabler-icons.io/)
@@ -19,3 +20,5 @@
 # AI
 ## [Phind](https://www.phind.com/)
 The AI search engine for developers.
+## [You](https://you.com/code)
+The AI Search Engine You Control
