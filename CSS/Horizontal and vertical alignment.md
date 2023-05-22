@@ -1,8 +1,8 @@
 # Content
-* Flex
-* Grid
-* CSS Position
-* Margon
+* [Flex](#flex)
+* [Grid](#grid)
+* [CSS Position](#css-position)
+* [Margin](#margin)
 
 Source: https://tproger.ru/articles/kak-centrirovat-chto-ugodno-v-css/
 ```html
