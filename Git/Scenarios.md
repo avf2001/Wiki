@@ -59,9 +59,9 @@ If you want to remove untracked files or directories or use:
 ```
 ## Слияние бранча
 ```cmd
-> git checkout master
-> git fetch
+> git checkout master     # 1. Переключаемся на ветку master
+> git fetch               # 2. Синхронизируем с удаленным сервером
 > git pull
-> git merge BRANCH_NAME
-> git push
+> git merge BRANCH_NAME   # 3. Производим слияние
+> git push                # 4. Отправляем изменения на сервер
 ```
