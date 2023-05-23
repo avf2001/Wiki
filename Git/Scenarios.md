@@ -5,6 +5,7 @@
 * [Просмотр имен измененных файлов между двумя бранчами]()
 * [Просмотр списка коммитов, в которых был измемен определенный файл]()
 * [Отмена локальных изменений]()
+* [Слияние бранча]()
 ## Добавление измененных файлов в завершенный коммит
 ```cmd
 > git commit --amend --no-edit
@@ -55,4 +56,12 @@ If you want to revert a change by a commit use:
 If you want to remove untracked files or directories or use:
 ```cmd
 > git clean -f or git clean -fd
+```
+## Слияние бранча
+```cmd
+> git checkout master
+> git fetch
+> git pull
+> git merge BRANCH_NAME
+> git push
 ```
