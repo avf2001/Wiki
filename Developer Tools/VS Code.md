@@ -45,6 +45,8 @@ Ctrl + ,
 * Bracket Pair Colorizer 2
 * C#
 * C# Extensions
+* [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+* [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
 * Material Icon Theme
 * NeGet Package Manager
 * Prettier - Code formatter
