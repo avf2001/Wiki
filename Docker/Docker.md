@@ -58,6 +58,9 @@ $ docler container ls <options>
 $ docker ps # информация только по запущенным контейнерам
 
 $ docker stats
+
+# Сортировка по использованию памяти по убыванию
+$ docker stats --no-stream --format "table {{.Name}}\t{{.Container}}\t{{.CPUPerc}}\t{{.MemUsage}}" | sort -k 4 -hr
 ```
 ## Подключение к работающему контейнеру
 ```shell
