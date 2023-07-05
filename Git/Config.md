@@ -1,0 +1,3 @@
+```shell
+$ git config --list
+```
