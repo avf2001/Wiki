@@ -10,6 +10,7 @@
 * Config Trusted Hosts
   * View Trusted Hosts
   * Add Trusted Host To List
+* [3. Проверка подключения от Control Node]()
 # Host Requirements
 ## Windows Version
 ``` cmd
@@ -67,3 +68,4 @@ PS > Get-Item WSMan:\localhost\Client\TrustedHosts
 ```powershell
 PS > Set-Item WSMan:\localhost\Client\TrustedHosts -Value 'machineC' -Concatenate
 ```
+# 3. Проверка подключения от Control Node
