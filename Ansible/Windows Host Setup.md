@@ -83,3 +83,4 @@ To solve the problem, UAC filtering for local accounts must be disabled by creat
 
 https://knowledge.broadcom.com/external/article/157383/access-denied-configuring-winrm-using-a.html
 ```
+## Winrs error:WinRM не удается обработать запрос. При использовании проверки подлинности Kerberos возникла следующая ошибка с кодом ошибки 0x80090311: Отсутствуют серверы, которые могли бы обработать запрос на вход в сеть.
