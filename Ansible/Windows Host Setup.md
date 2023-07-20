@@ -11,6 +11,7 @@
   * View Trusted Hosts
   * Add Trusted Host To List
 * [3. Проверка подключения от Control Node]()
+* 4. Troubleshooting
 # Host Requirements
 ## Windows Version
 ``` cmd
@@ -72,4 +73,13 @@ PS > Set-Item WSMan:\localhost\Client\TrustedHosts -Value 'machineC' -Concatenat
 ## 3.1 Проверка открытия порта
 ```shell
 $ telnet somehost.somedomain.com 5985
+```
+# 4. Troubleshooting
+## Winrs error:Access is denied
+```
+This error happens even if the account is a Local Administrator and the command line is run with administrator privileges.
+To solve the problem, UAC filtering for local accounts must be disabled by creating the following DWORD registry entry and setting its value to 1:
+[HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System] LocalAccountTokenFilterPolic
+
+https://knowledge.broadcom.com/external/article/157383/access-denied-configuring-winrm-using-a.html
 ```
