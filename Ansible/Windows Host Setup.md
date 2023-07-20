@@ -11,7 +11,7 @@
   * View Trusted Hosts
   * Add Trusted Host To List
 * [3. Проверка подключения от Control Node]()
-* 4. Troubleshooting
+* [4. Troubleshooting]()
 # Host Requirements
 ## Windows Version
 ``` cmd
@@ -83,4 +83,3 @@ To solve the problem, UAC filtering for local accounts must be disabled by creat
 
 https://knowledge.broadcom.com/external/article/157383/access-denied-configuring-winrm-using-a.html
 ```
- 
