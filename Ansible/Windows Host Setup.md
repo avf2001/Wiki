@@ -69,3 +69,7 @@ PS > Get-Item WSMan:\localhost\Client\TrustedHosts
 PS > Set-Item WSMan:\localhost\Client\TrustedHosts -Value 'machineC' -Concatenate
 ```
 # 3. Проверка подключения от Control Node
+## 3.1 Проверка открытия порта
+```shell
+$ telnet somehost.somedomain.com 5985
+```
