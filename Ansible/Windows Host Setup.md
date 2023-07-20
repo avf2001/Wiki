@@ -1,3 +1,4 @@
+# Настройка Windows Managed Node
 * Host Requirements
   * Windows Version
   * PowerShell Version
