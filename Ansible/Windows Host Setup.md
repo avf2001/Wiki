@@ -60,6 +60,13 @@ Listener [Source="GPO"]
 ## Get Authentication Settings
 ```powershell
 PS > winrm get winrm/config/service/auth
+Auth
+    Basic = false
+    Kerberos = true
+    Negotiate = true
+    Certificate = false
+    CredSSP = false
+    CbtHardeningLevel = Relaxed
 ```
 ## Set Basic Authentication
 ```powershell
