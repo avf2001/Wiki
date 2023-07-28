@@ -57,8 +57,13 @@ Listener [Source="GPO"]
     ListeningOn = 10.83.248.99, 127.0.0.1, ::1, fe80::5efe:10.83.248.99%14
 ```
 # Enable Basic Authentication
-```cmd
-> winrm set winrm/config/service/auth '@{Basic="true"}'
+## Get Authentication Settings
+```powershell
+PS > winrm get winrm/config/service/auth
+```
+## Set Basic Authentication
+```powershell
+PS > winrm set winrm/config/service/auth '@{Basic="true"}'
 ```
 # Config Trusted Hosts
 ## View Trusted Hosts
