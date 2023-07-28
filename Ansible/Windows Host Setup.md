@@ -61,7 +61,7 @@ Listener [Source="GPO"]
 ```powershell
 PS > winrm get winrm/config/service/auth
 Auth
-    Basic = false
+    Basic = false # should be true
     Kerberos = true
     Negotiate = true
     Certificate = false
