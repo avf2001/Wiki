@@ -102,3 +102,12 @@ https://knowledge.broadcom.com/external/article/157383/access-denied-configuring
 
 Такое SPN не найдено.
 ```
+https://gist.github.com/mapbutcher/6016861
+```powershell
+PS > set-executionpolicy -executionpolicy remotesigned
+PS > winrm quickconfig -q
+PS > winrm set winrm/config/winrs '@{MaxMemoryPerShellMB="512"}'
+PS > winrm set winrm/config '@{MaxTimeoutms="1800000"}'
+PS > winrm set winrm/config/service '@{AllowUnencrypted="true"}'
+PS > winrm set winrm/config/service/auth '@{Basic="true"}'
+```
