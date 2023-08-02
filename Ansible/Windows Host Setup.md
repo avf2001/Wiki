@@ -111,3 +111,16 @@ PS > winrm set winrm/config '@{MaxTimeoutms="1800000"}'
 PS > winrm set winrm/config/service '@{AllowUnencrypted="true"}'
 PS > winrm set winrm/config/service/auth '@{Basic="true"}'
 ```
+## kinit: KDC reply did not match expectations while getting initial credentials
+```
+https://michlstechblog.info/blog/linux-kerberos-authentification-against-windows-active-directory/
+```
+## /usr/lib/python3/dist-packages/winrm/transport.py:308: UserWarning: Function <function HTTPKerberosAuth.__init__ at 0x7f8462482bf8> does not contain optional arg send_cbt, check installed version with pip list % (str(function), name))
+```bash
+$ sudo pip install --upgrade requests-kerberos
+```
+## kerberos: Bad HTTP response returned from server. Code 500
+On Windows host side
+```powershell
+PS > Set-Item -Path WSMan:\localhost\Service\AllowUnencrypted -Value true
+```
