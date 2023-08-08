@@ -3,11 +3,11 @@ React Ecosystem 2023
   * StackBlitz
   * CodeSandbox
 * Vite
-* Next.JS
-* Routing: 
-  * React Router
-  * TanStack Router
-  * Next.JS
+* [Next.JS](https://nextjs.org/)
+* Routing
+  * [React Router](https://reactrouter.com)
+  * [TanStack Router](https://tanstack.com/router)
+  * [Next.JS Router](https://nextjs.org/docs/pages/api-reference/functions/use-router)
 * Client State Management
   * Redux Toolkit
   * Zustand
