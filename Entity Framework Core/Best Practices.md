@@ -4,7 +4,7 @@
 * [Use ExecuteSqlCommand only when necessary]()
 * [Avoid defining Foreign Keys on Model classes]()
 * [Use AsNoTracking for Read Only Queries]()
-* [AsSplitQuery]()
+* [AsSplitQuery](#assplitquery)
 # Don’t use RemoveRange, ever
 Don't
 ```csharp
