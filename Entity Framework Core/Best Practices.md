@@ -4,6 +4,7 @@
 * [Use ExecuteSqlCommand only when necessary]()
 * [Avoid defining Foreign Keys on Model classes]()
 * [Use AsNoTracking for Read Only Queries]()
+* [AsSplitQuery]()
 # Don’t use RemoveRange, ever
 Don't
 ```csharp
@@ -36,3 +37,4 @@ foreach(var x in items)
 # Use ExecuteSqlCommand only when necessary
 # Avoid defining Foreign Keys on Model classes
 # Use AsNoTracking for Read Only Queries
+# AsSplitQuery
