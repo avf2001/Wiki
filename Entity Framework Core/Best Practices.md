@@ -1,5 +1,5 @@
 # Content
-* [Don’t use RemoveRange, ever]()
+* [Don’t use RemoveRange, ever](#dont-use-removerange-ever)
 * [Never loop inside DbContext instance!]()
 * [Use ExecuteSqlCommand only when necessary]()
 * [Avoid defining Foreign Keys on Model classes]()
