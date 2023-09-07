@@ -5,7 +5,7 @@ public interface IRepository
 ```
 2. Реализация репозитория
 ```csharp
-public class Repository : IRepository
+public class Repository<TEntity> : IRepository where TEntity: Entity
 {
   private readonly TestDbContext _context;
 
@@ -17,5 +17,9 @@ public class Repository : IRepository
   }
 
   #endregion
+
+  public Task<TEntity?> GetByIdAsync(int id)
+  {
+  }
 }
 ```
