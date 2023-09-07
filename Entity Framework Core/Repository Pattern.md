@@ -8,10 +8,14 @@ public interface IRepository
 public class Repository : IRepository
 {
   private readonly TestDbContext _context;
-  
+
+  #region Конструктор
+
   public Repository(TestDbContext context)
   {
     _context = context ?? throw new ArgumentNullException(nameof(context));
   }
+
+  #endregion
 }
 ```
