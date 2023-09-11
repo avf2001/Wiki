@@ -1,0 +1,4 @@
+# Inventory
+```
+/etc/ansible/hosts
+```
