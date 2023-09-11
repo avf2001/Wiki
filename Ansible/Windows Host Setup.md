@@ -86,6 +86,10 @@ PS > Set-Item WSMan:\localhost\Client\TrustedHosts -Value 'machineC' -Concatenat
 ```shell
 $ telnet somehost.somedomain.com 5985
 ```
+## 3.2 Проверка доступности ноды
+```
+$ ansible all -m ping # проверка всех нод
+```
 # 4. Troubleshooting
 ## Winrs error:Access is denied
 ```
