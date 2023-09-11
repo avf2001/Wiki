@@ -10,7 +10,7 @@
 * Config Trusted Hosts
   * View Trusted Hosts
   * Add Trusted Host To List
-* [3. Проверка подключения от Control Node]()
+* [3. Проверка подключения от Control Node](#3-проверка-подключения-от-control-node)
 * [4. Troubleshooting]()
 # Host Requirements
 ## Windows Version
