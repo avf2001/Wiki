@@ -124,3 +124,8 @@ Ctrl + G
 ```
 File > Preferences > Settings > Text Editor > Cursor > Cursor Smooth Caret Animation
 ```
+## Multi-Cursor Editing
+```
+Alt + Click
+Ctrl + Alt + Down, Ctrl + Alt + Up # add a cursor directly above or below the current line
+```
