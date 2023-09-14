@@ -99,3 +99,10 @@ Select one of existing files or create new one
   ]
 }
 ```
+# Tips and Tricks
+## Using Timeline
+## Using Auto Save
+```
+ File > Auto Save
+```
+## 
