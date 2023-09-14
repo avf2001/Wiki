@@ -105,4 +105,7 @@ Select one of existing files or create new one
 ```
  File > Auto Save
 ```
-## 
+## Using Command Palette
+```
+Ctrl + Shift + P
+```
