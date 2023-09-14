@@ -120,3 +120,7 @@ Alt + Left, Alt + Right # to quickly navigate between these open files
 ```
 Ctrl + G
 ```
+## Using Smooth Cursor
+```
+Settings (UI) > Editor: Cursor Smooth Caret Animation
+```
