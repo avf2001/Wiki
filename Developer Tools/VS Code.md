@@ -76,6 +76,7 @@ Thunder Client is a lightweight Rest API Client Extension for Visual Studio Code
 * Select text + `F2` - Symbol rename
 * `Alt` + `Arrow up`; `Alt` + `Arrow down` - Move lines up/down
 * `Ctrl` + `W` - close tab
+* `Ctrl` + `K` - comment line
 # User Snippets
 1. Generate configuration file
 ```
