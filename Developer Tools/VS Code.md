@@ -81,6 +81,10 @@ Thunder Client is a lightweight Rest API Client Extension for Visual Studio Code
 | Hotkeys | Are |
 |----------|:-------------:|
 | `Ctrl` + `Shift` + `E` | Switch to Explorer |
+| `Ctrl` + `Shift` + `F` | Switch to Search |
+| `Ctrl` + `Shift` + `G` | Switch to Source Control |
+| `Ctrl` + `Shift` + `D` | Switch to Source Run and Debug |
+| `Ctrl` + `Shift` + `X` | Switch to Source Extentions |
 ## Tabs
 | Hotkeys | Are |
 |----------|:-------------:|
