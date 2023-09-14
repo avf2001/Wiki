@@ -122,5 +122,5 @@ Ctrl + G
 ```
 ## Using Smooth Cursor
 ```
-Settings (UI) > Editor: Cursor Smooth Caret Animation
+File > Preferences > Settings > Text Editor > Cursor > Cursor Smooth Caret Animation
 ```
