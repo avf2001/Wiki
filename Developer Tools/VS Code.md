@@ -70,6 +70,8 @@ rafc - создание компонента React
 Quokka.js is a developer productivity tool for rapid JavaScript / TypeScript prototyping. Runtime values are updated and displayed in your IDE next to your code, as you type.
 ## Thunder Client
 Thunder Client is a lightweight Rest API Client Extension for Visual Studio Code.
+## UI
+[vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 # Hot Keys
 * Format Document (`Shift` + `Alt` + `F`) - Format the entire active file.
 * `Alt` + Set cursor - Multiple cursors
