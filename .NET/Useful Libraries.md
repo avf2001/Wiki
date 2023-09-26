@@ -1,7 +1,7 @@
 # Content
-* Excel (XLSX)
+* Excel
   * EPPlus
-* Word (DOCX)
+* Word
   * Xceed DocX 
 * Testing
 # Excel
