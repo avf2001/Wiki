@@ -1,8 +1,13 @@
 # Content
-* Excel
+* Excel (XLSX)
+* Word (DOCX)
 * Testing
 # Excel
-[Epplus](https://www.epplussoftware.com/)
+## EPPlus
+[Official Website](https://www.epplussoftware.com/)
+# Word (DOCX)
+## Xceed DocX
+[nuget](https://www.nuget.org/packages/DocX)
 # Testing
 ## Shouldly
 https://github.com/shouldly/shouldly
