@@ -1,10 +1,13 @@
 # Content
 * Excel (XLSX)
+  * EPPlus
 * Word (DOCX)
+  * Xceed DocX 
 * Testing
 # Excel
 ## EPPlus
-[Official Website](https://www.epplussoftware.com/)
+[Official Website](https://www.epplussoftware.com/),
+[nuget](https://www.nuget.org/packages/EPPlus/)
 # Word (DOCX)
 ## Xceed DocX
 [nuget](https://www.nuget.org/packages/DocX)
