@@ -4,6 +4,9 @@
 * Word
   * Xceed DocX 
 * Testing
+  * Shouldly
+  * Fluent Assertions
+  * Pact
 # Excel
 ## EPPlus
 [Official Website](https://www.epplussoftware.com/),
@@ -40,3 +43,5 @@ DateTime? theDate = null;
 theDate.Should().NotHaveValue();
 theDate.Should().BeNull();
 ```
+## Pact
+[nuget.org](https://www.nuget.org/packages/PactNet), [github](https://github.com/pact-foundation/pact-net)
