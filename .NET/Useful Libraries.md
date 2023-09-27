@@ -44,4 +44,7 @@ theDate.Should().NotHaveValue();
 theDate.Should().BeNull();
 ```
 ## Pact
+Fast, easy and reliable testing for your APIs and microservices.
+
+Pact is the de-facto API contract testing tool. Replace expensive and brittle end-to-end integration tests with fast, reliable and easy to debug unit tests.
 [nuget.org](https://www.nuget.org/packages/PactNet), [github](https://github.com/pact-foundation/pact-net)
