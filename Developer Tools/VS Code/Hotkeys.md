@@ -1,7 +1,7 @@
 # Hotkeys
-* Editor
-* Navigation
-* Tabs
+* [Editor](#editor)
+* [Navigation](#navigation)
+* [Tabs](#tabs)
 ## Editor
 * Format Document (`Shift` + `Alt` + `F`) - Format the entire active file.
 * `Alt` + Set cursor - Multiple cursors
