@@ -6,7 +6,7 @@
 * Format Document (`Shift` + `Alt` + `F`) - Format the entire active file.
 * `Alt` + Set cursor - Multiple cursors
 * Select text + `F2` - Symbol rename
-* `Alt` + `Arrow up`; `Alt` + `Arrow down` - Move lines up/down
+* `Alt` + &#8593; `Alt` + `Arrow down` - Move lines up/down
 * `Ctrl` + `K` - comment line
 ## Navigation
 | Hotkeys | Are |
