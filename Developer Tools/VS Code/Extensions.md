@@ -7,6 +7,8 @@
   * Blockman
   * Better Comments
   * Prettier - Code formatter
+* [Snippets](#snippets)
+  * ES7+ React/Redux/React-Native snippets
 * [Source Control](#source-control)
   * Git Graph
 * [UI](#ui)
@@ -32,6 +34,8 @@ VSCode extension to explore and query SQLite databases.
 * [Blockman](https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman)
 * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## Snippets
+* [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 ## ES7 React/Redux/React-Native/JS snippets
 https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets  
 Набор сниппетов для React. Примеры:
