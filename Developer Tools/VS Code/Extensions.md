@@ -1,6 +1,7 @@
 # Extensions
 * [Database](#database)
   * SQLite
+* [Editor](#editor)
 * [Source Control](#source-control)
   * Git Graph
 * [UI](#ui)
@@ -27,6 +28,7 @@
 ## Database
 [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)  
 VSCode extension to explore and query SQLite databases.
+## Editor
 ## ES7 React/Redux/React-Native/JS snippets
 https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets  
 Набор сниппетов для React. Примеры:
