@@ -1,3 +1,7 @@
+# Получить версию git
+```shell
+$ git --version
+```
 # Получить список настроек
 ```shell
 $ git config --list
