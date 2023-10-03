@@ -20,7 +20,6 @@
   * [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
   * NeGet Package Manager
   * Prettier - Code formatter
-  * Better Comments
   * Prettier
   * ESlint
   * ES7 React/Redux/GraphQL/React-Native snippets
