@@ -5,7 +5,6 @@
   * [ES7 React/Redux/React-Native/JS snippets](#es7-reactreduxreact-nativejs-snippets)
   * [Quokka.js](#quokkajs)
   * [Thunder Client](#thunder-client)
-* [Hot Keys](#hot-keys)
 * [User Snippets](#hot-keys)
 # Install Offline on Ubuntu
 1. Download rpm package from Microsoft site
@@ -38,26 +37,6 @@ Ctrl + ,
 * JavaScript > Fromat: Place Open Brace On New Line For Functions = checked
 * TypeScript > Fromat: Place Open Brace On New Line For Control Blocks = checked
 * TypeScript > Fromat: Place Open Brace On New Line For Functions = checked
-
-# Hot Keys
-* Format Document (`Shift` + `Alt` + `F`) - Format the entire active file.
-* `Alt` + Set cursor - Multiple cursors
-* Select text + `F2` - Symbol rename
-* `Alt` + `Arrow up`; `Alt` + `Arrow down` - Move lines up/down
-* `Ctrl` + `K` - comment line
-
-## Navigation
-| Hotkeys | Are |
-|----------|:-------------|
-| `Ctrl` + `Shift` + `E` | Explorer |
-| `Ctrl` + `Shift` + `F` | Search |
-| `Ctrl` + `Shift` + `G` | Source Control |
-| `Ctrl` + `Shift` + `D` | Source Run and Debug |
-| `Ctrl` + `Shift` + `X` | Source Extentions |
-## Tabs
-| Hotkeys | Are |
-|----------|:-------------:|
-| `Ctrl` + `W` | Close tab |
 
 # User Snippets
 1. Generate configuration file
