@@ -7,6 +7,8 @@
   * Blockman
   * Better Comments
   * Prettier - Code formatter
+* [Package Managers](#package-managers)
+  * NuGet Package Manager
 * [Snippets](#snippets)
   * ES7+ React/Redux/React-Native snippets
   * JS JSX Snippets
@@ -22,7 +24,6 @@
   * C# Extensions
   * [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
   * [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
-  * NeGet Package Manager  
   * ESlint
 ## Database
 [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)  
@@ -33,6 +34,8 @@ VSCode extension to explore and query SQLite databases.
 * [Blockman](https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman)
 * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+## Package Managers
+* [NuGet Package Manager](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager)
 ## Snippets
 * [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 * [JS JSX Snippets](https://marketplace.visualstudio.com/items?itemName=skyran.js-jsx-snippets)
