@@ -9,6 +9,7 @@
   * Prettier - Code formatter
 * [Snippets](#snippets)
   * ES7+ React/Redux/React-Native snippets
+  * JS JSX Snippets
 * [Source Control](#source-control)
   * Git Graph
 * [UI](#ui)
@@ -23,8 +24,6 @@
   * [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
   * NeGet Package Manager  
   * ESlint
-  * ES7 React/Redux/GraphQL/React-Native snippets
-  * JS JSX Snippets
 ## Database
 [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)  
 VSCode extension to explore and query SQLite databases.
@@ -36,12 +35,7 @@ VSCode extension to explore and query SQLite databases.
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 ## Snippets
 * [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-## ES7 React/Redux/React-Native/JS snippets
-https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets  
-Набор сниппетов для React. Примеры:
-```
-rafc - создание компонента React
-```
+* [JS JSX Snippets](https://marketplace.visualstudio.com/items?itemName=skyran.js-jsx-snippets)
 ## Quokka.js
 Quokka.js is a developer productivity tool for rapid JavaScript / TypeScript prototyping. Runtime values are updated and displayed in your IDE next to your code, as you type.
 ## Thunder Client
