@@ -3,6 +3,7 @@
   * SQLite
 * [Editor](#editor)
   * Auto Close Tag
+  * indent-rainbow
 * [Source Control](#source-control)
   * Git Graph
 * [UI](#ui)
@@ -17,7 +18,6 @@
   * [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
   * NeGet Package Manager
   * Prettier - Code formatter
-  * ident-rainbow
   * Better Comments
   * Blockman
   * Prettier
@@ -28,7 +28,8 @@
 [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)  
 VSCode extension to explore and query SQLite databases.
 ## Editor
-[Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+[Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)  
+[indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 ## ES7 React/Redux/React-Native/JS snippets
 https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets  
 Набор сниппетов для React. Примеры:
