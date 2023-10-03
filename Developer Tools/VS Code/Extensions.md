@@ -1,4 +1,6 @@
 # Extensions
+* [Database](#database)
+  * SQLite
 * [Source Control](#source-control)
   * Git Graph
 * [UI](#ui)
@@ -22,8 +24,8 @@
   * ESlint
   * ES7 React/Redux/GraphQL/React-Native snippets
   * JS JSX Snippets
-## SQLite
-https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite  
+## Database
+[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)  
 VSCode extension to explore and query SQLite databases.
 ## ES7 React/Redux/React-Native/JS snippets
 https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets  
