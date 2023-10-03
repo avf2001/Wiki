@@ -1,22 +1,25 @@
 # Extensions
-* Live Server
-* Auto Close Tag
-* Auto Rename Tag
-* Bracket Pair Colorizer 2
-* C#
-* C# Extensions
-* [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
-* [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
-* Material Icon Theme
-* NeGet Package Manager
-* Prettier - Code formatter
-* ident-rainbow
-* Better Comments
-* Blockman
-* Prettier
-* ESlint
-* ES7 React/Redux/GraphQL/React-Native snippets
-* JS JSX Snippets
+* UI
+  * vscode-icons
+* Other
+  * Live Server
+  * Auto Close Tag
+  * Auto Rename Tag
+  * Bracket Pair Colorizer 2
+  * C#
+  * C# Extensions
+  * [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+  * [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
+  * Material Icon Theme
+  * NeGet Package Manager
+  * Prettier - Code formatter
+  * ident-rainbow
+  * Better Comments
+  * Blockman
+  * Prettier
+  * ESlint
+  * ES7 React/Redux/GraphQL/React-Native snippets
+  * JS JSX Snippets
 ## SQLite
 https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite  
 VSCode extension to explore and query SQLite databases.
