@@ -6,6 +6,7 @@
   * indent-rainbow
   * Blockman
   * Better Comments
+  * Prettier - Code formatter
 * [Source Control](#source-control)
   * Git Graph
 * [UI](#ui)
@@ -18,9 +19,7 @@
   * C# Extensions
   * [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
   * [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
-  * NeGet Package Manager
-  * Prettier - Code formatter
-  * Prettier
+  * NeGet Package Manager  
   * ESlint
   * ES7 React/Redux/GraphQL/React-Native snippets
   * JS JSX Snippets
@@ -32,6 +31,7 @@ VSCode extension to explore and query SQLite databases.
 * [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 * [Blockman](https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman)
 * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 ## ES7 React/Redux/React-Native/JS snippets
 https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets  
 Набор сниппетов для React. Примеры:
