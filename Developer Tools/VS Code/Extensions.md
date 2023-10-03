@@ -1,5 +1,5 @@
 # Extensions
-* UI
+* [UI](#ui)
   * vscode-icons
 * Other
   * Live Server
