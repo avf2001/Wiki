@@ -11,7 +11,6 @@
 * Other
   * Live Server  
   * Auto Rename Tag
-  * Bracket Pair Colorizer 2
   * C#
   * C# Extensions
   * [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
