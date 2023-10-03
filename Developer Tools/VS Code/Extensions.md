@@ -2,14 +2,14 @@
 * [Database](#database)
   * SQLite
 * [Editor](#editor)
+  * Auto Close Tag
 * [Source Control](#source-control)
   * Git Graph
 * [UI](#ui)
   * vscode-icons
   * Material Icon Theme
 * Other
-  * Live Server
-  * Auto Close Tag
+  * Live Server  
   * Auto Rename Tag
   * Bracket Pair Colorizer 2
   * C#
@@ -29,6 +29,7 @@
 [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)  
 VSCode extension to explore and query SQLite databases.
 ## Editor
+[Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 ## ES7 React/Redux/React-Native/JS snippets
 https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets  
 Набор сниппетов для React. Примеры:
