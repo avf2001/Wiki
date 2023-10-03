@@ -5,6 +5,7 @@
   * Git Graph
 * [UI](#ui)
   * vscode-icons
+  * Material Icon Theme
 * Other
   * Live Server
   * Auto Close Tag
@@ -40,4 +41,5 @@ Thunder Client is a lightweight Rest API Client Extension for Visual Studio Code
 ## Source Control
 [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 ## UI
-[vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+[vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)  
+[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
