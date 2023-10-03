@@ -4,6 +4,7 @@
 * [Editor](#editor)
   * Auto Close Tag
   * indent-rainbow
+  * Blockman
 * [Source Control](#source-control)
   * Git Graph
 * [UI](#ui)
@@ -19,7 +20,6 @@
   * NeGet Package Manager
   * Prettier - Code formatter
   * Better Comments
-  * Blockman
   * Prettier
   * ESlint
   * ES7 React/Redux/GraphQL/React-Native snippets
@@ -29,7 +29,8 @@
 VSCode extension to explore and query SQLite databases.
 ## Editor
 [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)  
-[indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+[indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)  
+[Blockman](https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman)
 ## ES7 React/Redux/React-Native/JS snippets
 https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets  
 Набор сниппетов для React. Примеры:
