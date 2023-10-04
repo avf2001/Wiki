@@ -5,7 +5,6 @@
 ## Editor
 * `Alt` + Set cursor - Multiple cursors
 * Select text + `F2` - Symbol rename
-* `Alt` + &#8595; - Move line down
 
 |  |  |
 |----------|:-------------|
