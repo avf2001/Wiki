@@ -11,6 +11,7 @@
 | `Alt` + &#8595; | Move line down |
 | `Alt` + Set cursor | Multiple cursors |
 | Select text + `F2` | Symbol rename |
+| `Ctrl` + `G` | Go to line |
 ## Navigation
 | Hotkeys | Are |
 |----------|:-------------|
