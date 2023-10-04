@@ -3,7 +3,6 @@
 * [Navigation](#navigation)
 * [Tabs](#tabs)
 ## Editor
-|  |  |
 |----------|:-------------|
 | `Ctrl` + `K` | Comment line |
 | `Shift` + `Alt` + `F` | Format the entire active file |
