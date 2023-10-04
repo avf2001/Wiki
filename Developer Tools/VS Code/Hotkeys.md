@@ -3,15 +3,14 @@
 * [Navigation](#navigation)
 * [Tabs](#tabs)
 ## Editor
-* `Alt` + Set cursor - Multiple cursors
-* Select text + `F2` - Symbol rename
-
 |  |  |
 |----------|:-------------|
 | `Ctrl` + `K` | Comment line |
 | `Shift` + `Alt` + `F` | Format the entire active file |
 | `Alt` + &#8593; | Move line up |
 | `Alt` + &#8595; | Move line down |
+| `Alt` + Set cursor | Multiple cursors |
+| Select text + `F2` | Symbol rename |
 ## Navigation
 | Hotkeys | Are |
 |----------|:-------------|
