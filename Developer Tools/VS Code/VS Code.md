@@ -77,10 +77,6 @@ Ctrl + P                # search for and open a specific file in your project
 Ctrl + Tab              # to cycle through the list of files currently open in an editor instance
 Alt + Left, Alt + Right # to quickly navigate between these open files
 ```
-## Go to Line Quickly
-```
-Ctrl + G
-```
 ## Using Smooth Cursor
 ```
 File > Preferences > Settings > Text Editor > Cursor > Cursor Smooth Caret Animation
