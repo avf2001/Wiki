@@ -4,7 +4,7 @@
 ```shell
 $ docker exec -it <container_name> gitlab-rake gitlab:backup:create
 ```
-В папке /opt/gitlab/data/backups появится файл:
+В папке **`/opt/gitlab/data/backups появится`** файл:
 ```shell
 $ sudo ls -l /opt/gitlab/data/backups
 total 1200
