@@ -3,6 +3,7 @@
   * SQLite
 * [Editor](#editor)
   * Auto Close Tag
+  * Auto Rename Tag
   * indent-rainbow
   * Blockman
   * Better Comments
@@ -18,8 +19,7 @@
   * vscode-icons
   * Material Icon Theme
 * Other
-  * Live Server  
-  * Auto Rename Tag
+  * Live Server
   * C#
   * C# Extensions
   * [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
@@ -30,6 +30,7 @@
 VSCode extension to explore and query SQLite databases.
 ## Editor
 * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+* Auto Rename Tag
 * [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 * [Blockman](https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman)
 * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
