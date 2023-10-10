@@ -35,6 +35,14 @@ namespace Books.Api.Controllers
         }
     
         [HttpGet("{id}", Name = "GetBook")]
+        // Therefore, the MVC framework provides the ProducesResponseType attribute so
+        // that we can declare a possible return type – a status code pair.
+        // It is enough to decorate each action method with as many ProducesResponseType attributes
+        // as there are possible types, that is, possible status code pairs, as shown in the following code:
+        [ProducesResponseType(typeof(MyReturnType), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(MyErrorReturnType), StatusCodes.Status404NotFound)]
+        // If no object is returned along a path, we can just declare the status code, as follows:
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
         public async Task<IActionResult> GetBookWithBookCovers(Guid id)
         {
             var bookEntity = await _booksRepository.GetBookAsync(id);
