@@ -1,5 +1,5 @@
 # Extensions
-* [C#](#c#)
+* [C#](#c)
 * [Database](#database)
   * SQLite
 * [Editor](#editor)
