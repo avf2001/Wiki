@@ -20,8 +20,7 @@
   * vscode-icons
   * Material Icon Theme
 * Other
-  * Live Server
-  * C#
+  * Live Server  
   * C# Extensions  
   * ESlint
   * [Remote SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
@@ -29,6 +28,7 @@
   * [Bracket Pair Color DLW](https://marketplace.visualstudio.com/items?itemName=BracketPairColorDLW.bracket-pair-color-dlw)
   * [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
 ## C#
+* [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
 * [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
 * [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
 ## Database
