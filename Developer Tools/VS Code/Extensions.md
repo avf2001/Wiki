@@ -32,8 +32,7 @@
 * [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
 * [.NET Runtime Install Tool](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime)
 ## Database
-[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)  
-VSCode extension to explore and query SQLite databases.
+* [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
 ## Editor
 * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 * Auto Rename Tag
