@@ -50,7 +50,7 @@ Quokka.js is a developer productivity tool for rapid JavaScript / TypeScript pro
 ## Thunder Client
 Thunder Client is a lightweight Rest API Client Extension for Visual Studio Code.
 ## Source Control
-[Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+* [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 ## UI
-[vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)  
-[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+* [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
