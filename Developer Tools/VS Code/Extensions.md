@@ -1,4 +1,5 @@
 # Extensions
+* [C#](#c#)
 * [Database](#database)
   * SQLite
 * [Editor](#editor)
@@ -21,14 +22,15 @@
 * Other
   * Live Server
   * C#
-  * C# Extensions
-  * [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
-  * [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
+  * C# Extensions  
   * ESlint
   * [Remote SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
   * [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
   * [Bracket Pair Color DLW](https://marketplace.visualstudio.com/items?itemName=BracketPairColorDLW.bracket-pair-color-dlw)
   * [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
+## C#
+* [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+* [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
 ## Database
 [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)  
 VSCode extension to explore and query SQLite databases.
