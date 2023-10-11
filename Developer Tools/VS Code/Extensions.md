@@ -20,8 +20,7 @@
   * vscode-icons
   * Material Icon Theme
 * Other
-  * Live Server  
-  * C# Extensions  
+  * Live Server
   * ESlint
   * [Remote SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
   * [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
