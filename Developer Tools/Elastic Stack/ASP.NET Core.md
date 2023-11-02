@@ -72,6 +72,36 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
             webBuilder.UseStartup<Startup>();
         });
 ```
+### .NET 7
+```csharp
+var builder = WebApplication.CreateBuilder(args);
+
+builder
+        .Host
+            .UseSerilog((context, configuration) =>
+            {
+                var elasticsearchSinkOptions = new ElasticsearchSinkOptions(new Uri(context.Configuration["ElasticConfiguration:Uri"]))
+                {
+                    IndexFormat = $"{context.Configuration["ApplicationName"].ToLower()}-logs-{context.HostingEnvironment.EnvironmentName?.ToLower().Replace(".", "-")}-{DateTime.UtcNow:yyyy-MM}",
+                    AutoRegisterTemplate = true,
+                    NumberOfShards = 2,
+                    NumberOfReplicas = 1
+                };
+
+                configuration
+                    
+                    // Enrich
+                    .Enrich.FromLogContext()
+                    .Enrich.WithMachineName()
+                    .Enrich.WithProperty("Environment", context.HostingEnvironment.EnvironmentName)
+
+                    // WriteTo                    
+                    .WriteTo.Console(outputTemplate: "[{Timestamp:HH:mm:ss} {Level}] {SourceContext}{NewLine}{Message:lj}{NewLine}{Exception}{NewLine}")
+                    .WriteTo.Elasticsearch(elasticsearchSinkOptions)
+
+                    .ReadFrom.Configuration(context.Configuration);
+            });
+```
 # Adding UserName to log
 
 ```csharp
