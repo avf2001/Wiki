@@ -1,5 +1,10 @@
 # Content
 * [Using with ASP.NET Core (3.1 example)]()
+  * [1. Install nuget packages]()
+  * [2. appsettings.config]()
+  * [3. Program.cs]()
+    * [.NET 3.1]()
+    * [.NET 7]()
 * [Adding UserName to log]()
 * [Logging unhandled exceptions]()
 * [Logging request body]()
