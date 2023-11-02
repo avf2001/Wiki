@@ -52,13 +52,16 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
             };
 
             configuration
+
+                // Enruch
                 .Enrich.FromLogContext()
                 .Enrich.WithMachineName()
                 .Enrich.WithProperty("Environment", context.HostingEnvironment.EnvironmentName)
-                // Console
-                .WriteTo.Console()
-                // ElasticSearch
-                .WriteTo.Elasticsearch(elasticsearchSinkOptions)                
+
+                // WriteTo
+                .WriteTo.Console()                
+                .WriteTo.Elasticsearch(elasticsearchSinkOptions)
+
                 .ReadFrom.Configuration(context.Configuration);
         })
         // Serilog Config End
