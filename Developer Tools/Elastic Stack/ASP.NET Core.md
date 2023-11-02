@@ -29,6 +29,7 @@
 }
 ```
 ## 3. Program.cs
+### .NET 3.1
 ```csharp
 // Добавить
 using Serilog;
