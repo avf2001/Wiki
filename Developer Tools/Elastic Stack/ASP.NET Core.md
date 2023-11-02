@@ -1,8 +1,8 @@
 # Content
-* Using with ASP.NET Core (3.1 example)
-* Adding UserName to log
-* Logging unhandled exceptions
-* Logging request body
+* [Using with ASP.NET Core (3.1 example)]()
+* [Adding UserName to log]()
+* [Logging unhandled exceptions]()
+* [Logging request body]()
 # Using with ASP.NET Core (3.1 example)
 ## 1. Install nuget packages
 ```cmd
