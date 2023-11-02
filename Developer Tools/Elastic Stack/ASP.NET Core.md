@@ -51,11 +51,14 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
                 NumberOfReplicas = 1
             };
 
-            configuration.Enrich.FromLogContext()
+            configuration
+                .Enrich.FromLogContext()
                 .Enrich.WithMachineName()
-                .WriteTo.Console()
-                .WriteTo.Elasticsearch(elasticsearchSinkOptions)
                 .Enrich.WithProperty("Environment", context.HostingEnvironment.EnvironmentName)
+                // Console
+                .WriteTo.Console()
+                // ElasticSearch
+                .WriteTo.Elasticsearch(elasticsearchSinkOptions)                
                 .ReadFrom.Configuration(context.Configuration);
         })
         // Serilog Config End
