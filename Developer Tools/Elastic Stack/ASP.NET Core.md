@@ -38,6 +38,8 @@ using Serilog.Sinks.Elasticsearch;
 
 public static IHostBuilder CreateHostBuilder(string[] args) =>
     Host.CreateDefaultBuilder(args)
+
+        // Serilog Config Begin
         .UseSerilog((context, configuration) =>
         {
             var elasticsearchSinkOptions = new ElasticsearchSinkOptions(new Uri(context.Configuration["ElasticConfiguration:Uri"]))
@@ -55,7 +57,10 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
                 .WriteTo.Elasticsearch(elasticsearchSinkOptions)
                 .Enrich.WithProperty("Environment", context.HostingEnvironment.EnvironmentName)
                 .ReadFrom.Configuration(context.Configuration);
-        }).ConfigureWebHostDefaults(webBuilder =>
+        })
+        // Serilog Config End
+
+        .ConfigureWebHostDefaults(webBuilder =>
         {
             webBuilder.UseStartup<Startup>();
         });
