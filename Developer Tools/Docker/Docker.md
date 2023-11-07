@@ -70,6 +70,10 @@ docker attach <CONTAINER_ID | CONTAINER_NAME>
 ```shell
 $ sudo docker rm -f <CONTAINER_ID | CONTAINER_NAME> # остановка и удаление контейнера
 ```
+## Перезапуск контейнера
+```shell
+$ docker restart <CONTAINER_ID | CONTAINER_NAME>
+```
 ## Подключение к командной строке запущенного контейнера
 ```shell
 $ sudo docker exec -it <CONTAINER_ID | CONTAINER_NAME> sh
