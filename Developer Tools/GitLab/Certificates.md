@@ -10,3 +10,7 @@ Domain: some.server.domain.com
 ```
 $ openssl genrsa -des3 -out some.server.domain.com.key 2048
 ```
+2. Creating a Certificate Signing Request
+```
+$ openssl req -key some.server.domain.com.key -new -out some.server.domain.com.csr
+```
