@@ -3,7 +3,7 @@ Location: /opt/gitlab/config/ssl
 ```shell
 $ openssl x509 -in -text -noout some.server.domain.com.crt
 ```
-# Generate New Certificate
+# Generate New Self-Signed Certificate
 Domain: some.server.domain.com
 
 1. Generate password-protected 2048-bit RSA private key
