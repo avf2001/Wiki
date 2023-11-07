@@ -1,5 +1,5 @@
 # View Certificate Details
 Location: /opt/gitlab/config/ssl
-```
-$ openssl x509 -in some.server.domain.com.crt -text -noout
+```shell
+$ openssl x509 -in -text -noout some.server.domain.com.crt
 ```
