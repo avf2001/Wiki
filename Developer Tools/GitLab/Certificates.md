@@ -10,7 +10,8 @@ Domain: some.server.domain.com
 ```
 $ openssl genrsa -des3 -out some.server.domain.com.key 2048
 ```
-2. Creating a Certificate Signing Request
+2. Generate self-signed certificate with private key only
 ```
-$ openssl req -key some.server.domain.com.key -new -out some.server.domain.com.csr
+$ openssl req -key some.server.domain.com.key -new -x509 -days 365 -out some.server.domain.com.crt
 ```
+[Source](https://www.baeldung.com/openssl-self-signed-cert)
