@@ -8,7 +8,7 @@ Domain: some.server.domain.com
 
 1. Generate no password-protected 2048-bit RSA private key
 ```
-$ openssl genrsa 2048 -out some.server.domain.com.key
+$ openssl genrsa -out some.server.domain.com.key 2048
 ```
 2. Generate self-signed certificate with private key only
 ```
