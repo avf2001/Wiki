@@ -8,7 +8,14 @@ public class SqlQueiesInterceptor: DbCommandInterceptor
     {
         if (eventData.Duraton.TotalMilliseconds > 500)
         {
-            File.AppendAllText("lonqQueries.txt", command.CommandText + " MS:" + eventData.Duraton.TotalMilliseconds + Environmend.NewLine + Environmend.NewLine);
+            File.AppendAllText(
+                "lonqQueries.txt",
+                command.CommandText +
+                    " MS:" +
+                    eventData.Duraton.TotalMilliseconds +
+                    Environmend.NewLine +
+                    Environmend.NewLine
+            );
         }
 
         return base.ReaderExecuted(command, eventData, result);
