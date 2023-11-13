@@ -2,7 +2,7 @@
 https://learn.microsoft.com/en-us/ef/core/logging-events-diagnostics/interceptors
 ## Detect Slow Queries
 ```csharp
-public class SqlQueiesInterceptor: DbCommandInterceptor
+public class LogSqlQueiesInterceptor: DbCommandInterceptor
 {
     public override DbDataReader ReaderExecuted(
         DbCommand command,
@@ -24,5 +24,16 @@ public class SqlQueiesInterceptor: DbCommandInterceptor
 
         return base.ReaderExecuted(command, eventData, result);
     }
+}
+
+public void ConfigureServices(IServiceCollection services)
+{
+    ...
+    services.AddDbContext<EfContext>(
+        options => options
+                       .UseSqlServer(Configuration.GetConnectionString("ConnectionString"))
+                       .AddInterceptor(new LogSqlQueiesInterceptor())                   
+    );
+    ...
 }
 ```
