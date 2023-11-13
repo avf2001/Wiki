@@ -4,7 +4,11 @@ https://learn.microsoft.com/en-us/ef/core/logging-events-diagnostics/interceptor
 ```csharp
 public class SqlQueiesInterceptor: DbCommandInterceptor
 {
-    public override DbDataReader ReaderExecuted(DbCommand command, CommandExecutedEventData eventData, DbDataReader result)
+    public override DbDataReader ReaderExecuted(
+        DbCommand command,
+        CommandExecutedEventData eventData,
+        DbDataReader result
+    )
     {
         if (eventData.Duraton.TotalMilliseconds > 500)
         {
