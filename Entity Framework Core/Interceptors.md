@@ -37,3 +37,4 @@ public void ConfigureServices(IServiceCollection services)
     ...
 }
 ```
+https://davecallan.com/how-to-find-and-log-slow-queries-in-entity-framework-core/
