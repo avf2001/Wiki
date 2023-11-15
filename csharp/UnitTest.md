@@ -8,6 +8,7 @@
   * [Полезные ссылки](#полезные-ссылки)
 * [Moq](#moq)
   * [IConfiguration](#iconfiguration)
+  * [IHttpClientFactory](#ihttpclientfactory)
 
 https://docs.microsoft.com/ru-ru/visualstudio/test/unit-test-your-code?view=vs-2019
 
@@ -183,4 +184,12 @@ var initialData = new Dictionary<string, string>
 var configuration = new ConfigurationBuilder()
                             .AddInMemoryCollection(initialData)
                             .Build();
+```
+## IHttpClientFactory
+```csharp
+var httpClientFactoryMock = new Mock<IHttpClientFactory>();
+httpClientFactoryMock
+  .Setup(_ => _.CreateClient(It.IsAny<string>()))
+  .Returns(new HttpClient())
+  .Verifiable();
 ```
