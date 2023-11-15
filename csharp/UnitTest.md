@@ -6,6 +6,8 @@
   * [Командная строка](#командная-строка)
   * [Assertions](#assertions)
   * [Полезные ссылки](#полезные-ссылки)
+* [Moq](#moq)
+  * [IConfiguration](#iconfiguration)
 
 https://docs.microsoft.com/ru-ru/visualstudio/test/unit-test-your-code?view=vs-2019
 
@@ -158,3 +160,27 @@ Assert.That(intValue, Is.InRange(10, 20));
 ```
 ## Полезные ссылки
 [Introduction to .NET Testing with NUnit 3](https://www.pluralsight.com/courses/nunit-3-dotnet-testing-introduction)
+
+# Moq
+## IConfiguration
+```csharp
+/*
+"Services": {
+  "ServiceName": {
+    "Url": "https://...",
+    "UserId": "userid",
+    "Password": "password"
+  },
+*/
+var initialData = new Dictionary<string, string>
+{
+    { "Services:ServiceName", "" },
+    { "Services:ServiceName:Url", "https://some.url" },
+    { "Services:ServiceName:UserId", "UserId" },
+    { "Services:ServiceName:Password", "Password" }
+};
+
+var configuration = new ConfigurationBuilder()
+                            .AddInMemoryCollection(initialData)
+                            .Build();
+```
