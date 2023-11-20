@@ -5,11 +5,16 @@ https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/ise/in
 ```powershell
 PS> $PSVerionTable
 ```
-# Change Prompt Format
+# Prompt
+## Change Prompt Format
 ```powershell
 PS C:\Users\Username>
 
 PS> function prompt { "$((Get-Date).ToShortString()) $(Get-Location)> " }
 
 10:15 AM C:\Users\Username>
+```
+## Reset Prompt
+```powershell
+PS> Remove-Item Function:\prompt -ErrorAction SilentlyContinue
 ```
