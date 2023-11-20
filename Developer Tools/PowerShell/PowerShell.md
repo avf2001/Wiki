@@ -27,3 +27,8 @@ PS> Remove-Item Function:\prompt -ErrorAction SilentlyContinue
 ## New-Item (create directory or file)
 ## Remove-Item
 ## Test-Path
+
+# Remote
+## New-PSSession
+## Get-PSSession
+## Remove-PSSession
