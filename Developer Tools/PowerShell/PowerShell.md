@@ -24,3 +24,4 @@ PS> Remove-Item Function:\prompt -ErrorAction SilentlyContinue
 ## Push-Location
 ## Pop-Location
 ## Get-ChildItem (like ls or dir)
+## New-Item (create directory or file)
