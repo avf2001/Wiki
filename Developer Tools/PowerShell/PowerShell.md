@@ -5,3 +5,9 @@ https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/ise/in
 ```powershell
 PS> $PSVerionTable
 ```
+# Change Prompt Format
+```powershell
+PS> function prompt { "$((Get-Date).ToShortString()) $(Get-Location)> " }
+
+10:15 AM C:\Users\Username>
+```
