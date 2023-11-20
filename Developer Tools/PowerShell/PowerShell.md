@@ -18,3 +18,8 @@ PS> function prompt { "$((Get-Date).ToShortString()) $(Get-Location)> " }
 ```powershell
 PS> Remove-Item Function:\prompt -ErrorAction SilentlyContinue
 ```
+# Navigation
+## Get-Location (like pwd)
+## Set-Location (like cd)
+## Push-Location
+## Pop-Location
