@@ -6,3 +6,8 @@ PS > Import-Module WebAdministration
 ```powershell
 PS > Get-Command -module WebAdministration
 ```
+# Application Pool
+## Остановить
+```powershell
+PS > Stop-WebAppPool -Name "DefaultAppPool"
+```
