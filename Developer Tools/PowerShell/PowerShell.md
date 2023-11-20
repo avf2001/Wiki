@@ -23,3 +23,4 @@ PS> Remove-Item Function:\prompt -ErrorAction SilentlyContinue
 ## Set-Location (like cd)
 ## Push-Location
 ## Pop-Location
+## Get-ChildItem (like ls or dir)
