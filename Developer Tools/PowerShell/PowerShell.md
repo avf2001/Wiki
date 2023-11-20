@@ -7,6 +7,8 @@ PS> $PSVerionTable
 ```
 # Change Prompt Format
 ```powershell
+PS C:\Users\Username>
+
 PS> function prompt { "$((Get-Date).ToShortString()) $(Get-Location)> " }
 
 10:15 AM C:\Users\Username>
