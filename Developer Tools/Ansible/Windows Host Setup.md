@@ -58,6 +58,7 @@ Listener [Source="GPO"]
 ```
 # Enable Basic Authentication
 ## Get Authentication Settings
+Run PowerShell as Administrator.
 ```powershell
 PS > winrm get winrm/config/service/auth
 Auth
