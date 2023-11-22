@@ -1,6 +1,7 @@
 * First commit to remote
 * Remote Branches
   * View Remote Branches
+  * Create Remote Branch
 # First commit to remote
 ```shell
 $ git remote add origin https://github.com/user/repository_name
@@ -10,4 +11,13 @@ $ git push -u origin master
 ## View Remote Branches
 ```shell
 $ get branch -r
+```
+## Create Remote Branch
+1. Create local branch
+```shell
+$ git branch development
+```
+2. Push created branch to remote server
+```shell
+$ git push -u origin new_branch_name
 ```
