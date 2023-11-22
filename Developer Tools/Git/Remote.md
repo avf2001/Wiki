@@ -1,6 +1,6 @@
 * First commit to remote
-* Remote Branches
-  * View Remote Branches
+* [Remote Branches](#remote-branches)
+  * [View Remote Branches](#view-remote-branches)
   * [Create Remote Branch](#create-remote-branch)
 # First commit to remote
 ```shell
