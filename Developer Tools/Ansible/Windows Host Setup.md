@@ -7,6 +7,10 @@
   * WinRM Listener
     * View WinRm settings
     * Delete Listener
+    * Create HTTP Listener
+    * Create HTTPS Listener
+    * Create Self-Signed Certificate
+    * Create Configured HTTPS Listener
 * Enable Basic Authentication
 * Config Trusted Hosts
   * View Trusted Hosts
@@ -57,9 +61,30 @@ Listener [Source="GPO"]
     CertificateThumbprint
     ListeningOn = 10.83.248.99, 127.0.0.1, ::1, fe80::5efe:10.83.248.99%14
 ```
+
 ### Delete Listener
 ```cmd
 > winrm delete winrm/config/Listener?Address=*+Transport=HTTP
+```
+
+### Create HTTP Listener
+```cmd
+> winrm quickconfig
+```
+
+### Create HTTPS Listener
+```cmd
+> winrm quickconfig -transport:https
+```
+
+### Create Self-Signed Certificate
+```powershell
+PS > New-SelfSignedCertificate -DnsName "<YOUR_DNS_NAME>" -CertStoreLocation Cert:\LocalMachine\My
+```
+
+### Create Configured HTTPS Listener
+```cmd
+> winrm create winrm/config/Listener?Address=*+Transport=HTTPS '@{Hostname="<YOUR_DNS_NAME>"; CertificateThumbprint="<COPIED_CERTIFICATE_THUMBPRINT>"}'
 ```
 
 # Enable Basic Authentication
