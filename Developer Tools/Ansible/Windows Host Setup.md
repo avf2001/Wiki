@@ -87,6 +87,24 @@ PS > New-SelfSignedCertificate -DnsName "<YOUR_DNS_NAME>" -CertStoreLocation Cer
 > winrm create winrm/config/Listener?Address=*+Transport=HTTPS '@{Hostname="<YOUR_DNS_NAME>"; CertificateThumbprint="<COPIED_CERTIFICATE_THUMBPRINT>"}'
 ```
 
+### Script to Connect from Remote Client
+```powershell
+$hostName="some.host.name.com"
+$winrmPort = "5986"
+
+$remoteUsername = "username"
+$remotePassword = "password"
+
+$securePassword = ConvertTo-SecureString -String $remotePassword -AsPlainText -Force
+
+# Get the credentials of the machine
+$cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $remoteUsername, $securePassword
+
+# Connect to the machine
+$soptions = New-PSSessionOption -SkipCACheck # skip SSL check for self-signed certificate
+Enter-PSSession -ComputerName $hostName -Port $winrmPort -Credential $cred -SessionOption $soptions -UseSSL
+```
+
 # Enable Basic Authentication
 ## Get Authentication Settings
 Run PowerShell as Administrator.
