@@ -10,7 +10,7 @@ $ git push -u origin master
 # Remote Branches
 ## View Remote Branches
 ```shell
-$ get branch -r
+$ git branch -r
 ```
 ## Create Remote Branch
 1. Create local branch named **`development`**
