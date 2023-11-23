@@ -6,6 +6,7 @@
     * Option 2
   * WinRM Listener
     * View WinRm settings
+    * Delete Listener
 * Enable Basic Authentication
 * Config Trusted Hosts
   * View Trusted Hosts
@@ -56,6 +57,11 @@ Listener [Source="GPO"]
     CertificateThumbprint
     ListeningOn = 10.83.248.99, 127.0.0.1, ::1, fe80::5efe:10.83.248.99%14
 ```
+### Delete Listener
+```cmd
+> winrm delete winrm/config/Listener?Address=*+Transport=HTTP
+```
+
 # Enable Basic Authentication
 ## Get Authentication Settings
 Run PowerShell as Administrator.
