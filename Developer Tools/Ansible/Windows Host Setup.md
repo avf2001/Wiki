@@ -11,6 +11,7 @@
     * Create HTTPS Listener
     * Create Self-Signed Certificate
     * Create Configured HTTPS Listener
+    * Script to Connect from Remote Client
 * Enable Basic Authentication
 * Config Trusted Hosts
   * View Trusted Hosts
