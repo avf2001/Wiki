@@ -1,4 +1,7 @@
 # Configuration
+* Options Pattern
+* Resources
+  * Articles
 ## Options Pattern
 ```csharp
 public class ExternalApiSettings
