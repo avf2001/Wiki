@@ -6,6 +6,7 @@
 ```csharp
 public class ExternalApiSettings
 {
+    [Required]
     public string ApiUrl { get; set; }
     public string ApiKey { get; set; }
     public int TimeoutInMilliseconds { get; set; }
