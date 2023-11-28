@@ -12,7 +12,12 @@ public class ExternalApiSettings
 }
 ```
 ```csharp
-services.Configure<ExternalApiSettings>(configuration);
+services
+    .AddOptions<ExternalApiSettings>()
+    .BindConfiguration("ExternalApiSettings")
+    .ValidateDataAnnotations() // Throws an OptionsValidationException if the configuration is invalid
+    .ValidateOnStart();
+
 ```
 ```csharp
 public class ExternalApiClient
