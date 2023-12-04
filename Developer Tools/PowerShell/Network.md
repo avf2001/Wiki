@@ -1,5 +1,10 @@
+* [FQDN](#fqdn)
 * [Ping](#ping)
 * [Resolve IP Address](#resolve-ip-address)
+# FQDN
+```powershell
+> [System.Net.Dns]::GetHostByName($hostname).HostName # For local computer
+```
 # Ping
 ```
 Test-Connection
