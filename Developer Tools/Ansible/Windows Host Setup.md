@@ -13,9 +13,7 @@
     * Create Configured HTTPS Listener
     * Script to Connect from Remote Client
 * Enable Basic Authentication
-* Config Trusted Hosts
-  * View Trusted Hosts
-  * Add Trusted Host To List
+* [Config Trusted Hosts](config-trusted-hosts)
 * [3. Проверка подключения от Control Node](#3-проверка-подключения-от-control-node)
 * [4. Troubleshooting]()
 # Host Requirements
@@ -124,13 +122,10 @@ Auth
 PS > winrm set winrm/config/service/auth '@{Basic="true"}'
 ```
 # Config Trusted Hosts
-## View Trusted Hosts
 ```powershell
-PS > Get-Item WSMan:\localhost\Client\TrustedHosts
-```
-## Add Trusted Host To List
-```powershell
-PS > Set-Item WSMan:\localhost\Client\TrustedHosts -Value 'machineC' -Concatenate
+PS > Get-Item WSMan:\localhost\Client\TrustedHosts                                     # View Trusted Hosts
+PS > Set-Item WSMan:\localhost\Client\TrustedHosts -Value 'machineC'                   # Add Trusted Host To List
+PS > Set-Item WSMan:\localhost\Client\TrustedHosts -Value 'machineC' -Concatenate      # Add Trusted Host To List
 ```
 # 3. Проверка подключения от Control Node
 ## 3.1 Проверка открытия порта
