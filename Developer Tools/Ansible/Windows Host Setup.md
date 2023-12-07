@@ -124,7 +124,7 @@ PS > winrm set winrm/config/service/auth '@{Basic="true"}'
 # Config Trusted Hosts
 ```powershell
 PS > Get-Item WSMan:\localhost\Client\TrustedHosts                                     # View Trusted Hosts
-PS > Set-Item WSMan:\localhost\Client\TrustedHosts -Value 'machineC'                   # Add Trusted Host To List
+PS > Set-Item WSMan:\localhost\Client\TrustedHosts -Value 'machineC'                   # Set Trusted Hosts
 PS > Set-Item WSMan:\localhost\Client\TrustedHosts -Value 'machineC' -Concatenate      # Add Trusted Host To List
 ```
 # 3. Проверка подключения от Control Node
