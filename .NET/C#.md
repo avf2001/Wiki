@@ -26,3 +26,9 @@ else
     Console.WriteLine("Object has been collected.");  
 }
 ```
+## Avoid Large Objects
+Creating large objects can cause performance issues, as they may trigger garbage collections more frequently. Instead, consider breaking down large objects into smaller ones or using data structures that allocate memory on-demand.
+
+## Finalizers and Dispose Pattern
+In some cases, you may need to implement a finalizer to ensure proper cleanup of unmanaged resources. However, finalizers can introduce performance overhead, so use them judiciously. Implementing the dispose pattern in conjunction with the IDisposable interface can help ensure that your objects are properly disposed of and that unmanaged resources are released in a timely manner.
+
