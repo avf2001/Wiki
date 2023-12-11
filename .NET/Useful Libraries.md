@@ -7,6 +7,7 @@
   * Shouldly
   * Fluent Assertions
   * [Pact](#pact)
+* [FluentResults](#fluentresults)
 # Excel
 ## EPPlus
 [Official Website](https://www.epplussoftware.com/),
@@ -49,3 +50,11 @@ Fast, easy and reliable testing for your APIs and microservices.
 Pact is the de-facto API contract testing tool. Replace expensive and brittle end-to-end integration tests with fast, reliable and easy to debug unit tests.
 
 [nuget.org](https://www.nuget.org/packages/PactNet), [github](https://github.com/pact-foundation/pact-net)
+
+# FluentResults
+FluentResults is a lightweight .NET library developed to solve a common problem. It returns an object indicating success or failure of an operation instead of throwing/using exceptions.
+
+[Github](https://github.com/altmann/FluentResults)
+```
+> Install-Package FluentResults
+```
