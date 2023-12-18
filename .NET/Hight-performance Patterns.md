@@ -17,3 +17,5 @@ Use Memory<T>
 ## 5. Stack-based data
 
 ## 6. Buffered Builder
+
+Source: [Youtube](https://www.youtube.com/watch?v=3r6gbZFRDHs)
