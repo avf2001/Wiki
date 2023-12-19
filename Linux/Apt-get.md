@@ -1,9 +1,13 @@
 * [Поиск пакета в удаленном репозитории](#поиск-пакета-в-удаленном-репозитории)
-```shell
-$ sudo nano /etc/apt/sources.list
-```
-Заменить `http://security.ubuntu.com/ubuntu` на `http://some.proxy.ru:8081/repository/ubuntu-security-proxy` (например, для Nexus)
+* [Редактирование файла со списком репозиториев]()
+
 # Поиск пакета в удаленном репозитории
 ```bash
 $ apt seacrh <package-name>
 ```
+
+# Редактирование файла со списком репозиториев
+```shell
+$ sudo nano /etc/apt/sources.list
+```
+Заменить `http://security.ubuntu.com/ubuntu` на `http://some.proxy.ru:8081/repository/ubuntu-security-proxy` (например, для Nexus)
