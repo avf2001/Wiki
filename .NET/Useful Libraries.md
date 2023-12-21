@@ -1,13 +1,15 @@
 # Content
 * Excel
   * EPPlus
-* Word
-  * Xceed DocX 
+* [FluentResults](#fluentresults)
+* Logging
+  * [SigNoz](#signoz)
 * Testing
   * Shouldly
   * Fluent Assertions
   * [Pact](#pact)
-* [FluentResults](#fluentresults)
+* Word
+  * Xceed DocX 
 # Excel
 ## EPPlus
 [Official Website](https://www.epplussoftware.com/),
@@ -58,3 +60,19 @@ FluentResults is a lightweight .NET library developed to solve a common problem.
 ```
 > Install-Package FluentResults
 ```
+
+# Logging
+## SigNoz
+SigNoz is an open-source observability tool that helps you monitor your applications and troubleshoot problems. It provides traces, metrics, and logs under a single pane of glass. It is available both as an open-source software and a cloud offering.
+
+With SigNoz, you can do the following:
+* Visualise Traces, Metrics, and Logs in a single pane of glass
+* Monitor application metrics like p99 latency, error rates for your services, external API calls, and individual endpoints.
+* Find the root cause of the problem by going to the exact traces which are causing the problem and see detailed flamegraphs of individual request traces.
+* Run aggregates on trace data to get business-relevant metrics
+* Filter and query logs, build dashboards and alerts based on attributes in logs
+* Monitor infrastructure metrics such as CPU utilization or memory usage
+* Record exceptions automatically in Python, Java, Ruby, and Javascript
+* Easy to set alerts with DIY query builder
+    
+[Site](https://signoz.io/)
