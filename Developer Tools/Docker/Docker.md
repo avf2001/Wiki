@@ -53,10 +53,11 @@ docker container create <options> <image name:tag>
 ```
 ## Получение информации о контейнерах
 ```shell
-$ docker ps <options>
 $ docler container ls <options>
 
+$ docker ps <options>
 $ docker ps # информация только по запущенным контейнерам
+$ docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Status}}" # отображает определенные столбцы
 
 $ docker stats
 
