@@ -12,5 +12,14 @@ index_handle database_id object_id equality_columns                            i
 166974       5           622625261 [FirstName], [SecondName], [OrganizationId] [ID], [LastName]   NULL             [DatabaseName].[dbo].[Employees]
 ...
 
+-- 3.
 select * from.sys.dm_db_missing_index_columns(166974)
+
+column_id column_name    column_usage
+--------- -------------- ------------
+2         FirstName      EQUALITY
+3         SecondName     EQUALITY
+22        OrganizationId EQUALITY
+1         ID             INEQUALITY
+4         LastName       INEQUALITY
 ```
