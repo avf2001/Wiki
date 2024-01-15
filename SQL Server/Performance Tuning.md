@@ -3,7 +3,7 @@
 -- 1. Get database id
 select database_id from sys.databases where name = 'DatabaseName'
 
--- 2. Get
+-- 2. Get detailed info about missing indexes
 select * from sys.dm_db_missing_index_details where database_id = 5
 
 index_handle database_id object_id equality_columns                            inequality_columns included_columns statement
@@ -12,7 +12,7 @@ index_handle database_id object_id equality_columns                            i
 166974       5           622625261 [FirstName], [SecondName], [OrganizationId] [ID], [LastName]   NULL             [DatabaseName].[dbo].[Employees]
 ...
 
--- 3.
+-- 3. Get information about columns that are missing an index
 select * from.sys.dm_db_missing_index_columns(166974)
 
 column_id column_name    column_usage
