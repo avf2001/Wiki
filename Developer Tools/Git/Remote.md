@@ -2,6 +2,7 @@
 * [Remote Branches](#remote-branches)
   * [View Remote Branches](#view-remote-branches)
   * [Create Remote Branch](#create-remote-branch)
+  * [Change Remote Origin](#change-remote-origin)
 # First commit to remote
 ```shell
 $ git remote add origin https://github.com/user/repository_name
@@ -21,4 +22,12 @@ $ git branch development
 2. Push created branch to remote server
 ```shell
 $ git push -u origin development
+```
+
+## Change Remote Origin
+```shell
+$ $ git remote set-url <remote_name> <remote_url>
+
+# example
+$ git remote set-url origin https://git-repo/new-repository.git
 ```
