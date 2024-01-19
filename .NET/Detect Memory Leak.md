@@ -1,4 +1,5 @@
 * [Using dotnet-counters](#using-dotnet-counters)
+* [Using dotnet-dump](#using-dotnet-dump)
 
 # Using dotnet-counters
 Installation:
@@ -40,3 +41,9 @@ View detailed information of the process:
     Working Set (MB)                                           3 132
 ```
 Pay attention to "GC Heap Size (MB)" parameter.
+
+# Using dotnet-dump
+Installation
+```cmd
+> dotnet tool install --global dotnet-dump
+```
