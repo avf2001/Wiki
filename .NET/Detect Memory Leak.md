@@ -52,3 +52,7 @@ View processes:
 > dotnet-dump ps
 28420  ConsoleApp7  ...\ConsoleApp7\bin\Debug\net5.0\ConsoleApp7.exe  "...\ConsoleApp7\bin\Debug\net5.0\ConsoleApp7.exe"
 ```
+Create dump:
+```cmd
+> dotnet-dump collect -p 28112
+```
