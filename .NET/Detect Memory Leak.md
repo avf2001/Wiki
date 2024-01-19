@@ -120,3 +120,8 @@ Installation:
 ```cmd
 > dotnet-gcdump ps
 ```
+```cmd
+> dotnet-gcdump collect -p 31072
+Writing gcdump to 'D:\20240119_114252_31072.gcdump'...
+        Finished writing 1224158 bytes.
+```
