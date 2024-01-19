@@ -1,5 +1,6 @@
 * [Using dotnet-counters](#using-dotnet-counters)
 * [Using dotnet-dump](#using-dotnet-dump)
+* [Using dotnet-gcdump](#using-dotnet-gcdump)
 
 # Using dotnet-counters
 Installation:
@@ -110,3 +111,5 @@ HandleTable:
 
 Found 1 unique roots.
 ```
+
+# Using dotnet-gcdump
