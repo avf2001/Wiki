@@ -66,3 +66,18 @@ Ready to process analysis commands. Type 'help' to list available commands or 'h
 Type 'quit' or 'exit' to exit the session.
 >
 ```
+```cmd
+> dumpheap -stat
+...
+7ff7e0a46028     57         1824 System.Collections.Generic.List<System.Char>
+7ff7e0a47990     56         2240 System.Collections.Generic.List<System.Char>+Enumerator
+7ff7e09f24a8     91         4048 System.SByte[]
+7ff7e09f2990      9         4488 System.Int32[]
+7ff7e0936860      7        19000 System.Object[]
+7ff7e0a13a28      4      1048680 System.String[]
+7ff7e0a46880    727      3776624 System.Char[]
+004ad4308cf0 54044      11000208 Free
+7ff7e09f7a90 67866    1358224330 System.String
+Total 122945 objects, 1374086995 bytes
+```
+Most used memory is at the end of the list.
