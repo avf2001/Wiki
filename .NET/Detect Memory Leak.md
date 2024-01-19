@@ -117,3 +117,6 @@ Installation:
 ```cmd
 > dotnet tool install --global dotnet-gcdump
 ```
+```cmd
+> dotnet-gcdump ps
+```
