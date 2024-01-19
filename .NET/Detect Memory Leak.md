@@ -1,4 +1,4 @@
-* Using dotnet-counters
+* [Using dotnet-counters](#using-dotnet-counters)
 
 # Using dotnet-counters
 Installation:
