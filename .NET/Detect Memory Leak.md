@@ -20,7 +20,7 @@ View detailed information of the process:
     CPU Usage (%)                                                  0
     Exception Count (Count / 1 sec)                                1
     GC Fragmentation (%)                                           0,768
-    GC Heap Size (MB)                                          3 057
+    GC Heap Size (MB)                                          3 057        # Pay attention
     Gen 0 GC Count (Count / 1 sec)                                 0
     Gen 0 Size (B)                                                24
     Gen 1 GC Count (Count / 1 sec)                                 0
@@ -39,3 +39,4 @@ View detailed information of the process:
     ThreadPool Thread Count                                        2
     Working Set (MB)                                           3 132
 ```
+Pay attention to "GC Heap Size (MB)" parameter.
