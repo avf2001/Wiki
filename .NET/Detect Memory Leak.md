@@ -55,4 +55,6 @@ View processes:
 Create dump:
 ```cmd
 > dotnet-dump collect -p 28112
+
+Writing full to D:\dump_20240119_110252.dmp Complete
 ```
