@@ -58,3 +58,11 @@ Create dump:
 
 Writing full to D:\dump_20240119_110252.dmp Complete
 ```
+Analyze dump:
+```cmd
+> dotnet-dump analyze D:\dump_20240119_110252.dmp
+Loading core dump: D:\Users\flinalev\source\projects\SBIntranetPortal.git\dump_20240119_110252.dmp ...
+Ready to process analysis commands. Type 'help' to list available commands or 'help [command]' to get detailed help on a command.
+Type 'quit' or 'exit' to exit the session.
+>
+```
