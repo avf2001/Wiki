@@ -77,7 +77,10 @@ Type 'quit' or 'exit' to exit the session.
 7ff7e0a13a28      4      1048680 System.String[]
 7ff7e0a46880    727      3776624 System.Char[]
 004ad4308cf0  54044     11000208 Free
-7ff7e09f7a90  67866   1358224330 System.String # most used memory
+7ff7e09f7a90  67866   1358224330 System.String                       # MOST USED MEMORY
 Total 122945 objects, 1374086995 bytes
 ```
 Most used memory is at the end of the list.
+```
+> dumheap -mt 7ff7e09f7a90
+```
