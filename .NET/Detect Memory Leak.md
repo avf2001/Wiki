@@ -113,3 +113,7 @@ Found 1 unique roots.
 ```
 
 # Using dotnet-gcdump
+Installation:
+```cmd
+> dotnet tool install --global dotnet-gcdump
+```
