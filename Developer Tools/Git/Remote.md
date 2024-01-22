@@ -3,7 +3,8 @@
   * [View Remote Branches](#view-remote-branches)
   * [Create Remote Branch](#create-remote-branch)
   * [Change Remote Origin](#change-remote-origin)
-  * [Rename Branch](#rename-branch)
+  * [Delete Remote](#delete-remote)
+  * [Rename Remote](#rename-remote)
 # First commit to remote
 ```shell
 $ git remote add origin https://github.com/user/repository_name
@@ -33,7 +34,12 @@ $ $ git remote set-url <remote_name> <remote_url>
 $ git remote set-url origin https://git-repo/new-repository.git
 ```
 
-## Rename Branch
+## Delete Remote
+```shell
+$ git remote rm origin
+```
+
+## Rename Remote
 ```shell
 $ git remote rename beanstalk origin # rename beanstalk to origin
 ```
