@@ -8,15 +8,13 @@
   * Shouldly
   * Fluent Assertions
   * [Pact](#pact)
-* Word
-  * Xceed DocX 
+* [Word](#word)
+  * [Xceed DocX](#xceed-docx)
+
 # Excel
 ## EPPlus
 [Official Website](https://www.epplussoftware.com/),
 [nuget](https://www.nuget.org/packages/EPPlus/)
-# Word (DOCX)
-## Xceed DocX
-[nuget](https://www.nuget.org/packages/DocX)
 # Testing
 ## Shouldly
 https://github.com/shouldly/shouldly
@@ -60,6 +58,9 @@ FluentResults is a lightweight .NET library developed to solve a common problem.
 ```
 > Install-Package FluentResults
 ```
+# Word
+## Xceed DocX
+[nuget](https://www.nuget.org/packages/DocX)
 
 # Logging
 ## SigNoz
