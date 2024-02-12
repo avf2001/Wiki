@@ -1,6 +1,6 @@
 # ASP.NET
 * [Option 1](#option-1)
-* Option 2. ASP.NET 4.8
+* [Option 2. ASP.NET 4.8](#option-2-aspnet-48)
 * [Pushgateway](#pushgateway)
 * [Metrics](#metrics)
 ## Option 1
