@@ -2,6 +2,7 @@
 * [Option 1](#option-1)
 * Option 2. ASP.NET 4.8
 * [Pushgateway](#pushgateway)
+* [Metrics](#metrics)
 ## Option 1
 1. Добавить библиотеку **prometheus-net.AspNet** ([github](https://github.com/rocklan/prometheus-net.AspNet))
 
@@ -70,6 +71,7 @@ public class Global : System.Web.HttpApplication
 }
 ```
 
+## Metrics
 | Metric                                      | TYPE      | HELP                                                                                    |
 | ------------------------------------------- | --------- | --------------------------------------------------------------------------------------- |
 | **dotnet_collection_count_total**           | counter   | GC collection count                                                                     |
