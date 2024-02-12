@@ -1,6 +1,7 @@
 # ASP.NET
-* Option 1
+* [Option 1](#option-1)
 * Option 2. ASP.NET 4.8
+* [Pushgateway](#pushgateway)
 ## Option 1
 1. Добавить библиотеку **prometheus-net.AspNet** ([github](https://github.com/rocklan/prometheus-net.AspNet))
 
@@ -43,6 +44,28 @@ public class Global : System.Web.HttpApplication
         var configuration = GlobalConfiguration.Configuration;
 
         Prometheus.AspNet.PrometheusConfig.UseMetricsServer(configuration);
+    }
+}
+```
+
+## Pushgateway
+```csharp
+public class Global : System.Web.HttpApplication
+{
+    protected void Application_Start(object sender, EventArgs e)
+    {
+        var pusher = new MetricPusher(new MetricPusherOptions
+        {
+            Endpoint = "http://some.server.name.com:9091/metrics",
+            Job = "application.name",
+            Instance = "server.name", 
+            AdditionalLabels = new []
+            {
+                new Tuple<string, string>("environment", "production"
+            }
+        });
+
+        pusher.Start();
     }
 }
 ```
