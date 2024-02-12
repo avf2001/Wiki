@@ -1,4 +1,6 @@
 # ASP.NET
+* Option 1
+* Option 2. ASP.NET 4.8
 ## Option 1
 1. Добавить библиотеку **prometheus-net.AspNet** ([github](https://github.com/rocklan/prometheus-net.AspNet))
 
