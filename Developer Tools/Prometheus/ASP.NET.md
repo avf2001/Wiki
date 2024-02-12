@@ -1,5 +1,5 @@
 # ASP.NET
-
+## Option 1
 1. Добавить библиотеку **prometheus-net.AspNet** ([github](https://github.com/rocklan/prometheus-net.AspNet))
 
 2. Файл **Global.asax.cs**:
@@ -28,6 +28,23 @@ public class MvcApplication : System.Web.HttpApplication
     }
 }
 ```
+
+## Option 2. ASP.NET 4.8
+1. Добавить библиотеку **prometheus-net.AspNet** ([github](https://github.com/rocklan/prometheus-net.AspNet))
+
+2.
+```csharp
+public class Global : System.Web.HttpApplication
+{
+    protected void Application_Start(object sender, EventArgs e)
+    {
+        var configuration = GlobalConfiguration.Configuration;
+
+        Prometheus.AspNet.PrometheusConfig.UseMetricsServer(configuration);
+    }
+}
+```
+
 | Metric                                      | TYPE      | HELP                                                                                    |
 | ------------------------------------------- | --------- | --------------------------------------------------------------------------------------- |
 | **dotnet_collection_count_total**           | counter   | GC collection count                                                                     |
