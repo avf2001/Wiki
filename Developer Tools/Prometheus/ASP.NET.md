@@ -3,7 +3,8 @@
 * [Option 2. ASP.NET 4.8](#option-2-aspnet-48)
 * [Pushgateway](#pushgateway)
 * [Metrics](#metrics)
-  * .NET
+  * [.NET](#net)
+    * [dotnet_total_memory_bytes](#dotnet_total_memory_bytes)
 
 ## Option 1
 1. Добавить библиотеку **prometheus-net.AspNet** ([github](https://github.com/rocklan/prometheus-net.AspNet))
