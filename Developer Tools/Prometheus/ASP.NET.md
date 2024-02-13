@@ -3,6 +3,7 @@
 * [Option 2. ASP.NET 4.8](#option-2-aspnet-48)
 * [Pushgateway](#pushgateway)
 * [Metrics](#metrics)
+  * .NET
 
 ## Option 1
 1. Добавить библиотеку **prometheus-net.AspNet** ([github](https://github.com/rocklan/prometheus-net.AspNet))
@@ -72,7 +73,7 @@ public class Global : System.Web.HttpApplication
 }
 ```
 
-## Metrics
+# Metrics
 | Metric                                      | TYPE      | HELP                                                                                    |
 | ------------------------------------------- | --------- | --------------------------------------------------------------------------------------- |
 | **dotnet_collection_count_total**           | counter   | GC collection count                                                                     |
@@ -93,5 +94,6 @@ public class Global : System.Web.HttpApplication
 | **prometheus_net_metric_timeseries**        | gauge     | Number of metric timeseries currently generated from all metric instances               |
 | **prometheus_net_exemplars_recorded_total** | counter   | Number of exemplars that were accepted into in-memory storage in the prometheus-net SDK |
 
+## .NET
 ### dotnet_total_memory_bytes
 Показывает в байтах предполагаемый объем в управляемой памяти главного процесса в микросервисе. Вычисляется на основе свойства GC.GetTotalMemory(false), подробнее читайте на [сайте Microsoft](https://learn.microsoft.com/en-us/dotnet/api/system.gc.gettotalmemory).
