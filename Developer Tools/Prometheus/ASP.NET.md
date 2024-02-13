@@ -76,10 +76,19 @@ public class Global : System.Web.HttpApplication
 | ------------------------------------------- | --------- | --------------------------------------------------------------------------------------- |
 | **dotnet_collection_count_total**           | counter   | GC collection count                                                                     |
 | **dotnet_total_memory_bytes**               | gauge     | Total known allocated memory                                                            |
+
+| Metric                                      | TYPE      | HELP                                                                                    |
+| ------------------------------------------- | --------- | --------------------------------------------------------------------------------------- |
 | **global_exceptions**                       | counter   | Number of global exceptions                                                             |
+
+| Metric                                      | TYPE      | HELP                                                                                    |
+| ------------------------------------------- | --------- | --------------------------------------------------------------------------------------- |
 | **http_requests_in_progress**               | gauge     | The number of HTTP requests currently in progress                                       |
 | **http_requests_received_total**            | gauge     | Provides the count of HTTP requests that have been processed by this app                |
 | **http_request_duration_seconds**           | histogram | The duration of HTTP requests processed by this app                                     |
+
+| Metric                                      | TYPE      | HELP                                                                                    |
+| ------------------------------------------- | --------- | --------------------------------------------------------------------------------------- |
 | **process_start_time_seconds**              | gauge     | Start time of the process since unix epoch in seconds                                   |
 | **process_cpu_seconds_total**               | counter   | Total user and system CPU time spent in seconds                                         |
 | **process_virtual_memory_bytes**            | gauge     | Virtual memory size in bytes                                                            |
@@ -87,6 +96,9 @@ public class Global : System.Web.HttpApplication
 | **process_private_memory_bytes**            | gauge     | Process private memory size                                                             |
 | **process_open_handles**                    | gauge     | Number of open handles                                                                  |
 | **process_num_threads**                     | gauge     | Total number of threads                                                                 |
+
+| Metric                                      | TYPE      | HELP                                                                                    |
+| ------------------------------------------- | --------- | --------------------------------------------------------------------------------------- |
 | **prometheus_net_metric_families**          | gauge     | Number of metric families currently registered                                          |
 | **prometheus_net_metric_instances**         | gauge     | Number of metric instances currently registered across all metric families              |
 | **prometheus_net_metric_timeseries**        | gauge     | Number of metric timeseries currently generated from all metric instances               |
