@@ -1,3 +1,5 @@
+* .NET 8
+  * Return Result
 ~~~csharp
 // https://github.com/KevinDockx/AspNetCoreAsyncBestPracticesJetBrainsWebinar/blob/master/Books.Api/Controllers/BooksController.cs
 using AutoMapper;
@@ -139,3 +141,7 @@ namespace Books.Api.Controllers
     }
 }
 ~~~
+
+# .NET 8
+## Return Result
+Use Microsoft.AspNetCore.Http.TypedResults to return reults of Web API. [Reference](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.http.typedresults?view=aspnetcore-8.0).
