@@ -1,5 +1,5 @@
-* .NET 8
-  * Return Result
+* [.NET 8](#net-8)
+  * [Return Result](#return-result)
 ~~~csharp
 // https://github.com/KevinDockx/AspNetCoreAsyncBestPracticesJetBrainsWebinar/blob/master/Books.Api/Controllers/BooksController.cs
 using AutoMapper;
