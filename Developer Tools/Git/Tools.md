@@ -1,1 +1,2 @@
-[Gitness](https://gitness.com/)
+* [Gitness](https://gitness.com/)
+* [tig](https://jonas.github.io/tig/INSTALL.html)
