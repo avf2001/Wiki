@@ -1,6 +1,9 @@
 
 # Содержание
 * HTTP
+  * cURL
+  * Invoke-WebRequest (PowerShell)
+  * HTTPie
 * Открытые порты
 * Командная строка
 * VS Code
@@ -12,11 +15,12 @@
 * Git
 * Regular Expressions
 # HTTP
-cURL  
+## cURL
 https://curl.haxx.se/windows/
-
-Invoke-WebRequest (PowerShell)  
+## Invoke-WebRequest (PowerShell)  
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-webrequest?view=powershell-7
+## HTTPie
+https://httpie.io/
 # Открытые порты
 ## На сервере (listening)
 ```cmd
