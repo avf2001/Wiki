@@ -16,6 +16,7 @@
   * [GitFlic](#gitflic)
 * Regular Expressions
 * [Web UI](#web-ui)
+  * [Aceternity UI](#aceternity-ui)
   * [Radix UI](#radix-ui)
   * [Shadcn/UI](#shadcnui)
 # HTTP
@@ -79,3 +80,9 @@ https://ui.shadcn.com/, https://github.com/shadcn-ui/ui
 An open source component library optimized for fast development, easy maintenance, and accessibility. Just import and go—no configuration required.
 
 https://www.radix-ui.com/
+
+## Aceternity UI
+### Описание
+Copy paste the most trending components and use them in your websites without having to worry about styling and animations.
+
+https://ui.aceternity.com/
