@@ -10,6 +10,7 @@
   * [Pact](#pact)
 * [Word](#word)
   * [Xceed DocX](#xceed-docx)
+* dotnet-outdated
 
 # Excel
 ## EPPlus
@@ -77,3 +78,6 @@ With SigNoz, you can do the following:
 * Easy to set alerts with DIY query builder
     
 [Site](https://signoz.io/)
+
+# dotnet-outdated
+[Nuget](https://www.nuget.org/packages/dotnet-outdated-tool), [Github](https://github.com/dotnet-outdated/dotnet-outdated)
