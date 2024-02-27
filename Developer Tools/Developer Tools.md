@@ -13,6 +13,8 @@
   * [SqlElectron](#)
   * [Dbml](#)
 * Git
+  * Meld
+  * GitFlic
 * Regular Expressions
 # HTTP
 ## cURL
@@ -53,6 +55,11 @@ https://www.dbml.org
 # Git
 ## Meld
 Visual diff and merge tool - http://meldmerge.org/
+## GitFlic
+### Описание
+Решение для хранения исходного кода и работы с ним.
+
+https://gitflic.ru/
 
 # Regular Expressions
 https://regex101.com/
