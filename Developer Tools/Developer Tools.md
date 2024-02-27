@@ -16,6 +16,8 @@
   * [Meld](#meld)
   * [GitFlic](#gitflic)
 * Regular Expressions
+* Web UI
+  * Shadcn/UI
 # HTTP
 ## cURL
 https://curl.haxx.se/windows/
@@ -63,3 +65,10 @@ https://gitflic.ru/
 
 # Regular Expressions
 https://regex101.com/
+
+# Web UI
+## Shadcn/UI
+### Описание
+Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source. 
+
+https://ui.shadcn.com/, https://github.com/shadcn-ui/ui
