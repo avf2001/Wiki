@@ -12,9 +12,9 @@
   * [Azure Data Studio](#)
   * [SqlElectron](#)
   * [Dbml](#)
-* Git
-  * Meld
-  * GitFlic
+* [Git](#git)
+  * [Meld](#meld)
+  * [GitFlic](#gitflic)
 * Regular Expressions
 # HTTP
 ## cURL
