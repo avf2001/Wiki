@@ -16,6 +16,7 @@
   * [GitFlic](#gitflic)
 * Regular Expressions
 * [Web UI](#web-ui)
+  * [Radix UI](#radix-ui)
   * [Shadcn/UI](#shadcnui)
 # HTTP
 ## cURL
@@ -66,8 +67,15 @@ https://gitflic.ru/
 https://regex101.com/
 
 # Web UI
+
 ## Shadcn/UI
 ### Описание
 Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source. 
 
 https://ui.shadcn.com/, https://github.com/shadcn-ui/ui
+
+## Radix UI
+### Описание
+An open source component library optimized for fast development, easy maintenance, and accessibility. Just import and go—no configuration required.
+
+https://www.radix-ui.com/
