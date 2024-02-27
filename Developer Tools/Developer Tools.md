@@ -15,7 +15,7 @@
   * [Meld](#meld)
   * [GitFlic](#gitflic)
 * Regular Expressions
-* Web UI
+* [Web UI](#web-ui)
   * [Shadcn/UI](#shadcnui)
 # HTTP
 ## cURL
