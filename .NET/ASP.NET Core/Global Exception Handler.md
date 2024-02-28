@@ -35,3 +35,10 @@ internal sealed class GlobalExceptionHandler : IExceptionHandler
     }
 }
 ```
+```csharp
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+builder.Services.AddProblemDetails();
+```
+```csharp
+app.UseExceptionHandler();
+```
