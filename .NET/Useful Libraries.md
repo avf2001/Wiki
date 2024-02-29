@@ -4,10 +4,6 @@
 * [FluentResults](#fluentresults)
 * Logging
   * [SigNoz](#signoz)
-* Testing
-  * Shouldly
-  * [Fluent Assertions](#fluent-assertions)
-  * [Pact](#pact)
 * [Word](#word)
   * [Xceed DocX](#xceed-docx)
 * dotnet-outdated
