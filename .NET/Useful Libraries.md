@@ -6,7 +6,7 @@
   * [SigNoz](#signoz)
 * Testing
   * Shouldly
-  * Fluent Assertions
+  * [Fluent Assertions](#fluent-assertions)
   * [Pact](#pact)
 * [Word](#word)
   * [Xceed DocX](#xceed-docx)
