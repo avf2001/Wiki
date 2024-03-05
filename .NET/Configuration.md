@@ -1,5 +1,5 @@
 # Configuration
-* Options Pattern
+* [Options Pattern](#options-pattern)
 * Resources
   * Articles
 ## Options Pattern
