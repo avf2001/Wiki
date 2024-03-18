@@ -6,6 +6,7 @@
 * [Просмотр списка коммитов, в которых был измемен определенный файл]()
 * [Отмена локальных изменений](#отмена-локальных-изменений)
 * [Слияние бранча]()
+* [Объединение нескольких последовательных коммитов в один]()
 ## Добавление измененных файлов в завершенный коммит
 ```cmd
 > git commit --amend --no-edit
@@ -65,4 +66,13 @@ If you want to remove untracked files or directories or use:
 > git pull
 > git merge BRANCH_NAME   # 3. Производим слияние
 > git push                # 4. Отправляем изменения на сервер
+```
+
+## Объединение нескольких последовательных коммитов в один
+```cmd
+> git rebase -i HEAD~3
+
+pick f392171 Added new feature X
+squash ba9dd9a Added new elements to page design
+squash df71a27 Updated CSS for new elements
 ```
