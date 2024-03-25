@@ -3,6 +3,7 @@
   * [Shouldly](#shouldly)
   * [Fluent Assertions](#fluent-assertions)
   * [Pact](#pact)
+  * [Playwright](#playwright)
 # Libraries
 ## Shouldly
 https://github.com/shouldly/shouldly
@@ -46,3 +47,7 @@ FluentResults is a lightweight .NET library developed to solve a common problem.
 ```
 > Install-Package FluentResults
 ```
+## Playwright
+Playwright enables reliable end-to-end testing for modern web apps.
+
+[Site](https://playwright.dev/)
