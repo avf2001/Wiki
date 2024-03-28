@@ -1,6 +1,7 @@
 # Testing
 * [Libraries](#libraries)  
   * [Fluent Assertions](#fluent-assertions)
+  * [NSubstitute](#nsubstitute)
   * [Pact](#pact)
   * [Playwright](#playwright)
   * [Shouldly](#shouldly)
@@ -31,6 +32,105 @@ DateTime? theDate = null;
 theDate.Should().NotHaveValue();
 theDate.Should().BeNull();
 ```
+
+## NSubstitute
+[Сайт](https://nsubstitute.github.io/)  
+### Примеры
+1. Setup:
+```csharp
+var mockService = new Mock<IMyService>();
+
+var subService = Substitute.For<IMyService>();
+```
+2. Returning Values:
+```csharp
+mockService.Setup(x => x.Method()).Returns("value");
+
+subService.Method().Returns("value");
+```
+3. Argument Matchers:
+```csharp
+mockService.Setup(x => x.Method(It.IsAny<int>())).Returns("value");
+
+subService.Method(Arg.Any<int>()).Returns("value");
+```
+4. Verifying Calls:
+```csharp
+mockService.Verify(x => x.Method(42), Times.Once);
+
+subService.Received().Method(42);
+```
+5. Ignoring Specific Calls:
+```csharp
+mockService.Verify(x => x.Method(42), Times.Never);
+
+subService.DidNotReceive().Method(42);
+```
+6. Argument Checking:
+```csharp
+mockService.Setup(x => x.Method(It.Is<int>(arg => arg > 10))).Returns("value");
+
+subService.Method(Arg.Is<int>(arg => arg > 10)).Returns("value");
+```
+7. Exception Handling:
+```csharp
+mockService.Setup(x => x.Method()).Throws(new Exception("Error"));
+
+subService.When(x => x.Method()).Do(x => { throw new Exception("Error"); });
+```
+Advanced Use Cases:
+1. Recursive Mocks:
+```csharp
+var mock = new Mock<IMyService>();
+mock.Setup(m => m.ObjectA.PropertyB.MethodC()).Returns("value");
+
+var sub = Substitute.For<IMyService>();
+sub.ObjectA.PropertyB.MethodC().Returns("value");
+```
+2. Property Behavior:
+```csharp
+mock.SetupGet(m => m.MyProperty).Returns("value");
+mock.SetupSet(m => m.MyProperty = "value");
+
+sub.MyProperty.Returns("value");
+sub.MyProperty = "value";
+```
+3. Callbacks:
+```csharp
+string result = "";
+mock.Setup(m => m.Method()).Callback(() => result = "Called!");
+
+string result = "";
+sub.Method().ReturnsForAnyArgs(x => { result = "Called!"; return true; });
+```
+4. Events:
+```csharp
+var mock = new Mock<IEvents>();
+mock.Raise(m => m.MyEvent += null, EventArgs.Empty);
+
+var sub = Substitute.For<IEvents>();
+sub.MyEvent += Raise.EventWith(EventArgs.Empty);
+```
+5. Partial Mocks:
+```csharp
+var mock = new Mock<MyClass>() { CallBase = true };
+mock.Setup(m => m.VirtualMethod()).Returns("mocked value");
+
+var sub = Substitute.ForPartsOf<MyClass>();
+sub.VirtualMethod().Returns("mocked value");
+```
+6. Ordered Calls Verification:
+```csharp
+sub.Received().FirstMethod();
+sub.Received().SecondMethod();
+```
+8. Advanced Argument Matchers:
+```csharp
+mock.Setup(m => m.Method(It.IsRegex("[a-z]"))).Returns("matched");
+
+sub.Method(Arg.Is<string>(arg => Regex.IsMatch(arg, "[a-z]"))).Returns("matched");
+```
+
 ## Pact
 Fast, easy and reliable testing for your APIs and microservices.
 
