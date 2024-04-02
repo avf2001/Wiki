@@ -1,5 +1,6 @@
 # Testing
-* [Libraries](#libraries)  
+* [Libraries](#libraries)
+  * [Coverlet](#coverlet)
   * [Fluent Assertions](#fluent-assertions)
   * [FsCheck](#fscheck)
   * [NSubstitute](#nsubstitute)
@@ -11,6 +12,11 @@
   * [WebApplicationFactory](#webapplicationfactory)
 
 # Libraries
+## Coverlet
+Coverlet is a cross platform code coverage framework for .NET, with support for line, branch and method coverage. It works with .NET Framework on Windows and .NET Core on all supported platforms.
+
+[Github](https://github.com/coverlet-coverage/coverlet)
+
 ## Fluent Assertions
 https://fluentassertions.com/introduction
 ### Collection
