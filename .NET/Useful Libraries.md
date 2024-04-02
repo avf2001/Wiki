@@ -18,7 +18,9 @@
 [nuget](https://www.nuget.org/packages/DocX)
 
 # FluentResults
-[Github](https://github.com/altmann/FluentResults)
+FluentResults is a lightweight .NET library developed to return an object indicating success or failure of an operation instead of throwing/using exceptions.
+
+[Github](https://github.com/altmann/FluentResults), [Nuget](https://www.nuget.org/packages/FluentResults/)
 
 # Logging
 ## SigNoz
