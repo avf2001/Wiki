@@ -17,6 +17,9 @@
 ## Xceed DocX
 [nuget](https://www.nuget.org/packages/DocX)
 
+# FluentResults
+[Github](https://github.com/altmann/FluentResults)
+
 # Logging
 ## SigNoz
 SigNoz is an open-source observability tool that helps you monitor your applications and troubleshoot problems. It provides traces, metrics, and logs under a single pane of glass. It is available both as an open-source software and a cloud offering.
