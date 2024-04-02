@@ -1,20 +1,18 @@
 # Content
-* Excel
-  * EPPlus
+* Documents
+  * EPPlus (Excel)
+  * [Xceed DocX (Word)](#xceed-docx)
 * [FluentResults](#fluentresults)
 * Logging
   * [SigNoz](#signoz)
-* [Word](#word)
-  * [Xceed DocX](#xceed-docx)
+
 * dotnet-outdated
 
-# Excel
-## EPPlus
+# Documents
+## EPPlus (Excel)
 [Official Website](https://www.epplussoftware.com/),
 [nuget](https://www.nuget.org/packages/EPPlus/)
-
-# Word
-## Xceed DocX
+## Xceed DocX (Word)
 [nuget](https://www.nuget.org/packages/DocX)
 
 # FluentResults
