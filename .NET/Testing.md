@@ -5,7 +5,7 @@
   * [Pact](#pact)
   * [Playwright](#playwright)
   * [Shouldly](#shouldly)
-* Classes
+* [Classes](#classes)
   * [TestServer](#testserver)
   * [WebApplicationFactory](#webapplicationfactory)
 
