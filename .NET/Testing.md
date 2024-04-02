@@ -5,6 +5,10 @@
   * [Pact](#pact)
   * [Playwright](#playwright)
   * [Shouldly](#shouldly)
+* Classes
+  * [TestServer](#testserver)
+  * [WebApplicationFactory](#webapplicationfactory)
+
 # Libraries
 ## Fluent Assertions
 https://fluentassertions.com/introduction
@@ -152,3 +156,9 @@ Playwright enables reliable end-to-end testing for modern web apps.
 
 ## Shouldly
 https://github.com/shouldly/shouldly
+
+# Classes
+## TestServer
+[Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.testhost.testserver?view=aspnetcore-8.0)
+## WebApplicationFactory
+[Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.testing.webapplicationfactory-1?view=aspnetcore-8.0)
