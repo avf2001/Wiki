@@ -15,7 +15,17 @@ Startup.cs
 ```csharp
 public void ConfigureServices(IServiceCollection services)
 {
-  services.AddCors(options => options.AddPolicy("AllowEverything", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
+  services.AddCors(
+    options =>
+      options
+        .AddPolicy(
+          "AllowEverything",
+          builder => builder
+                      .AllowAnyOrigin()
+                      .AllowAnyMethod()
+                      .AllowAnyHeader()
+        )
+  );
   // AllowCredentials()
 }
 
