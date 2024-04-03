@@ -32,7 +32,7 @@ public void ConfigureServices(IServiceCollection services)
 public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 {
   // Should be placed before other middleware, ma by after routing
-  app.UseCOrs("AllowEverything");
+  app.UseCors("AllowEverything");
 }
 ```
 ```csharp
