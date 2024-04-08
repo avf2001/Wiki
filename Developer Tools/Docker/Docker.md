@@ -34,8 +34,14 @@ docker container run --rm hello-world
 ```
 ## Использование дискового пространства
 ```cmd
-> docker system df # статистика использования системных ресурсов
-> docker system prune # удаление неиспользуемых ресурсов (контейнеров, сетей, образов и т.д.)
+# статистика использования системных ресурсов
+> docker system df
+
+# удаление неиспользуемых ресурсов (контейнеров, сетей, образов и т.д.)
+> docker system prune
+
+# очистка логов контейнеров в папке /var/lib/docker/containers
+> sudo sh -c "truncate -s 0 /var/lib/docker/containers/*/*-json.log"
 ```
 ## Запуск docker без sudo
 ```
