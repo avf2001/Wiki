@@ -5,8 +5,8 @@
 * [FluentResults](#fluentresults)
 * Logging
   * [SigNoz](#signoz)
-
 * dotnet-outdated
+* [Refit](#refit)
 <br/><br/>
 
 # Documents
@@ -43,3 +43,8 @@ With SigNoz, you can do the following:
 
 # dotnet-outdated
 [Nuget](https://www.nuget.org/packages/dotnet-outdated-tool), [Github](https://github.com/dotnet-outdated/dotnet-outdated)
+
+# Refit
+Refit: The automatic type-safe REST library for .NET Core, Xamarin and .NET
+
+[Site](https://reactiveui.github.io/refit/) [Github](https://github.com/reactiveui/refit)
