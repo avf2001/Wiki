@@ -1,14 +1,14 @@
 # Testing
 * [Libraries](#libraries)
-  * [ArchUnitNET](#archunitnet)
+  * [ArchUnitNET](#archunitnet) `#architecture`
   * [Coverlet](#coverlet)
-  * [Fluent Assertions](#fluent-assertions)
+  * [Fluent Assertions](#fluent-assertions) `#unit`
   * [FsCheck](#fscheck)
-  * [NetArchTest](#netarchtest)
-  * [NSubstitute](#nsubstitute)
+  * [NetArchTest](#netarchtest) `#architecture`
+  * [NSubstitute](#nsubstitute) `#mock`
   * [Pact](#pact)
   * [Playwright](#playwright)
-  * [Shouldly](#shouldly)
+  * [Shouldly](#shouldly) `#unit`
 * [Classes](#classes)
   * [TestServer](#testserver)
   * [WebApplicationFactory](#webapplicationfactory)
