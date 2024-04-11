@@ -32,7 +32,7 @@ $ git push -u origin development
 
 ## Change Remote Origin
 ```shell
-$ $ git remote set-url <remote_name> <remote_url>
+$ git remote set-url <remote_name> <remote_url>
 
 # example
 $ git remote set-url origin https://git-repo/new-repository.git
