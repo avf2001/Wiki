@@ -24,6 +24,7 @@
   * [Описание ключевых слов](#описание-ключевых-слов)
   * [Дополнительные опции](#дополнительные-опции)
   * [Дополнительная информация](#дополнительная-информация)
+* [Коммит](#коммит)
 
 # Репозиторий
 ## Создание репозитория
@@ -113,3 +114,6 @@ $ git stash clear # полное удаление
 $ git stash branch <name>
 ```
 
+# Коммит
+* To find out how the index differs from the working tree, say git diff.
+* To find out how the index differs from the most recent commit, say git diff --cached.
