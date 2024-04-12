@@ -5,6 +5,7 @@
   * [Change Remote Origin](#change-remote-origin)
   * [Delete Remote](#delete-remote)
   * [Rename Remote](#rename-remote)
+  * [Switch to Remote Branch](#switch-to-remote-branch)
 # First commit to remote
 ```shell
 $ git remote add origin https://github.com/user/repository_name
@@ -46,4 +47,9 @@ $ git remote rm origin
 ## Rename Remote
 ```shell
 $ git remote rename beanstalk origin # rename beanstalk to origin
+```
+
+## Switch to Remote Branch
+```shell
+$ git switch -c origin/somebranch
 ```
