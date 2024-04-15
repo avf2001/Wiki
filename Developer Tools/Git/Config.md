@@ -5,6 +5,7 @@ $ git --version
 # Получить список настроек
 ```shell
 $ git config --list
+$ git config --list --show-origin
 ```
 # Начальная настройка
 ```shell
