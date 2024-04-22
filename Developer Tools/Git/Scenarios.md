@@ -1,6 +1,7 @@
 # Сценарии
 * [Добавление измененных файлов в завершенный коммит](#добавление-измененных-файлов-в-завершенный-коммит)
 * [Удаление файла из коммита]()
+* [Переименование коммита]()
 * [Поиск коммита с ошибкой]()
 * [Просмотр имен измененных файлов между двумя бранчами]()
 * [Просмотр списка коммитов, в которых был измемен определенный файл]()
@@ -19,6 +20,10 @@
 Это откатит закоммиченные файлы в staging area. Далее можно удалить необходимый файл:
 ```cmd
 > git reset HEAD <filename>
+```
+## Переименование коммита
+```cmd
+> git commit --amend -m "Новый текст коммита"
 ```
 ## Поиск коммита с ошибкой
 Have you been in a situation when a bug was introduced and you had to search when and what exactly was changed for this bug to appear? If you knew this command then, this process would be faster and easier. Using git bisect we can search for a commit which creates the bug, by first telling it a “bad” commit which has the bug and a “good” commit where it wasn’t there.
