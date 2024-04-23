@@ -5,7 +5,7 @@
   * [3. Program.cs]()
     * [.NET 3.1]()
     * [.NET 7]()
-    * [.NET 8]()
+    * [.NET 8](#net-8)
 * [Adding UserName to log]()
 * [Logging unhandled exceptions]()
 * [Logging request body]()
