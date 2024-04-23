@@ -5,6 +5,7 @@
   * [3. Program.cs]()
     * [.NET 3.1]()
     * [.NET 7]()
+    * [.NET 8]()
 * [Adding UserName to log]()
 * [Logging unhandled exceptions]()
 * [Logging request body]()
@@ -107,6 +108,43 @@ builder
                     .ReadFrom.Configuration(context.Configuration);
             });
 ```
+### .NET 8
+```csharp
+using Serilog;
+using Serilog.Sinks.Elasticsearch;
+
+...
+
+builder.Host.UseSerilog((context, configuration) =>
+{
+    var environmentName = context.HostingEnvironment.EnvironmentName;
+    var indexFormat = $"{context.Configuration["ApplicationName"]!.ToLower()}-logs-{environmentName.ToLower().Replace(".", "-")}-{DateTime.UtcNow:yyyy-MM}";
+
+    var elasticsearchSinkOptions = new ElasticsearchSinkOptions(new Uri(context.Configuration["ElasticConfiguration:Uri"]!))
+    {
+        IndexFormat = indexFormat,
+        AutoRegisterTemplate = true,
+        NumberOfShards = 2,
+        NumberOfReplicas = 1
+    };
+
+    configuration
+
+        // Enrich
+        .Enrich.FromLogContext()
+        .Enrich.WithMachineName()
+        .Enrich.WithProperty("Environment", environmentName)
+
+        // WriteTo                    
+        .WriteTo.Console(outputTemplate: "[{Timestamp:HH:mm:ss} {Level}] {SourceContext}{NewLine}{Message:lj}{NewLine}{Exception}{NewLine}")
+        .WriteTo.Elasticsearch(elasticsearchSinkOptions)
+
+        .ReadFrom.Configuration(context.Configuration);
+});
+
+...
+```
+
 # Adding UserName to log
 
 ```csharp
