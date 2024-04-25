@@ -1,5 +1,5 @@
 # Clean Architecture
-![system schema](./images/clean-architecture.png)
+![system schema](./images/clean-architecture.png "A title")
 
 # Domain Layer
 * Entities
