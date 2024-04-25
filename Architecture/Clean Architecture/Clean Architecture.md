@@ -31,6 +31,8 @@
   * System Clock
 
 # Presentation Layer
+Responsible for interacting with the users.
+
 * Defines the Entry Point to the System
 * gRPC Service
 * REST API
