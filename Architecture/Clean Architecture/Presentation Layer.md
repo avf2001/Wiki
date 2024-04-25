@@ -3,6 +3,7 @@
 ```
 Web.Api\
   Endpoints\
+  Extensions\
   Infrastructure\
     GlobalExceptionHandler.cs
   Middleware\
