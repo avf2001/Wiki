@@ -1,5 +1,6 @@
 # Clean Architecture
 ![system schema](./images/clean-architecture.png)
+
 # Domain Layer
 * Entities
 * Value Objects
