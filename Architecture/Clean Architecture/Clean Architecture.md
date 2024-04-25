@@ -22,3 +22,11 @@
   * Storage Services 
   * Identity Provider
   * System Clock
+
+# Presentation Layer
+* Defines the Entry Point to the System
+* gRPC Service
+* REST API
+  * API Endpoints
+  * Middleware
+  * DI Setup
