@@ -14,5 +14,7 @@ public interface IProductRepository
   Task<Product?> GetByIdAsync(ProductId id);
 
   void Add(Product product);
+
+  ...
 }
 ```
