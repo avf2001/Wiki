@@ -18,3 +18,5 @@ public interface IProductRepository
   ...
 }
 ```
+## Resources
+* [YouTube - Domain Validation With .NET | Clean Architecture, DDD, .NET 6 (Milan Jovanović)](https://www.youtube.com/watch?v=KgfzM0QWHrQ)
