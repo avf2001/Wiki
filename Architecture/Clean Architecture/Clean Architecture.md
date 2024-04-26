@@ -22,13 +22,13 @@
   * CQRS (with Mediatr for example)
 
 # Infrastructure Layer
-* Interacts with External Systems
-  * Databases
-  * Messaging
-  * Email Providers
-  * Storage Services 
-  * Identity Provider
-  * System Clock
+Interacts with External Systems:
+* Databases
+* Messaging
+* Email Providers
+* Storage Services 
+* Identity Provider
+* System Clock
 
 # Presentation Layer
 Responsible for interacting with the users.
