@@ -53,7 +53,7 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
       new Money(request.Currency, request.Amount),
       Sku.Create(request.Sku)!
     );
-
+    
     _productRepository.Add(product);
 
     await _unitOfWork.SaveChangesAsync(cancellationToken);
