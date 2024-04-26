@@ -7,4 +7,4 @@ Infrastructure\
   ApplicationDbContext.cs
 ```
 ## Resources
-[Milan Jovanović - Clean Architecture: How to Build The Infrastructure Layer](https://www.youtube.com/watch?v=RsOq-Pkwy1U)
+[YouTube - Clean Architecture: How to Build The Infrastructure Layer (Milan Jovanović)](https://www.youtube.com/watch?v=RsOq-Pkwy1U)
