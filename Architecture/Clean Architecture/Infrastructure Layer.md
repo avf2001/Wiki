@@ -1,14 +1,14 @@
 # Infrastructure Layer
 ## Folders Structure (example)
-```
-├── Infrastructure\
-    ├── Authentication\
-    ├── Repositories\
-        └── ProductRepository.cs
-    ├── CqrsHandlers\
-    ├── ApplicationDbContext.cs
-    └── DependencyInjection.cs
-```
+
+* Infrastructure\
+  * Authentication\
+  * Repositories\
+    * [ProductRepository.cs](productrepositorycs)
+  * CqrsHandlers\
+  * ApplicationDbContext.cs
+  * DependencyInjection.cs
+
 ### ProductRepository.cs
 ```csharp
 public sealed class ProductRepository : IProductRepository
