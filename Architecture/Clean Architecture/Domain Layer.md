@@ -1,4 +1,5 @@
 # Domain Layer
+Implementations of repositories are in an infrastructure layer.
 ## Folders Structure (example)
 ```
 Domain\
