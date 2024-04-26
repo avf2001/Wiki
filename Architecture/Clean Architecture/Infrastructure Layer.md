@@ -4,6 +4,7 @@
 Infrastructure\
   Authentication\
   Repositories\
+  CqrsHandlers\
   ApplicationDbContext.cs
 ```
 ## Resources
