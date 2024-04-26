@@ -6,6 +6,7 @@
   * Repositories\
     * [ProductRepository.cs](#productrepositorycs)
   * CqrsHandlers\
+    * [CreateProductCommandHandler.cs](#createproductcommandhandlercs)
   * ApplicationDbContext.cs
   * DependencyInjection.cs
 
@@ -26,6 +27,23 @@ public sealed class ProductRepository : IProductRepository
   }
 
   ...
+}
+```
+### CreateProductCommandHandler.cs
+```csharp
+public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, Guid>
+{
+  private readonly IProductRepository _repository;
+  private readonly IUnitOfWork _unitOfWork;
+
+  public CreateProductCommandHandler(
+    IProductRepository repository,
+    IUnitOfWork unitOfWork
+  )
+  {
+    _repository = repository;
+    _unitOdWork = unitOfWork;
+  }
 }
 ```
 ## Resources
