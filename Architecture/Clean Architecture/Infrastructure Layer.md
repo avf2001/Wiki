@@ -4,9 +4,29 @@
 ├── Infrastructure\
     ├── Authentication\
     ├── Repositories\
+        └── ProductRepository.cs
     ├── CqrsHandlers\
     ├── ApplicationDbContext.cs
     └── DependencyInjection.cs
+```
+```csharp
+// ProductRepository.cs
+public sealed class ProductRepository : IProductRepository
+{
+  private readonly ApplicationDbContext _context;
+
+  public ProductRepository(ApplicationDbContext context)
+  {
+    _context = context;
+  }
+
+  public Task<Product?> GetByIdAsync(ProductId id)
+  {
+    return _context.Products.Include(x => x.Items).SingleOrDefaultAsync(x => x.Id = id);
+  }
+
+  ...
+}
 ```
 ## Resources
 * [YouTube - Clean Architecture: How to Build The Infrastructure Layer (Milan Jovanović)](https://www.youtube.com/watch?v=RsOq-Pkwy1U)
