@@ -9,8 +9,8 @@
     ├── ApplicationDbContext.cs
     └── DependencyInjection.cs
 ```
+### ProductRepository.cs
 ```csharp
-// ProductRepository.cs
 public sealed class ProductRepository : IProductRepository
 {
   private readonly ApplicationDbContext _context;
