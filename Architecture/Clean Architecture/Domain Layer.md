@@ -1,11 +1,9 @@
 # Domain Layer
 Implementations of repositories are in an infrastructure layer.
 ## Folders Structure (example)
-```
-Domain\
-  Products\
-    IProductRepository.cs
-```
+* Domain\
+  * Products\
+    * [IProductRepository.cs](#iproductrepositorycs)
 ```csharp
 // IProductRepository.cs
 // Domain-specific repository
