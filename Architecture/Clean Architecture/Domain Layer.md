@@ -4,6 +4,7 @@ Implementations of repositories are in an infrastructure layer.
 * Domain\
   * Products\
     * [IProductRepository.cs](#iproductrepositorycs)
+### IProductRepository.cs
 ```csharp
 // IProductRepository.cs
 // Domain-specific repository
