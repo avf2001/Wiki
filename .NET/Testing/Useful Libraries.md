@@ -180,7 +180,7 @@ Playwright enables reliable end-to-end testing for modern web apps.
 [Site](https://playwright.dev/)
 
 ## Shouldly
-https://github.com/shouldly/shouldly
+[Github](https://github.com/shouldly/shouldly), [Nuget](https://www.nuget.org/packages/Shouldly), [Site](https://shouldly.org/)
 
 # Classes
 ## TestServer
