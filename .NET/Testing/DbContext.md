@@ -7,3 +7,7 @@
 
 ## Using MockQueryable
 [Source](https://code-maze.com/ef-core-mock-dbcontext/)
+
+```cmd
+> Install-Package MockQueryable.Moq
+```
