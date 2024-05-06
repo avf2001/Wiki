@@ -23,6 +23,8 @@
   * Application Services
   * CQRS (with Mediatr for example)
 
+[More detail](Application%20Layer.md)
+
 # Infrastructure Layer
 Interacts with External Systems:
 * Databases
@@ -31,6 +33,8 @@ Interacts with External Systems:
 * Storage Services 
 * Identity Provider
 * System Clock
+
+[More detail](Infrastructure%20Layer.md)
 
 # Presentation Layer
 Responsible for interacting with the users.
@@ -41,3 +45,5 @@ Responsible for interacting with the users.
   * API Endpoints
   * Middleware
   * DI Setup
+
+[More detail](Presentation%20Layer.md)
