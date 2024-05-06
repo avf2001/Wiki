@@ -28,6 +28,8 @@
 # Infrastructure Layer
 Interacts with External Systems:
 * Databases
+  * Implements DB Context
+  * Implements Repositories
 * Messaging
 * Email Providers
 * Storage Services 
