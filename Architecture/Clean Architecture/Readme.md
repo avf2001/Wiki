@@ -13,7 +13,8 @@
 * Interfaces
 * Exceptions
 * Enums
-[More detail](Domain Layer.md)
+
+[More detail](Domain%20Layer.md)
 
 # Application Layer
 * Orchestrates the Domain
