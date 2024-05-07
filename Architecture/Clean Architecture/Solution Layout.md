@@ -7,7 +7,8 @@
     * DependencyInjection.cs
   * [Presentation](#presentation)\
     * DependencyInjection.cs
-  * WebAPI\
+  * [WebAPI](#webapi)\
+    * Program.cs
 * tests\
 
 ## Application Project
@@ -60,4 +61,15 @@ public static class DependencyInjection
         return services;
     }
 }
+```
+
+## WebAPI
+```csharp
+// Program.cs
+...
+builder.Services
+    .AddApplication()
+    .AddInfrastructure()
+    .AddPresentation();
+...
 ```
