@@ -3,6 +3,7 @@
   * [Application](#application-project)\
     * [DependencyInjection.cs](#dependencyinjectioncs)
   * Domain\
+  * [Infrastructure](#infrastructure)\
 * tests\
 
 ## Application Project
@@ -12,5 +13,17 @@ Include packages: MediatR, FluentValidation, FluentValidation.DependencyInjectio
 ```csharp
 public static class DependencyInjection
 {
+    public static IServiceCollection AddApplication(this IServiceCollection services)
+    {
+        var assembly = typeof(DependencyInjection).Assembly;
+
+        services.AddMediatR(
+            configuration => configuration.RegisterServicesFromAssembly(assembly)
+        );
+
+        services.AddValidatorsFromAssembly(assembly);
+    }
 }
 ```
+
+### Infrastructure
