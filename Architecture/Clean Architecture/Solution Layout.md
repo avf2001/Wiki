@@ -1,17 +1,19 @@
 # Solution Layout
 * src\
   * [Application](#application-project)\
-    * [DependencyInjection.cs](#dependencyinjectioncs)
+    * DependencyInjection.cs
   * Domain\
   * [Infrastructure](#infrastructure)\
+    * DependencyInjection.cs
   * [Presentation](#presentation)\
+    * DependencyInjection.cs
 * tests\
 
 ## Application Project
 Include packages: MediatR, FluentValidation, FluentValidation.DependencyInjectionExtensions
-
-### DependencyInjection.cs
 ```csharp
+// DependencyInjection.cs
+
 public static class DependencyInjection
 {
     public static IServiceCollection AddApplication(this IServiceCollection services)
@@ -29,8 +31,10 @@ public static class DependencyInjection
 }
 ```
 
-### Infrastructure
+## Infrastructure
 ```csharp
+// DependencyInjection.cs
+
 public static class DependencyInjection
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services)
@@ -42,4 +46,17 @@ public static class DependencyInjection
 }
 ```
 
-### Presentation
+## Presentation
+```csharp
+// DependencyInjection.cs
+
+public static class DependencyInjection
+{
+    public static IServiceCollection AddPresentation(this IServiceCollection services)
+    {
+        var assembly = typeof(DependencyInjection).Assembly;       
+
+        return services;
+    }
+}
+```
