@@ -64,6 +64,9 @@ public static class DependencyInjection
 ```
 
 ## WebAPI
+Packages:
+* Serilog.AspnetCore
+
 ```csharp
 // Program.cs
 ...
@@ -71,5 +74,7 @@ builder.Services
     .AddApplication()
     .AddInfrastructure()
     .AddPresentation();
+
+builder.Host.UseSerilog();
 ...
 ```
