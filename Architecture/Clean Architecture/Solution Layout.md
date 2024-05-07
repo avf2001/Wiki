@@ -75,6 +75,7 @@ builder.Services
     .AddInfrastructure()
     .AddPresentation();
 
-builder.Host.UseSerilog();
+builder.Host
+    .UseSerilog((context, configuration) => configuration.ReadFrom.Configuration(context.Configuration));
 ...
 ```
