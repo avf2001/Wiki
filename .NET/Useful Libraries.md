@@ -5,6 +5,7 @@
 * [Result Pattern](#result-pattern)
   * Ardalis.Result
   * [FluentResults](#fluentresults)
+  * [Results](#results)
 * Guard Clause
   * [Ardalis.GuardClauses](#ardalisguardclauses)
   * [Throw](#throw)
@@ -24,14 +25,19 @@
 <br/><br/>
 
 # Result Pattern
+
+## Ardalis.Result
+[Github](https://github.com/ardalis/Result), [Nuget](https://www.nuget.org/packages/Ardalis.Result)
+<br/><br/>
+
 ## FluentResults
 FluentResults is a lightweight .NET library developed to return an object indicating success or failure of an operation instead of throwing/using exceptions.
 
 [Github](https://github.com/altmann/FluentResults), [Nuget](https://www.nuget.org/packages/FluentResults/)
 <br/><br/>
 
-## Ardalis.Result
-[Github](https://github.com/ardalis/Result), [Nuget](https://www.nuget.org/packages/Ardalis.Result)
+## Results
+[Github](https://github.com/wtorricos/Results), [Nuget](https://www.nuget.org/packages/WTorricos.Results)
 <br/><br/>
 <br/><br/>
 
