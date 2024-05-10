@@ -29,7 +29,6 @@ FluentResults is a lightweight .NET library developed to return an object indica
 
 [Github](https://github.com/altmann/FluentResults), [Nuget](https://www.nuget.org/packages/FluentResults/)
 <br/><br/>
-<br/><br/>
 
 ## Ardalis.Result
 [Github](https://github.com/ardalis/Result), [Nuget](https://www.nuget.org/packages/Ardalis.Result)
