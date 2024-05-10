@@ -3,6 +3,7 @@
   * EPPlus (Excel)
   * [Xceed DocX (Word)](#xceed-docx)
 * [Result Pattern](#result-pattern)
+  * Ardalis.Result
   * [FluentResults](#fluentresults)
 * Guard Clause
   * [Ardalis.GuardClauses](#ardalisguardclauses)
@@ -32,6 +33,8 @@ FluentResults is a lightweight .NET library developed to return an object indica
 
 ## Ardalis.Result
 [Github](https://github.com/ardalis/Result), [Nuget](https://www.nuget.org/packages/Ardalis.Result)
+<br/><br/>
+<br/><br/>
 
 # Guard Clause
 ## Ardalis.GuardClauses
