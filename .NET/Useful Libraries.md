@@ -2,7 +2,8 @@
 * Documents
   * EPPlus (Excel)
   * [Xceed DocX (Word)](#xceed-docx)
-* [FluentResults](#fluentresults)
+* [Result Pattern](#result-pattern)
+  * [FluentResults](#fluentresults)
 * Guard Clause
   * [Ardalis.GuardClauses](#ardalisguardclauses)
   * [Throw](#throw)
@@ -21,7 +22,8 @@
 <br/><br/>
 <br/><br/>
 
-# FluentResults
+# Result Pattern
+## FluentResults
 FluentResults is a lightweight .NET library developed to return an object indicating success or failure of an operation instead of throwing/using exceptions.
 
 [Github](https://github.com/altmann/FluentResults), [Nuget](https://www.nuget.org/packages/FluentResults/)
