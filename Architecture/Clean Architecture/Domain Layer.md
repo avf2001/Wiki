@@ -11,6 +11,7 @@ Implementations of repositories are in an infrastructure layer.
 ```csharp
 public abstract class EntityBase
 {
+    public int Id { get; init; }
 }
 ```
 
