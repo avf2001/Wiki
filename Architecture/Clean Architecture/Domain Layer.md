@@ -9,6 +9,9 @@ Implementations of repositories are in an infrastructure layer.
 
 ### EntityBase.cs
 ```csharp
+public abstract class EntityBase
+{
+}
 ```
 
 ### IProductRepository.cs
