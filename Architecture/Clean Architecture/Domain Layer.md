@@ -5,6 +5,7 @@ Implementations of repositories are in an infrastructure layer.
   * Common\
     * [EntityBase.cs](#entitybasecs)
   * Products\
+    * [Product.cs](#productcs)
     * [IProductRepository.cs](#iproductrepositorycs)
 
 ### EntityBase.cs
@@ -19,6 +20,13 @@ public abstract class EntityBase
 
     // For EntityFramework
     protected EntityBase() {}
+}
+```
+
+### Product.cs
+```csharp
+public class Product : EntityBase
+{
 }
 ```
 
