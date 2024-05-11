@@ -22,6 +22,7 @@
 * Defines Use Cases
   * Application Services
   * CQRS (with Mediatr for example)
+* Authorization
 
 [More detail](Application%20Layer.md)
 
@@ -47,5 +48,6 @@ Responsible for interacting with the users.
   * API Endpoints
   * Middleware
   * DI Setup
+* Authentication
 
 [More detail](Presentation%20Layer.md)
