@@ -15,7 +15,10 @@ public abstract class EntityBase
 
     private readonly List<IDomainEvent> _domainEvents = [];
 
-    protected Entity(int id) => Id = id;
+    protected EntityBase(int id) => Id = id;
+
+    // For EntityFramework
+    protected EntityBase() {}
 }
 ```
 
