@@ -12,6 +12,8 @@ Implementations of repositories are in an infrastructure layer.
 public abstract class EntityBase
 {
     public int Id { get; init; }
+
+    private readonly List<IDomainEvent> _domainEvents = [];
 }
 ```
 
