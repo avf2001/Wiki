@@ -13,7 +13,7 @@ public abstract class EntityBase
 {
     public int Id { get; init; }
 
-    private readonly List<IDomainEvent> _domainEvents = [];
+    protected readonly List<IDomainEvent> _domainEvents = [];
 
     protected EntityBase(int id) => Id = id;
 
