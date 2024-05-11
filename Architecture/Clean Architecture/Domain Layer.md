@@ -2,8 +2,15 @@
 Implementations of repositories are in an infrastructure layer.
 ## Folders Structure (example)
 * Domain\
+  * Common\
+    * [EntityBase.cs](#entitybasecs)
   * Products\
     * [IProductRepository.cs](#iproductrepositorycs)
+
+### EntityBase.cs
+```csharp
+```
+
 ### IProductRepository.cs
 ```csharp
 // IProductRepository.cs
@@ -17,5 +24,6 @@ public interface IProductRepository
   ...
 }
 ```
+
 ## Resources
 * [YouTube - Domain Validation With .NET | Clean Architecture, DDD, .NET 6 (Milan Jovanović)](https://www.youtube.com/watch?v=KgfzM0QWHrQ)
