@@ -27,6 +27,11 @@ public abstract class EntityBase
 ```csharp
 public class Product : EntityBase
 {
+    public void Delete()
+    {
+        ...
+        _domainEvents.Add(new ProductDeletedDomainEvent(this.Id));
+    }
 }
 ```
 
