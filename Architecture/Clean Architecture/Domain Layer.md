@@ -9,8 +9,10 @@ Implementations of repositories are in an infrastructure layer.
   * Products\
     * Events\
       * ProductCreatedDomainEvent.cs
+    * Repositories\
+      * [IProductRepository.cs](#iproductrepositorycs)
     * [Product.cs](#productcs)
-    * [IProductRepository.cs](#iproductrepositorycs)
+    
 
 ### EntityBase.cs
 ```csharp
