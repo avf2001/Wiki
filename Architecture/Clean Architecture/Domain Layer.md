@@ -2,7 +2,7 @@
 Implementations of repositories are in an infrastructure layer.
 ## Folders Structure (example)
 * Domain\
-  * Common\
+  * Abstractions\
     * [EntityBase.cs](#entitybasecs)
   * Products\
     * [Product.cs](#productcs)
