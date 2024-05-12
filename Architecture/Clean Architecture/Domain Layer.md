@@ -62,6 +62,10 @@ public interface IDomainEvent : INotification
 
 ### IUnitOfWork.cs
 ```csharp
+public interface IUnitOfWork
+{
+    Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
+}
 ```
 
 ### ValueObjectBase.cs
