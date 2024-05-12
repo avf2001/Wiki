@@ -50,7 +50,9 @@ public abstract class EntityBase
 
 ### IDomainEvent.cs
 ```csharp
-public interface IDomainEvent
+using Mediatr;
+
+public interface IDomainEvent : INotification
 {
 }
 ```
