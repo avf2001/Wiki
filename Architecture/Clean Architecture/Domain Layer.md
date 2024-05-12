@@ -7,6 +7,7 @@ Implementations of repositories are in an infrastructure layer.
     * [IDomainEvent.cs](#idomaineventcs)
     * [ValueObjectBase.cs](#valueobjectBasecs)
   * Products\
+    * Events\
     * [Product.cs](#productcs)
     * [IProductRepository.cs](#iproductrepositorycs)
 
