@@ -11,7 +11,7 @@ Implementations of repositories are in an infrastructure layer.
     * Entities\
       * [Product.cs](#productcs)
     * Events\
-      * ProductCreatedDomainEvent.cs
+      * [ProductCreatedDomainEvent.cs](#productcreateddomaineventcs)
     * Repositories\
       * [IProductRepository.cs](#iproductrepositorycs)
   * Feature2
