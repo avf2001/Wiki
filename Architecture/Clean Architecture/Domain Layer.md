@@ -8,12 +8,16 @@ Implementations of repositories are in an infrastructure layer.
     * [IUnitOfWork.cs](#iunitofworkcs)
     * [ValueObjectBase.cs](#valueobjectBasecs)
   * Products\
-    * Entiies\
+    * Entities\
       * [Product.cs](#productcs)
     * Events\
       * ProductCreatedDomainEvent.cs
     * Repositories\
-      * [IProductRepository.cs](#iproductrepositorycs)    
+      * [IProductRepository.cs](#iproductrepositorycs)
+  * Feature2
+    * Entities\
+    * Events\
+    * Repositories\
 
 ### EntityBase.cs
 ```csharp
