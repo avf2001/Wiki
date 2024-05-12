@@ -27,6 +27,10 @@ public abstract class EntityBase
 ```csharp
 public class Product : EntityBase
 {
+    public Product(int id) : base(id)
+    {
+    }
+
     public void Delete()
     {
         ...
