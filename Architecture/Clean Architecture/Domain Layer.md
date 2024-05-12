@@ -27,7 +27,7 @@ public abstract class EntityBase
 }
 ```
 
-### IDomainEvent
+### IDomainEvent.cs
 ```csharp
 public interface IDomainEvent
 {
