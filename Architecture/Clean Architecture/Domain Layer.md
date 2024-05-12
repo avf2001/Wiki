@@ -4,6 +4,7 @@ Implementations of repositories are in an infrastructure layer.
 * Domain\
   * Abstractions\
     * [EntityBase.cs](#entitybasecs)
+    * [ValueObjectBase.cs](#valueobjectBasecs)
   * Products\
     * [Product.cs](#productcs)
     * [IProductRepository.cs](#iproductrepositorycs)
@@ -20,6 +21,13 @@ public abstract class EntityBase
 
     // For EntityFramework
     protected EntityBase() {}
+}
+```
+
+### ValueObject.cs
+```csharp
+public abstract ValueObjectBase
+{
 }
 ```
 
