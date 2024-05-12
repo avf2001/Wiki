@@ -14,6 +14,8 @@ Implementations of repositories are in an infrastructure layer.
 ```csharp
 public abstract class EntityBase
 {
+    privae readonly List<IDomainEvent> _domainEvents = new();
+
     public int Id { get; init; }
 
     protected readonly List<IDomainEvent> _domainEvents = [];
