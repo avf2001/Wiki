@@ -5,6 +5,7 @@ Implementations of repositories are in an infrastructure layer.
   * Abstractions\
     * [EntityBase.cs](#entitybasecs)
     * [IDomainEvent.cs](#idomaineventcs)
+    * IUnitOfWork.cs
     * [ValueObjectBase.cs](#valueobjectBasecs)
   * Products\
     * Events\
