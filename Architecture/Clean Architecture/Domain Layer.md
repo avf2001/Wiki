@@ -8,12 +8,12 @@ Implementations of repositories are in an infrastructure layer.
     * IUnitOfWork.cs
     * [ValueObjectBase.cs](#valueobjectBasecs)
   * Products\
+    * Entiies\
+      * [Product.cs](#productcs)
     * Events\
       * ProductCreatedDomainEvent.cs
     * Repositories\
-      * [IProductRepository.cs](#iproductrepositorycs)
-    * [Product.cs](#productcs)
-    
+      * [IProductRepository.cs](#iproductrepositorycs)    
 
 ### EntityBase.cs
 ```csharp
@@ -58,6 +58,10 @@ using Mediatr;
 public interface IDomainEvent : INotification
 {
 }
+```
+
+### IUnitOfWork.cs
+```csharp
 ```
 
 ### ValueObjectBase.cs
