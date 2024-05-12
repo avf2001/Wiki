@@ -62,6 +62,11 @@ public abstract ValueObjectBase
 }
 ```
 
+### ProductCreatedDomainEvent.cs
+```csharp
+public sealed record ProductCreatedDomainEvent(int id) : IDomainEvent;
+```
+
 ### Product.cs
 ```csharp
 public class Product : EntityBase
