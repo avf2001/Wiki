@@ -24,7 +24,7 @@ public abstract class EntityBase
 }
 ```
 
-### ValueObject.cs
+### ValueObjectBase.cs
 ```csharp
 public abstract ValueObjectBase
 {
