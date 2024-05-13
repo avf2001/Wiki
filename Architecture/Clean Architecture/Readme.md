@@ -23,6 +23,11 @@
   * Application Services
   * CQRS (with Mediatr for example)
 * Authorization
+* Cross-Cutting Concern
+  * Logging
+  * Validation
+* Exceptions
+* DI Configuration
 
 [More detail](Application%20Layer.md)
 
