@@ -11,7 +11,7 @@
   * [Program.cs](#programcs)
 
 ## Controllers
-### Feaure1ApiController.cs
+### Feature1ApiController.cs
 ```csharp
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
