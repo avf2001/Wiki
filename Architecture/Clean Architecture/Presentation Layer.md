@@ -1,13 +1,26 @@
 # Presentation Layer
 ## Folders Structure
 * Web.Api\
-  * Endpoints\ (or Controllers)
+  * Controllers\
     * Feature1\
+      * [Feature1ApiController.cs](#feature1apicontrollercs)
   * Extensions\
   * Infrastructure\
     * GlobalExceptionHandler.cs
   * Middleware\
   * [Program.cs](#programcs)
+
+## Controllers
+### Feaure1ApiController.cs
+```csharp
+using Microsoft.AspNetCore.Mvc;
+
+[ApiController]
+[Route("api/[controller]")
+public class Feaure1ApiController
+{
+}
+```
 
 ### Program.cs
 ```csharp
