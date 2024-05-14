@@ -16,9 +16,13 @@
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
-[Route("api/[controller]")
+[Route("api/feature1")
 public class Feaure1ApiController : ControllerBase
 {
+    [HttpGet]
+    public async Task<IActionResult> Search()
+    {
+    }
 }
 ```
 
