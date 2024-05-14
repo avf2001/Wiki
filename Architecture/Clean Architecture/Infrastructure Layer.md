@@ -68,6 +68,16 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
 ```csharp
 public class ApplicationDbContext : DbContext
 {
+    #region DbSets
+    #endregion
+
+    #region Constructor
+
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+    {
+    }
+
+    #endregion
 }
 ```
 
