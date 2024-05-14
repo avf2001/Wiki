@@ -22,6 +22,11 @@ public class Feaure1ApiController : ControllerBase
 {
     private readonly ISender _sender;
 
+    public Feaure1ApiController(ISender sender)
+    {
+        _sender = sender;
+    }
+
     [HttpGet]
     public async Task<IActionResult> Search()
     {
