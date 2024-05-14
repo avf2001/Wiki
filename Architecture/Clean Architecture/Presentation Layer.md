@@ -1,7 +1,7 @@
 # Presentation Layer
 ## Folders Structure
 * Web.Api\
-  * Endpoints\ (or controllers)
+  * Endpoints\ (or Controllers)
     * Feature1\
   * Extensions\
   * Infrastructure\
