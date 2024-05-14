@@ -3,11 +3,12 @@
 
 * Infrastructure\
   * Authentication\
-  * Repositories\
-    * [ProductRepository.cs](#productrepositorycs)
   * CqrsHandlers\
     * [CreateProductCommandHandler.cs](#createproductcommandhandlercs)
-  * ApplicationDbContext.cs
+  * [DbContexts](#dbcontexts)\
+    * ApplicationDbContext.cs
+  * Repositories\
+    * [ProductRepository.cs](#productrepositorycs)  
   * DependencyInjection.cs
 
 ### ProductRepository.cs
@@ -62,6 +63,14 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
   }
 }
 ```
+## DbContexts
+### ApplicationDbContext.cs
+```csharp
+public class ApplicationDbContext : DbContext
+{
+}
+```
+
 ## Resources
 * [YouTube - Clean Architecture: How to Build The Infrastructure Layer (Milan Jovanović)](https://www.youtube.com/watch?v=RsOq-Pkwy1U)
 * [YouTube - Don't Break the Clean Architecture Rules with EF Core (Milan Jovanović)](https://www.youtube.com/watch?v=Bi8oRSu-QgU)
