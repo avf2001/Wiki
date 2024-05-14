@@ -2,6 +2,7 @@
 ## Folders Structure
 * Web.Api\
   * Endpoints\
+    * Feature1\
   * Extensions\
   * Infrastructure\
     * GlobalExceptionHandler.cs
