@@ -30,6 +30,11 @@ public class Feaure1ApiController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> Search()
     {
+        var query = new SearchQuery();
+
+        var queryResult = await _sender.Send(query);
+
+        return Ok(result.Value);
     }
 }
 ```
