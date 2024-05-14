@@ -13,12 +13,15 @@
 ## Controllers
 ### Feaure1ApiController.cs
 ```csharp
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
 [Route("api/feature1")
 public class Feaure1ApiController : ControllerBase
 {
+    private readonly ISender _sender;
+
     [HttpGet]
     public async Task<IActionResult> Search()
     {
