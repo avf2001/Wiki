@@ -28,7 +28,7 @@ public class Feaure1ApiController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> Search(CancellationToken cancellationToken)
+    public async Task<IActionResult> Search(SearchRequest request, CancellationToken cancellationToken)
     {
         var query = new SearchQuery();
 
@@ -37,6 +37,11 @@ public class Feaure1ApiController : ControllerBase
         return Ok(result.Value);
     }
 }
+
+public record SearchRequest(
+    DateOnly beginDate
+)
+{ }
 ```
 
 ### Program.cs
