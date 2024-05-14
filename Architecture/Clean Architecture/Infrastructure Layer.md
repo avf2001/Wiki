@@ -78,6 +78,12 @@ public class ApplicationDbContext : DbContext
     }
 
     #endregion
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+        ...
+    }
 }
 ```
 
