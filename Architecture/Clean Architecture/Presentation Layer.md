@@ -28,11 +28,11 @@ public class Feaure1ApiController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> Search()
+    public async Task<IActionResult> Search(CancellationToken cancellationToken)
     {
         var query = new SearchQuery();
 
-        var queryResult = await _sender.Send(query);
+        var queryResult = await _sender.Send(query, cancellationToken);
 
         return Ok(result.Value);
     }
