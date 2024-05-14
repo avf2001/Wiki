@@ -17,7 +17,7 @@ using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
 [Route("api/[controller]")
-public class Feaure1ApiController
+public class Feaure1ApiController : ControllerBase
 {
 }
 ```
