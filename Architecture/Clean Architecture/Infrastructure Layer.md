@@ -89,6 +89,17 @@ public class ApplicationDbContext : DbContext
 }
 ```
 
+## DbContextsConfigurations
+### ProductConfiguration.cs
+```csharp
+internal sealed class ProductConfiguration : IEntityTypeConfiguration<Product>
+{
+    public void Configure(IEntityTypeBuilder<Product> builder)
+    {
+    }
+}
+```
+
 ## Resources
 * [YouTube - Clean Architecture: How to Build The Infrastructure Layer (Milan Jovanović)](https://www.youtube.com/watch?v=RsOq-Pkwy1U)
 * [YouTube - Don't Break the Clean Architecture Rules with EF Core (Milan Jovanović)](https://www.youtube.com/watch?v=Bi8oRSu-QgU)
