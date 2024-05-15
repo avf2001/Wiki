@@ -8,6 +8,7 @@
   * [DbContexts](#dbcontexts)\
     * [ApplicationDbContext.cs](#applicationdbcontextcs)
   * [DbContextsConfigurations]()\
+    * [ProductConfiguration.cs](#productconfigurationcs)
   * Repositories\
     * [ProductRepository.cs](#productrepositorycs)  
   * DependencyInjection.cs
