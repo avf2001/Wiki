@@ -5,6 +5,7 @@
 * [Avoid defining Foreign Keys on Model classes]()
 * [Use AsNoTracking for Read Only Queries]()
 * [AsSplitQuery](#assplitquery)
+* [Useful Links](#useful-links)
 # Don’t use RemoveRange, ever
 Don't
 ```csharp
@@ -38,3 +39,7 @@ foreach(var x in items)
 # Avoid defining Foreign Keys on Model classes
 # Use AsNoTracking for Read Only Queries
 # AsSplitQuery
+
+# Useful Links
+* [Efficient Querying](https://learn.microsoft.com/en-us/ef/core/performance/efficient-querying)
+* [Efficient Updating](https://learn.microsoft.com/en-us/ef/core/performance/efficient-updating)
