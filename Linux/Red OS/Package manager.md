@@ -5,6 +5,9 @@ Source: https://code.visualstudio.com/docs/setup/linux?msclkid=142188ccd05811eca
 ```bash
 $ dnf check-update
 $ sudo dnf install code
+
+# Локальная установка
+$ sudo dnf localinstall code-1.89.1-1715060595.el8.x86_64.rpm
 ```
 # Search a package
 ```bash
