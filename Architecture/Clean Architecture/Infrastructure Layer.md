@@ -92,6 +92,8 @@ public class ApplicationDbContext : DbContext, IUnitOfWork
 ## DbContextsConfigurations
 ### ProductConfiguration.cs
 ```csharp
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 internal sealed class ProductConfiguration : EntityTypeBuilder<Product>
 {
     public void Configure(EntityTypeBuilder<Product> builder)
