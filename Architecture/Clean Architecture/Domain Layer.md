@@ -7,6 +7,8 @@ Implementations of repositories are in an infrastructure layer.
     * [IDomainEvent.cs](#idomaineventcs)
     * [IUnitOfWork.cs](#iunitofworkcs)
     * [ValueObjectBase.cs](#valueobjectBasecs)
+  * Common\
+    * PagedList.cs
   * Products\
     * Entities\
       * [Product.cs](#productcs)
