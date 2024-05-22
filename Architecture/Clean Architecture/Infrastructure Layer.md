@@ -68,7 +68,7 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
 ## DbContexts
 ### ApplicationDbContext.cs
 ```csharp
-public class ApplicationDbContext : DbContext
+public class ApplicationDbContext : DbContext, IUnitOfWork
 {
     #region DbSets
     #endregion
