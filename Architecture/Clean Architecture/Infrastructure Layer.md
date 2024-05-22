@@ -92,9 +92,9 @@ public class ApplicationDbContext : DbContext, IUnitOfWork
 ## DbContextsConfigurations
 ### ProductConfiguration.cs
 ```csharp
-internal sealed class ProductConfiguration : IEntityTypeConfiguration<Product>
+internal sealed class ProductConfiguration : EntityTypeBuilder<Product>
 {
-    public void Configure(IEntityTypeBuilder<Product> builder)
+    public void Configure(EntityTypeBuilder<Product> builder)
     {
     }
 }
