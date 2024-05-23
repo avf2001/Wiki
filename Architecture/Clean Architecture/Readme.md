@@ -28,6 +28,7 @@
   * Validation
 * Exceptions
 * DI Configuration
+* DTO
 
 [More detail](Application%20Layer.md)
 
