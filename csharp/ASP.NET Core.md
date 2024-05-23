@@ -37,7 +37,9 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 ## Getting resources
-install-package AutoMapper.Extensions.Microsoft.DependencyInjection
+```cmd
+> dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
+```
 ```csharp
 public void ConfigureServices(IServiceCollection services)
 {
