@@ -5,6 +5,8 @@
 ## ASP.NET
 ### .NET 6
 ```csharp
+// GlobalExceptionHandlerMiddleware.cs file
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
