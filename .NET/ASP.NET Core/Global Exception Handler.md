@@ -75,6 +75,16 @@ namespace Skz.PersonInfo.WebApi.Shared.Middleware
     }
 }
 ```
+```csharp
+// Startup.cs file
+
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    ...
+    app.UseGlobalExceptionsHandler();
+    ...
+}
+```
 ### .NET 8
 [Source](https://www.milanjovanovic.tech/blog/global-error-handling-in-aspnetcore-8)
 ```csharp
