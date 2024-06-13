@@ -76,7 +76,7 @@ namespace Skz.PersonInfo.WebApi.Shared.Middleware
 }
 ```
 ```csharp
-// Prohram.cs file
+// Program.cs file
 ...
 app.UseGlobalExceptionsHandler();
 ...
