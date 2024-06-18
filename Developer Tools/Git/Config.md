@@ -11,4 +11,5 @@ $ git config --list --show-origin
 ```shell
 $ git config --global user.name "ваше имя или ник латиницей" 
 $ git config --global user.email "ваша электронная почта"
+$ git config --global core.editor "code --wait"
 ```
