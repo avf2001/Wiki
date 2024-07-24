@@ -2,6 +2,7 @@
 * [C#](#c)
 * [Database](#database)
   * SQLite
+  * Database Client
 * [Editor](#editor)
   * Auto Close Tag
   * Auto Rename Tag
@@ -33,6 +34,7 @@
 * [.NET Runtime Install Tool](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime)
 ## Database
 * [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
+* [Database Client](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-database-client2)
 ## Editor
 * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 * Auto Rename Tag
