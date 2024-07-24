@@ -46,6 +46,7 @@ docker container run --rm hello-world
 ## Запуск docker без sudo
 ```
 $ sudo usermod -aG docker <username>
+$ sudo usermod -aG docker $USER # текущий пользователь
 $ logout # необходимо выйти из системы
 ```
 ## Проверка работы службы
