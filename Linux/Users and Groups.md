@@ -21,7 +21,7 @@ $ sudo adduser <username>
 ```shell
 $ sudo passwd <username> <password>
 ```
-# Gropus
+# Groups
 ## List all groups
 ```shell
 $ less /etc/group
