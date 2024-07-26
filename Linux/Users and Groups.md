@@ -3,8 +3,8 @@
   * [List all users](#list-all-users)
   * [Create new user]()
   * [Change password for another user]()
-* Groups  
-  * [List all groups]()
+* [Groups](#groups)
+  * [List all groups](#list-all-groups)
   * [Create new group]()
 * Users and Gropus
   * [List groups of specific user]()
