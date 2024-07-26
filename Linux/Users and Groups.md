@@ -6,7 +6,7 @@
 * [Groups](#groups)
   * [List all groups](#list-all-groups)
   * [Create new group]()
-* Users and Gropus
+* [Users and Groups](#users-and-groups)
   * [List groups of specific user]()
 # Users
 ## List all users
