@@ -14,8 +14,9 @@
     * Script to Connect from Remote Client
 * Enable Basic Authentication
 * [Config Trusted Hosts](#config-trusted-hosts)
-* [3. Проверка подключения от Control Node](#3-проверка-подключения-от-control-node)
-* [4. Troubleshooting]()
+* [Проверка подключения от Control Node](#3-проверка-подключения-от-control-node)
+* [Troubleshooting](#troubleshooting)
+
 # Host Requirements
 ## Windows Version
 ``` cmd
@@ -127,7 +128,7 @@ PS > Get-Item WSMan:\localhost\Client\TrustedHosts                              
 PS > Set-Item WSMan:\localhost\Client\TrustedHosts -Value 'machineC'                   # Set Trusted Hosts
 PS > Set-Item WSMan:\localhost\Client\TrustedHosts -Value 'machineC' -Concatenate      # Add Trusted Host To List
 ```
-# 3. Проверка подключения от Control Node
+# Проверка подключения от Control Node
 ## 3.1 Проверка открытия порта
 ```shell
 $ telnet somehost.somedomain.com 5985
@@ -137,7 +138,7 @@ $ telnet somehost.somedomain.com 5985
 $ ansible all -m ping # проверка всех нод
 $ ansible all -m win_ping # проверка нод с OS Windows
 ```
-# 4. Troubleshooting
+# Troubleshooting
 ## Winrs error:Access is denied
 ```
 This error happens even if the account is a Local Administrator and the command line is run with administrator privileges.
@@ -174,4 +175,47 @@ $ sudo pip install --upgrade requests-kerberos
 On Windows host side
 ```powershell
 PS > Set-Item -Path WSMan:\localhost\Service\AllowUnencrypted -Value true
+```
+
+Логи на удаленном сервере:
+```
+Event Viewer \ Applications and Services Logs \ Microsoft \ Windows \ Windows Remote Management
+```
+
+1. На удаленном сервере запустить PowerShell в режиме администратора и выполнить команду:
+```PowerShell
+> Enable-PSRemoting -Force
+```
+
+2. Проверить работу службы WinRM на удаленном сервере:
+```powershell
+> Get-Service -Name WinRM
+```
+Должен отобразиться результат:
+```
+Status   Name               DisplayName
+------   ----               -----------
+Running  WinRM              Windows Remote Management (WS-Manag...
+```
+
+3. На клиенте проверить открытие порта на удаленном сервере:
+```powershell
+> Test-NetConnection -ComputerName "RemoteServer" -Port 5985 # HTTP Port
+> Test-NetConnection -ComputerName "RemoteServer" -Port 5986 # HTTPS Port
+```
+Полученный результат:
+```
+ComputerName           : SVCWEB1
+RemoteAddress          : 10.7.35.93
+RemotePort             : 5985
+InterfaceAlias         : Ethernet
+SourceAddress          : 10.7.50.16
+PingSucceeded          : False
+PingReplyDetails (RTT) : 0 ms
+TcpTestSucceeded       : True       # Подключение прошло успешно
+```
+
+4. На клиенте
+```powershell
+> Test-WSMan -ComputerName "RemoteServer" -Verbose
 ```
