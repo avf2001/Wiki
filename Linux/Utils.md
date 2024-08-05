@@ -22,3 +22,5 @@ $ sudo snap connect bpytop:physical-memory-observe
 ```shell
 $ bpytop
 ```
+# Traminals
+* [Warp](https://www.warp.dev/)
