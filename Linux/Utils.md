@@ -1,3 +1,5 @@
+* [bpytop](#bpytop)
+* [Terminals](#terminals)
 # bpytop
 ## Описание
 Bpytop is an advanced, terminal-based control center for Linux. With it, users can view and manage their CPU usage, RAM/SWAP usage, network download/upload, and even terminate running programs! https://www.addictivetips.com/ubuntu-linux-tips/manage-linux-system-resources
@@ -22,5 +24,5 @@ $ sudo snap connect bpytop:physical-memory-observe
 ```shell
 $ bpytop
 ```
-# Traminals
+# Terminals
 * [Warp](https://www.warp.dev/)
