@@ -1,6 +1,9 @@
-https://geekflare.com/dnf-intro/
+* [Dnf](#dnf)
+* [Yum](#yum)
 
 # Dnf
+## Resources
+https://geekflare.com/dnf-intro/
 ## Install VS Code
 Source: https://code.visualstudio.com/docs/setup/linux?msclkid=142188ccd05811ecac686bf70f48803d
 ```bash
