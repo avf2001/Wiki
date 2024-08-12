@@ -85,7 +85,8 @@ $ docker restart <CONTAINER_ID | CONTAINER_NAME>
 ```
 ## Подключение к командной строке запущенного контейнера
 ```shell
-$ sudo docker exec -it <CONTAINER_ID | CONTAINER_NAME> sh
+$ sudo docker exec -it <CONTAINER_ID | CONTAINER_NAME> sh     # вариант 1
+$ sudo docker exec -it <CONTAINER_ID | CONTAINER_NAME> bash   # вариант 2
 ```
 # Образы
 ## Получение списка образов
