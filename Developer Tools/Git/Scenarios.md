@@ -8,6 +8,7 @@
 * [Отмена локальных изменений](#отмена-локальных-изменений)
 * [Слияние бранча]()
 * [Объединение нескольких последовательных коммитов в один]()
+* [Отмена коммита в бранче и перенос изменений в другой бранч]()
 ## Добавление измененных файлов в завершенный коммит
 ```cmd
 > git commit --amend --no-edit
@@ -80,4 +81,13 @@ If you want to remove untracked files or directories or use:
 pick f392171 Added new feature X
 squash ba9dd9a Added new elements to page design
 squash df71a27 Updated CSS for new elements
+```
+
+## Отмена коммита в бранче и перенос изменений в другой бранч
+```
+# current branch main
+> git reset HEAD~1 # reset commit
+> git checkout -b required-branch # create and checkout new branch
+> git add -A
+> git commit -m "Commit message"
 ```
