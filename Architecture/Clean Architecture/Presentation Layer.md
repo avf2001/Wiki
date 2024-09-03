@@ -35,6 +35,8 @@ public class Feature1ApiController : ControllerBase
 
     #endregion
 
+    #region Методы
+
     [HttpGet("search")]
     public async Task<IActionResult> Search(SearchRequest request, CancellationToken cancellationToken)
     {
@@ -52,6 +54,15 @@ public class Feature1ApiController : ControllerBase
     {
         ...
     }
+
+    [HttpPost]
+    [ProducesResponseType(StatusCodes.Status201Created)]
+    public async Task<IActionResult> Create([FromBody] CreateDto dto)
+    {
+        ...
+    }
+
+    #endregion
 }
 
 public record SearchRequest(
