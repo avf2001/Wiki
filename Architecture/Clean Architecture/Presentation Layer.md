@@ -60,6 +60,7 @@ public class Feature1ApiController : ControllerBase
     public async Task<IActionResult> Create([FromBody] CreateDto dto)
     {
         ...
+        return CreatedAtAction(nameof(Get), new { id = ... }, ...); // требует уточнения
     }
 
     [HttpPut("{id:int}")]
