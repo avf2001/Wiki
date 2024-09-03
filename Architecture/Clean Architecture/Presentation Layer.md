@@ -62,6 +62,14 @@ public class Feature1ApiController : ControllerBase
         ...
     }
 
+    [HttpPut("{id:int}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> Update([FromRoute] int id, [FromBody] UpdateDto dto)
+    {
+        ...
+    }
+
     #endregion
 }
 
