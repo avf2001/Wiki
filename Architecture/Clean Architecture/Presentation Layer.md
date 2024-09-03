@@ -46,7 +46,8 @@ public class Feature1ApiController : ControllerBase
     }
 
     [HttpGet("{id:int}"]
-    [ProducesResponseType(typeof(GetDto), StatusCode.Status200OK)]
+    [ProducesResponseType(typeof(GetDto), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> Get(int id)
     {
         ...
