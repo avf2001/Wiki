@@ -20,12 +20,20 @@ using Microsoft.AspNetCore.Mvc;
 [Route("api/feature1")
 public class Feature1ApiController : ControllerBase
 {
+    #region Поля
+
     private readonly ISender _sender;
+
+    #endregion
+
+    #region Конструктор
 
     public Feaure1ApiController(ISender sender)
     {
         _sender = sender;
     }
+
+    #endregion
 
     [HttpGet]
     public async Task<IActionResult> Search(SearchRequest request, CancellationToken cancellationToken)
