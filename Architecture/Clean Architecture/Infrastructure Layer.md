@@ -9,10 +9,11 @@
     * [ApplicationDbContext.cs](#applicationdbcontextcs)
   * [DbContextsConfigurations]()\
     * [ProductConfiguration.cs](#productconfigurationcs)
-  * Repositories\
+  * [Repositories](#repositories)\
     * [ProductRepository.cs](#productrepositorycs)  
   * DependencyInjection.cs
 
+## Repositories
 ### ProductRepository.cs
 ```csharp
 public sealed class ProductRepository : IProductRepository
