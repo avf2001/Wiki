@@ -70,6 +70,12 @@ public class Feature1ApiController : ControllerBase
         ...
     }
 
+    [HttpDelete("{id:int}")]
+    public async Task<IActionResult> Delete([FromRoute] int id)
+    {
+        ...
+    }
+
     #endregion
 }
 
