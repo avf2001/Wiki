@@ -18,7 +18,7 @@ using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
 [Route("api/feature1")
-public class Feaure1ApiController : ControllerBase
+public class Feature1ApiController : ControllerBase
 {
     private readonly ISender _sender;
 
