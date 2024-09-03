@@ -44,6 +44,13 @@ public class Feature1ApiController : ControllerBase
 
         return Ok(result.Value);
     }
+
+    [HttpGet("{id:int}"]
+    [ProducesResponseType(typeof(GetDto), StatusCode.Status200OK)]
+    public async Task<IActionResult> Get(int id)
+    {
+        ...
+    }
 }
 
 public record SearchRequest(
