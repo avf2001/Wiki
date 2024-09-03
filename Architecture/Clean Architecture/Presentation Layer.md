@@ -35,7 +35,7 @@ public class Feature1ApiController : ControllerBase
 
     #endregion
 
-    [HttpGet]
+    [HttpGet("search")]
     public async Task<IActionResult> Search(SearchRequest request, CancellationToken cancellationToken)
     {
         var query = new SearchQuery();
