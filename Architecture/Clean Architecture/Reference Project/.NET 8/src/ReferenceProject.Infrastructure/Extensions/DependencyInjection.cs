@@ -6,11 +6,11 @@ namespace ReferenceProject.Infrastructure.Extensions
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddInfrastructure(this IServiceCollection services)
+        public static IServiceCollection AddInfrastructure(this IServiceCollection services, Action<DbContextOptionsBuilder>? optionsAction)
         {
             var assembly = typeof(DependencyInjection).Assembly;
 
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite("Data Source=MyDatabase.db"));
+            services.AddDbContext<ApplicationDbContext>(optionsAction);
 
             return services;
         }

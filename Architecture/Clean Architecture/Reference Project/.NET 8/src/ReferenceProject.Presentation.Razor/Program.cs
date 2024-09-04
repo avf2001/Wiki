@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using ReferenceProject.Infrastructure.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,7 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-builder.Services.AddInfrastructure();
+builder.Services.AddInfrastructure(options => options.UseSqlite("Data Source=MyDatabase.db"));
+builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromAssembly(System.Reflection.Assembly.GetExecutingAssembly()));
 
 var app = builder.Build();
 
