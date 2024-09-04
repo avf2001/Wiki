@@ -1,10 +1,25 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ReferenceProject.Domain.Entities;
 using ReferenceProject.Infrastructure.DbContexts.EntityMappingConfigurations;
 
 namespace ReferenceProject.Infrastructure.DbContexts
 {
     internal class ApplicationDbContext : DbContext
     {
+        #region Конструктор
+
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {
+        }
+
+        #endregion
+
+        #region DbSets
+
+        public DbSet<Book> Books { get; set; }
+
+        #endregion
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -15,7 +30,7 @@ namespace ReferenceProject.Infrastructure.DbContexts
 
             // Option 2: load mapping configuration from assembly
 
-            //modelBuilder.ApplyConfigurationsFromAssembly(...)
+            //modelBuilder.ApplyConfigurationsFromAssembly(System.Reflection.Assembly.GetExecutingAssembly());
         }
     }
 }
