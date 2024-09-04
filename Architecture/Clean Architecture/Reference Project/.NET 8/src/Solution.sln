@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceProject.Presentation.WebApi", "ReferenceProject.Presentation.WebApi\ReferenceProject.Presentation.WebApi.csproj", "{0421C1A7-5FB0-4527-BD7D-C04249211299}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceProject.Presentation.WebApi", "ReferenceProject.Presentation.WebApi\ReferenceProject.Presentation.WebApi.csproj", "{0421C1A7-5FB0-4527-BD7D-C04249211299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceProject.Domain", "ReferenceProject.Domain\ReferenceProject.Domain.csproj", "{6AB8117A-AEBC-4150-88C4-4A98B94A7B48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceProject.Domain", "ReferenceProject.Domain\ReferenceProject.Domain.csproj", "{6AB8117A-AEBC-4150-88C4-4A98B94A7B48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceProject.Application", "ReferenceProject.Application\ReferenceProject.Application.csproj", "{1FB49910-8DCA-4292-977B-9AC5BD712438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceProject.Application", "ReferenceProject.Application\ReferenceProject.Application.csproj", "{1FB49910-8DCA-4292-977B-9AC5BD712438}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4D78854-E7B5-428A-8443-205B1E872976}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceProject.Presentation.Razor", "ReferenceProject.Presentation.Razor\ReferenceProject.Presentation.Razor.csproj", "{A85C677A-AD1E-41CB-B51D-6E8EA96064C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceProject.Presentation.Razor", "ReferenceProject.Presentation.Razor\ReferenceProject.Presentation.Razor.csproj", "{A85C677A-AD1E-41CB-B51D-6E8EA96064C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceProject.Infrastructure.Database", "ReferenceProject.Infrastructure.Database\ReferenceProject.Infrastructure.Database.csproj", "{287CBF0B-2EAE-4E58-9517-0EE6CCC5030A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceProject.Infrastructure", "ReferenceProject.Infrastructure\ReferenceProject.Infrastructure.csproj", "{FADE0A35-65AE-41DF-9C47-9EFCB75196CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +37,10 @@ Global
 		{A85C677A-AD1E-41CB-B51D-6E8EA96064C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A85C677A-AD1E-41CB-B51D-6E8EA96064C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A85C677A-AD1E-41CB-B51D-6E8EA96064C7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{287CBF0B-2EAE-4E58-9517-0EE6CCC5030A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{287CBF0B-2EAE-4E58-9517-0EE6CCC5030A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{287CBF0B-2EAE-4E58-9517-0EE6CCC5030A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{287CBF0B-2EAE-4E58-9517-0EE6CCC5030A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADE0A35-65AE-41DF-9C47-9EFCB75196CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADE0A35-65AE-41DF-9C47-9EFCB75196CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADE0A35-65AE-41DF-9C47-9EFCB75196CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADE0A35-65AE-41DF-9C47-9EFCB75196CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,7 +50,7 @@ Global
 		{6AB8117A-AEBC-4150-88C4-4A98B94A7B48} = {A4D78854-E7B5-428A-8443-205B1E872976}
 		{1FB49910-8DCA-4292-977B-9AC5BD712438} = {A4D78854-E7B5-428A-8443-205B1E872976}
 		{A85C677A-AD1E-41CB-B51D-6E8EA96064C7} = {A4D78854-E7B5-428A-8443-205B1E872976}
-		{287CBF0B-2EAE-4E58-9517-0EE6CCC5030A} = {A4D78854-E7B5-428A-8443-205B1E872976}
+		{FADE0A35-65AE-41DF-9C47-9EFCB75196CB} = {A4D78854-E7B5-428A-8443-205B1E872976}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B19F5966-9C5B-4877-8529-1EA77238DF3C}
