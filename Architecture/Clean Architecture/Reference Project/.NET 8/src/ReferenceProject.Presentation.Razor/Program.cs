@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ReferenceProject.Infrastructure.Extensions;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,14 +14,12 @@ builder.Services.AddInfrastructure(options =>
     {
         var connectionString = builder.Configuration.GetConnectionString("ConnectionString");
         options.UseSqlite(connectionString); 
-    },
-    ServiceLifetime.Scoped,
-    ServiceLifetime.Singleton
+    }
 );
 builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromAssembly(System.Reflection.Assembly.GetExecutingAssembly()));
 
-var serilog = new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).CreateLogger();
-builder.Services.AddSerilog
+new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).CreateLogger();
+builder.Services.AddLogging(builder => builder.AddSerilog());
 
 #endregion
 

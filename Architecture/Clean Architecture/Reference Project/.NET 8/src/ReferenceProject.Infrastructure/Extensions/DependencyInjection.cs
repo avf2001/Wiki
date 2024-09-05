@@ -10,7 +10,7 @@ namespace ReferenceProject.Infrastructure.Extensions
         {
             var assembly = typeof(DependencyInjection).Assembly;
 
-            services.AddDbContext<ApplicationDbContext>(optionsAction);
+            services.AddDbContext<ApplicationDbContext>(optionsAction, ServiceLifetime.Scoped, ServiceLifetime.Singleton);
 
             return services;
         }
