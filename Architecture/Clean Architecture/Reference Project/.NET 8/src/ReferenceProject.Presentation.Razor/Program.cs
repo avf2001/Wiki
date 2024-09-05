@@ -1,27 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using ReferenceProject.Infrastructure.Extensions;
-using Serilog;
+using ReferenceProject.Presentation.Razor.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// TODO: Move services registration to separate extension method
-#region Begin
+builder.Services.AddInfrastructure(options =>
+{
+    var connectionString = builder.Configuration.GetConnectionString("ConnectionString");
+    options.UseSqlite(connectionString);
+});
 
-builder.Services.AddRazorPages();
-
-builder.Services.AddInfrastructure(options => 
-    {
-        var connectionString = builder.Configuration.GetConnectionString("ConnectionString");
-        options.UseSqlite(connectionString); 
-    }
-);
-builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromAssembly(System.Reflection.Assembly.GetExecutingAssembly()));
-
-new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).CreateLogger();
-builder.Services.AddLogging(builder => builder.AddSerilog());
-
-#endregion
+builder.Services.AddPresentationServices(builder.Configuration);
 
 var app = builder.Build();
 
