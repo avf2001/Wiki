@@ -6,7 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-builder.Services.AddInfrastructure(options => options.UseSqlite("Data Source=MyDatabase.db"));
+var connectionString = builder.Configuration.GetConnectionString("ConnectionString");
+builder.Services.AddInfrastructure(options => options.UseSqlite(connectionString));
 builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromAssembly(System.Reflection.Assembly.GetExecutingAssembly()));
 
 var app = builder.Build();
