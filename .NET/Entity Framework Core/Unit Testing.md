@@ -25,7 +25,7 @@ public class SelectTests
     }
 }
 ```
-
+```csharp
 private readonly SqliteConnection _connection;
 
 
@@ -48,7 +48,6 @@ dbContext.SaveChanges();
 
 ...
 
-```csharp
 // Teardown
 _connection.Dispose();
 ```
