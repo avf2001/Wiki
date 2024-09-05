@@ -4,6 +4,9 @@ using ReferenceProject.Infrastructure.Extensions;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+// TODO: Move services registration to separate extension method
+#region Begin
+
 builder.Services.AddRazorPages();
 
 builder.Services.AddInfrastructure(options => 
@@ -15,6 +18,11 @@ builder.Services.AddInfrastructure(options =>
     ServiceLifetime.Singleton
 );
 builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromAssembly(System.Reflection.Assembly.GetExecutingAssembly()));
+
+var serilog = new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).CreateLogger();
+builder.Services.AddSerilog
+
+#endregion
 
 var app = builder.Build();
 
