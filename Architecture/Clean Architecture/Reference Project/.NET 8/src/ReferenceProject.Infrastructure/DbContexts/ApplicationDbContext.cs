@@ -16,7 +16,7 @@ namespace ReferenceProject.Infrastructure.DbContexts
 
         #region DbSets
 
-        public DbSet<Book> Books { get; set; }
+        public DbSet<Book> Books { get; } = new Set<Book>();
 
         #endregion
 
