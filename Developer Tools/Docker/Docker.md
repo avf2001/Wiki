@@ -45,9 +45,13 @@ docker container run --rm hello-world
 > sudo sh -c "truncate -s 0 /var/lib/docker/containers/*/*-json.log"
 ```
 ## Запуск docker без sudo
+Для выполнения команды `docker` без указания `sudo` необходимо добавить пользователя в группу `docker`:
+```bash
+$ sudo usermod -aG docker <username> # пользователь <username>
+$ sudo usermod -aG docker $USER      # текущий пользователь
 ```
-$ sudo usermod -aG docker <username>
-$ sudo usermod -aG docker $USER # текущий пользователь
+После этого необходимо заново выйти и войти в систему:
+```bash
 $ logout # необходимо выйти из системы
 ```
 ## Проверка работы службы
