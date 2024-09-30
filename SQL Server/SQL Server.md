@@ -25,3 +25,39 @@ GO
 ```
 STRING_AGG
 ```
+# Как найти N-ю строку
+## Вариант 1
+С помощью ROW_NUMBER(), RANK(), или DENSE_RANK().
+```sql
+WITH RankedEmployees AS (
+    SELECT 
+        EmployeeID, 
+        FirstName, 
+        LastName, 
+        Salary,
+        ROW_NUMBER() OVER (ORDER BY Salary DESC) AS RowNum
+    FROM Employees
+)
+SELECT 
+    EmployeeID, 
+    FirstName, 
+    LastName, 
+    Salary
+FROM RankedEmployees
+WHERE RowNum = 3;
+```
+## Вариант 2
+С помощью OFFSET FETCH
+```sql
+SELECT 
+    EmployeeID, 
+    FirstName, 
+    LastName, 
+    Salary
+FROM Employees
+ORDER BY Salary DESC
+OFFSET 2 ROWS FETCH NEXT 1 ROW ONLY;
+```
+Заключение:
+
+Оба подхода позволяют найти N-ю строку в результирующем наборе. Использование ROW_NUMBER() более гибко и подходит для более сложных сценариев, в то время как OFFSET FETCH более простой и удобный для базовых задач. Выбор метода зависит от конкретных требований и версии SQL Server, которую вы используете.
