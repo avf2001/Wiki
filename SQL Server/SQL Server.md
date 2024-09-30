@@ -21,3 +21,7 @@ GROUP BY
 ORDER BY [RowCount] DESC
 GO
 ```
+# Как собрать несколько значений в одну строку
+```
+STRING_ADD
+```
