@@ -1,4 +1,4 @@
-* Set Default Schema
+* [Set Default Schema](#set-default-schema)
 * Primary Key
   * Composite Primary Key
 * [Default Value](#default-value)
