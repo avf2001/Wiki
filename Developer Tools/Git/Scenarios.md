@@ -86,8 +86,8 @@ squash df71a27 Updated CSS for new elements
 ## Отмена коммита в бранче и перенос изменений в другой бранч
 ```
 # current branch main
-> git reset HEAD~1 # reset commit
-> git checkout -b required-branch # create and checkout new branch
-> git add -A
-> git commit -m "Commit message"
+> git reset HEAD~1                 # reset commit
+> git checkout -b required-branch  # create and checkout new branch
+> git add -A                       # stage all changes
+> git commit -m "Commit message"   # commit all changes
 ```
