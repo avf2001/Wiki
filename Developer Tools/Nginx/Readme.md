@@ -6,6 +6,6 @@ $ sudo systemctl status nginx
 $ sudo systemctl start nginx
 ```
 ```
-$ sudo nginx -t
-$ sudo nginx -s reload
+$ sudo nginx -t         # проверить конфигурацию
+$ sudo nginx -s reload  # проверить конфигурацию и перезагрузить
 ```
