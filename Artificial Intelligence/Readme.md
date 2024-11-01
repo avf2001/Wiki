@@ -6,3 +6,6 @@
   * Показывает источники
 * [DeepSeek](https://chat.deepseek.com/)
 * [ChatLabs](https://labs.writingmate.ai)
+* [Andi](https://andisearch.com/)
+ * Поисковый AI движок
+ * Показывает источники
