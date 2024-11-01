@@ -3,4 +3,5 @@
 
 ## AI Search Engines for Developers
 * [Perplexity AI](https://www.perplexity.ai)
+  * Показывает источники
 * [DeepSeek](https://chat.deepseek.com/)
