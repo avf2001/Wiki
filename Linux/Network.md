@@ -1,6 +1,7 @@
 * [Settings](#settings)
 * [Check Remote Open Port](#check-remote-open-port)
 * [Show Open Ports](#show-open-ports)
+* [Show Port is Used](#show-port-is-used)
 # Settings
 ## Debian
 ```bash
@@ -45,4 +46,10 @@ $ sudo netstat -tulpn | grep LISTEN
 $ sudo ss -tulpn | grep LISTEN
 $ sudo lsof -i:22 ## see a specific port such as 22 ##
 $ sudo nmap -sTU -O IP-address-Here
+```
+
+# Show Port is Used
+```
+# Method 1
+$ sudo netstat -tuln | grep <PORT_NUMBER>
 ```
