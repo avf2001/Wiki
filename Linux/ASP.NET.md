@@ -1,7 +1,10 @@
+# Installing ASP.NET Application as Systemd Unit
+
 1. Create service file
-```
+```bash
 $ sudo nano /etc/systemd/system/yourapp.service
 ```
+
 2. `yourapp.service` file
 ```
 [Unit]
