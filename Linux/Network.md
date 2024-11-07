@@ -58,4 +58,7 @@ $ sudo ss -tuln | grep -w <PORT_NUMBER>
 
 # Method 3
 $ sudo lsof -i:<PORT_NUMBER>
+
+# Method 4
+$ sudo fuser <PORT_NUMBER>/tcp
 ```
