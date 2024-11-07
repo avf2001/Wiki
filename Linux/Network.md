@@ -55,4 +55,7 @@ $ sudo netstat -tuln | grep -w <PORT_NUMBER>
 
 # Method 2
 $ sudo ss -tuln | grep -w <PORT_NUMBER>
+
+# Method 3
+$ sudo lsof -i:<PORT_NUMBER>
 ```
