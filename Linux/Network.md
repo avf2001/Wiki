@@ -51,5 +51,8 @@ $ sudo nmap -sTU -O IP-address-Here
 # Show Port is Used
 ```
 # Method 1
-$ sudo netstat -tuln | grep <PORT_NUMBER>
+$ sudo netstat -tuln | grep -w <PORT_NUMBER>
+
+# Method 2
+$ sudo ss -tuln | grep -w <PORT_NUMBER>
 ```
