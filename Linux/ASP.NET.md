@@ -1,6 +1,6 @@
 1. Create service file
 ```
-sudo nano /etc/systemd/system/yourapp.service
+$ sudo nano /etc/systemd/system/yourapp.service
 ```
 2. `yourapp.service` file
 ```
@@ -18,4 +18,13 @@ Environment=ASPNETCORE_ENVIRONMENT=Production
 
 [Install]
 WantedBy=multi-user.target
+```
+3. Reload systemd
+```
+$ sudo systemctl daemon-reload
+```
+4. Enable the service to start on boot and start it immediately:
+```
+$ sudo systemctl enable yourapp.service
+$ sudo systemctl start yourapp.service
 ```
