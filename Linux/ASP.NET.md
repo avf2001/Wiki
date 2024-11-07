@@ -19,7 +19,7 @@ Environment=ASPNETCORE_ENVIRONMENT=Production
 [Install]
 WantedBy=multi-user.target
 ```
-3. Reload systemd
+3. Reload **`systemd`**
 ```
 $ sudo systemctl daemon-reload
 ```
