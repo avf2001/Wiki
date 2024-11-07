@@ -1,17 +1,14 @@
 * [Network Utils](#network-utils)
+  * [ifconfig](#ifconfig)
 * [Settings](#settings)
 * [Check Remote Open Port](#check-remote-open-port)
 * [Show Open Ports](#show-open-ports)
 * [Show Port is Used](#show-port-is-used)
 
 # Network Utils
-Linux provides a rich set of network utilities that allow you to manage, monitor, and troubleshoot network connections. Below is a list of some commonly used network utilities in Linux, along with examples of how to use them.
-
-### 1. `ifconfig`
+## `ifconfig`
 
 `ifconfig` is used to configure network interfaces.
-
-#### Example
 
 Display information about all network interfaces:
 
