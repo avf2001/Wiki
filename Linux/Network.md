@@ -1,6 +1,6 @@
-* Settings
+* [Settings](#settings)
 * [Check Remote Open Port](#check-remote-open-port)
-* Show Open Ports
+* [Show Open Ports](#show-open-ports)
 # Settings
 ## Debian
 ```bash
