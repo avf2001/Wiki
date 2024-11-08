@@ -1,3 +1,8 @@
+# Systemctl
+```
+# Получить список имен всех сервисов
+$ systemctl list-units --type=service --all --no-legend --no-pager | awk '{print $1}'
+```
 ```
 $ systemctl list-units --type=service --state=running
 ```
