@@ -1,3 +1,6 @@
+* [Systemctl](#systemctl)
+* [Journalctl](#journalctl)
+
 # Systemctl
 ```
 # Получить список имен всех сервисов
