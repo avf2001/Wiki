@@ -29,6 +29,11 @@ journalctl — это команда в Linux, используемая для �
 $ sudo systemctl restart systemd-journald
 ```
 
+Экспорт логов:
+```
+$ journalctl --output=export > /path/to/outputfile
+```
+
 ## Просмотр лога
 ```
 $ journalctl -u SERVICE_NAME                                                               # фильтр по имени сервиса
