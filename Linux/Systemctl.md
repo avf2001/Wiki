@@ -1,7 +1,7 @@
 * [Systemctl](#systemctl)
 * [Journalctl](#journalctl)
   * [Занимаемое дисковое пространство](#занимаемое-дисковое-пространство)
-  * [Сжатие до определенного объема](#сжатие-до-определенного-объема)
+  * [Очистка](#очистка)
   * [Просмотр лога](#просмотр-лога)
 
 # Systemctl
@@ -32,8 +32,8 @@ $ journalctl -u sshd.service --since "2023-10-01 00:00:00" --until "2023-10-02 0
 ## Занимаемое дисковое пространство
 sudo journalctl --disk-usage
 
-## Сжатие до определенного объема
-sudo journalctl --vacuum-size=2G
-
-##
-$ sudo journalctl --vacuum-time=1years
+## Очистка
+```
+$ sudo journalctl --vacuum-size=2G     # удалить логи более 2 Гб
+$ sudo journalctl --vacuum-time=1years # удалить логи старше одного года
+```
