@@ -34,6 +34,12 @@ $ sudo systemctl restart systemd-journald
 $ journalctl --output=export > /path/to/outputfile
 ```
 
+Сброс логов:
+```
+$ sudo journalctl --flush
+$ sudo journalctl --vacuum-time=1s
+```
+
 ## Просмотр лога
 ```
 $ journalctl -u SERVICE_NAME                                                               # фильтр по имени сервиса
