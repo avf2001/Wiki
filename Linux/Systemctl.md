@@ -30,7 +30,9 @@ $ journalctl -u sshd.service --since "2023-10-01 00:00:00" --until "2023-10-02 0
 ```
 
 ## Занимаемое дисковое пространство
-sudo journalctl --disk-usage
+```
+$ sudo journalctl --disk-usage
+```
 
 ## Очистка
 ```
