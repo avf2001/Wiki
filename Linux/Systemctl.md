@@ -1,5 +1,6 @@
 * [Systemctl](#systemctl)
 * [Journalctl](#journalctl)
+  * [Занимаемое дисковое пространство](#занимаемое-дисковое-пространство)
 
 # Systemctl
 ```
