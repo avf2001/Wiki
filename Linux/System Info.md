@@ -4,7 +4,8 @@ lsblk
 
 lscpu
 
-nvtop - interactive GPU process viewer
-```
+# nvtop (Neat Videocard TOP)
+Interactive GPU process viewer.
+```bash
 $ sudo dnf install nvtop
 ```
