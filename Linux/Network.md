@@ -1,6 +1,7 @@
 * [Network Utils](#network-utils)
   * [ifconfig](#ifconfig)
   * [ip](#ip)
+  * [tc](#tc)
 * [Settings](#settings)
 * [Check Remote Open Port](#check-remote-open-port)
 * [Show Open Ports](#show-open-ports)
@@ -28,6 +29,10 @@ Display information about all network interfaces:
 ```bash
 ip addr show
 ```
+
+## `tc`
+
+The `tc` command in Linux is used to configure Traffic Control (TC) settings, which allow you to manage and shape network traffic. Traffic Control enables you to prioritize, throttle, and schedule network packets, which is useful for optimizing network performance, simulating network conditions, and implementing Quality of Service (QoS) policies.
 
 ### 3. `ping`
 
