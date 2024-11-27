@@ -52,6 +52,17 @@
 ## iptables
 `iptables` is a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall. It is part of the `netfilter` project.
 
+А ещё интересная фишка, что по умолчанию можно снаружи отличить ситуацию, когда порт закрыт,но на нём кто-то слушает от ситуации, когда никто не слушает. Первые будут косплеить чёрную дыру (пакет пришёл и исчез), вторые будут вызывать ICMP-ответ о том, что никого нет дома. Чтоб было неотличимо, надо в конце цепочки INPUT сделать iptables -A INPUT -p tcp -j REJECT --reject-with tcp-reset.
+
+Хотелось бы больше подробностей про такую black magic в iptables как connection tracking, например:
+```
+-A TCP -p tcp -m tcp --dport 22 -m conntrack --ctstate NEW -m recent --set --name SSH --mask 255.255.255.255 --rsource
+-A TCP -p tcp -m tcp --dport 22 -m conntrack --ctstate NEW -m recent --update --seconds 60 --hitcount 5 --rttl --name SSH --mask 255.255.255.255 --rsource -j REJECT --reject-with tcp-reset
+-A TCP -p tcp -m tcp --dport 22 -j ACCEPT
+```
+
+Пользуюсь не первый год, китайских мамкиных хакеров блочит на отлично (отправляет в "бан по IP"), после чего зачастую скорее всего они отстают и вносят уже в свой "блеклист" - ну типа "с этим хостом лучше не связываться". Но все равно - для большинства - это реальный black magic (интересно, ufw/firewalld так могут?) Хотя оба - по сути обертки над iptables.
+
 ### Summary
 - **iptables**: Legacy, widely used.
 - **nftables**: Modern, recommended for new installations.
