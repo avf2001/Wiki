@@ -1,5 +1,5 @@
 # Firewall
-* iptables
+* [iptables (outdated)](#iptables-outdated)
 * nftables
 * ufw
 * firewalld
@@ -10,10 +10,8 @@
 * ferm
 * firehol
 
-### 1. **iptables**
-   - **Description**: `iptables` is a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall. It is part of the `netfilter` project.
-   - **Usage**: Widely used in older Linux distributions.
-   - **Command**: `iptables -L`
+## iptables (outdated)
+`iptables` is a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall. It is part of the `netfilter` project.
 
 ### 2. **nftables**
    - **Description**: `nftables` is the successor to `iptables` and provides a more modern and efficient way to manage firewall rules. It is designed to be more flexible and easier to use.
