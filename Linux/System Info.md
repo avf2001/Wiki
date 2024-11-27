@@ -9,3 +9,5 @@ Interactive GPU process viewer.
 ```bash
 $ sudo dnf install nvtop
 ```
+
+# htop
