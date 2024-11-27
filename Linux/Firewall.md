@@ -1,17 +1,15 @@
 # Firewall
-* [iptables (outdated)](#iptables-outdated)
 * [nftables](#nftables)
 * [ufw (Uncomplicated Firewall)](#ufw-uncomplicated-firewall)
 * [firewalld](#firewalld)
-* [IPChains](#ipchains-otdated)
 * [CSF (ConfigServer Security & Firewall)](#csf-configserver-security--firewall)
 * [APF (Advanced Policy Firewall)](#apf-advanced-policy-firewall)
 * [shorewall](#shorewall)
 * [ferm](#ferm)
 * [firehol](#firehol)
-
-## iptables (outdated)
-`iptables` is a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall. It is part of the `netfilter` project.
+* [Outdated](#outdated)
+  * [IPChains](#ipchains)
+  * [iptables](#iptables)  
 
 ## nftables
 `nftables` is the successor to `iptables` and provides a more modern and efficient way to manage firewall rules. It is designed to be more flexible and easier to use. Introduced in Linux kernel 3.13 and is recommended for new installations.
@@ -21,9 +19,6 @@
 
 ## firewalld
 `firewalld` is a dynamic firewall manager that provides a way to manage firewall rules using zones and services. It is designed to work with `nftables` or `iptables`. Commonly used in Red Hat-based distributions like CentOS and Fedora.
-
-## IPChains (otdated)
-`IPChains` is an older firewall tool that was used before `iptables`. It is no longer actively developed or recommended for use. Rarely used today, as it has been superseded by `iptables`.
 
 ## CSF (ConfigServer Security & Firewall)
 `CSF` is a third-party firewall tool designed for use on web servers. It is particularly popular among users of cPanel/WHM. Often used on shared hosting environments.
@@ -39,6 +34,14 @@
 
 ## firehol
 `firehol` is a firewall manager that allows you to create complex firewall rules using a simple configuration file. It is designed to be easy to use and highly configurable. Common in environments where complex firewall rules are needed.
+
+# Outdated
+
+## IPChains
+`IPChains` is an older firewall tool that was used before `iptables`. It is no longer actively developed or recommended for use. Rarely used today, as it has been superseded by `iptables`.
+
+## iptables
+`iptables` is a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall. It is part of the `netfilter` project.
 
 ### Summary
 - **iptables**: Legacy, widely used.
