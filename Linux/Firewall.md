@@ -1,7 +1,7 @@
 # Firewall
 * [iptables (outdated)](#iptables-outdated)
-* nftables
-* ufw
+* [nftables](#nftables)
+* [ufw (Uncomplicated Firewall)](#ufw-uncomplicated-firewall)
 * firewalld
 * IPChains
 * CSF
@@ -13,15 +13,11 @@
 ## iptables (outdated)
 `iptables` is a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall. It is part of the `netfilter` project.
 
-### 2. **nftables**
-   - **Description**: `nftables` is the successor to `iptables` and provides a more modern and efficient way to manage firewall rules. It is designed to be more flexible and easier to use.
-   - **Usage**: Introduced in Linux kernel 3.13 and is recommended for new installations.
-   - **Command**: `nft list ruleset`
+## nftables
+`nftables` is the successor to `iptables` and provides a more modern and efficient way to manage firewall rules. It is designed to be more flexible and easier to use. Introduced in Linux kernel 3.13 and is recommended for new installations.
 
-### 3. **ufw (Uncomplicated Firewall)**
-   - **Description**: `ufw` is a frontend for `iptables` that simplifies the process of managing firewall rules. It is designed to be easy to use for beginners.
-   - **Usage**: Commonly used in Ubuntu and other Debian-based distributions.
-   - **Command**: `ufw status`
+## ufw (Uncomplicated Firewall)
+`ufw` is a frontend for `iptables` that simplifies the process of managing firewall rules. It is designed to be easy to use for beginners. Commonly used in Ubuntu and other Debian-based distributions.
 
 ### 4. **firewalld**
    - **Description**: `firewalld` is a dynamic firewall manager that provides a way to manage firewall rules using zones and services. It is designed to work with `nftables` or `iptables`.
