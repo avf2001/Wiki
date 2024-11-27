@@ -4,9 +4,10 @@
 * [firewalld](#firewalld)
 * [CSF (ConfigServer Security & Firewall)](#csf-configserver-security--firewall)
 * [APF (Advanced Policy Firewall)](#apf-advanced-policy-firewall)
-* [shorewall](#shorewall)
 * [ferm](#ferm)
-* [firehol](#firehol)
+* [Complex](#complex)
+  * [firehol](#firehol)
+  * [shorewall](#shorewall)
 * [Outdated](#outdated)
   * [IPChains](#ipchains)
   * [iptables](#iptables)  
@@ -26,14 +27,16 @@
 ## APF (Advanced Policy Firewall)
 `APF` is another third-party firewall tool that was popular in the past, especially on cPanel/WHM servers. It has been largely replaced by `CSF`. Less common today, but still used in some legacy environments.
 
-## shorewall
-`shorewall` is a high-level tool that allows you to create complex firewall rules using a simple configuration file. It is often used in more advanced firewall setups. Common in environments where complex firewall rules are needed.
-
 ## ferm
 `ferm` is a wrapper for `iptables` that allows you to write firewall rules in a more readable and maintainable way using a domain-specific language. Often used in environments where firewall rules need to be easily managed and documented.
 
+# Complex
+
 ## firehol
 `firehol` is a firewall manager that allows you to create complex firewall rules using a simple configuration file. It is designed to be easy to use and highly configurable. Common in environments where complex firewall rules are needed.
+
+## shorewall
+`shorewall` is a high-level tool that allows you to create complex firewall rules using a simple configuration file. It is often used in more advanced firewall setups. Common in environments where complex firewall rules are needed.
 
 # Outdated
 
