@@ -3,7 +3,7 @@
 * [nftables](#nftables)
 * [ufw (Uncomplicated Firewall)](#ufw-uncomplicated-firewall)
 * [firewalld](#firewalld)
-* IPChains
+* [IPChains](#ipchains-otdated)
 * CSF
 * APF
 * shorewall
@@ -22,10 +22,8 @@
 ## firewalld
 `firewalld` is a dynamic firewall manager that provides a way to manage firewall rules using zones and services. It is designed to work with `nftables` or `iptables`. Commonly used in Red Hat-based distributions like CentOS and Fedora.
 
-### 5. **IPChains**
-   - **Description**: `IPChains` is an older firewall tool that was used before `iptables`. It is no longer actively developed or recommended for use.
-   - **Usage**: Rarely used today, as it has been superseded by `iptables`.
-   - **Command**: `ipchains -L`
+## IPChains (otdated)
+`IPChains` is an older firewall tool that was used before `iptables`. It is no longer actively developed or recommended for use. Rarely used today, as it has been superseded by `iptables`.
 
 ### 6. **CSF (ConfigServer Security & Firewall)**
    - **Description**: `CSF` is a third-party firewall tool designed for use on web servers. It is particularly popular among users of cPanel/WHM.
