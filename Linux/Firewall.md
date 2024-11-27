@@ -12,7 +12,8 @@
   * [shorewall](#shorewall)
 * [Outdated](#outdated)
   * [IPChains](#ipchains)
-  * [iptables](#iptables)  
+  * [iptables](#iptables)
+* [Resources](#resources)
 
 ## nftables
 `nftables` is the successor to `iptables` and provides a more modern and efficient way to manage firewall rules. It is designed to be more flexible and easier to use. Introduced in Linux kernel 3.13 and is recommended for new installations.
@@ -70,3 +71,6 @@
 - **firewalld**: Dynamic, common in Red Hat-based distros.
 - **CSF**: Popular on cPanel/WHM servers.
 - **shorewall, ferm, firehol**: Advanced, complex firewall management.
+
+# Resources
+* [Как открыть порт в Linux](https://habr.com/ru/companies/timeweb/articles/859346/)
