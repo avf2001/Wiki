@@ -8,7 +8,7 @@
 * [APF (Advanced Policy Firewall)](#apf-advanced-policy-firewall)
 * [shorewall](#shorewall)
 * [ferm](#ferm)
-* firehol
+* [firehol](#firehol)
 
 ## iptables (outdated)
 `iptables` is a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall. It is part of the `netfilter` project.
@@ -37,10 +37,8 @@
 ## ferm
 `ferm` is a wrapper for `iptables` that allows you to write firewall rules in a more readable and maintainable way using a domain-specific language. Often used in environments where firewall rules need to be easily managed and documented.
 
-### 10. **firehol**
-   - **Description**: `firehol` is a firewall manager that allows you to create complex firewall rules using a simple configuration file. It is designed to be easy to use and highly configurable.
-   - **Usage**: Common in environments where complex firewall rules are needed.
-   - **Command**: `firehol start`
+## firehol
+`firehol` is a firewall manager that allows you to create complex firewall rules using a simple configuration file. It is designed to be easy to use and highly configurable. Common in environments where complex firewall rules are needed.
 
 ### Summary
 - **iptables**: Legacy, widely used.
