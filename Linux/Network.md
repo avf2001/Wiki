@@ -1,5 +1,6 @@
 * [Network Utils](#network-utils)
   * [ifconfig](#ifconfig)
+  * [ip](#ip)
 * [Settings](#settings)
 * [Check Remote Open Port](#check-remote-open-port)
 * [Show Open Ports](#show-open-ports)
@@ -16,11 +17,11 @@ Display information about all network interfaces:
 ifconfig
 ```
 
-### 2. `ip`
+## `ip`
 
 `ip` is a more modern and powerful tool for managing network interfaces and routing tables.
 
-#### Example
+### Example
 
 Display information about all network interfaces:
 
