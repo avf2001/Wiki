@@ -10,8 +10,18 @@
 
 # View Network Interfaces
 ```bash
-$ ip link show
+$ ip link show          # Option 1
+$ ip addr show          # Option 2
+$ ifconfig              # Option 3
 ```
+
+Option 4
+```bash
+$ nmcli device status
+```
+<details><summary>Результат</summary>
+ 
+</details>
 
 # Network Utils
 ## `ifconfig`
