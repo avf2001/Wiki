@@ -1,4 +1,8 @@
 * [View Network Interfaces](#view-network-interfaces)
+  * [Option 1 - `ip link`]()
+  * [Option 2 - `ip addr`]()
+  * [Option 3 - `ifconfig`]()
+  * [Option 4 - `nmcli`]()
 * [Network Utils](#network-utils)
   * [ifconfig](#ifconfig)
   * [ip](#ip)
@@ -9,13 +13,23 @@
 * [Show Port is Used](#show-port-is-used)
 
 # View Network Interfaces
+
+## Option 1 - `ip link`
 ```bash
-$ ip link show          # Option 1
-$ ip addr show          # Option 2
-$ ifconfig              # Option 3
+$ ip link show
 ```
 
-Option 4
+## Option 2 - `ip addr`
+```bash
+$ ip addr show
+```
+
+## Option 3 - `ifconfig`
+```basg
+$ ifconfig
+```
+
+## Option 4 - `nmcli`
 ```bash
 $ nmcli device status
 ```
