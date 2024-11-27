@@ -5,7 +5,7 @@
 * [firewalld](#firewalld)
 * [IPChains](#ipchains-otdated)
 * [CSF (ConfigServer Security & Firewall)](#csf-configserver-security--firewall)
-* APF
+* [APF (Advanced Policy Firewall)](#apf-advanced-policy-firewall)
 * shorewall
 * ferm
 * firehol
@@ -28,10 +28,8 @@
 ## CSF (ConfigServer Security & Firewall)
 `CSF` is a third-party firewall tool designed for use on web servers. It is particularly popular among users of cPanel/WHM. Often used on shared hosting environments.
 
-### 7. **APF (Advanced Policy Firewall)**
-   - **Description**: `APF` is another third-party firewall tool that was popular in the past, especially on cPanel/WHM servers. It has been largely replaced by `CSF`.
-   - **Usage**: Less common today, but still used in some legacy environments.
-   - **Command**: `apf -s`
+## APF (Advanced Policy Firewall)
+`APF` is another third-party firewall tool that was popular in the past, especially on cPanel/WHM servers. It has been largely replaced by `CSF`. Less common today, but still used in some legacy environments.
 
 ### 8. **shorewall**
    - **Description**: `shorewall` is a high-level tool that allows you to create complex firewall rules using a simple configuration file. It is often used in more advanced firewall setups.
