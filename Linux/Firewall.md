@@ -4,7 +4,7 @@
 * [ufw (Uncomplicated Firewall)](#ufw-uncomplicated-firewall)
 * [firewalld](#firewalld)
 * [IPChains](#ipchains-otdated)
-* CSF
+* [CSF (ConfigServer Security & Firewall)](#csf-configserver-security--firewall)
 * APF
 * shorewall
 * ferm
@@ -25,10 +25,8 @@
 ## IPChains (otdated)
 `IPChains` is an older firewall tool that was used before `iptables`. It is no longer actively developed or recommended for use. Rarely used today, as it has been superseded by `iptables`.
 
-### 6. **CSF (ConfigServer Security & Firewall)**
-   - **Description**: `CSF` is a third-party firewall tool designed for use on web servers. It is particularly popular among users of cPanel/WHM.
-   - **Usage**: Often used on shared hosting environments.
-   - **Command**: `csf -l`
+## CSF (ConfigServer Security & Firewall)
+`CSF` is a third-party firewall tool designed for use on web servers. It is particularly popular among users of cPanel/WHM. Often used on shared hosting environments.
 
 ### 7. **APF (Advanced Policy Firewall)**
    - **Description**: `APF` is another third-party firewall tool that was popular in the past, especially on cPanel/WHM servers. It has been largely replaced by `CSF`.
