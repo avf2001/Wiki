@@ -7,7 +7,7 @@
 * [CSF (ConfigServer Security & Firewall)](#csf-configserver-security--firewall)
 * [APF (Advanced Policy Firewall)](#apf-advanced-policy-firewall)
 * [shorewall](#shorewall)
-* ferm
+* [ferm](#ferm)
 * firehol
 
 ## iptables (outdated)
@@ -34,10 +34,8 @@
 ## shorewall
 `shorewall` is a high-level tool that allows you to create complex firewall rules using a simple configuration file. It is often used in more advanced firewall setups. Common in environments where complex firewall rules are needed.
 
-### 9. **ferm**
-   - **Description**: `ferm` is a wrapper for `iptables` that allows you to write firewall rules in a more readable and maintainable way using a domain-specific language.
-   - **Usage**: Often used in environments where firewall rules need to be easily managed and documented.
-   - **Command**: `ferm /etc/ferm/ferm.conf`
+## ferm
+`ferm` is a wrapper for `iptables` that allows you to write firewall rules in a more readable and maintainable way using a domain-specific language. Often used in environments where firewall rules need to be easily managed and documented.
 
 ### 10. **firehol**
    - **Description**: `firehol` is a firewall manager that allows you to create complex firewall rules using a simple configuration file. It is designed to be easy to use and highly configurable.
