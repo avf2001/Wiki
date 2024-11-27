@@ -2,7 +2,7 @@
 * [iptables (outdated)](#iptables-outdated)
 * [nftables](#nftables)
 * [ufw (Uncomplicated Firewall)](#ufw-uncomplicated-firewall)
-* firewalld
+* [firewalld](#firewalld)
 * IPChains
 * CSF
 * APF
@@ -19,10 +19,8 @@
 ## ufw (Uncomplicated Firewall)
 `ufw` is a frontend for `iptables` that simplifies the process of managing firewall rules. It is designed to be easy to use for beginners. Commonly used in Ubuntu and other Debian-based distributions.
 
-### 4. **firewalld**
-   - **Description**: `firewalld` is a dynamic firewall manager that provides a way to manage firewall rules using zones and services. It is designed to work with `nftables` or `iptables`.
-   - **Usage**: Commonly used in Red Hat-based distributions like CentOS and Fedora.
-   - **Command**: `firewall-cmd --list-all`
+## firewalld
+`firewalld` is a dynamic firewall manager that provides a way to manage firewall rules using zones and services. It is designed to work with `nftables` or `iptables`. Commonly used in Red Hat-based distributions like CentOS and Fedora.
 
 ### 5. **IPChains**
    - **Description**: `IPChains` is an older firewall tool that was used before `iptables`. It is no longer actively developed or recommended for use.
