@@ -47,5 +47,3 @@
 - **firewalld**: Dynamic, common in Red Hat-based distros.
 - **CSF**: Popular on cPanel/WHM servers.
 - **shorewall, ferm, firehol**: Advanced, complex firewall management.
-
-Each of these tools has its own strengths and is suited to different use cases, depending on the complexity of the firewall rules and the specific needs of the system.
