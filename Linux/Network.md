@@ -3,6 +3,9 @@
   * [Option 2 - `ip addr`]()
   * [Option 3 - `ifconfig`]()
   * [Option 4 - `nmcli`]()
+* [View Network Devices]()
+  * [Option 1 - `lspci`]()
+  * [Option 1 - `lsusb`]()
 * [Network Utils](#network-utils)
   * [ifconfig](#ifconfig)
   * [ip](#ip)
@@ -37,7 +40,20 @@ $ nmcli device status
  
 </details>
 
+# View Network Devices
+
+## Option 1 - `lspci`
+```bash
+$ lspci | grep -i net
+```
+
+## Option 1 - `lsusb`
+```bash
+$ lsusb | grep -i net
+```
+
 # Network Utils
+
 ## `ifconfig`
 
 `ifconfig` is used to configure network interfaces.
