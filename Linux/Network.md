@@ -1,3 +1,4 @@
+* [View Network Interfaces](#view-network-interfaces)
 * [Network Utils](#network-utils)
   * [ifconfig](#ifconfig)
   * [ip](#ip)
@@ -6,6 +7,11 @@
 * [Check Remote Open Port](#check-remote-open-port)
 * [Show Open Ports](#show-open-ports)
 * [Show Port is Used](#show-port-is-used)
+
+# View Network Interfaces
+```bash
+$ ip link show
+```
 
 # Network Utils
 ## `ifconfig`
