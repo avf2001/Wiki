@@ -16,3 +16,6 @@ $ sudo fdisk -l
 ```bash
 $ cat /etc/fstab
 ```
+```bash
+$ mount
+```
