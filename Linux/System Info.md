@@ -1,0 +1,5 @@
+lshw
+
+lsblk
+
+lscpu
