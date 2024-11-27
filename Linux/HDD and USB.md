@@ -19,3 +19,8 @@ $ cat /etc/fstab
 ```bash
 $ mount
 ```
+
+# Графическая утилита управления дисками `gparted`
+```bash
+$ sudo gparted
+```
