@@ -42,6 +42,11 @@ nvme0n1     259:0    0 931.5G  0 disk
 
 </details>
 
+2. Create mount point
+```
+$ sudo mkdir /mnt/mout-here
+```
+
 # Pods
 ## View All Pods
 ```
