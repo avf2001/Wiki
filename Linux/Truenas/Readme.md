@@ -47,6 +47,16 @@ nvme0n1     259:0    0 931.5G  0 disk
 $ sudo mkdir /mnt/mout-here
 ```
 
+3. Mount USB disk
+```
+$ sudo mount /dev/sdb1 /mnt/mout-here
+```
+
+4. Unmount USB disk
+```
+$ sudo umount /mnt/mout-here
+```
+
 # Pods
 ## View All Pods
 ```
