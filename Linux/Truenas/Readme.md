@@ -7,6 +7,7 @@
 $ lsblk
 ```
 <details><summary>Result</summary>
+
 ```
 NAME        MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINT
 sda           8:0    0   3.6T  0 disk  
@@ -38,6 +39,7 @@ nvme0n1     259:0    0 931.5G  0 disk
 ├─nvme0n1p3 259:3    0   915G  0 part  
 └─nvme0n1p4 259:4    0    16G  0 part
 ```
+
 </details>
 
 # Pods
