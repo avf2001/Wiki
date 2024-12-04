@@ -67,6 +67,9 @@
   
 ## Package Managers
 * [NuGet Package Manager](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager)
+
+  An extension for Visual Studio Code that lets you easily add or remove .NET Core 1.1+ package references to/from your project's .csproj or .fsproj files using Code's Command Palette.
+
 ## Snippets
 * [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 * [JS JSX Snippets](https://marketplace.visualstudio.com/items?itemName=skyran.js-jsx-snippets)
