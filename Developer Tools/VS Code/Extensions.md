@@ -58,6 +58,9 @@
   VS Code Extension For Nested Block Highlighting
   
 * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+
+  The Better Comments extension will help you create more human-friendly comments in your code.
+  
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 ## Package Managers
 * [NuGet Package Manager](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager)
