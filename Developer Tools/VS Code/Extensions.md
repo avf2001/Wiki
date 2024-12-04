@@ -7,7 +7,7 @@
 * [HTTP Client](#http-client)
 * [Source Control](#source-control)
 * [UI](#ui)
-* Other
+* [Other](#other)
   * Live Server
   * ESlint
   * [Remote SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
@@ -88,3 +88,5 @@
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
   Get the Material Design icons into your VS Code.
+
+## Other
