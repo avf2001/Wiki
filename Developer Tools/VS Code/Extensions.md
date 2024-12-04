@@ -4,8 +4,6 @@
 * [Editor](#editor)  
 * [Package Managers](#package-managers)  
 * [Snippets](#snippets)
-  * ES7+ React/Redux/React-Native snippets
-  * JS JSX Snippets
 * [Source Control](#source-control)
   * Git Graph
 * [UI](#ui)
