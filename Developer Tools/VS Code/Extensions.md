@@ -4,6 +4,7 @@
 * [Editor](#editor)  
 * [Package Managers](#package-managers)  
 * [Snippets](#snippets)
+* [HTTP Client](#http-client)
 * [Source Control](#source-control)
   * Git Graph
 * [UI](#ui)
@@ -71,9 +72,12 @@
 * [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
 
   Quokka.js is a developer productivity tool for rapid JavaScript / TypeScript prototyping. Runtime values are updated and displayed in your IDE next to your code, as you type.
+
+## HTTP Client
+* [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
   
-## Thunder Client
-Thunder Client is a lightweight Rest API Client Extension for Visual Studio Code.
+  Thunder Client is a lightweight Rest API Client Extension for Visual Studio Code.
+
 ## Source Control
 * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 ## UI
