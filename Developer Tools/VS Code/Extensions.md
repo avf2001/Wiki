@@ -7,8 +7,6 @@
 * [HTTP Client](#http-client)
 * [Source Control](#source-control)
 * [UI](#ui)
-  * vscode-icons
-  * Material Icon Theme
 * Other
   * Live Server
   * ESlint
@@ -84,4 +82,7 @@
 
 ## UI
 * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+
+  Bring real icons to your Visual Studio Code
+  
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
