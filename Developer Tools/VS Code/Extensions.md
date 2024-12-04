@@ -7,8 +7,7 @@
 * [HTTP Client](#http-client)
 * [Source Control](#source-control)
 * [UI](#ui)
-* [Other](#other)
-  * Live Server
+* [Other](#other)  
   * ESlint
   * [Remote SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
   * [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
@@ -90,3 +89,6 @@
   Get the Material Design icons into your VS Code.
 
 ## Other
+* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+  Launch a local development server with live reload feature for static & dynamic pages.
