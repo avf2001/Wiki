@@ -28,7 +28,6 @@
   * [Bracket Pair Color DLW](https://marketplace.visualstudio.com/items?itemName=BracketPairColorDLW.bracket-pair-color-dlw)
   * [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
 ## C#
-* [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
 * [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
 * [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
 * [.NET Runtime Install Tool](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime)
