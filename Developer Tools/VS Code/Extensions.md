@@ -86,3 +86,5 @@
   Bring real icons to your Visual Studio Code
   
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+  Get the Material Design icons into your VS Code.
