@@ -35,8 +35,7 @@
 * [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
 
   The Visual Studio IntelliCode family of extensions provides AI-assisted development features for C#, Python, TypeScript/JavaScript, and Java developers in Visual Studio Code, with insights based on understanding your code context combined with machine learning.
-  
-* [.NET Runtime Install Tool](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime)
+
 ## Database
 * [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
 * [Database Client](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-database-client2)
