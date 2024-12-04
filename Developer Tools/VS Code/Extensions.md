@@ -39,6 +39,9 @@
 ## Database
 * [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
 * [Database Client](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-database-client2)
+
+  This project is a database client for VSCode, supports manager MySQL/MariaDB, PostgreSQL, SQLite, Redis, ClickHouse, Kafka, MongoDB, Snowflake, and ElasticSearch, and works as an SSH client, boost your maximum productivity!
+  
 ## Editor
 * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 * Auto Rename Tag
