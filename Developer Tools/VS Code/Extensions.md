@@ -1,8 +1,6 @@
 # Extensions
 * [C#](#c)
 * [Database](#database)
-  * SQLite
-  * Database Client
 * [Editor](#editor)
   * Auto Close Tag
   * Auto Rename Tag
