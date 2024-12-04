@@ -31,7 +31,11 @@
 * [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
 
   C# Dev Kit helps you manage your code with a solution explorer and test your code with integrated unit test discovery and execution, elevating your C# development experience wherever you like to develop (Windows, macOS, Linux, and even in a Codespace).
+
 * [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp)
+
+  The Visual Studio IntelliCode family of extensions provides AI-assisted development features for C#, Python, TypeScript/JavaScript, and Java developers in Visual Studio Code, with insights based on understanding your code context combined with machine learning.
+  
 * [.NET Runtime Install Tool](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime)
 ## Database
 * [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
