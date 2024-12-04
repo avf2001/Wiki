@@ -69,8 +69,11 @@
   JavaScript and React/Redux snippets in ES7+ with Babel plugin features for VS Code
   
 * [JS JSX Snippets](https://marketplace.visualstudio.com/items?itemName=skyran.js-jsx-snippets)
-## Quokka.js
-Quokka.js is a developer productivity tool for rapid JavaScript / TypeScript prototyping. Runtime values are updated and displayed in your IDE next to your code, as you type.
+
+* [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
+
+  Quokka.js is a developer productivity tool for rapid JavaScript / TypeScript prototyping. Runtime values are updated and displayed in your IDE next to your code, as you type.
+  
 ## Thunder Client
 Thunder Client is a lightweight Rest API Client Extension for Visual Studio Code.
 ## Source Control
