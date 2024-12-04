@@ -6,7 +6,6 @@
 * [Snippets](#snippets)
 * [HTTP Client](#http-client)
 * [Source Control](#source-control)
-  * Git Graph
 * [UI](#ui)
   * vscode-icons
   * Material Icon Theme
@@ -80,6 +79,9 @@
 
 ## Source Control
 * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+
+  View a Git Graph of your repository, and easily perform Git actions from the graph. Configurable to look the way you want!
+
 ## UI
 * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
