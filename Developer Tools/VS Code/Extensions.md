@@ -1,13 +1,7 @@
 # Extensions
 * [C#](#c)
 * [Database](#database)
-* [Editor](#editor)
-  * Auto Close Tag
-  * Auto Rename Tag
-  * indent-rainbow
-  * Blockman
-  * Better Comments
-  * Prettier - Code formatter
+* [Editor](#editor)  
 * [Package Managers](#package-managers)
   * NuGet Package Manager
 * [Snippets](#snippets)
