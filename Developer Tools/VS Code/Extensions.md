@@ -45,7 +45,10 @@
 
   Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text does.
   
-* Auto Rename Tag
+* [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+
+  Automatically rename paired HTML/XML tag, same as Visual Studio IDE does.
+  
 * [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 * [Blockman](https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman)
 * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
