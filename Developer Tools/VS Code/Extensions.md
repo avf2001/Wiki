@@ -54,6 +54,9 @@
   This extension colorizes the indentation in front of your text, alternating four different colors on each step. Some may find it helpful in writing code for Python, Nim, Yaml, and probably even filetypes that are not indentation dependent.
   
 * [Blockman](https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman)
+
+  VS Code Extension For Nested Block Highlighting
+  
 * [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 * [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 ## Package Managers
