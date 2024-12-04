@@ -2,8 +2,7 @@
 * [C#](#c)
 * [Database](#database)
 * [Editor](#editor)  
-* [Package Managers](#package-managers)
-  * NuGet Package Manager
+* [Package Managers](#package-managers)  
 * [Snippets](#snippets)
   * ES7+ React/Redux/React-Native snippets
   * JS JSX Snippets
