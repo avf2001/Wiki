@@ -42,6 +42,9 @@
   
 ## Editor
 * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+
+  Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text does.
+  
 * Auto Rename Tag
 * [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 * [Blockman](https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman)
