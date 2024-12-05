@@ -18,3 +18,8 @@ $ crontab -e
 
 # Логи
 Файл `/var/log/cron`
+
+# Создание резервной копии
+```bash
+$ crontab -l > /path/to/backup/crontab_backup.txt
+```
