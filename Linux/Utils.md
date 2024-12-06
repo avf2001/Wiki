@@ -1,5 +1,7 @@
 * [bpytop](#bpytop)
 * [Terminals](#terminals)
+* Менеджеры паролей
+
 # bpytop
 ## Описание
 Bpytop is an advanced, terminal-based control center for Linux. With it, users can view and manage their CPU usage, RAM/SWAP usage, network download/upload, and even terminate running programs! https://www.addictivetips.com/ubuntu-linux-tips/manage-linux-system-resources
@@ -26,3 +28,10 @@ $ bpytop
 ```
 # Terminals
 * [Warp](https://www.warp.dev/)
+
+# Менеджеры паролей
+
+## KeePassXC
+```bash
+# sudo dnf install keepassxc
+```
