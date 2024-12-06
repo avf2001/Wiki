@@ -1,6 +1,7 @@
 * [bpytop](#bpytop)
 * [Terminals](#terminals)
 * Менеджеры паролей
+* Git клиенты
 
 # bpytop
 ## Описание
@@ -35,3 +36,8 @@ $ bpytop
 ```bash
 # sudo dnf install keepassxc
 ```
+
+# Git клиенты
+
+## SourceGit
+https://github.com/sourcegit-scm/sourcegit/releases
