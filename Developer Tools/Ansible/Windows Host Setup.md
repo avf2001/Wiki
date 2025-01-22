@@ -108,6 +108,8 @@ Enter-PSSession -ComputerName $hostName -Port $winrmPort -Credential $cred -Sess
 # Enable Basic Authentication
 ## Get Authentication Settings
 Run PowerShell as Administrator.
+
+Option 1
 ```powershell
 PS > winrm get winrm/config/service/auth
 Auth
@@ -117,6 +119,22 @@ Auth
     Certificate = false
     CredSSP = false
     CbtHardeningLevel = Relaxed
+```
+
+Option 2
+```powershell
+PS > Get-Item WSMan:\localhost\Service\Auth\*
+
+   WSManConfig: Microsoft.WSMan.Management\WSMan::localhost\Service\Auth
+
+Type            Name                           SourceOfValue   Value
+----            ----                           -------------   -----
+System.String   Basic                                          false
+System.String   Kerberos                                       true
+System.String   Negotiate                                      true
+System.String   Certificate                                    false
+System.String   CredSSP                                        true
+System.String   CbtHardeningLevel                              Relaxed
 ```
 ## Set Basic Authentication
 ```powershell
