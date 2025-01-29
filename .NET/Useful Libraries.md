@@ -74,4 +74,6 @@ Refit: The automatic type-safe REST library for .NET Core, Xamarin and .NET
 [Site](https://reactiveui.github.io/refit/) [Github](https://github.com/reactiveui/refit)
 
 # GummyCat
-[Nuget](https://www.nuget.org/packages/GummyCat)
+It presents the memory layout of the .NET heap, showing what regions of memory have been reserved by the garbage collector and for what purpose.
+
+[Nuget](https://www.nuget.org/packages/GummyCat), [Github](https://github.com/kevingosse/GummyCat)
