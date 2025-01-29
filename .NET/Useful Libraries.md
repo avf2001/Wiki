@@ -13,6 +13,7 @@
   * [SigNoz](#signoz)
 * dotnet-outdated
 * [Refit](#refit)
+* [GummyCat](#gummycat)
 <br/><br/>
 
 # Documents
@@ -71,3 +72,6 @@ With SigNoz, you can do the following:
 Refit: The automatic type-safe REST library for .NET Core, Xamarin and .NET
 
 [Site](https://reactiveui.github.io/refit/) [Github](https://github.com/reactiveui/refit)
+
+# GummyCat
+[Nuget](https://www.nuget.org/packages/GummyCat)
