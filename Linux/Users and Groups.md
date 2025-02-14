@@ -3,7 +3,7 @@
   * [List all users](#list-all-users)
   * [Create new user](#create-new-user)
   * [Change password for another user]()
-  * [Scenario: Create User with Administrative Rights]()
+  * [Scenario: Create User with Administrative Rights](#scenario-create-user-with-administrative-rights)
 * [Groups](#groups)
   * [List all groups](#list-all-groups)
   * [Create new group]()  
