@@ -6,6 +6,7 @@ $ sudo systemctl start docker
 $ systemctl status docker
 $ sudo docker info
 ```
+## Добавление текущего пользователя в группу docker
 ```bash
 # Проверка существования группы
 $ getent group docker
