@@ -1,7 +1,7 @@
 # Content
 * Users
   * [List all users](#list-all-users)
-  * [Create new user]()
+  * [Create new user](#create-new-user)
   * [Change password for another user]()
 * [Groups](#groups)
   * [List all groups](#list-all-groups)
