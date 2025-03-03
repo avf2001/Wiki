@@ -14,6 +14,7 @@ $ git config --global user.email "ваша электронная почта"
 $ git config --global core.editor "code --wait"
 ```
 ## Рекомендуемые настройки
+Source: https://blog.gitbutler.com/how-git-core-devs-configure-git/
 ```shell
 git config --global column.ui auto
 git config --global branch.sort -committerdate
