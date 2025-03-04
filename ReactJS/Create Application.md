@@ -7,7 +7,7 @@
 # С помощью CRA (устаревший способ)
 1. Создать приложение
 ```cmd
-> npx create-react-app client-app --template typescript
+> npx create-react-app client-app --typescript
 ```
 2. Перейти в папку приложения
 ```cmd
