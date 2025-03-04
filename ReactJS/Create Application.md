@@ -1,6 +1,7 @@
 # Создание приложения
-* [С помощью npx](#с-помощью-npx)
+* [С помощью CRA (устаревший способ)]()
 * [С помощью Vite](#с-помощью-vite)
+* [С помощью create-next-app]()
 * Internet Explorer 11  
 
 # С помощью CRA (устаревший способ)
@@ -15,6 +16,13 @@
 3. Добавить библиотеки
 ```cmd
 > yarn add typescript @types/react @types/react-dom
+```
+
+# С помощью create-next-app
+```cmd
+> npx create-next-app@latest my-docker-nextjs-app --template typescript
+> cd my-docker-nextjs-app
+> npm install
 ```
 
 # С помощью Vite
