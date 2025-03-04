@@ -1,10 +1,10 @@
-# Содержание
-* [Создание приложения](#создание-приложения)
-  * [С помощью npx](#с-помощью-npx)
-  * [С помощью Vite](#с-помощью-vite)
-  * Internet Explorer 11  
-# Создание приложения 
-## С помощью npx
+# Создание приложения
+**Содержание**
+* [С помощью npx](#с-помощью-npx)
+* [С помощью Vite](#с-помощью-vite)
+* Internet Explorer 11  
+
+# С помощью npx
 1. Создать приложение
 ```cmd
 > npx create-react-app client-app --template typescript
@@ -17,14 +17,16 @@
 ```cmd
 > yarn add typescript @types/react @types/react-dom
 ```
-## С помощью Vite
+
+# С помощью Vite
 ```cmd
 > yarn create vite # создаем приложение
 > cd vite-app-name # переходим в папку приложения
 > yarn             # устанавливаем зависимости
 > yarn dev         # запускаем приложение в режиме разработки
 ```
-## Internet Explorer 11
+
+# Internet Explorer 11
 1. Установить пакет **react-app-polyfill**
 ```cmd
 > yarn add react-app-polyfill
