@@ -4,7 +4,7 @@
 * [С помощью Vite](#с-помощью-vite)
 * Internet Explorer 11  
 
-# С помощью npx
+# С помощью CRA (устаревший способ)
 1. Создать приложение
 ```cmd
 > npx create-react-app client-app --template typescript
