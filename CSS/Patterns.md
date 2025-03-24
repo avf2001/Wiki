@@ -5,6 +5,8 @@
   - Using CSS Grid
 - Split
   - Using CSS Grid
+- Cover
+  - Using CSS Grid
 
 ## Stack
 ### Using CSS Grid
@@ -68,6 +70,30 @@
         <div>2</div>
         <div>3</div>
         <div>4</div>
+    </div>
+</body>
+```
+
+## Cover
+
+### Using CSS Grid
+```html
+<style>
+    [data-cover] {
+        --gutter: initial;
+        --minHeight: initial;
+        display: grid;
+        gap: var(--gutter, 0px);
+        min-block-size: var(--minHeight, 100vh);
+    }
+    [data-cover] > [data-cover-centered] {
+        align-self: center;
+    }
+</style>
+...
+<body>
+    <div data-cover>
+        <div data-cover-centered>1</div>
     </div>
 </body>
 ```
