@@ -1,7 +1,7 @@
 # Patterns
 - [Stack](#stack)
-  - Using CSS Grid
-  - Using Flex
+  - [Using CSS Grid](#using-css-grid)
+  - [Using Flex](#using-flex)
 - Inline-Cluster
   - Using CSS Grid
 - Split
