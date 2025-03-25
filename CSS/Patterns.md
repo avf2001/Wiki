@@ -1,6 +1,7 @@
 # Patterns
 - [Stack](#stack)
   - Using CSS Grid
+  - Using Flex
 - Inline-Cluster
   - Using CSS Grid
 - Split
@@ -11,6 +12,7 @@
   - Using CSS Grid
 
 ## Stack
+
 ### Using CSS Grid
 ```html
 <style>
@@ -26,6 +28,18 @@
     <nav data-stack>1</nav>
     <nav data-stack>2</nav>
 </body>
+```
+
+### Using Flex
+```html
+<style>
+    [data-stack] {
+        --gutter: initial;
+        display: flex;
+        flex-direction: column;
+        gap: var(--gutter, 0px);        
+    }
+</style>
 ```
 
 ## Inline-Cluster
