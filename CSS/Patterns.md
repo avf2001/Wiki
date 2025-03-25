@@ -7,6 +7,8 @@
   - Using CSS Grid
 - Cover
   - Using CSS Grid
+- Center
+  - Using CSS Grid
 
 ## Stack
 ### Using CSS Grid
@@ -96,4 +98,11 @@
         <div data-cover-centered>1</div>
     </div>
 </body>
+```
+
+## Center
+
+### Using CSS Grid
+```html
+
 ```
