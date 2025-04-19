@@ -1,0 +1,3 @@
+```
+sudo ubuntu-drivers autoinstall
+```
