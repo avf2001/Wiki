@@ -1,6 +1,7 @@
 - Dockly
 - Lazydocker
 - Dive
+- Watchtower
 
 # Dockly
 https://github.com/lirantal/dockly
@@ -37,3 +38,8 @@ $ sudo dnf install dive_0.13.1_linux_amd64.rpm # RedOS
 ```bash
 $ dive image_name:tag_name
 ```
+
+# Watchtower
+[Github](https://github.com/containrrr/watchtower)
+
+With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your own image registry.
