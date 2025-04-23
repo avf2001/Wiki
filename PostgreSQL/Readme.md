@@ -4,6 +4,7 @@
 | [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ckolkman.vscode-postgres) | + | + |
 | [SQL Manager for PostgreSQL](https://www.sqlmanager.net/products/postgresql/manager) | ? | ? |
 | [TablePlus](https://tableplus.com/) | - | + |
+| [Beekeeper Studio](https://www.beekeeperstudio.io/) | - | + |
 
 ## pgbench
 Запустить тест производительности Postgres Pro
