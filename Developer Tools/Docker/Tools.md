@@ -21,3 +21,10 @@ $ sudo cp lazydocker /usr/local/bin
 [Github](https://github.com/wagoodman/dive)
 
 A tool for exploring a Docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image.
+
+## Installation
+1. Download `rpm` file from `https://github.com/wagoodman/dive/releases`.
+2. Install `rpm` file:
+```bash
+$ sudo dnf install dive_0.13.1_linux_amd64.rpm # RedOS
+```
