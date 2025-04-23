@@ -44,6 +44,6 @@ $ bpytop
 https://github.com/sourcegit-scm/sourcegit/releases
 
 # sysbench
-[RedOS](https://redos.red-soft.ru/base/redos-7_3/7_3-equipment/7_3-test-soft/7_3-sysbench/)
+[RedOS](https://redos.red-soft.ru/base/redos-7_3/7_3-equipment/7_3-test-soft/7_3-sysbench/) [Wikipedia](https://en.wikipedia.org/wiki/Sysbench)
 
-Многоцелевая утилита для тестирования производительности с открытым исходным кодом, позволяет оценить параметры производительности процессора, памяти и файловой системы.
+Sysbench is a powerful, open-source benchmarking tool designed specifically for Linux systems en.wikipedia.org. Created by Peter Zaitsev in 2004 and currently maintained by Alexy Kopytov en.wikipedia.org, it provides a flexible way to evaluate system performance across various aspects including CPU, memory, file I/O, and database operations.
