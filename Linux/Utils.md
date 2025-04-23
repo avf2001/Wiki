@@ -45,3 +45,5 @@ https://github.com/sourcegit-scm/sourcegit/releases
 
 # sysbench
 [RedOS](https://redos.red-soft.ru/base/redos-7_3/7_3-equipment/7_3-test-soft/7_3-sysbench/)
+
+Многоцелевая утилита для тестирования производительности с открытым исходным кодом, позволяет оценить параметры производительности процессора, памяти и файловой системы.
