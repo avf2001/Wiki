@@ -44,6 +44,29 @@ $ bpytop
 https://github.com/sourcegit-scm/sourcegit/releases
 
 # sysbench
-[RedOS](https://redos.red-soft.ru/base/redos-7_3/7_3-equipment/7_3-test-soft/7_3-sysbench/) [Wikipedia](https://en.wikipedia.org/wiki/Sysbench)
+[RedOS](https://redos.red-soft.ru/base/redos-7_3/7_3-equipment/7_3-test-soft/7_3-sysbench/) [Wikipedia](https://en.wikipedia.org/wiki/Sysbench) [Github](https://github.com/akopytov/sysbench)
 
 Sysbench is a powerful, open-source benchmarking tool designed specifically for Linux systems en.wikipedia.org. Created by Peter Zaitsev in 2004 and currently maintained by Alexy Kopytov en.wikipedia.org, it provides a flexible way to evaluate system performance across various aspects including CPU, memory, file I/O, and database operations.
+
+## Usage
+### Testing PostgreSQL performance
+```bash
+$ sysbench 
+--db-driver=pgsql 
+--report-interval=2 
+--oltp-table-size=100000 
+--oltp-tables-count=24 
+--threads=64 
+--time=60 
+--pgsql-host=localhost 
+--pgsql-port=5432 
+--pgsql-user=sbtest 
+--pgsql-password=password 
+--pgsql-db=sbtest 
+/usr/share/sysbench/tests/include/oltp_legacy/oltp.lua 
+run
+```
+Links:
+- [How to Benchmark PostgreSQL Performance Using Sysbench](https://severalnines.com/blog/how-benchmark-postgresql-performance-using-sysbench/)
+- [Use sysbench to test the OLTP performance](https://www.alibabacloud.com/help/en/polardb/polardb-for-postgresql/performance-test-method-oltp)
+- []()
