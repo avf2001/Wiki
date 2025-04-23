@@ -2,6 +2,7 @@
 * [Terminals](#terminals)
 * Менеджеры паролей
 * Git клиенты
+* [sysbench](#sysbench)
 
 # bpytop
 ## Описание
@@ -41,3 +42,6 @@ $ bpytop
 
 ## SourceGit
 https://github.com/sourcegit-scm/sourcegit/releases
+
+# sysbench
+[RedOS](https://redos.red-soft.ru/base/redos-7_3/7_3-equipment/7_3-test-soft/7_3-sysbench/)
