@@ -1,9 +1,9 @@
 # Tools
-| Name | Fully Free |
-|-|-|
-| [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ckolkman.vscode-postgres) | + |
-| [SQL Manager for PostgreSQL](https://www.sqlmanager.net/products/postgresql/manager) | ? |
-| [TablePlus](https://tableplus.com/) | - |
+| Name | Fully Free | Linux |
+|-|-|-|
+| [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ckolkman.vscode-postgres) | + | + |
+| [SQL Manager for PostgreSQL](https://www.sqlmanager.net/products/postgresql/manager) | ? | ? |
+| [TablePlus](https://tableplus.com/) | - | + |
 
 ## pgbench
 Запустить тест производительности Postgres Pro
