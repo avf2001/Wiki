@@ -1,6 +1,7 @@
 * [bpytop](#bpytop)
 * [Terminals](#terminals)
-* Менеджеры паролей
+* [Менеджеры паролей](#менеджеры-паролей)
+  * [KeePassXC](#keepassxc) 
 * Git клиенты
 * [sysbench](#sysbench)
 
