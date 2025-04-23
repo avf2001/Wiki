@@ -1,3 +1,7 @@
+- Dockly
+- Lazydocker
+- Dive
+
 # Dockly
 https://github.com/lirantal/dockly
 
@@ -27,4 +31,9 @@ A tool for exploring a Docker image, layer contents, and discovering ways to shr
 2. Install `rpm` file:
 ```bash
 $ sudo dnf install dive_0.13.1_linux_amd64.rpm # RedOS
+```
+
+## Usage
+```bash
+$ dive image_name:tag_name
 ```
