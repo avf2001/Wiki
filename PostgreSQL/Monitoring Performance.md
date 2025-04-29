@@ -159,3 +159,13 @@ psql -c "REINDEX DATABASE $(psql -l | awk '{print $1}' | grep -v '^$')"
    - Configure effective checkpoint settings
    - Optimize WAL configuration
    - Monitor parameter changes
+
+# Practical Threshold Guidelines
+|METRIC	|WARNING LEVEL	|CRITICAL LEVEL	|ACTION REQUIRED|
+|-|-|-|-|
+|CPU Usage	      |70%	    |85%	|Optimize queries, increase resources|
+|Memory Usage	    |80%	    |90%	|Increase shared_buffers, optimize queries|
+|Disk Space	      |80%	    |90%	|Clean up unused data, vacuum tables|
+|Lock Contention	|50 waits	|100 waits	|Review transactions, optimize indexes|
+|Cache Hit Ratio	|75%	    |60%	      |Adjust cache size, optimize queries|
+|Transaction Rate	|Depends on workload	|Significant drop	|Investigate bottlenecks|
