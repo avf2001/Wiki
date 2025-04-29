@@ -169,3 +169,86 @@ psql -c "REINDEX DATABASE $(psql -l | awk '{print $1}' | grep -v '^$')"
 |Lock Contention	|50 waits	|100 waits	|Review transactions, optimize indexes|
 |Cache Hit Ratio	|75%	    |60%	      |Adjust cache size, optimize queries|
 |Transaction Rate	|Depends on workload	|Significant drop	|Investigate bottlenecks|
+
+- Core System Resources
+  1. CPU Usage
+       - Directly affects query processing speed
+       - High CPU usage (>80%) indicates:
+          - Complex queries needing optimization
+          - Insufficient indexing
+          - Resource contention
+        - Impacts:
+          - Query response times
+          - Transaction throughput
+          - Background process efficiency
+  2. Memory Usage
+        - Controls cache effectiveness
+        - High memory usage (>90%) leads to:
+          - Increased disk swapping
+          - Slower query performance
+          - Connection timeouts
+        - Affects:
+          - Query plan efficiency
+          - Sort operations
+          - Join performance
+  3. Network I/O
+        - Impacts remote connection performance
+        - High network latency affects:
+          - Replication lag
+          - Remote query response times
+          - Backup/restore operations
+        - Influences:
+          - Connection pool efficiency
+          - Transaction completion time
+          - Data consistency
+  4. Disk Space
+        - Affects storage capacity
+        - Low available space (>90% used) causes:
+          - Failed transactions
+          - Delayed writes
+          - WAL accumulation
+        - Impacts:
+          - Write performance
+          - Backup size
+          - Recovery time
+- Performance Indicators
+  1. Transaction Rate
+        - Measures system throughput
+        - Low rates indicate:
+          - Lock contention
+          - Connection pool exhaustion
+          - Resource bottlenecks
+        - Affects:
+          - Application responsiveness
+          - Business process efficiency
+          - System scalability
+  2. Lock Contention
+        - Indicates resource competition
+        - High contention (>100 concurrent waits) suggests:
+          - Poor transaction design
+          - Insufficient indexing
+          - Hot spots in data access
+        - Impacts:
+          - Transaction duration
+          - System concurrency
+          - Application reliability
+  3. Cache Hit Ratio
+        - Measures data access efficiency
+        - Low ratio (<80%) indicates:
+          - Poor query patterns
+          - Insufficient cache size
+          - Frequent full table scans
+        - Affects:
+          - Query performance
+          - Disk I/O load
+          - System resources
+  4. Table Bloat
+        - Indicates storage inefficiency
+        - High bloat (>20% wasted space) leads to:
+          - Increased backup sizes
+          - Slower full table scans
+          - Higher disk usage
+        - Impacts:
+          - Storage costs
+          - Backup windows
+          - Recovery time
