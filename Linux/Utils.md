@@ -8,6 +8,8 @@
 * [File Managers](#file-managers)
   * [Double Commander](#double-commander)
   * [Krusader](#krusader)
+  * [GNOME Commander](#gnome-commander)
+  * [Dolphin](#dolphin)
 
 # bpytop
 ## Описание
@@ -91,4 +93,20 @@ $ sudo apt install -y doublecmd-gtk
 ```bash
 $ sudo apt install -y krusader  # Debian/Ubuntu
 $ sudo dnf install -y krusader  # Fedora
+```
+
+## GNOME Commander
+
+### Installation
+```bash
+$ sudo apt install gnome-commander  # Debian/Ubuntu
+$ sudo dnf install gnome-commander  # Fedora
+```
+
+## Dolphin
+
+### Installation
+```bash
+$ sudo apt install dolphin  # Debian/Ubuntu
+$ sudo dnf install dolphin  # Fedora
 ```
