@@ -5,6 +5,7 @@
 * [Git клиенты](#git-клиенты)
   * [SourceGit](#sourcegit)
 * [sysbench](#sysbench)
+* [File Managers](#file-managers)
 
 # bpytop
 ## Описание
@@ -71,3 +72,7 @@ run
 Links:
 - [How to Benchmark PostgreSQL Performance Using Sysbench](https://severalnines.com/blog/how-benchmark-postgresql-performance-using-sysbench/)
 - [Use sysbench to test the OLTP performance](https://www.alibabacloud.com/help/en/polardb/polardb-for-postgresql/performance-test-method-oltp)
+
+# File Managers
+## Double Commander
+[Github](https://github.com/doublecmd/doublecmd) [Wikipedia](https://en.wikipedia.org/wiki/Double_Commander) [Site](https://doublecmd.sourceforge.io)
