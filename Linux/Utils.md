@@ -10,6 +10,7 @@
   * [Krusader](#krusader)
   * [GNOME Commander](#gnome-commander)
   * [Dolphin](#dolphin)
+  * [Nemo](#nemo)
 
 # bpytop
 ## Описание
@@ -109,4 +110,11 @@ $ sudo dnf install gnome-commander  # Fedora
 ```bash
 $ sudo apt install dolphin  # Debian/Ubuntu
 $ sudo dnf install dolphin  # Fedora
+```
+
+## Nemo
+
+### Installation
+```bash
+$ sudo apt install -y nemo  # Debian/Ubuntu
 ```
