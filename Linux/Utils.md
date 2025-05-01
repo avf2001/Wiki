@@ -12,6 +12,7 @@
   * [Dolphin](#dolphin)
   * [Nemo](#nemo)
   * [Fman](#fman)
+* [Optical Character Recognition (OCR)](#optical-character-recognition-ocr)
 
 # bpytop
 ## Описание
@@ -140,3 +141,5 @@ Finally, you can install fman via:
 
 sudo apt install fman
 ```
+
+# Optical Character Recognition (OCR)
