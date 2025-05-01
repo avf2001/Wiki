@@ -13,6 +13,7 @@
   * [Nemo](#nemo)
   * [Fman](#fman)
 * [Optical Character Recognition (OCR)](#optical-character-recognition-ocr)
+  * [Tesseract OCR](#tesseract-ocr)
 
 # bpytop
 ## Описание
@@ -143,3 +144,14 @@ sudo apt install fman
 ```
 
 # Optical Character Recognition (OCR)
+
+## Tesseract OCR
+
+### Installation
+```bash
+$ sudo apt install -y tesseract-ocr     # Debian/Ubuntu
+$ sudo apt install -y tesseract-ocr-rus # Plugin for Russian
+$ sudo apt install -y tesseract-ocr-eng # Plugin for English
+$ sudo apt install -y tesseract-ocr-fra # Plugin for French etc.
+$ sudo apt install -y gimagereader      # GUI
+```
