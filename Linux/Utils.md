@@ -6,6 +6,7 @@
   * [SourceGit](#sourcegit)
 * [sysbench](#sysbench)
 * [File Managers](#file-managers)
+  * [Double Commander](#double-commander) 
 
 # bpytop
 ## Описание
