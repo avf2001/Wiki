@@ -6,7 +6,8 @@
   * [SourceGit](#sourcegit)
 * [sysbench](#sysbench)
 * [File Managers](#file-managers)
-  * [Double Commander](#double-commander) 
+  * [Double Commander](#double-commander)
+  * [Krusader](#krusader)
 
 # bpytop
 ## Описание
@@ -82,4 +83,12 @@ Links:
 ### Installation
 ```bash
 $ sudo apt install -y doublecmd-gtk
+```
+
+## Krusader
+
+### Installation
+```bash
+$ sudo apt install -y krusader  # Debian/Ubuntu
+$ sudo dnf install -y krusader  # Fedora
 ```
