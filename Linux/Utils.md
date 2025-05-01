@@ -11,6 +11,7 @@
   * [GNOME Commander](#gnome-commander)
   * [Dolphin](#dolphin)
   * [Nemo](#nemo)
+  * [Fman](#fman)
 
 # bpytop
 ## Описание
@@ -117,4 +118,25 @@ $ sudo dnf install dolphin  # Fedora
 ### Installation
 ```bash
 $ sudo apt install -y nemo  # Debian/Ubuntu
+```
+
+## Fman
+
+### Installation
+https://fman.io/download/thank-you?os=Linux&distribution=Ubuntu
+```bash
+Here's how to install fman on Ubuntu:
+
+Install fman's GPG key:
+
+wget -q -O - https://download.fman.io/rpm/public.gpg | sudo gpg --dearmor -o /usr/share/keyrings/fman-keyring.gpg
+Add fman's repository:
+
+echo "deb [signed-by=/usr/share/keyrings/fman-keyring.gpg] https://fman.io/updates/ubuntu/ stable main" | sudo tee /etc/apt/sources.list.d/fman.list
+Update apt sources:
+
+sudo apt update
+Finally, you can install fman via:
+
+sudo apt install fman
 ```
