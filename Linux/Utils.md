@@ -75,5 +75,11 @@ Links:
 - [Use sysbench to test the OLTP performance](https://www.alibabacloud.com/help/en/polardb/polardb-for-postgresql/performance-test-method-oltp)
 
 # File Managers
+
 ## Double Commander
 [Github](https://github.com/doublecmd/doublecmd) [Wikipedia](https://en.wikipedia.org/wiki/Double_Commander) [Site](https://doublecmd.sourceforge.io)
+
+### Installation
+```bash
+$ sudo apt install -y doublecmd-gtk
+```
