@@ -17,6 +17,7 @@
 * [PDF](#pdf)
   * [Okular](#okular)
   * [Evince](#evince)
+  * [qpdfview](#qpdfview)
 
 # bpytop
 ## Описание
@@ -173,4 +174,11 @@ sudo apt install -y okular
 ### Installation
 ```bash
 sudo apt install -y evince
+```
+
+## qpdfview
+
+### Installation
+```bash
+sudo apt install -y qpdfview
 ```
