@@ -81,3 +81,9 @@ $ sudo mount /dev/sdb1 /mnt/mout-here
 ```
 $ sudo umount /mnt/mout-here
 ```
+
+# Диагностика несмонтированного жесткого диска
+1.
+```bash
+$ sudo lsblk -o NAME,SIZE,FSTYPE,LABEL,MOUNTPOINT,UUID
+```
