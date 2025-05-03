@@ -14,6 +14,7 @@
   * [Fman](#fman)
 * [Optical Character Recognition (OCR)](#optical-character-recognition-ocr)
   * [Tesseract OCR](#tesseract-ocr)
+* [PDF](#pdf)
 
 # bpytop
 ## Описание
@@ -155,3 +156,5 @@ $ sudo apt install -y tesseract-ocr-eng # Plugin for English
 $ sudo apt install -y tesseract-ocr-fra # Plugin for French etc.
 $ sudo apt install -y gimagereader      # GUI
 ```
+
+# PDF
