@@ -15,6 +15,7 @@
 * [Optical Character Recognition (OCR)](#optical-character-recognition-ocr)
   * [Tesseract OCR](#tesseract-ocr)
 * [PDF](#pdf)
+  * [Okular](#okular) 
 
 # bpytop
 ## Описание
@@ -158,3 +159,10 @@ $ sudo apt install -y gimagereader      # GUI
 ```
 
 # PDF
+
+## Okular
+
+### Installation
+```bash
+sudo apt install -y okular
+```
