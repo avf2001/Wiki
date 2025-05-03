@@ -91,3 +91,9 @@ or
 ```bash
 $ sudo fdisk -l
 ```
+2. Filesystem Check (Unmounted)
+```bash
+$ sudo fsck -f /dev/sdX1            # ext2/ext3/ext4
+$ sudo ntfsfix /dev/sdX1            # NTFS
+$ sudo fsck.vfat -v /dev/sdX1       # FAT/VFAT
+```
