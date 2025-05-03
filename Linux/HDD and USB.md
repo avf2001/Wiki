@@ -87,3 +87,7 @@ $ sudo umount /mnt/mout-here
 ```bash
 $ sudo lsblk -o NAME,SIZE,FSTYPE,LABEL,MOUNTPOINT,UUID
 ```
+or
+```bash
+$ sudo fdisk -l
+```
