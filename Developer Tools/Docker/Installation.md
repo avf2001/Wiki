@@ -8,10 +8,7 @@ $ sudo docker info
 ```
 ## Добавление текущего пользователя в группу docker
 ```bash
-# Проверка существования группы
-$ getent group docker
-# Добавление текущего пользователя в группу docker
-$ sudo usermod -aG docker $USER
-# Необходимо выйти из системы
-$ logout
+$ getent group docker              # Проверка существования группы
+$ sudo usermod -aG docker $USER    # Добавление текущего пользователя в группу docker
+$ logout                           # Необходимо выйти из системы
 ```
