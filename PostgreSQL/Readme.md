@@ -7,7 +7,16 @@
 | [Beekeeper Studio](https://www.beekeeperstudio.io/)                                               | - | + |
 | [Postbird](https://github.com/Paxa/postbird)                                                      | + | + |
 | [pgAdmin 4]()                                                                                     | + | + |
-| [DBeaver]()                                                                                       | + | + |
+| [DBeaver](#dbeaver)                                                                                       | + | + |
+
+# DBeaver
+
+## Installation (Ubuntu)
+1. Download deb package from official web site https://dbeaver.io/download/
+2. Run command
+```bash
+sudo apt install -y ./dbeaver-ce_<version>_amd64.deb
+```
 
 ## pgbench
 Запустить тест производительности Postgres Pro
