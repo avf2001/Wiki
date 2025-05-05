@@ -11,6 +11,10 @@ echo $GDMSESSION            # Tells you what option you selected from the lightd
 ```
 
 # Cinnamon
+View Cinnamon version
+```bash
+cinnamon --version
+```
 
 # GNOME
 View GNOME version
