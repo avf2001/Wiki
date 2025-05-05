@@ -18,3 +18,6 @@ rpm -qa | grep gnome-shell    # Option 3 - for RHEL based
 
 ### Dash to Dock
 [Github](https://micheleg.github.io/dash-to-dock/index.html)
+
+#### Installation
+Manual
