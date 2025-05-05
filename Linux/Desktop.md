@@ -21,3 +21,9 @@ rpm -qa | grep gnome-shell    # Option 3 - for RHEL based
 
 #### Installation
 Manual
+
+# MATE
+View MATE version
+```bash
+mate-about --version
+```
