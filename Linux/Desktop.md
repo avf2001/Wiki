@@ -1,3 +1,7 @@
+- [Cinnamon](#cinnamon)
+- [GNOME](#gnome)
+- [MATE](#mate)
+
 ```bash
 wmctrl -m
 ```
@@ -5,6 +9,8 @@ wmctrl -m
 echo $XDG_CURRENT_DESKTOP   # Tells you what desktop environment you are using
 echo $GDMSESSION            # Tells you what option you selected from the lightdm greeter to login
 ```
+
+# Cinnamon
 
 # GNOME
 View GNOME version
