@@ -13,3 +13,8 @@ gnome-shell --version         # Option 1
 dpkg -l | grep gnome-shell    # Option 2 - for Debian based OS
 rpm -qa | grep gnome-shell    # Option 3 - for RHEL based
 ```
+
+## Useful Extensions
+
+### Dash to Dock
+[Github](https://micheleg.github.io/dash-to-dock/index.html)
