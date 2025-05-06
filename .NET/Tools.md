@@ -16,3 +16,6 @@ dotnet tool install --global dotnet-counters
 
 # dotnet-symbol
 [Docs](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-symbol)
+
+# dotnet-trace
+[Docs](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-trace)
