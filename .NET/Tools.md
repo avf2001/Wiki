@@ -19,3 +19,5 @@ dotnet tool install --global dotnet-counters
 
 # dotnet-trace
 [Docs](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-trace)
+
+[Well-known event providers in .NET](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/well-known-event-providers)
