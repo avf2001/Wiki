@@ -21,3 +21,5 @@ dotnet tool install --global dotnet-counters
 [Docs](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-trace)
 
 [Well-known event providers in .NET](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/well-known-event-providers)
+
+[Analysing .NET start-up time with Flamegraphs](https://mattwarren.org/2020/03/03/Analysing-.NET-Runtime-Startup-with-Flamegraphs/)
