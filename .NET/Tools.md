@@ -4,3 +4,4 @@
 [Docs](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-counters)
 
 # dotnet-dump
+[Docs](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-dump)
