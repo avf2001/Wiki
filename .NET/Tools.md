@@ -13,3 +13,6 @@ dotnet tool install --global dotnet-counters
 
 # dotnet-gcdump
 [Docs](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-gcdump)
+
+# dotnet-symbol
+[Docs](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-symbol)
