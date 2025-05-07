@@ -1,7 +1,7 @@
-- Dockly
-- Lazydocker
-- Dive
-- Watchtower
+- [Dockly](#dockly)
+- [Lazydocker](#lazydocker)
+- [Dive](#dive)
+- [Watchtower](#watchtower)
 
 # Dockly
 https://github.com/lirantal/dockly
