@@ -3,6 +3,7 @@
 - [Dive](#dive)
 - [Watchtower](#watchtower)
 - [Portainer](#portainer)
+- [Hadolint](#hadolint)
 
 # Dockly
 https://github.com/lirantal/dockly
@@ -47,3 +48,6 @@ With watchtower you can update the running version of your containerized app sim
 
 # Portainer
 [Site](https://www.portainer.io/)
+
+# Hadolint
+[Github](https://github.com/hadolint/hadolint)
