@@ -5,6 +5,7 @@
 - [Portainer](#portainer)
 - [Hadolint](#hadolint)
 - [Ctop](#ctop)
+- [Dozzle](#dozzle)
 
 # Dockly
 [Github](https://github.com/lirantal/dockly)
@@ -55,3 +56,6 @@ With watchtower you can update the running version of your containerized app sim
 
 # Ctop
 [Github](https://github.com/bcicen/ctop)
+
+# Dozzle
+[Github](https://github.com/amir20/dozzle)
