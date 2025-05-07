@@ -2,6 +2,7 @@
 - [Lazydocker](#lazydocker)
 - [Dive](#dive)
 - [Watchtower](#watchtower)
+- [Portainer](#portainer)
 
 # Dockly
 https://github.com/lirantal/dockly
@@ -43,3 +44,6 @@ $ dive image_name:tag_name
 [Github](https://github.com/containrrr/watchtower) [Site](https://containrrr.dev/watchtower/)
 
 With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your own image registry.
+
+# Portainer
+[Site](https://www.portainer.io/)
