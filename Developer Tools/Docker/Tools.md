@@ -62,4 +62,4 @@ With watchtower you can update the running version of your containerized app sim
 [Github](https://github.com/amir20/dozzle)
 
 # Dockge
-[Site](https://dockge.kuma.pet/)
+[Site](https://dockge.kuma.pet/) [Github](https://github.com/louislam/dockge)
