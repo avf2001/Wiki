@@ -18,6 +18,8 @@
   * [Okular](#okular)
   * [Evince](#evince)
   * [qpdfview](#qpdfview)
+* [Disk](#baobab)
+  * [baobab](#baobab)
 
 # bpytop
 ## Описание
@@ -181,4 +183,13 @@ sudo apt install -y evince
 ### Installation
 ```bash
 sudo apt install -y qpdfview
+```
+
+# Disk
+
+## baobab
+```bash
+# Ubuntu
+sudo apt update
+sudo apt install -y baobab
 ```
