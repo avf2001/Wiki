@@ -1,3 +1,7 @@
+- DockerHosting.ru
+- Selectel
+- Yandex Cloud
+
 # DockerHosting.ru
 https://dockerhosting.ru/
 
@@ -23,7 +27,7 @@ CLI
 Portainer
 CLI
 
+# Selectel
+
 # Yandex Cloud
 https://yandex.cloud/ru/services/container-registry
-
-# Selectel
