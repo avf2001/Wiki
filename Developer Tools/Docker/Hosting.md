@@ -22,3 +22,8 @@ CLI
 
 Portainer
 CLI
+
+# Yandex Cloud
+https://yandex.cloud/ru/services/container-registry
+
+# Selectel
