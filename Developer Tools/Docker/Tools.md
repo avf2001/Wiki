@@ -63,3 +63,5 @@ With watchtower you can update the running version of your containerized app sim
 
 # Dockge
 [Site](https://dockge.kuma.pet/) [Github](https://github.com/louislam/dockge)
+
+A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.
