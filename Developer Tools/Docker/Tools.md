@@ -6,7 +6,7 @@
 - [Hadolint](#hadolint)
 - [Ctop](#ctop)
 - [Dozzle](#dozzle)
-- [Dockge](https://dockge.kuma.pet/)
+- [Dockge](#dockge)
 
 # Dockly
 [Github](https://github.com/lirantal/dockly)
