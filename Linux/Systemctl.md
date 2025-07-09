@@ -13,6 +13,12 @@ $ systemctl list-units --type=service --all --no-legend --no-pager | awk '{print
 $ systemctl list-units --type=service --state=running
 ```
 
+## Удаление сервиса (примере kubelet)
+1. Проверить службу в списке
+```bash
+sudo systemctl list-unit-files --type=service | grep -i kubelet
+```
+
 # Journalctl
 journalctl — это команда в Linux, используемая для запроса и просмотра журналов системы, которые хранятся в журнале systemd. 
 
