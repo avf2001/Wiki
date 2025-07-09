@@ -37,6 +37,12 @@ sudo rm /usr/lib/systemd/system/kubelet.service
 ```bash
 sudo systemctl list-unit-files --type=service | grep -i kubelet
 ```
+### Дополнительно для kubelet
+```bash
+sudo rm /usr/bin/kubelet
+sudo rm -rf /var/lib/kubelet    # Removes pod manifests and data
+sudo rm -rf /etc/kubernetes     # Removes kubelet configs (if any)
+```
 
 # Journalctl
 journalctl — это команда в Linux, используемая для запроса и просмотра журналов системы, которые хранятся в журнале systemd. 
