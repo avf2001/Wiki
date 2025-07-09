@@ -28,6 +28,11 @@ sudo systemctl disable kubelet       # Prevent it from starting at boot
 sudo ls -al /etc/systemd/system/
 sudo rm -r /etc/systemd/system/kubelet.service.d/
 ```
+4. Проверить папку `/usr/lib/systemd/system` и удалить необходимые файлы/папки
+```bash
+sudo ls -al /usr/lib/systemd/system/kube*
+sudo rm /usr/lib/systemd/system/kubelet.service
+```
 
 # Journalctl
 journalctl — это команда в Linux, используемая для запроса и просмотра журналов системы, которые хранятся в журнале systemd. 
