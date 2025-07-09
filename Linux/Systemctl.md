@@ -18,6 +18,11 @@ $ systemctl list-units --type=service --state=running
 ```bash
 sudo systemctl list-unit-files --type=service | grep -i kubelet
 ```
+2. Остановить и отключить службу
+```bash
+sudo systemctl stop kubelet          # Stop the running service
+sudo systemctl disable kubelet       # Prevent it from starting at boot
+```
 
 # Journalctl
 journalctl — это команда в Linux, используемая для запроса и просмотра журналов системы, которые хранятся в журнале systemd. 
