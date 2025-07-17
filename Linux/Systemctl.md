@@ -1,5 +1,7 @@
 * [Systemctl](#systemctl)
   * [Получить список имен всех сервисов]()
+  * [Узнать расположение файла конфигурации]()
+  * [Удаление сервиса (примере kubelet)]()
 * [Journalctl](#journalctl)
   * [Занимаемое дисковое пространство](#занимаемое-дисковое-пространство)
   * [Очистка](#очистка)
@@ -12,6 +14,12 @@ $ systemctl list-units --type=service --all --no-legend --no-pager | awk '{print
 ```
 ```
 $ systemctl list-units --type=service --state=running
+```
+
+## Узнать расположение файла конфигурации
+```shell
+$ systemctl show --property=FragmentPath sshd.service
+FragmentPath=/usr/lib/systemd/system/sshd.service
 ```
 
 ## Удаление сервиса (примере kubelet)
