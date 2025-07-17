@@ -1,6 +1,33 @@
-# Copy SSH key file to remote server
+# Create and copy SSH key file to remote server
+1. Generate SSH key for server
 ```shell
-ssh-copy-id username@server.name.com
+ssh-keygen -t ed25519 -f ~/.ssh/server.name.com_key -C "user@sserver.name.com"
+```
+
+2. View created file:
+```shell
+ls ~/.ssh/
+```
+
+3. Copy public key to remote server
+```shell
+ssh-copy-id -i ~/.ssh/server.name.com_key.pub user@server.name.com
+```
+
+4. Test SSH connection
+
+5. Edit `~/.ssh/config` file
+```shell
+Host server
+    HostName server.name.com
+    User user
+    IdentityFile ~/.ssh/server.name.com_key
+```
+
+6. Ensure correct permissions (optional but recommended):
+```shell
+chmod 600 ~/.ssh/config
+chmod 600 ~/.ssh/server1_key
 ```
 
 # Remove SSH key from remote server
