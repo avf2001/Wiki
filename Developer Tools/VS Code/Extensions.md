@@ -52,6 +52,10 @@
 * [Prettier Formatter for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
   Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
+
+* [JSON Crack](https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode)
+
+  JSON Crack is a powerful and innovative VS Code extension designed to revolutionize the way you interact with JSON data. Seamlessly bridging the gap between data and visualization, this extension empowers developers, data analysts, and enthusiasts to effortlessly transform complex JSON datasets into informative and visually appealing graphs
   
 ## Package Managers
 * [NuGet Package Manager](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager)
