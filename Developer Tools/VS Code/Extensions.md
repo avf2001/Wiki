@@ -1,4 +1,7 @@
 # Extensions
+
+<details><summary>Content</summary>
+
 * [C#](#c)
 * [Database](#database)
 * [Editor](#editor)  
@@ -13,6 +16,9 @@
   * [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
   * [Bracket Pair Color DLW](https://marketplace.visualstudio.com/items?itemName=BracketPairColorDLW.bracket-pair-color-dlw)
   * [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
+
+</details>
+
 ## C#
 * [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
 
