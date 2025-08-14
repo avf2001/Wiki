@@ -8,6 +8,12 @@
 * [Отмена локальных изменений](#отмена-локальных-изменений)
 * [Слияние бранча]()
 * [Объединение нескольких последовательных коммитов в один]()
+  * [Интерактивный режим]()
+  * [Неинтерактивный режим]()
+    * [Вариант 1]()
+    * [Вариант 2]()
+    * [Вариант 3]()
+    * [Вариант 4]()
 * [Отмена коммита в бранче и перенос изменений в другой бранч]()
 ## Добавление измененных файлов в завершенный коммит
 ```cmd
@@ -75,12 +81,49 @@ If you want to remove untracked files or directories or use:
 ```
 
 ## Объединение нескольких последовательных коммитов в один
+### Интерактивный режим
 ```cmd
 > git rebase -i HEAD~3
 
 pick f392171 Added new feature X
 squash ba9dd9a Added new elements to page design
 squash df71a27 Updated CSS for new elements
+```
+### Неинтерактивный режим
+#### Вариант 1
+```cmd
+# Reset to the commit before the ones you want to squash
+git reset --soft HEAD~N  # Where N is number of commits to squash
+
+# All changes will be staged - create a new single commit
+git commit -m "Your new squashed commit message"
+```
+#### Вариант 2
+```cmd
+git checkout main
+git merge --squash feature-branch
+git commit -m "Squashed feature branch"
+```
+#### Вариант 3
+```cmd
+# Create a temporary branch at the point before squashing
+git checkout -b temp-branch HEAD~N
+
+# Cherry-pick the changes with --no-commit
+git cherry-pick --no-commit HEAD~N..original-branch
+
+# Commit all changes as one
+git commit -m "Squashed changes"
+
+# Replace original branch
+git branch -f original-branch
+git checkout original-branch
+git branch -D temp-branch
+```
+#### Вариант 4
+```cmd
+git reset --soft $(git merge-base main HEAD)
+git commit -m "Squashed all commits since main"
 ```
 
 ## Отмена коммита в бранче и перенос изменений в другой бранч
