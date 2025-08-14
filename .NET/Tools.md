@@ -25,3 +25,8 @@ dotnet tool install --global dotnet-counters
 [Analysing .NET start-up time with Flamegraphs](https://mattwarren.org/2020/03/03/Analysing-.NET-Runtime-Startup-with-Flamegraphs/)
 
 [Profiling .NET Code with PerfView and visualizing it with speedscope.app](https://adamsitnik.com/speedscope/)
+
+# GummyCat
+A tool to visualize the activity of the .NET garbage collector.
+
+https://github.com/kevingosse/GummyCat
