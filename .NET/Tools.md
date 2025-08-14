@@ -30,3 +30,8 @@ dotnet tool install --global dotnet-counters
 A tool to visualize the activity of the .NET garbage collector.
 
 https://github.com/kevingosse/GummyCat
+
+# Spectre.Console
+Spectre.Console is a .NET library that makes it easier to create beautiful console applications.
+
+https://spectreconsole.net/ https://github.com/spectreconsole/spectre.console
