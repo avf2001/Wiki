@@ -14,6 +14,7 @@
 * [Check Remote Open Port](#check-remote-open-port)
 * [Show Open Ports](#show-open-ports)
 * [Show Port is Used](#show-port-is-used)
+* [Посмотреть кто слушает порт]()
 
 # View Network Interfaces
 
@@ -359,4 +360,13 @@ $ sudo lsof -i:<PORT_NUMBER>
 
 # Method 4
 $ sudo fuser <PORT_NUMBER>/tcp
+```
+
+# Посмотреть кто слушает порт
+```shell
+# Method 1
+lsof -i :8200
+
+# Method 2
+netstat -tulnp | grep :8200
 ```
