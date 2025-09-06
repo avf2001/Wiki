@@ -15,7 +15,7 @@
   - Use `ILogger` everywhere, not Serilog directly
   - Use structured logging
 ## View Entity Framework Queries
-Switch log level of Microsoft.EntityFrameworkCore.Database.Command to information
+Switch log level of Microsoft.EntityFrameworkCore.Database.Command to information. Do this only for local development.
 
 # ASP.NET
 
