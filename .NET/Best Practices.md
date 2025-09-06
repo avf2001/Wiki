@@ -10,3 +10,14 @@
 3. Use Serilog as logging framework
   - Use `ILogger` everywhere, not Serilog directly
   - Use structured logging
+
+# ASP.NET
+4. Use FallbackPolicy
+```csharp
+builder.Services.AddAuthorization(options =>
+{
+    options.FallbackPolicy = new AuthorizationPolicyBuilder()
+        .RequireAuthenticatedUser()
+        .Build();
+});
+```
