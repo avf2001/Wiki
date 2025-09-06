@@ -29,6 +29,9 @@ builder.Services.AddAuthorization(options =>
 ```
 ## Remove the Server Header
 By default ASP.NET Core adds a Server Header "Kestrel".
+```csharp
+builder.WebHost.UseKestrel(options => options.AddServerHeader = false);
+```
 
 # Libraries
 - FluentValidation
