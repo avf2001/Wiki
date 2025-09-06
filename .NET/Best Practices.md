@@ -11,9 +11,11 @@
 </PropertyGroup>
 ```
 # Logging
-3. Use Serilog as logging framework
+## Use Serilog as logging framework
   - Use `ILogger` everywhere, not Serilog directly
   - Use structured logging
+## View Entity Framework Queries
+Switch log level of Microsoft.EntityFrameworkCore.Database.Command to information
 
 # ASP.NET
 
