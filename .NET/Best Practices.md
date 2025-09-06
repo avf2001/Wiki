@@ -1,5 +1,8 @@
+# Project Structure
 1. Use feature folders
-2. Treat warnings as errors
+
+# Project Settings
+3. Treat warnings as errors
 
 **`.csproj`** file
 ```xml
@@ -7,12 +10,14 @@
   <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 </PropertyGroup>
 ```
+# Logging
 3. Use Serilog as logging framework
   - Use `ILogger` everywhere, not Serilog directly
   - Use structured logging
 
 # ASP.NET
-4. Use FallbackPolicy
+A Fallback Policy is the policy that gets evaluated if no policy is specified.
+
 ```csharp
 builder.Services.AddAuthorization(options =>
 {
