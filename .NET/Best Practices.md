@@ -50,3 +50,7 @@ public class WeatherForecastController(AppSettings appSettings)
     ...
 }
 ```
+
+# Structuring Method
+* Happy Path always at the Bottom of the Method
+* Use returns instead of nested if-else
