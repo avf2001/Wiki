@@ -1,3 +1,5 @@
+- [Best Practices](Best Practices.md) - подходы к структуре проекта
+
 # Resources
 
 - [Awesome .NET!](https://github.com/quozd/awesome-dotnet) - A collection of awesome .NET libraries, tools, frameworks, and software.
