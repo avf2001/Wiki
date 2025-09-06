@@ -50,6 +50,7 @@ public class WeatherForecastController(AppSettings appSettings)
     ...
 }
 ```
+## Singletons can only depend on Singletons
 
 # Structuring Method
 * Happy Path always at the Bottom of the Method
