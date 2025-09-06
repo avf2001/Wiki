@@ -1,5 +1,5 @@
 1. Use feature folders
-2. Treat warning as errors
+2. Treat warnings as errors
 
 **`.csproj`** file
 ```xml
