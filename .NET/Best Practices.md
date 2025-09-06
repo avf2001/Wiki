@@ -26,3 +26,6 @@ builder.Services.AddAuthorization(options =>
         .Build();
 });
 ```
+
+# Libraries
+- FluentValidation
