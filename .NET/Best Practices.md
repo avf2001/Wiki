@@ -16,6 +16,7 @@
   - Use structured logging
 
 # ASP.NET
+
 A Fallback Policy is the policy that gets evaluated if no policy is specified.
 
 ```csharp
@@ -26,6 +27,7 @@ builder.Services.AddAuthorization(options =>
         .Build();
 });
 ```
+## Remove the Server Header
 
 # Libraries
 - FluentValidation
