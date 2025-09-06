@@ -40,6 +40,7 @@ builder.WebHost.UseKestrel(options => options.AddServerHeader = false);
 ## Don't use IOptions
 Solution:
 ```csharp
+services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 services.AddSingleton(registeredServices => registeredServices.GetRequiredService<IOptions<AppSettings>>().Value);
 
 // To use IOptionSnapshot register as scoped
