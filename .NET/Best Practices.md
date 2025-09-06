@@ -9,3 +9,4 @@
 ```
 3. Use Serilog as logging framework
   - Use `ILogger` everywhere, not Serilog directly
+  - Use structured logging
