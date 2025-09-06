@@ -64,3 +64,6 @@ builder.Host.UseDefaultServiceProvider(config =>
 
 # Testing
 Use xUnit
+
+# Use Central Package management
+Create Directory.Packages.props at the root and define packages and versions here.
