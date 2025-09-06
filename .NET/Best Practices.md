@@ -42,6 +42,8 @@ Solution:
 ```csharp
 services.AddSingleton(registeredServices => registeredServices.GetRequiredService<IOptions<AppSettings>>().Value);
 
+// To use IOptionSnapshot register as scoped
+
 public class WeatherForecastController(AppSettings appSettings)
 {
     ...
