@@ -35,3 +35,15 @@ builder.WebHost.UseKestrel(options => options.AddServerHeader = false);
 
 # Libraries
 - FluentValidation
+
+# Other
+## Don't use IOptions
+Solution:
+```csharp
+services.AddSingleton(registeredServices => registeredServices.GetRequiredService<IOptions<AppSettings>>().Value);
+
+public class WeatherForecastController(AppSettings appSettings)
+{
+    ...
+}
+```
