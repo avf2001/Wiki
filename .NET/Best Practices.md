@@ -61,3 +61,6 @@ builder.Host.UseDefaultServiceProvider(config =>
 # Structuring Method
 * Happy Path always at the Bottom of the Method
 * Use returns instead of nested if-else
+
+# Testing
+Use xUnit
