@@ -90,4 +90,7 @@ services
   .ValidateDataAnnotations()
   .ValidateOnStart();
 ```
-- Different kinds of Options: IOptions, IOptionsSnapshot, IOptionsMonitor
+- Different kinds of Options:
+  - IOptions - Simgleton, read once
+  - IOptionsSnapshot - Scoped, read every scope, useful with web requests, keep performance in mind
+  - IOptionsMonitor - singleton, read in real-time, uses change notifications, useful with background services
