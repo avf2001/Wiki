@@ -102,5 +102,9 @@ dotnet user-secrets set "ConnectionStrings:Database" "Data Source=..."
 dotnet user-secrets set "AdminPassword" "hunter2"
 ```
 ```
-%APPDATA%/Microsoft/UserSecrets/SECRET_ID/secrets.json
+# Windows
+%APPDATA%/Microsoft/UserSecrets/SECRETS_ID/secrets.json
+
+# Linux
+~/.microsoft/usersecrets/SECRETS_ID/secrets.json
 ```
