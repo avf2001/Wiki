@@ -80,4 +80,14 @@ Use xUnit
 Create Directory.Packages.props at the root and define packages and versions here.
 
 # Configuration
-Use `GetRequiredSection` instead of `GetSection`.
+- Use `GetRequiredSection` instead of `GetSection`.
+- Validate options configuration with attributes
+- Use:
+```csharp
+services
+  .AddOptions<ApiSettings>()
+  .BindConfiguration(nameof(ApiSettings))
+  .ValidateDataAnnotations()
+  .ValidateOnStart();
+
+```
