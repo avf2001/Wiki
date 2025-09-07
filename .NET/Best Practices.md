@@ -89,5 +89,5 @@ services
   .BindConfiguration(nameof(ApiSettings))
   .ValidateDataAnnotations()
   .ValidateOnStart();
-
 ```
+- Different kinds of Options: IOptions, IOptionsSnapshot, IOptionsMonitor
