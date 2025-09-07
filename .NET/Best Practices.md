@@ -95,7 +95,7 @@ services
   - IOptionsSnapshot - Scoped, read every scope, useful with web requests, keep performance in mind
   - IOptionsMonitor - singleton, read in real-time, uses change notifications, useful with background services
 
-- Use secrets in development
+## In development
 ```csharp
 dotnet user-secrets init
 dotnet user-secrets set "ConnectionStrings:Database" "Data Source=..."
@@ -108,7 +108,8 @@ dotnet user-secrets set "AdminPassword" "hunter2"
 # Linux
 ~/.microsoft/usersecrets/SECRETS_ID/secrets.json
 ```
-- In production use parameters (connection string) as environment variables (for docker)
+## In production
+Use parameters (connection string) as environment variables (for docker)
 ```yaml
 services:
   dotnetapi:
