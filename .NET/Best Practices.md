@@ -108,3 +108,12 @@ dotnet user-secrets set "AdminPassword" "hunter2"
 # Linux
 ~/.microsoft/usersecrets/SECRETS_ID/secrets.json
 ```
+- In production use parameters (connection string) as environment variables (for docker)
+```yaml
+services:
+  dotnetapi:
+    image:...
+    environment:
+      - ConnectionStrings__Database="SomeValue"
+      - ApiKey="SomeValue"
+```
