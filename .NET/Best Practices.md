@@ -96,3 +96,8 @@ services
   - IOptionsMonitor - singleton, read in real-time, uses change notifications, useful with background services
 
 - Use secrets in development
+```csharp
+dotnet user-secrets init
+dotnet user-secrets set "ConnectionStrings:Database" "Data Source=..."
+dotnet user-secrets set "AdminPassword" "hunter2"
+```
