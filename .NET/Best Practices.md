@@ -1,3 +1,14 @@
+- [Project Structure]()
+- [Project Settings]()
+- [Logging]()
+- [ASP.NET]()
+- [Libraries]()
+- [Other]()
+- [Structuring Method]()
+- [Testing]()
+- [Use Central Package management]()
+- [Configuration]()
+
 # Project Structure
 1. Use feature folders
 
@@ -10,6 +21,7 @@
   <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 </PropertyGroup>
 ```
+
 # Logging
 ## Use Serilog as logging framework
   - Use `ILogger` everywhere, not Serilog directly
