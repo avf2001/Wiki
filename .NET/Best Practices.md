@@ -94,3 +94,5 @@ services
   - IOptions - Simgleton, read once
   - IOptionsSnapshot - Scoped, read every scope, useful with web requests, keep performance in mind
   - IOptionsMonitor - singleton, read in real-time, uses change notifications, useful with background services
+
+- Use secrets in development
