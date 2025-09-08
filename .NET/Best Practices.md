@@ -12,7 +12,7 @@
 - [Configuration]()
 - [Dependency Injection]()
   - [ValidateOnBuild]()
-- [Package Management](Package Management)
+- [Package Management](#package-management)
   - [Central Package Management]()
 
 # Project Structure
