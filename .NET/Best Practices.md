@@ -12,6 +12,8 @@
 - [Configuration]()
 - [Dependency Injection]()
   - [ValidateOnBuild]()
+- [Package Management](Package Management)
+  - [Central Package Management]()
 
 # Project Structure
 1. Use feature folders
@@ -163,3 +165,7 @@ app.Run();
 Теперь каждый раз, когда проект собирается, DI-контейнер попытается разрешить все зарегистрированные типы и сервисные зависимости. Если возникнет ошибка (например, невозможно создать экземпляр какого-то сервиса), процесс сборки завершится неудачей, и вы получите соответствующую ошибку прямо в IDE.
 
 Включение этого режима замедляет сборку проекта, поскольку контейнер пытается разрешать зависимости при каждой сборке. Поэтому лучше всего использовать данную функциональность в процессе разработки, отключая её на CI-сервере или в продакшене, чтобы ускорить процессы деплоймента.
+
+# Package Management
+## Central Package Management
+[Source](https://learn.microsoft.com/en-us/nuget/consume-packages/central-package-management)
