@@ -5,3 +5,4 @@
 * [Ducks: Redux Reducer Bundles (GitHub)](https://github.com/erikras/ducks-modular-redux)
 # UI Libraries
 * [Prismane](https://www.prismane.io/)
+* [React Bits](https://reactbits.dev/)
