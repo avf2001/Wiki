@@ -10,6 +10,8 @@
 - [Testing]()
 - [Use Central Package management]()
 - [Configuration]()
+- [Dependency Injection]()
+  - [ValidateOnBuild]()
 
 # Project Structure
 1. Use feature folders
@@ -141,3 +143,23 @@ services:
       - ConnectionStrings__Database="SomeValue"
       - ApiKey="SomeValue"
 ```
+
+# Dependency Injection
+## ValidateOnBuild
+Свойство `ServiceProviderOptions.ValidateOnBuild` доступно в .NET Core/.NET начиная с версии 3.x и далее. Оно управляет поведением механизма регистрации сервисов (Dependency Injection) и позволяет проверять сервисы на этапе компиляции, выявляя возможные ошибки зависимости.
+
+```csharp
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.Configure<ServiceProviderOptions>(options =>
+{
+    options.ValidateOnBuild = true;
+});
+
+// Добавляем остальные сервисы...
+
+var app = builder.Build();
+app.Run();
+```
+Теперь каждый раз, когда проект собирается, DI-контейнер попытается разрешить все зарегистрированные типы и сервисные зависимости. Если возникнет ошибка (например, невозможно создать экземпляр какого-то сервиса), процесс сборки завершится неудачей, и вы получите соответствующую ошибку прямо в IDE.
+
+Включение этого режима замедляет сборку проекта, поскольку контейнер пытается разрешать зависимости при каждой сборке. Поэтому лучше всего использовать данную функциональность в процессе разработки, отключая её на CI-сервере или в продакшене, чтобы ускорить процессы деплоймента.
