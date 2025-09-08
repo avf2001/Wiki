@@ -13,3 +13,6 @@ https://hackerthemes.com/bootstrap-cheatsheet/
 
 ## BEDROCKLAYOUT PRIMITIVES
 https://www.bedrock-layout.dev
+
+## Other
+- [Как работает CSS Flexbox: наглядное введение в систему компоновки элементов на веб-странице](https://tproger.ru/translations/how-css-flexbox-works)
