@@ -1,4 +1,6 @@
 - [Project Structure]()
+  - [Use feature folders]()
+  - [Global Usings]()
 - [Project Settings]()
 - [Logging]()
 - [ASP.NET]()
@@ -16,7 +18,9 @@
   - [Central Package Management]()
 
 # Project Structure
-1. Use feature folders
+## Use feature folders
+## Global Usings
+[Source](https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/keywords/using-directive#the-global-modifier)
 
 # Project Settings
 3. Treat warnings as errors
