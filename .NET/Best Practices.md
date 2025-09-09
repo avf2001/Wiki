@@ -1,6 +1,6 @@
 - [Project Structure]()
   - [Use feature folders]()
-  - [Global Usings]()
+  - [Global Usings](#global-usings)
 - [Project Settings]()
 - [Logging]()
 - [ASP.NET]()
