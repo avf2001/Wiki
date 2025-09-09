@@ -31,6 +31,9 @@
 </ItemGroup>
 ```
 
+### Option 3
+**`Directory.Build.props`** file
+
 # Project Settings
 3. Treat warnings as errors
 
