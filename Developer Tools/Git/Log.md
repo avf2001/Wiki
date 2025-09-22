@@ -12,3 +12,8 @@ q - выход, h - справка
 > git log --graph --all
 > git log --graph --all --decorate --oneline
 ```
+
+## Просмотр истории изменений файла
+```cmd
+git log --oneline -- file.txt
+```
