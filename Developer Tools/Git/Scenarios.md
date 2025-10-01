@@ -15,6 +15,8 @@
     * [Вариант 3]()
     * [Вариант 4]()
 * [Отмена коммита в бранче и перенос изменений в другой бранч]()
+* [Удаление файла из всей истории репозитория](#%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0-%D0%B8%D0%B7-%D0%B2%D1%81%D0%B5%D0%B9-%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F)
+
 ## Добавление измененных файлов в завершенный коммит
 ```cmd
 > git commit --amend --no-edit
@@ -133,4 +135,11 @@ git commit -m "Squashed all commits since main"
 > git checkout -b required-branch  # create and checkout new branch
 > git add -A                       # stage all changes
 > git commit -m "Commit message"   # commit all changes
+```
+
+# Удаление файла из всей истории репозитория
+```cmd
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch path/to/file' --prune-empty --tag-name-filter cat -- --all    # Remove file from all commits
+git push origin --force --all    # Clean up and force push
+git push origin --force --tags
 ```
