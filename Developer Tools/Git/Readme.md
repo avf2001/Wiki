@@ -9,3 +9,4 @@
 
 ## Youtube
 - [Git Internals - Creating a Repo From Scratch](https://www.youtube.com/watch?v=52MFjdGH20o)
+- [Git best practice tip: clean commit history](https://www.youtube.com/watch?v=bZpiVijzd2g)
