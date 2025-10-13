@@ -33,3 +33,4 @@ AST Tree - абстрактное синтаксическое дерево
 ### UI Prototyping
 - [Bolt.new](https://bolt.new/)
 - [Uizard](https://uizard.io/)
+- [Lovable](https://lovable.dev/)
