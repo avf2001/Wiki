@@ -25,11 +25,17 @@ pkg update && pkg upgrade
 
 pkg install root-repo
 
+# Install proot-distro
 pkg install proot-distro
 
+# List available distributions
+proot-distro list
+
+# Install Debian
 proot-distro install debian
 ```
 ```shell
+# Login to Debian
 proot-distro login debian
 ```
 
