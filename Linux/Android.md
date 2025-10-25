@@ -18,3 +18,14 @@ sshd                         # Start the SSH server on port 8022 (the default fo
 ```shell
 ssh <phone-ip-address> -p 8022
 ```
+
+# Docker
+```shell
+pkg update && pkg upgrade
+
+pkg install root-repo
+
+pkg install proot-distro
+
+proot-distro install debian
+```
