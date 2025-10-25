@@ -29,3 +29,6 @@ pkg install proot-distro
 
 proot-distro install debian
 ```
+```shell
+proot-distro login debian
+```
