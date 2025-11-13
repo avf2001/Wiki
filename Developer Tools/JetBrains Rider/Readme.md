@@ -1,3 +1,4 @@
+# Создание базового образа для отладки
 1. Создать **`Dockerfile`**
 ```dockerfile
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
