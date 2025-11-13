@@ -18,6 +18,10 @@ RUN wget -qO- https://aka.ms/getvsdbgsh | sh /dev/stdin -v latest -l /vsdbg
 USER $APP_UID
 ```
 2. Создать образ на основе этого **`Dockerfile`**:
-```dockerfile
+```shell
  docker build -t mycompany/dotnet/aspnet-rider-debug:9.0 -f .\Dockerfile .
+```
+3. Экспортировать созданный образ:
+```shell
+docker save -o mycompany_dotnet_aspnet-rider-debug:9.0.tar mycompany/dotnet/aspnet-rider-debug:9.0
 ```
