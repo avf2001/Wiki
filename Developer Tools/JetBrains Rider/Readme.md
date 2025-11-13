@@ -23,5 +23,5 @@ USER $APP_UID
 ```
 3. Экспортировать созданный образ:
 ```shell
-docker save -o mycompany_dotnet_aspnet-rider-debug:9.0.tar mycompany/dotnet/aspnet-rider-debug:9.0
+docker save -o mycompany_dotnet_aspnet-rider-debug_9.0.tar mycompany/dotnet/aspnet-rider-debug:9.0
 ```
