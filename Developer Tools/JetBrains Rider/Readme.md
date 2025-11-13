@@ -25,3 +25,7 @@ USER $APP_UID
 ```shell
 docker save -o mycompany_dotnet_aspnet-rider-debug_9.0.tar mycompany/dotnet/aspnet-rider-debug:9.0
 ```
+4. Загрузить созданный файл на целевой машине:
+```shell
+docker load -i mycompany_dotnet_aspnet-rider-debug_9.0.tar
+```
