@@ -29,3 +29,7 @@ docker save -o mycompany_dotnet_aspnet-rider-debug_9.0.tar mycompany/dotnet/aspn
 ```shell
 docker load -i mycompany_dotnet_aspnet-rider-debug_9.0.tar
 ```
+5. Указать в качестве базового образа загруженный образ:
+```dockerfile
+FROM mycompany/dotnet/aspnet-rider-debug:9.0 AS base
+```
