@@ -7,6 +7,7 @@
   * [Занимаемое дисковое пространство](#занимаемое-дисковое-пространство)
   * [Очистка](#очистка)
   * [Просмотр лога](#просмотр-лога)
+* [Resources](#resources)
 
 # systemd-analyze
 
@@ -103,3 +104,6 @@ $ sudo journalctl --disk-usage
 $ sudo journalctl --vacuum-size=2G     # удалить логи более 2 Гб
 $ sudo journalctl --vacuum-time=1years # удалить логи старше одного года
 ```
+
+# Resources
+https://systemd.io/
