@@ -87,3 +87,9 @@ traceroute 8.8.8.8
 ```shell
 mtr
 ```
+```shell
+dig
+```
+```shell
+nslookup
+```
