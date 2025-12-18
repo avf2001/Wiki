@@ -84,3 +84,6 @@ ping google.com    # проверка работы DNS
 ```shell
 traceroute 8.8.8.8
 ```
+```shell
+mtr
+```
