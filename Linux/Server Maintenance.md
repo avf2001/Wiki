@@ -34,3 +34,9 @@ top
 ```shell
 htop
 ```
+```shell
+vmstat
+```
+```shell
+free -m
+```
