@@ -88,7 +88,8 @@ traceroute 8.8.8.8
 mtr
 ```
 ```shell
-dig
+dig google.com             # Запросить информацию у локального DNS сервера
+dig @8.8.8.8 google.com    # Запросить информацию у определенного DNS сервера
 ```
 ```shell
 nslookup
