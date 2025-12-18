@@ -105,5 +105,5 @@ tcpdump -i any port 9100 -nn
 
 ## Логи
 ```shell
-tail -f /var/log/syslog
+tail -f -n50 /var/log/syslog
 ```
