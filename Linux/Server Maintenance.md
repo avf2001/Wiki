@@ -99,3 +99,6 @@ curl -Lv <URL>
 curl -v telnet://127.0.0.1:22                                # Проверка доступности порта
 curl --unix-socket /var/run/docker.sock http:/images/json    # Обращение к UNIX сокету
 ```
+```shell
+tcpdump -i any port 9100 -nn
+```
