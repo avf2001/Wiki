@@ -51,3 +51,8 @@ ps aux
 ```shell
 strace -p <PID>
 ```
+
+## Сеть
+```shell
+netstat -tulpn
+```
