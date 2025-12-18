@@ -113,3 +113,6 @@ tail -lah /var/log/auth.log
 ```shell
 tail -lah /var/log/kernel.log
 ```
+```shell
+dmesg -T
+```
