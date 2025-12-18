@@ -43,3 +43,8 @@ free -m
 ```shell
 cat /proc/meminfo
 ```
+
+## Процессы
+```shell
+ps aux
+```
