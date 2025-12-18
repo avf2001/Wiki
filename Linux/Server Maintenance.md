@@ -65,3 +65,7 @@ ss -lntu
 ```shell
 ip a
 ```
+То же самое (устаревший вариант)
+```shell
+ifconfig
+```
