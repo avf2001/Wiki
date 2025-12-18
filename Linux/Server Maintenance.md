@@ -95,5 +95,5 @@ dig @8.8.8.8 google.com    # Запросить информацию у опре
 nslookup
 ```
 ```shell
-curl
+curl -Lv <URL>
 ```
