@@ -1,5 +1,6 @@
 * [Firewall](Firewall.md)
 * [SSH](SSH.md)
+* [Сеть](Network.md)
 * [Советы](Tips.md)
 * [Обслуживание сервера](Server%20Maintenance.md)
 # Resources
