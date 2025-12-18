@@ -77,3 +77,6 @@ netstat -rn
 ```shell
 ip r
 ```
+```shell
+ping
+```
