@@ -94,3 +94,6 @@ dig @8.8.8.8 google.com    # Запросить информацию у опре
 ```shell
 nslookup
 ```
+```shell
+curl
+```
