@@ -102,3 +102,8 @@ curl --unix-socket /var/run/docker.sock http:/images/json    # Обращени�
 ```shell
 tcpdump -i any port 9100 -nn
 ```
+
+## Логи
+```shell
+tail -f /var/log/syslog
+```
