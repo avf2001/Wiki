@@ -25,3 +25,6 @@ cat /proc/mdstat
 ```shell
 iostat
 ```
+```shell
+iotop
+```
