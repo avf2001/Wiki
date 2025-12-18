@@ -48,3 +48,6 @@ cat /proc/meminfo
 ```shell
 ps aux
 ```
+```shell
+strace -p <PID>
+```
