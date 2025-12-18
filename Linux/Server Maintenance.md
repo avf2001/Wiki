@@ -116,3 +116,6 @@ tail -lah /var/log/kernel.log
 ```shell
 dmesg -T
 ```
+```shell
+journalctl -xeu nginx
+```
