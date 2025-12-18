@@ -69,3 +69,7 @@ ip a
 ```shell
 ifconfig
 ```
+Информация о сетевых маршрутах
+```shell
+netstat -rn
+```
