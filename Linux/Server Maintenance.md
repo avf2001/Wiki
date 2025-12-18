@@ -57,3 +57,7 @@ strace -p <PID>
 ```shell
 netstat -tulpn
 ```
+Тот же результат
+```shell
+ss -lntu
+```
