@@ -28,3 +28,6 @@ iostat
 ```shell
 iotop
 ```
+```shell
+top
+```
