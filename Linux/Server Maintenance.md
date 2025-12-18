@@ -21,6 +21,7 @@ smartctl -a /dev/sda
 ```shell
 cat /proc/mdstat
 ```
+
 ## Процессор и память
 ```shell
 iostat
@@ -108,6 +109,9 @@ curl --unix-socket /var/run/docker.sock http:/images/json    # Обращени�
 ```
 ```shell
 tcpdump -i any port 9100 -nn
+```
+```shell
+lshw -class network
 ```
 
 ## Логи
