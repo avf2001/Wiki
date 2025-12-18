@@ -78,5 +78,6 @@ netstat -rn
 ip r
 ```
 ```shell
-ping
+ping 8.8.8.8       # проверка доступости удаленного сервера
+ping google.com    # проверка работы DNS
 ```
