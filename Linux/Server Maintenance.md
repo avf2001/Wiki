@@ -21,3 +21,7 @@ smartctl -a /dev/sda
 ```shell
 cat /proc/mdstat
 ```
+# Процессор и память
+```shell
+iostat
+```
