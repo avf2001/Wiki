@@ -96,4 +96,5 @@ nslookup
 ```
 ```shell
 curl -Lv <URL>
+curl -v telnet://127.0.0.1:22    # Проверка доступности порта
 ```
