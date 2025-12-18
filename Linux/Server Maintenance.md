@@ -61,3 +61,7 @@ netstat -tulpn
 ```shell
 ss -lntu
 ```
+Отобразить список сетевых интерфейсов
+```shell
+ip a
+```
