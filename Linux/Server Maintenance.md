@@ -107,3 +107,6 @@ tcpdump -i any port 9100 -nn
 ```shell
 tail -f -n50 /var/log/syslog
 ```
+```shell
+tail -lah /var/log/auth.log
+```
