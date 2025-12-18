@@ -40,3 +40,6 @@ vmstat
 ```shell
 free -m
 ```
+```shell
+cat /proc/meminfo
+```
