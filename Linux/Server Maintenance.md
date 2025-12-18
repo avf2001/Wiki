@@ -17,3 +17,7 @@ du -sh /tmp
 ```shell
 smartctl -a /dev/sda
 ```
+Просмотр состояния RAID массива
+```shell
+cat /proc/mdstat
+```
