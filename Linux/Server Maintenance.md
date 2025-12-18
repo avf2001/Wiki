@@ -73,3 +73,7 @@ ifconfig
 ```shell
 netstat -rn
 ```
+То же самое
+```shell
+ip r
+```
