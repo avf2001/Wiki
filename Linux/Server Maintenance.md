@@ -110,3 +110,6 @@ tail -f -n50 /var/log/syslog
 ```shell
 tail -lah /var/log/auth.log
 ```
+```shell
+tail -lah /var/log/kernel.log
+```
