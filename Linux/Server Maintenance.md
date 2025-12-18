@@ -64,11 +64,17 @@ ss -lntu
 Отобразить список сетевых интерфейсов
 ```shell
 ip a
-ip link set wlan0 down # скрыть MAC адрес
 ```
 То же самое (устаревший вариант)
 ```shell
 ifconfig
+```
+скрыть MAC адрес
+```shell
+ip link set wlan0 down
+ipconfig wlan0 hw ether 14:de:d1:88:18:d4
+ip link set wlan0 up
+ip l
 ```
 Информация о сетевых маршрутах
 ```shell
