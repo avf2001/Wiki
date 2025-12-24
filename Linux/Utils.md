@@ -20,6 +20,7 @@
   * [qpdfview](#qpdfview)
 * [Disk](#baobab)
   * [baobab](#baobab)
+* [Screen](screen)
 
 # bpytop
 ## Описание
@@ -192,4 +193,10 @@ sudo apt install -y qpdfview
 # Ubuntu
 sudo apt update
 sudo apt install -y baobab
+```
+
+# Screen
+## cmatrix
+```shell
+sudo dnf install cmatrix
 ```
