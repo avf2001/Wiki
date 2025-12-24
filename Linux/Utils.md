@@ -7,10 +7,8 @@
 * [File Managers](#file-managers)  
 * [Optical Character Recognition (OCR)](#optical-character-recognition-ocr)
   * [Tesseract OCR](#tesseract-ocr)
-* [PDF](#pdf)
-  * [Okular](#okular)
-  * [Evince](#evince)
-  * [qpdfview](#qpdfview)
+* [Офис](#офис)
+  * [PDF](#pdf)    
 * [Disk](#baobab)
   * [baobab](#baobab)
 * [Screen](screen)
@@ -165,28 +163,36 @@ $ sudo apt install -y tesseract-ocr-fra # Plugin for French etc.
 $ sudo apt install -y gimagereader      # GUI
 ```
 
-# PDF
 
-## Okular
+# Офис
+* [Okular](#okular)
+* [Evince](#evince)
+* [qpdfview](#qpdfview)
 
-### Installation
+## PDF
+
+### Okular
+
+#### Installation
 ```bash
 sudo apt install -y okular
 ```
 
-## Evince
+### Evince
 
-### Installation
+#### Installation
 ```bash
 sudo apt install -y evince
 ```
 
-## qpdfview
+### qpdfview
 
-### Installation
+#### Installation
 ```bash
 sudo apt install -y qpdfview
 ```
+
+
 
 # Disk
 
