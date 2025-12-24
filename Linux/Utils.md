@@ -25,11 +25,12 @@ sudo apt update
 sudo apt install snapd
 ```
 
-### Fedora (Byfin)
+### Fedora (Bluefin)
 ```shell
 sudo dnf install snapd
 sudo snap install bpytop
 ```
+
 ## Предварительная настройка
 ```shell
 $ sudo snap connect bpytop:mount-observe
