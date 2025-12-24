@@ -155,12 +155,12 @@ sudo apt install fman
 * [Распознавание документов](#распознавание%20документов)
 * [PDF](#pdf)
 
-# Распознавание документов
+## Распознавание документов
 * [Tesseract OCR](#tesseract-ocr)
 
-## Tesseract OCR
+### Tesseract OCR
 
-### Installation
+#### Installation
 ```bash
 $ sudo apt install -y tesseract-ocr     # Debian/Ubuntu
 $ sudo apt install -y tesseract-ocr-rus # Plugin for Russian
