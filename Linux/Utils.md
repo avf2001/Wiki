@@ -13,15 +13,22 @@
 * [Screen](screen)
 
 # bpytop
+
 ## Описание
 Bpytop is an advanced, terminal-based control center for Linux. With it, users can view and manage their CPU usage, RAM/SWAP usage, network download/upload, and even terminate running programs! https://www.addictivetips.com/ubuntu-linux-tips/manage-linux-system-resources
+
 ## Установка (Ubuntu)
+
+### Ubuntu
 ```shell
-$ sudo apt update
-$ sudo apt install snapd
+sudo apt update
+sudo apt install snapd
 ```
+
+### Fedora (Byfin)
 ```shell
-$ sudo snap install bpytop
+sudo dnf install snapd
+sudo snap install bpytop
 ```
 ## Предварительная настройка
 ```shell
