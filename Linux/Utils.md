@@ -5,13 +5,7 @@
 * [Git клиенты](#git-клиенты)
   * [SourceGit](#sourcegit)
 * [sysbench](#sysbench)
-* [File Managers](#file-managers)
-  * [Double Commander](#double-commander)
-  * [Krusader](#krusader)
-  * [GNOME Commander](#gnome-commander)
-  * [Dolphin](#dolphin)
-  * [Nemo](#nemo)
-  * [Fman](#fman)
+* [File Managers](#file-managers)  
 * [Optical Character Recognition (OCR)](#optical-character-recognition-ocr)
   * [Tesseract OCR](#tesseract-ocr)
 * [PDF](#pdf)
@@ -89,6 +83,12 @@ Links:
 - [Use sysbench to test the OLTP performance](https://www.alibabacloud.com/help/en/polardb/polardb-for-postgresql/performance-test-method-oltp)
 
 # File Managers
+* [Double Commander](#double-commander)
+* [Krusader](#krusader)
+* [GNOME Commander](#gnome-commander)
+* [Dolphin](#dolphin)
+* [Nemo](#nemo)
+* [Fman](#fman)
 
 ## Double Commander
 [Github](https://github.com/doublecmd/doublecmd) [Wikipedia](https://en.wikipedia.org/wiki/Double_Commander) [Site](https://doublecmd.sourceforge.io)
