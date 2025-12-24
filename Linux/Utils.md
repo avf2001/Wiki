@@ -165,11 +165,12 @@ $ sudo apt install -y gimagereader      # GUI
 
 
 # Офис
+* [PDF](#pdf)
+
+## PDF
 * [Okular](#okular)
 * [Evince](#evince)
 * [qpdfview](#qpdfview)
-
-## PDF
 
 ### Okular
 
