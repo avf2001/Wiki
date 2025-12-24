@@ -1,7 +1,6 @@
 * [bpytop](#bpytop)
 * [Terminals](#terminals)
 * [Менеджеры паролей](#менеджеры-паролей)
-  * [KeePassXC](#keepassxc) 
 * [Git клиенты](#git-клиенты)
   * [SourceGit](#sourcegit)
 * [sysbench](#sysbench)
@@ -44,6 +43,7 @@ $ bpytop
 * [Warp](https://www.warp.dev/)
 
 # Менеджеры паролей
+* [KeePassXC](#keepassxc)
 
 ## KeePassXC
 ```bash
