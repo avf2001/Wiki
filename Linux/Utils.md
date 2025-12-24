@@ -1,5 +1,5 @@
 * [bpytop](#bpytop)
-* [Terminals](#terminals)
+* [Терминалы](#терминалы)
 * [Менеджеры паролей](#менеджеры-паролей)
 * [Git клиенты](#git-клиенты)
   * [SourceGit](#sourcegit)
@@ -39,7 +39,7 @@ $ sudo snap connect bpytop:physical-memory-observe
 ```shell
 $ bpytop
 ```
-# Terminals
+# Терминалы
 * [Warp](https://www.warp.dev/)
 
 # Менеджеры паролей
@@ -81,6 +81,8 @@ run
 Links:
 - [How to Benchmark PostgreSQL Performance Using Sysbench](https://severalnines.com/blog/how-benchmark-postgresql-performance-using-sysbench/)
 - [Use sysbench to test the OLTP performance](https://www.alibabacloud.com/help/en/polardb/polardb-for-postgresql/performance-test-method-oltp)
+
+
 
 # File Managers
 * [Double Commander](#double-commander)
