@@ -5,9 +5,8 @@
   * [SourceGit](#sourcegit)
 * [sysbench](#sysbench)
 * [File Managers](#file-managers)  
-* [Optical Character Recognition (OCR)](#optical-character-recognition-ocr)
-  * [Tesseract OCR](#tesseract-ocr)
 * [Офис](#офис)
+  * [Распознавание документов](#распознавание%20документов)
   * [PDF](#pdf)    
 * [Disk](#baobab)
   * [baobab](#baobab)
@@ -150,7 +149,14 @@ Finally, you can install fman via:
 sudo apt install fman
 ```
 
-# Optical Character Recognition (OCR)
+
+
+# Офис
+* [Распознавание документов](#распознавание%20документов)
+* [PDF](#pdf)
+
+# Распознавание документов
+* [Tesseract OCR](#tesseract-ocr)
 
 ## Tesseract OCR
 
@@ -162,10 +168,6 @@ $ sudo apt install -y tesseract-ocr-eng # Plugin for English
 $ sudo apt install -y tesseract-ocr-fra # Plugin for French etc.
 $ sudo apt install -y gimagereader      # GUI
 ```
-
-
-# Офис
-* [PDF](#pdf)
 
 ## PDF
 * [Okular](#okular)
