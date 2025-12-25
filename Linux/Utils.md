@@ -226,5 +226,5 @@ sudo dnf install cmatrix
 # Web
 ## curl
 ```shell
-curl -I http://localhost:8080
+curl -I http://localhost:8080 # отображает только HTTP заголовки без HTML 
 ```
