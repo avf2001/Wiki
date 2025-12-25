@@ -11,6 +11,7 @@
 * [Disk](#baobab)
   * [baobab](#baobab)
 * [Screen](screen)
+* [Web](#web)
 
 # bpytop
 
@@ -218,4 +219,12 @@ sudo apt install -y baobab
 ## cmatrix
 ```shell
 sudo dnf install cmatrix
+```
+
+
+
+# Web
+## curl
+```shell
+curl -I http://localhost:8080
 ```
