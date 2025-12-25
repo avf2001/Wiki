@@ -5,9 +5,9 @@
 
 # Как узнать версию GUI
 ```bash
-echo $XDG_CURRENT_DESKTOP   # Tells you what desktop environment you are using
-echo $DESKTOP_SESSION       #
-echo $GDMSESSION            # Tells you what option you selected from the lightdm greeter to login
+echo $XDG_CURRENT_DESKTOP   # Option 1 - Tells you what desktop environment you are using
+echo $DESKTOP_SESSION       # Option 2
+echo $GDMSESSION            # Option 3 - Tells you what option you selected from the lightdm greeter to login
 ```
 ```bash
 wmctrl -m
