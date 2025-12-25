@@ -1,13 +1,16 @@
+- [Как узнать версию GUI]()
 - [Cinnamon](#cinnamon)
 - [GNOME](#gnome)
 - [MATE](#mate)
 
-```bash
-wmctrl -m
-```
+# Как узнать версию GUI
 ```bash
 echo $XDG_CURRENT_DESKTOP   # Tells you what desktop environment you are using
+echo $DESKTOP_SESSION       #
 echo $GDMSESSION            # Tells you what option you selected from the lightdm greeter to login
+```
+```bash
+wmctrl -m
 ```
 
 # Cinnamon
