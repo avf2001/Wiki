@@ -221,6 +221,12 @@ rpm-ostree install s-tui
 
 ## htop
 
+## atop
+```bash
+# Fedora (Bluefin)
+rpm-ostree install atop
+```
+
 
 
 # Disk
