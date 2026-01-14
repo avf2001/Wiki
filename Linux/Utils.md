@@ -250,9 +250,14 @@ sudo apt install -y baobab
 ```
 
 ## iotop
+### Установка
 ```bash
 # Fedora (Bluefin)
 rpm-ostree install iotop
+```
+### Запуск
+```bash
+sudo iotop
 ```
 
 
