@@ -12,7 +12,6 @@
 * [Процессы](#процессы)
 * [Сеть](#сеть)
 * [Disk](#baobab)
-  * [baobab](#baobab)
 * [Screen](screen)
 * [Web](#web)
 
@@ -239,6 +238,8 @@ rpm-ostree install iftop
 ```
 
 
+
+
 # Disk
 
 ## baobab
@@ -248,7 +249,18 @@ sudo apt update
 sudo apt install -y baobab
 ```
 
+## iotop
+```bash
+# Fedora (Bluefin)
+rpm-ostree install iotop
+```
+
+
+
+
+
 # Screen
+
 ## cmatrix
 ```shell
 sudo dnf install cmatrix
