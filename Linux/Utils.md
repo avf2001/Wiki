@@ -10,6 +10,7 @@
   * [PDF](#pdf)
 * [Процессор](#процессор)
 * [Процессы](#процессы)
+* [Сеть](#сеть)
 * [Disk](#baobab)
   * [baobab](#baobab)
 * [Screen](screen)
@@ -227,6 +228,15 @@ rpm-ostree install s-tui
 rpm-ostree install atop
 ```
 
+
+
+# Сеть
+
+## iftop
+```bash
+# Fedora (Bluefin)
+rpm-ostree install iftop
+```
 
 
 # Disk
