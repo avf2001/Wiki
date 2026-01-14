@@ -7,7 +7,8 @@
 * [File Managers](#file-managers)  
 * [Офис](#офис)
   * [Распознавание документов](#распознавание-документов)
-  * [PDF](#pdf)    
+  * [PDF](#pdf)
+* [Процессор](#процессор)
 * [Disk](#baobab)
   * [baobab](#baobab)
 * [Screen](screen)
@@ -202,6 +203,14 @@ sudo apt install -y evince
 #### Installation
 ```bash
 sudo apt install -y qpdfview
+```
+
+# Процессор
+
+## s-tui
+```bash
+# Fedora (Bluefin)
+rpm-ostree install s-tui
 ```
 
 
