@@ -1,6 +1,6 @@
 # Google Chrome Installation
 
-## Method 1 - Using Flatpack
+## Method 1 - Using Flatpack (recommended)
 ```bash
 flatpak install flathub com.google.Chrome
 ```
