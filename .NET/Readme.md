@@ -7,3 +7,6 @@
 
 ## Reference Projects
 - https://github.com/ardalis/RiverBooks
+
+## Projects Implemented Using .NET
+- [Task Explorer](https://github.com/DavidXanatos/TaskExplorer)
