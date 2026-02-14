@@ -12,3 +12,8 @@ $ getent group docker              # Проверка существования
 $ sudo usermod -aG docker $USER    # Добавление текущего пользователя в группу docker
 $ logout                           # Необходимо выйти из системы
 ```
+# Bluefin (Fedora)
+1.
+```bash
+rpm-ostree install docker-ce docker-ce-cli containerd.io
+```
