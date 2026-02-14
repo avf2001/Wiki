@@ -13,7 +13,7 @@ $ sudo usermod -aG docker $USER    # Добавление текущего по�
 $ logout                           # Необходимо выйти из системы
 ```
 # Bluefin (Fedora)
-1.
+1. Enable Developer Mode
 ```bash
-rpm-ostree install docker-ce docker-ce-cli containerd.io
+ujust devmode
 ```
