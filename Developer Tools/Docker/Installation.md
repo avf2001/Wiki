@@ -17,3 +17,11 @@ $ logout                           # Необходимо выйти из сис
 ```bash
 ujust devmode
 ```
+2. aaa
+```bash
+ujust dx-group
+```
+3. Reboot the system
+```bash
+sudo systemctl reboot
+```
