@@ -13,3 +13,21 @@ tar -xJf имя-программы.tar.xz
 ```bash
 sudo mv ~/doublecmd /opt/
 ```
+4. Создать символическую ссылку
+```bash
+sudo ln -s /opt/doublecmd/doublecmd /usr/local/bin/doublecmd
+```
+5. Создать ярлык в меню приложений
+```bash
+sudo nano ~/.local/share/applications/doublecmd.desktop
+```
+```ini
+[Desktop Entry]
+Name=Double Commander
+Comment=Double Commander
+Exec=/opt/doublecmd/doublecmd
+Icon=/opt/doublecmd/doublecmd.png
+Terminal=false
+Type=Application
+Categories=Utility;
+```
