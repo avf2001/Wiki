@@ -3,6 +3,16 @@
 $ tar -czf destination-archive-name.tar.gz source-file-name.ext
 ```
 
+# Распаковка архива
+## gz
+```bash
+tar -xzvf имя_программы.tar.gz
+```
+## xz
+```bash
+tar -xJf имя-программы.tar.xz
+```
+
 # Установка приложения из архива (на примере Double Commander)
 1. Скачать архив в папку Downloads
 2. Распаковать архив
