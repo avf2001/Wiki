@@ -12,7 +12,8 @@
 # Users
 ## List all users
 ```shell
-$ awk -F: '{ print $1}' /etc/passwd
+$ awk -F: '{ print $1}' /etc/passwd   # Option 1
+$ sed 's/:.*//' /etc/passwd           # Option 2 
 ```
 ## Create new user
 ```shell
