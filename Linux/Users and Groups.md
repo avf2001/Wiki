@@ -11,10 +11,17 @@
   * [List groups of specific user]()
 # Users
 ## List all users
+Полная информация
+```shell
+cat /etc/passwd   # Option 1
+getent passwd     # Option 2
+```
+Только имена пользователей
 ```shell
 $ awk -F: '{ print $1}' /etc/passwd   # Option 1
 $ sed 's/:.*//' /etc/passwd           # Option 2 
 ```
+
 ## Create new user
 ```shell
 $ sudo adduser <username>
