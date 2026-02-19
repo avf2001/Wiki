@@ -5,6 +5,7 @@
   * [Change password for another user]()
   * [Scenario: Create User with Administrative Rights](#scenario-create-user-with-administrative-rights)
   * [Кто залогинен на машине]()
+  * [Редактирование /etc/passwd]()
 * [Groups](#groups)
   * [List all groups](#list-all-groups)
   * [Create new group]()  
@@ -69,6 +70,11 @@ $ groups username
 ```shell
 w     # Option 1
 who   # Option 2
+```
+
+## Редактирование /etc/passwd
+```shell
+sudo vipw
 ```
 
 # Groups
