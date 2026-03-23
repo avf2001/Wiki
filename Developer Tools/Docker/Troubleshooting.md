@@ -1,11 +1,11 @@
-# Очистка ресурсов, используемых Docker
+# Очистка ресурсов дискового простарнства
 Просмотреть ресурсы, используемые Docker'ом:
 ```shell
-$ docker system df
+docker system df              # Просмотр используемых ресурсов
+docker system prune -a -f     # Очистка гнеиспользуемых ресурсов
 ```
-# Большой объем в папке /var/lib/docker/containers
-## Решение
-Может не всегда работать
+## Большой объем в папке /var/lib/docker/containers
 ```shell
-$ docker system prune -a -f
+sudo sh -c "truncate -s 0 /var/lib/docker/containers/*/*-json.log"
 ```
+
