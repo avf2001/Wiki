@@ -7,6 +7,7 @@
 
 ## Articles
 - [Addressing Common Misconceptions about .NET in the InfoSec World (21.02.2026)](https://blog.washi.dev/posts/misconceptions-about-dotnet/)
+- [C# стал языком 2025 года по версии TIOBE (07.01.2026)](https://habr.com/ru/companies/bothub/news/983400/)
 
 ## Reference Projects
 - https://github.com/ardalis/RiverBooks
