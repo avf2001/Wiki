@@ -19,3 +19,20 @@ www-data   12345  12344  0   10:30   ?     00:00:01   nginx
 ```shell
 $ docker inspect -f '{{.State.Pid}}' <container_name> | xargs ps -o user,pid,cmd -p
 ```
+Вариант 5
+```shell
+$ docker inspect <container_name> | grep -i user
+```
+Вариант 6
+```shell
+$ docker inspect -f '{{.Config.User}}' <container_name>
+```
+
+# Просмотре пользователя, от имени которого работает docker
+```shell
+# Check Docker socket ownership (who can run docker commands)
+ls -la /var/run/docker.sock
+
+# View process owner of Docker daemon
+ps aux | grep dockerd
+```
