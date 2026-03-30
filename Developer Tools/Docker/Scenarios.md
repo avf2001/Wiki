@@ -28,7 +28,7 @@ $ docker inspect <container_name> | grep -i user
 $ docker inspect -f '{{.Config.User}}' <container_name>
 ```
 
-# Просмотре пользователя, от имени которого работает docker
+# Просмотр пользователя, от имени которого работает docker
 ```shell
 # Check Docker socket ownership (who can run docker commands)
 ls -la /var/run/docker.sock
