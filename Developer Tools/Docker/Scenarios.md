@@ -15,3 +15,7 @@ $ docker top my_container
 UID        PID    PPID   C   STIME   TTY   TIME       CMD
 www-data   12345  12344  0   10:30   ?     00:00:01   nginx
 ```
+Вариант 4
+```shell
+$ docker inspect -f '{{.State.Pid}}' <container_name> | xargs ps -o user,pid,cmd -p
+```
