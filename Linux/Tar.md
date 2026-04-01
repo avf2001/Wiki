@@ -8,6 +8,11 @@ $ tar -czf destination-archive-name.tar.gz source-file-name.ext
 ```bash
 tar -xzvf имя_программы.tar.gz
 ```
+- `-x`	extract	Extract files from the archive
+- `-z`	gzip	Filter the archive through gzip (decompress .gz files)
+- `-v`	verbose	List the files being extracted (optional, but helpful for seeing progress)
+- `-f`	file	Specify the archive filename (must be the last option)
+
 ## xz
 ```bash
 tar -xJf имя-программы.tar.xz
