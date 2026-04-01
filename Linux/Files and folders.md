@@ -25,6 +25,11 @@ rsync -ah --progress source destination
 - `-h` - Human-readable sizes
 - `--progress` - Shows progress bar
 
+### Копирование через ssh
+```shell
+rsync -ah --progress -e ssh user@remote:/path/to/file /local/destination/
+```
+
 # Папки
 
 ## Создание
