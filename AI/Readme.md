@@ -34,3 +34,6 @@ AST Tree - абстрактное синтаксическое дерево
 - [Bolt.new](https://bolt.new/)
 - [Uizard](https://uizard.io/)
 - [Lovable](https://lovable.dev/)
+
+## Tutorials
+- [GitHub Copilot CLI for Beginners](https://github.com/github/copilot-cli-for-beginners)
