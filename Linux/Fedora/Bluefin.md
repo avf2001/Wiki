@@ -1,5 +1,5 @@
-- [Browsers]()
-- [File Managers]()
+- [Browsers](#browsers)
+- [File Managers](#file-managers)
 
 # Browsers
 
