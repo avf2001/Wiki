@@ -4,3 +4,6 @@
 ```
 !ls -al
 ```
+
+# Ресурсы
+- [Patterns for teams shipping AI agents](https://www.agentic-patterns.com/)
