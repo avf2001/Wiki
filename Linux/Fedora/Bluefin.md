@@ -26,8 +26,15 @@ sudo dnf install google-chrome-stable
 
 
 # File Managers
+- [Nautilus](#nautilus)
+- [Krusader](#krusader)
 
 ## Nautilus
 ```bash
 flatpak install flathub org.gnome.Nautilus
+```
+
+## Krusader
+```bash
+rpm-ostree install krusader
 ```
