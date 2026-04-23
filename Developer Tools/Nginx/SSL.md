@@ -52,3 +52,39 @@ sudo nginx -t
 ```shell
 sudo systemctl reload nginx
 ```
+
+## Как отконвертировать pfx сертификат в crt
+1.
+```shell
+openssl pkcs12 -in yourfile.pfx -clcerts -nokeys -out server.crt
+```
+2.
+```shell
+openssl pkcs12 -in yourfile.pfx -nocerts -nodes -out server.key
+```
+3.
+```shell
+openssl pkcs12 -in yourfile.pfx -cacerts -nokeys -out ca-chain.crt
+```
+4.
+```yaml
+server {
+    listen 443 ssl http2;
+    server_name your-domain.com;
+
+    ssl_certificate     /path/to/server.crt;
+    ssl_certificate_key /path/to/server.key;
+    
+    # If you extracted a CA chain file
+    ssl_trusted_certificate /path/to/ca-chain.crt;
+
+    # Recommended SSL settings
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_ciphers HIGH:!aNULL:!MD5;
+
+    location / {
+        root /var/www/html;
+        index index.html;
+    }
+}
+```
