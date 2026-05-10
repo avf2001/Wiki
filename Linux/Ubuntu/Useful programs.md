@@ -1,4 +1,6 @@
 - Todoist
+- [File Managers](#file-managers)
+- [Network](#network)
 
 # File Managers
 
@@ -14,7 +16,10 @@ sudo apt update
 sudo apt install -y doublecmd-gtk
 ```
 
-# Filezilla
+# Network
+
+
+## Filezilla
 ```shell
 sudo apt update
 sudo apt install -y filezilla
