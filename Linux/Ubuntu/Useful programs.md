@@ -13,3 +13,10 @@ sudo apt install -y krusader
 sudo apt update
 sudo apt install -y doublecmd-gtk
 ```
+
+# Filezilla
+```shell
+sudo apt update
+sudo apt install -y filezilla
+```
+
