@@ -1,3 +1,4 @@
+- [Installation](Installation.md)
 ```
 sudo ubuntu-drivers autoinstall
 ```
