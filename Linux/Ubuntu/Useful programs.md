@@ -1,4 +1,3 @@
-- Todoist
 - [File Managers](#file-managers)
 - [Network](#network)
 
