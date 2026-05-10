@@ -1,1 +1,2 @@
-Konqueror
+- Konqueror
+- Todoist
