@@ -1,5 +1,11 @@
 - [Установка](Installation.md)
 
+# Роли
+## Создание структуры
+```shell
+mkdir -p roles/docker_removal/{tasks,handlers,templates,files,vars,defaults,meta}
+```
+
 ```shell
 ansible all -m ping
 ansible all -o -m ping    # one line
