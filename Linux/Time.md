@@ -1,28 +1,26 @@
 # Настройка сервера дат
 
-# Debian
-Check current status:
-```
+## Проверка статуса сервиса
+```shell
 timedatectl status
 ```
 
-Configure NTP servers:
-```
+## Настройка сервиса
+### Debian
+
+1. Отредактировать файл конфигурации
+```shell
 sudo nano /etc/systemd/timesyncd.conf
 ```
 
-Add or modify these lines:
-```
+2. Настроить адреса серверов
+```ini
 [Time]
 NTP=pool.ntp.org time.google.com
-FallbackNTP=0.debian.pool.ntp.org 1.debian.pool.ntp.org 2.debian.pool.ntp.org 3.debian.pool.ntp.org
-RootDistanceMaxSec=5
-PollIntervalMinSec=32
-PollIntervalMaxSec=2048
 ```
 
-Apply changes:
-```
+3. Применить изменения
+```shell
 sudo systemctl restart systemd-timesyncd
 sudo systemctl enable systemd-timesyncd
 timedatectl timesync-status
