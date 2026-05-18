@@ -1,3 +1,5 @@
+# Настройка сервера дат
+
 # Debian
 Check current status:
 ```
