@@ -3,6 +3,7 @@
 ## Проверка статуса сервиса
 ```shell
 timedatectl status
+timedatectl timesync-status
 ```
 
 ## Настройка сервиса
@@ -23,5 +24,7 @@ NTP=pool.ntp.org time.google.com
 ```shell
 sudo systemctl restart systemd-timesyncd
 sudo systemctl enable systemd-timesyncd
+
+timedatectl status
 timedatectl timesync-status
 ```
