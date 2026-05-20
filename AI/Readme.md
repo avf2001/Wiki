@@ -25,15 +25,20 @@ AST Tree - абстрактное синтаксическое дерево
 - Комплексная отладка
 
 # Resources
+
 ## Tools
 - [LM Studio](https://lmstudio.ai/)
 - [Jan](https://jan.ai/)
 - [AI Toolkit for Visual Studio Code](https://code.visualstudio.com/docs/intelligentapps/overview)
 - [Ollama](https://ollama.com/)
-### UI Prototyping
+
+## UI Prototyping
 - [Bolt.new](https://bolt.new/)
 - [Uizard](https://uizard.io/)
 - [Lovable](https://lovable.dev/)
 
 ## Tutorials
 - [GitHub Copilot CLI for Beginners](https://github.com/github/copilot-cli-for-beginners)
+
+## Programming
+- [ZZZ Code AI](https://zzzcode.ai/)
