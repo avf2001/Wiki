@@ -1,1 +1,2 @@
+- [Установка и настройка](Installation%20and%20Configuration.md)
 - [Промпты](Prompts.md)
