@@ -1,8 +1,18 @@
+- [DbContext encapsulation]()
+- [Model]()
+- [Many-to-one relationship]()
+- [One-to-many]()
+- [Working with disconnected objects]()
+- [Value object]()
+- [Domain Events]()
+- [Many-to-many relationship]()
+- [One-to-one relationship]()
+
+```csharp
 DbContextOptionsBuilder
-
-.UseLoggerFactory
-
-.EnableSensitiveDataLogging
+  .UseLoggerFactory
+  .EnableSensitiveDataLogging
+```
 
 ## DbContext encapsulation
 Initialize DbContext with connection string instead of DbContextOptions
