@@ -1,4 +1,5 @@
-https://entityframeworkcore.com/
+# Resources
+- https://entityframeworkcore.com/
 
 Visual Studio Extension: EF Core Power Tools
 
