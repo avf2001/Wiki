@@ -1,4 +1,5 @@
 # Tools
+- [IDE](#ide)
 
 # dotnet-counters
 [Docs](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-counters)
@@ -34,6 +35,13 @@ https://github.com/kevingosse/GummyCat
 # IDE
 ## XAML.io
 https://xaml.io/
+
+## JetBrains Rider
+### Crack
+- https://3.jetbra.in/
+- https://kdaiyu.com/3.jetbra.in/
+- https://gist.github.com/rjescobar/4b7200d7b2274c029107ca8b9d02f3a3#file-extend-trial-jetbrains-windows-bat
+- https://rutracker.org/forum/viewtopic.php?t=6812673
 
 # Online
 ## .NET Fiddle
