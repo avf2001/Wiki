@@ -3,6 +3,8 @@
   - Composite Primary Key
 - [Default Value](#default-value)
 - [One-to-many Value Objects](#one-to-many-value-objects)
+- [Entity]()
+  - [Identity]()
 
 # Set Default Schema
 ```csharp
@@ -59,4 +61,21 @@ modelBuilder.Entity<Customer>()
         contactBuilder.ToTable("CustomerContacts");
         contactBuilder.HasIndex(c => c.Type);
     });
+```
+
+# Entity
+## Identity
+```csharp
+public class Entity
+{
+    public int Id { get; private set; } // EF sets via property after ctor
+    public DateTime OrderDate { get; }
+    public string CustomerId { get; }
+    
+    public Entity(DateTime orderDate, string customerId)
+    {
+        OrderDate = orderDate;
+        CustomerId = customerId;
+    }
+}
 ```
