@@ -6,3 +6,8 @@
 
 ## Articles
 * [Always-Valid Domain Model](https://enterprisecraftsmanship.com/posts/always-valid-domain-model/)
+
+## Reference Projects
+- Jason Taylor's CleanArchitecture
+  - [Github](https://github.com/jasontaylordev/cleanarchitecture)
+  - [Website](https://cleanarchitecture.jasontaylor.dev/)
