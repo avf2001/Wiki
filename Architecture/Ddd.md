@@ -11,3 +11,5 @@
 - Jason Taylor's CleanArchitecture
   - [Github](https://github.com/jasontaylordev/cleanarchitecture)
   - [Website](https://cleanarchitecture.jasontaylor.dev/)
+- Ardalis
+  - [Github](https://github.com/ardalis/CleanArchitecture)
