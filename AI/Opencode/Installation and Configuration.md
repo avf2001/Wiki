@@ -4,6 +4,10 @@
 - [Конфигурация]()
 
 # Установка
+## npm
+```shell
+npm install -g opencode-ai
+```
 
 # Обновление
 ## npm
