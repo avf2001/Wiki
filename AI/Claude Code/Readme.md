@@ -1,4 +1,5 @@
 - [Установка и настройка](Installation%20and%20Configuration.md)
+- [Устранение неполадок](Troubleshooting.md)
 
 # Сценарии
 ## Звпуск команд shell
