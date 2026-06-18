@@ -30,4 +30,5 @@ cps serve
 ```shell
 npm uninstall -g @anthropic-ai/claude-code
 rm -rf ~/.claude
+sudo rm -f /usr/local/bin/claude
 ```
