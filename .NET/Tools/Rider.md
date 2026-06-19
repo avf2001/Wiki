@@ -45,12 +45,14 @@ sudo nano /opt/jetbrains/rider/bin/rider64.vmoptions
 -javaagent:/opt/jetbrains/rider-crack/2026.1.1/sniarbtej.jar=id=sniarbtej,user=Downloadly.ir,exp=2048-10-24,force=true
 ```
 
-8.
-```
+### Добавление иконки в меню
+
+1. Создать файл
+```shell
 touch /usr/share/applications/rider2026.1.1.desktop
 ```
 
-9.
+2. Отредактировать файл
 ```
 [Desktop Entry]
 Version=1.0
