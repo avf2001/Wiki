@@ -23,3 +23,6 @@
 ## Projects Implemented Using .NET
 - Task Explorer [github](https://github.com/DavidXanatos/TaskExplorer)
 - Files [site](https://files.community/) [github](https://github.com/files-community/files/)
+
+## Youtube Channels
+- [Rainer Stropek](https://www.youtube.com/@rstropek)
