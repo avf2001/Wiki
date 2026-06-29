@@ -15,3 +15,6 @@ await Task.Run(() => {
 # Resources
 ## Articles
 * [AsyncGuidance by David Fowler (github)](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md)
+
+## Youtube Clips
+- [Как устроена многопоточность в .net](https://www.youtube.com/watch?v=NH8ZgPlo_X8)
