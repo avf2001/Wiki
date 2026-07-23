@@ -1,3 +1,6 @@
+- [Терминология]()
+  - [Memory Bank]()
+
 # Spec-Driven Development
 
 ## Терминология
