@@ -1,4 +1,4 @@
-- [Custom SDK](Custom%20SDK.md)
+- [Custom MSBuild SDK](Custom%20SDK.md)
 - [Project Structure](Project%20Structure.md)
 - [Project Settings]()
 - [Logging]()
