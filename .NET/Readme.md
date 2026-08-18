@@ -1,4 +1,4 @@
-- [Best Practices](Best%20Practices.md) - подходы к структуре проекта
+- [Best Practices](Best%20Practices/README.md) - подходы к структуре проекта
 - [Инструменты](Tools/README.md)
 
 # Resources
