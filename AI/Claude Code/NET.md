@@ -17,3 +17,14 @@ One recommended workflow pattern uses a structured, agentic loop that treats the
 3. **Review**: `/dotnet:review` runs parallel reviewers (C# idioms, security, tests, Iron Laws). The `iron-law-judge` flags non-negotiable rules—like `decimal` for money, `await` over `.Result`, and flowing `CancellationToken` through async calls .
 
 4. **Learn**: Captures surprising bug fixes to `.claude/solutions/` for future `/dotnet:investigate` lookups.
+
+### "Plan → Implement → Validate" Loop
+Another proven approach uses worktrees for parallel work :
+
+1. **Plan**: Define the feature spec (PRD).
+
+2. **Implement**: A dedicated `implementer` agent edits files and builds.
+
+3. **Validate**: A `validator` agent checks against standards and runs tests.
+
+4. **Review**: Read-only agents (`architect-backend`, `security-auditor-backend`) inspect for rule violations without editing, providing an adversarial safety net .
