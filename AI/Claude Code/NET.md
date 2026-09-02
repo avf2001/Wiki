@@ -7,8 +7,13 @@
 [Site](https://codewithmukesh.com)
 
 ### Установка
+Локальная установка
 ```
 git clone https://github.com/codewithmukesh/dotnet-claude-kit
+claude
+> /plugin marketplace add /full/path/to/plugin/root/directory # the directory should contain skills, agnets, etc directories
+> /plugin install dotnet-claude-kit
+> /plugin-reload
 ```
 
 ## dotnet-agent-skills
