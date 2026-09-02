@@ -1,8 +1,15 @@
 # .NET
+- [.NET Claude Kit](#net-calude-kit)
+  - [Установка](#установка)
 
 ## .NET Claude Kit
 [Github](https://github.com/codewithmukesh/dotnet-claude-kit)
 [Site](https://codewithmukesh.com)
+
+### Установка
+```
+git clone https://github.com/codewithmukesh/dotnet-claude-kit
+```
 
 ## dotnet-agent-skills
 
