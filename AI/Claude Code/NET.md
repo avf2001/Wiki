@@ -1,6 +1,7 @@
 # .NET
 - [.NET Claude Kit](#net-calude-kit)
   - [Установка](#установка)
+  - [Начало работы](#начало-работы)
 
 ## .NET Claude Kit
 [Github](https://github.com/codewithmukesh/dotnet-claude-kit)
@@ -19,6 +20,12 @@ claude
 > /plugin marketplace add /full/path/to/plugin/root/directory # the directory should contain skills, agnets, etc directories
 > /plugin install dotnet-claude-kit
 > /plugin-reload
+```
+
+### Начало работы
+Перейти в папку с исходным кодом проекта и выполнить команду для создания файла `CLAUDE.md`:
+```
+> /dotnet-init
 ```
 
 ## dotnet-agent-skills
