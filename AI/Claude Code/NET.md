@@ -9,8 +9,13 @@
 ### Установка
 Локальная установка
 ```
+# 1. Клонировать репозиторий или скачать zip-архив
 git clone https://github.com/codewithmukesh/dotnet-claude-kit
+
+# 2. Запустить Claude Code
 claude
+
+# 3. Установить плагин
 > /plugin marketplace add /full/path/to/plugin/root/directory # the directory should contain skills, agnets, etc directories
 > /plugin install dotnet-claude-kit
 > /plugin-reload
