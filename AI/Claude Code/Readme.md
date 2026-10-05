@@ -1,3 +1,4 @@
+- [Использование локальных моделей](Local%20Models.md)
 - [Установка и настройка](Installation%20and%20Configuration.md)
 - [Устранение неполадок](Troubleshooting.md)
 
