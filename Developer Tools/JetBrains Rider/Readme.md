@@ -1,3 +1,35 @@
+# Установка из архива tar.gz на Linux
+1. Создать папку
+```shell
+sudo mkdir /opt/jetbrains/rider-2026.2.3.1
+```
+
+3. Распаковать архив в папку
+```
+sudo tar -xzf ./JetBrains.Rider-2026.2.3.1.tar.gz -C /opt/jetbrains/rider-2026.2.3.1 --strip-components=1
+```
+4. 
+```shell
+sudo chown -R flinalev /opt/jetbrains/rider-2026.2.3.1
+```
+
+5. В файл /opt/jetbrains/rider-2026.2.3.1/bin/rider64.vmoptions
+```shell
+-javaagent:/opt/jetbrains/rider-crack/2026.1.1/sniarbtej.jar=id=sniarbtej,user=Downloadly.ir,exp=2048-10-24,force=true
+```
+
+7. Создать файл /usr/share/applications/rider2026.2.3.1.desktop
+```ini
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=JetBrains Rider 2026.2.3.1
+Exec=/opt/jetbrains/rider-2026.2.3.1/bin/rider
+Icon=/opt/jetbrains/rider-2026.2.3.1/bin/rider.png
+Terminal=false
+Categories=Development;IDE;
+```
+
 # Создание базового образа для отладки
 1. Создать **`Dockerfile`**
 ```dockerfile
