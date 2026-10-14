@@ -42,7 +42,12 @@ listener "tcp" {
 api_addr = "http://127.0.0.1:8200"
 cluster_addr = "http://127.0.0.1:8201"
 ```
+Назначить права на папку:
 ```shell
 mkdir -p vault/data
 sudo chown -R 100:100 vault/data
+```
+Запустить docker container:
+```shell
+docker compose up -d
 ```
