@@ -51,3 +51,16 @@ sudo chown -R 100:100 vault/data
 ```shell
 docker compose up -d
 ```
+Провести инициализацию:
+```shell
+# Initialize (will output unseal key and root token, please save them securely)
+docker exec -it vault vault operator init
+
+# Unseal using the output unseal key (need to execute 3 times, using 3 different keys)
+docker exec -it vault vault operator unseal <unseal_key_1>
+docker exec -it vault vault operator unseal <unseal_key_2>
+docker exec -it vault vault operator unseal <unseal_key_3>
+
+# Verify status
+docker exec -it vault vault status
+```
