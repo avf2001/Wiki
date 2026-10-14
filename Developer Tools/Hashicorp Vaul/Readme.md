@@ -62,7 +62,7 @@ Unseal Key 3: k2yJf/o83H6ledm7REChi3qhiCZ/8KuR0VOm1WfYQi3b         # !!!
 Unseal Key 4: rcivfez6kr+vcpf27B/xqUDoi5Jf9x/nhdjm+e9t4rI0
 Unseal Key 5: gMTj6fKAUXdSf8tjTpygBQcqXAqW3srl5TfyZsYMzdLh
 
-Initial Root Token: hvs.c5tRlS16BbCu1KAoprWQDxS4                   # !!!
+Initial Root Token: hvs....                                        # !!! Root Token
 
 Vault initialized with 5 key shares and a key threshold of 3. Please securely
 distribute the key shares printed above. When the Vault is re-sealed,
