@@ -1,3 +1,5 @@
 # Интеграционное тестирование
 
-Использовать библиотеку `Microsoft.AspNetCore.Mvc.Testing`
+Тестовый проект должен:
+- Использовать библиотеку `Microsoft.AspNetCore.Mvc.Testing`
+- Использовать `<Project Sdk="Microsoft.NET.Sdk.Web">` в файле проекта
