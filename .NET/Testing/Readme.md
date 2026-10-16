@@ -1,4 +1,5 @@
 - [TestContainers](TestContainers.md)
+- [Интеграционное тестирование](Integration Testing.md)
 
 # Resources
 ## Integration Testing
