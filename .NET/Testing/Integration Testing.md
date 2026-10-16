@@ -8,3 +8,17 @@
 ```csharp
 public partial class Program { }
 ```
+
+Пример класса тестирования:
+```csharp
+public class SampleTests : WebApplicationFactory<Program>, IAsyncLifetime
+{
+    public SampleTests()
+    {
+    }
+
+    public async Task InitializeAsync()
+    {
+    }
+}
+```
