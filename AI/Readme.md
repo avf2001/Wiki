@@ -46,3 +46,6 @@ AST Tree - абстрактное синтаксическое дерево
 
 ## Programming
 - [ZZZ Code AI](https://zzzcode.ai/)
+
+## Utils
+- [llmfit](https://github.com/AlexsJones/llmfit)
