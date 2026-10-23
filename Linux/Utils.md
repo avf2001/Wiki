@@ -55,9 +55,9 @@ sudo iotop
 
 
 # Процессы
-
-## htop
-Интерактивный просмотрщик процессов на основе ncurses, похожий на top, но позволяющий прокручивать список по вертикали и горизонтали, а также выполнять управление процессами (например, завершение или изменение приоритета) без ручного ввода их PID.
+- [atop](#atop)
+- [bpytop](#bpytop)
+- [htop](#htop)
 
 ## atop
 Полноэкранный монитор производительности, который в реальном времени отслеживает загрузку ЦП, памяти, дисков и сети, показывая активность только тех процессов, чьё состояние изменилось с момента предыдущего замера.
@@ -66,6 +66,33 @@ sudo iotop
 ```bash
 rpm-ostree install atop     # Fedora (Bluefin)
 ```
+
+## bpytop
+Ресурсный монитор, который в реальном времени отображает использование процессора, памяти, дисков, сети и статистику процессов в удобном интерфейсе с поддержкой мыши .
+
+### Установка (Ubuntu)
+```shell
+sudo snap install bpytop     # Fedora (Bluefin)
+```
+
+### Предварительная настройка
+```shell
+$ sudo snap connect bpytop:mount-observe
+$ sudo snap connect bpytop:network-control
+$ sudo snap connect bpytop:hardware-observe
+$ sudo snap connect bpytop:system-observe
+$ sudo snap connect bpytop:process-control
+$ sudo snap connect bpytop:physical-memory-observe
+```
+
+### Запуск
+```shell
+$ bpytop
+```
+
+## htop
+Интерактивный просмотрщик процессов на основе ncurses, похожий на top, но позволяющий прокручивать список по вертикали и горизонтали, а также выполнять управление процессами (например, завершение или изменение приоритета) без ручного ввода их PID.
+
 
 
 
@@ -97,38 +124,8 @@ sudo apt install -y nethogs
 
 
 
-# bpytop
 
-## Описание
-Bpytop is an advanced, terminal-based control center for Linux. With it, users can view and manage their CPU usage, RAM/SWAP usage, network download/upload, and even terminate running programs! https://www.addictivetips.com/ubuntu-linux-tips/manage-linux-system-resources
 
-## Установка (Ubuntu)
-
-### Ubuntu
-```shell
-sudo apt update
-sudo apt install snapd
-```
-
-### Fedora (Bluefin)
-```shell
-sudo dnf install snapd
-sudo snap install bpytop
-```
-
-## Предварительная настройка
-```shell
-$ sudo snap connect bpytop:mount-observe
-$ sudo snap connect bpytop:network-control
-$ sudo snap connect bpytop:hardware-observe
-$ sudo snap connect bpytop:system-observe
-$ sudo snap connect bpytop:process-control
-$ sudo snap connect bpytop:physical-memory-observe
-```
-## Запуск
-```shell
-$ bpytop
-```
 # Терминалы
 * [Warp](https://www.warp.dev/)
 
