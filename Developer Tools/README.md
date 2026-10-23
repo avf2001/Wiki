@@ -9,7 +9,7 @@
 * Podman
   * [Container Desktop](https://container-desktop.com/)
 * VS Code
-* kondo
+* [kondo](#kondo)
 
 # kondo
 [Github](https://github.com/tbillington/kondo)
