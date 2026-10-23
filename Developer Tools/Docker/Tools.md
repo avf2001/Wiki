@@ -1,12 +1,33 @@
+- [Dive](#dive)
 - [Dockly](#dockly)
 - [Lazydocker](#lazydocker)
-- [Dive](#dive)
 - [Watchtower](#watchtower)
 - [Portainer](#portainer)
 - [Hadolint](#hadolint)
 - [Ctop](#ctop)
 - [Dozzle](#dozzle)
 - [Dockge](#dockge)
+
+
+
+# Dive
+[Github](https://github.com/wagoodman/dive)
+
+A tool for exploring a Docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image.
+
+## Installation
+1. Download `rpm` file from `https://github.com/wagoodman/dive/releases`.
+2. Install `rpm` file:
+```bash
+$ sudo dnf install dive_0.13.1_linux_amd64.rpm # RedOS
+```
+
+## Usage
+```bash
+$ dive image_name:tag_name
+```
+
+
 
 # Dockly
 [Github](https://github.com/lirantal/dockly)
@@ -25,23 +46,6 @@ tar -xzf lazydocker_0.24.1_Linux_x86_64.tar.gz
 4. Copy `lazydocker` file to `/usr/local/bin directory`:
 ```bash
 $ sudo cp lazydocker /usr/local/bin
-```
-
-# Dive
-[Github](https://github.com/wagoodman/dive)
-
-A tool for exploring a Docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image.
-
-## Installation
-1. Download `rpm` file from `https://github.com/wagoodman/dive/releases`.
-2. Install `rpm` file:
-```bash
-$ sudo dnf install dive_0.13.1_linux_amd64.rpm # RedOS
-```
-
-## Usage
-```bash
-$ dive image_name:tag_name
 ```
 
 # Watchtower
