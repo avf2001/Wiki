@@ -22,7 +22,8 @@ tar -xJf имя-программы.tar.xz
 1. Скачать архив в папку Downloads
 2. Распаковать архив
 ```bash
-tar -xJf имя-программы.tar.xz
+tar -xJf имя-программы.tar.xz      # tar.xz
+tar -xzvf имя-программы.tar.gz     # tar.gz
 ```
 3. Переместить архив в папку /opt
 ```bash
