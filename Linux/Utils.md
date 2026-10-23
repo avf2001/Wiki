@@ -22,20 +22,24 @@
 - [iotop](#iotop)
 
 ## baobab
+Графическое приложение для GNOME, которое сканирует указанные каталоги или файловые системы и представляет размеры и процентное соотношение занятого пространства в виде диаграммы-дерева.
+
+### Установка
 ```bash
-# Ubuntu
-sudo apt update
-sudo apt install -y baobab
+sudo apt install -y baobab    # Ubuntu
+sudo dnf install -y baobab    # RedOS
 ```
 
 ## iotop
 Утилита, которая в реальном времени показывает, какие процессы или потоки в Linux создают нагрузку на дисковый ввод-вывод, в формате, аналогичном top.
+
 ### Установка
 ```bash
 rpm-ostree install iotop    # Fedora (Bluefin)
 sudo dnf install iotop      # RedOS
 sudo apt install iotop      # Ubuntu
 ```
+
 ### Запуск
 ```bash
 sudo iotop
