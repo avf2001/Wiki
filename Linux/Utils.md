@@ -1,3 +1,5 @@
+* [Диск](#диск)
+
 * [bpytop](#bpytop)
 * [Терминалы](#терминалы)
 * [Менеджеры паролей](#менеджеры-паролей)
@@ -11,9 +13,33 @@
 * [Процессор](#процессор)
 * [Процессы](#процессы)
 * [Сеть](#сеть)
-* [Disk](#baobab)
 * [Screen](screen)
 * [Web](#web)
+
+
+
+# Диск
+
+## baobab
+```bash
+# Ubuntu
+sudo apt update
+sudo apt install -y baobab
+```
+
+## iotop
+### Установка
+```bash
+rpm-ostree install iotop    # Fedora (Bluefin)
+sudo dnf install iotop      # RedOS
+sudo apt install iotop      # Ubuntu
+```
+### Запуск
+```bash
+sudo iotop
+```
+
+
 
 # bpytop
 
@@ -240,25 +266,7 @@ rpm-ostree install iftop
 
 
 
-# Disk
 
-## baobab
-```bash
-# Ubuntu
-sudo apt update
-sudo apt install -y baobab
-```
-
-## iotop
-### Установка
-```bash
-# Fedora (Bluefin)
-rpm-ostree install iotop
-```
-### Запуск
-```bash
-sudo iotop
-```
 
 
 
