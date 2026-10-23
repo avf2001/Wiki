@@ -4,6 +4,7 @@
 - [Dockly](#dockly)
 - [Dozzle](#dozzle)
 - [Lazydocker](#lazydocker)
+- [Oxker](#oxker)
 - [Watchtower](#watchtower)
 - [Portainer](#portainer)
 - [Hadolint](#hadolint)
@@ -65,6 +66,18 @@ $ sudo cp lazydocker /usr/local/bin
 # Dozzle
 [Github](https://github.com/amir20/dozzle)
 
+
+
+# Oxker
+[Github](https://github.com/mrjackwills/oxker)
+
+простой терминальный интерфейс (TUI) для просмотра и управления контейнерами Docker.
+
+## Установка
+```shell
+tar -xzvf ~/oxker_linux_x86_64.tar.gz
+mv ~/oxker ~/bin/
+```
 
 
 # Watchtower
