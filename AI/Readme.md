@@ -40,6 +40,7 @@ AST Tree - абстрактное синтаксическое дерево
 - [OhMyLama](https://ohmylama.ru/)
 - [Kodacode](https://kodacode.ru/)
 - [RouterAI](https://routerai.ru/)
+- [Veai](https://veai.ru/)
 
 ## UI Prototyping
 - [Bolt.new](https://bolt.new/)
