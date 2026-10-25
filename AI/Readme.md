@@ -38,6 +38,7 @@ AST Tree - абстрактное синтаксическое дерево
 - [Ollama](https://ollama.com/)
 - [OhMyCode](https://ohmylama.ru/ohmycode)
 - [OhMyLama](https://ohmylama.ru/)
+- [Kodacode](https://kodacode.ru/)
 
 ## UI Prototyping
 - [Bolt.new](https://bolt.new/)
