@@ -37,6 +37,7 @@ AST Tree - абстрактное синтаксическое дерево
 - [AI Toolkit for Visual Studio Code](https://code.visualstudio.com/docs/intelligentapps/overview)
 - [Ollama](https://ollama.com/)
 - [OhMyCode](https://ohmylama.ru/ohmycode)
+- [OhMyLama](https://ohmylama.ru/)
 
 ## UI Prototyping
 - [Bolt.new](https://bolt.new/)
