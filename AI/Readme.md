@@ -31,6 +31,7 @@ AST Tree - абстрактное синтаксическое дерево
 # Resources
 
 ## Tools
+- [Arena.AI](https://arena.ai/)
 - [LM Studio](https://lmstudio.ai/)
 - [Jan](https://jan.ai/)
 - [AI Toolkit for Visual Studio Code](https://code.visualstudio.com/docs/intelligentapps/overview)
