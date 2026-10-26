@@ -42,6 +42,7 @@ AST Tree - абстрактное синтаксическое дерево
 - [RouterAI](https://routerai.ru/)
 - [Veai](https://veai.ru/)
 - [SkillsBench](https://www.skillsbench.ai/)
+- [AI System Design Guide (github)](https://github.com/ombharatiya/ai-system-design-guide)
 
 ## UI Prototyping
 - [Bolt.new](https://bolt.new/)
