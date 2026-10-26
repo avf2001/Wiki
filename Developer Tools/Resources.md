@@ -7,6 +7,8 @@
 * [AI](#ai)
   * [Phind](#phind)
   * [You](#you)
+* [Other](#other)
+
 # Иконки
 ## Tabler Icons
 [https://tabler-icons.io/](https://tabler-icons.io/)
@@ -22,3 +24,8 @@
 The AI search engine for developers.
 ## [You](https://you.com/code)
 The AI Search Engine You Control
+
+# Other
+Open Source Tools. No Signups. Right in your browser
+
+https://nosignups.net/
