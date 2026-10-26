@@ -41,6 +41,7 @@ AST Tree - абстрактное синтаксическое дерево
 - [Kodacode](https://kodacode.ru/)
 - [RouterAI](https://routerai.ru/)
 - [Veai](https://veai.ru/)
+- [SkillsBench](https://www.skillsbench.ai/)
 
 ## UI Prototyping
 - [Bolt.new](https://bolt.new/)
