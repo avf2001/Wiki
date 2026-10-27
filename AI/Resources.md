@@ -1,5 +1,12 @@
 # Ресурсы
 
+- [Tools]()
+- [UI Prototyping]()
+- [Tutorials]()
+- [Programming]()
+- [Utils]()
+- [Обучение]()
+
 ## Tools
 - [Arena.AI](https://arena.ai/)
 - [LM Studio](https://lmstudio.ai/)
