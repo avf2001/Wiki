@@ -3,6 +3,7 @@
   - [npm](#npm)
 - [Конфигурация]()
   - [Расположение файла конфигурации](#расположение-файла-конфигурации)
+  - [LLama.cpp]()
   - [Управления несколькими конфигурациями]()
 - [Удаление]()
   - [npm]()
@@ -23,7 +24,7 @@ Windows:
 %USERPROFILE%\.claude\settings.json
 ```
 
-## Локальный LLama.cpp
+## LLama.cpp
 ```json
 {
   "autoUpdatesChannel": "latest",
