@@ -23,6 +23,21 @@ Windows:
 %USERPROFILE%\.claude\settings.json
 ```
 
+## Локальный LLama.cpp
+```json
+{
+  "autoUpdatesChannel": "latest",
+  "theme": "light",
+  "autoCompactEnabled": false,
+  "env": {
+    "ANTHROPIC_BASE_URL": "http://127.0.0.1:9931",
+    "ANTHROPIC_AUTH_TOKEN": "local-llama",
+    "ANTHROPIC_API_KEY": ""
+  },
+  "model": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF:Q4_K_M"
+}
+```
+
 ## Управления несколькими конфигурациями
 Claude Code не поддерживает несколько конфигураций моделей в одном файле. Для реализации этой возможности можно воспользоваться утилитой `claude-provider-switch`.
 
