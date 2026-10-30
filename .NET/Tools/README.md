@@ -56,3 +56,6 @@ https://spectreconsole.net/ https://github.com/spectreconsole/spectre.console
 
 ## dotheap
 [Github](https://github.com/neon-sunset/dotheap)
+
+## Satori Insight
+[Github](https://github.com/hez2010/SatoriInsight)
