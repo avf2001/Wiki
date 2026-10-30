@@ -51,3 +51,8 @@ https://dotnetfiddle.net/
 Spectre.Console is a .NET library that makes it easier to create beautiful console applications.
 
 https://spectreconsole.net/ https://github.com/spectreconsole/spectre.console
+
+# Diagnostic
+
+## dotheap
+[Github](https://github.com/neon-sunset/dotheap)
