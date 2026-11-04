@@ -6,6 +6,7 @@
 - [Programming]()
 - [Utils]()
 - [Обучение]()
+- [Российские агрегаторы](#российские-агрегаторы)
 
 ## Tools
 - [Arena.AI](https://arena.ai/)
@@ -37,3 +38,6 @@
 
 ## Обучение
 - [Learn Harness Engineering (github)](https://github.com/walkinglabs/learn-harness-engineering)
+
+## Российские агрегаторы
+- [SimpleClaw](https://simple-claw.ru/)
