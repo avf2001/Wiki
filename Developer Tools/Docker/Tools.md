@@ -90,3 +90,5 @@ With watchtower you can update the running version of your containerized app sim
 
 # Hadolint
 [Github](https://github.com/hadolint/hadolint)
+
+A smarter Dockerfile linter that helps you build best practice Docker images. The linter parses the Dockerfile into an AST and performs rules on top of the AST. It stands on the shoulders of ShellCheck to lint the Bash code inside RUN instructions.
