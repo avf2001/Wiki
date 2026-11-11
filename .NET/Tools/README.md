@@ -59,3 +59,6 @@ https://spectreconsole.net/ https://github.com/spectreconsole/spectre.console
 
 ## Satori Insight
 [Github](https://github.com/hez2010/SatoriInsight)
+
+# LeanCIL: Formal Verification for .NET
+[Github](https://github.com/NethermindEth/LeanCIL)
