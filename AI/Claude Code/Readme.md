@@ -1,5 +1,6 @@
 - [Альтернативы моделям Anthropic](Alternatives.md)
 - [Использование локальных моделей](Local%20Models.md)
+- [Рекомендации](Recommendations.md)
 - [Установка и настройка](Installation%20and%20Configuration.md)
 - [Устранение неполадок](Troubleshooting.md)
 
