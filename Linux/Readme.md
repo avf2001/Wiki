@@ -7,6 +7,7 @@
 # Resources
 * [The Linux Documentation Project](https://tldp.org/)
 * [LINUX Commands (Mindmap)](https://xmind.app/m/WwtB/#)
+* [Linux Roadmap: подробный практический курс от нуля до уверенного администратора](https://github.com/justxor/linuxfullroadmap/)
 
 # Youtube
 * [Просто Devops](https://www.youtube.com/@prosto_devops)
