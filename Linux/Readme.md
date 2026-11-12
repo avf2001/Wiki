@@ -1,4 +1,4 @@
-* [Firewall](Firewall.md)
+* [Файрвол](Firewall.md)
 * [SSH](SSH.md)
 * [Сеть](Network.md)
 * [Советы](Tips.md)
