@@ -59,6 +59,7 @@ sudo sshd -t # проверка файла конфигурации
 sudo ss -tulpn # посмотреть открытые порты
 ```
 ### ufw (Ubuntu)
+Порядок имеет большое значение
 ```shell
 sudo ufw default deny incoming  # 1
 sudo ufw allow OpenSSH          # 2
