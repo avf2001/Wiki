@@ -10,6 +10,11 @@ journalctl -u ssh -f                                         # просмотр 
 w                                                            # кто подключен сейчас
 journalctl --list-boots                                      # отображает список загрузок
 ```
+```
+/etc/systemd/journald.conf
+Storage=persistant # сохранение журнала после перезагрузок
+```
+
 Обратить внимание на `failed password`, `invalid user`, `accepted`.
 
 
