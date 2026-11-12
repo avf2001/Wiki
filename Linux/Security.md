@@ -47,7 +47,12 @@ PermitRootLogin no # запрещает заходить root
 AllowUsers deploy username # задает список разрешенных пользователей
 
 sudo systemctl restart sshd
+
+sudo sshd -t # проверка файла конфигурации
 ```
+Держать сессию по паролю пока не проверили новой сессией.
+
+Желательно сменить порт по умолчанию (22).
 
 ## Ресурсы
 - [Как защитить Linux (youtube)](https://www.youtube.com/watch?v=SF6e_aYOGRE)
