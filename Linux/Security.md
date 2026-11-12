@@ -13,6 +13,7 @@ journalctl --list-boots                                      # отобража�
 ```shell
 /etc/systemd/journald.conf
 Storage=persistant # сохранение журнала после перезагрузок
+SystemMaxUse=500M
 ```
 ```shell
 journalctl --disk-usage
