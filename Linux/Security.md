@@ -66,6 +66,7 @@ sudo ufw allow OpenSSH          # 2
 sudo ufw allow 443/tcp          # 3
 sudo ufw enable                 # 4
 ```
+Правила docker обходят правила ufw
 
 ## Ресурсы
 - [Как защитить Linux (youtube)](https://www.youtube.com/watch?v=SF6e_aYOGRE)
