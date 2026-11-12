@@ -4,6 +4,8 @@
 ```shell
 journalctl -u ssh     # Debian, Ubuntu
 journalctl -u ssh     # CentOS
+
+journalctl -u ssh --since "24 hours ago" | grep Accepted
 ```
 Обратить внимание на `failed password`, `invalid user`, `accepted`.
 
