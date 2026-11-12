@@ -58,6 +58,13 @@ sudo sshd -t # проверка файла конфигурации
 ```shell
 sudo ss -tulpn # посмотреть открытые порты
 ```
+### ufw (Ubuntu)
+```shell
+sudo ufw default deny incoming  # 1
+sudo ufw allow OpenSSH          # 2
+sudo ufw allow 443/tcp          # 3
+sudo ufw enable                 # 4
+```
 
 ## Ресурсы
 - [Как защитить Linux (youtube)](https://www.youtube.com/watch?v=SF6e_aYOGRE)
