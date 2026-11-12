@@ -79,5 +79,10 @@ sudo ufw enable                 # 4
 
 ## fail2ban
 
+## Мониторинг и метрики
+Подозрительные метрики:
+- CPU 100%
+- Высокий входящий/исходящий трафик
+
 ## Ресурсы
 - [Как защитить Linux (youtube)](https://www.youtube.com/watch?v=SF6e_aYOGRE)
