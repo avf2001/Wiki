@@ -21,6 +21,15 @@ journalctl --disk-usage
 
 Обратить внимание на `failed password`, `invalid user`, `accepted`.
 
+## Автоматическое обновление безопасности
+unattended-upgrades
+```shell
+sudo apt install unattended-upgrades
+```
+```shell
+ls /var/log/unattended-upgrades/
+unattended-upgrades.log
+```
 
 ## Ресурсы
 - [Как защитить Linux (youtube)](https://www.youtube.com/watch?v=SF6e_aYOGRE)
