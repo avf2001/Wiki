@@ -1,10 +1,11 @@
 # Ресурсы
 
-- [Tools]()
-- [UI Prototyping]()
-- [Tutorials]()
 - [Programming]()
+- [Tools]()
+- [Tutorials]()
+- [UI Prototyping]()
 - [Utils]()
+- [Voice](#voice)
 - [Обучение]()
 - [Российские агрегаторы](#российские-агрегаторы)
 
@@ -35,6 +36,9 @@
 
 ## Utils
 - [llmfit](https://github.com/AlexsJones/llmfit) - llmfit inspects your CPU, system RAM, GPU(s), VRAM, and accelerator configuration to recommend models across popular quantizations.
+
+## Voice
+- [VoiceStudio](https://github.com/debpalash/VoiceStudio) - Clone, design, dub, dictate, transcribe and narrate in 646 languages.
 
 ## Обучение
 - [Learn Harness Engineering (github)](https://github.com/walkinglabs/learn-harness-engineering)
