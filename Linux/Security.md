@@ -1,6 +1,6 @@
 # Настройка безопасности
 
-# Логи
+## Логи
 ```shell
 journalctl -u ssh     # Debian, Ubuntu
 journalctl -u ssh     # CentOS
