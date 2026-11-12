@@ -54,5 +54,10 @@ sudo sshd -t # проверка файла конфигурации
 
 Желательно сменить порт по умолчанию (22).
 
+## Файрвол
+```shell
+sudo ss -tulpn # посмотреть открытые порты
+```
+
 ## Ресурсы
 - [Как защитить Linux (youtube)](https://www.youtube.com/watch?v=SF6e_aYOGRE)
