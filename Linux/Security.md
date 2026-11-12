@@ -40,9 +40,9 @@ userdel -r username # удаление пользователя
 ```
 /etc/ssh/sshd_config
 
-PasswordAuthentication no
-KbdInteractiveAuthentication no
-UsePAM no
+PasswordAuthentication no # Вход только по SSH ключам
+KbdInteractiveAuthentication no #
+UsePAM no #
 
 sudo systemctl restart sshd
 ```
