@@ -33,6 +33,7 @@ unattended-upgrades.log
 
 ```shell
 sudo -l -U username # просмотр списка привилегий sudo для пользователя username
+userdel -r username # удаление пользователя
 ```
 
 ## Ресурсы
