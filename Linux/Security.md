@@ -36,5 +36,16 @@ sudo -l -U username # просмотр списка привилегий sudo д
 userdel -r username # удаление пользователя
 ```
 
+## Настройка ssh
+```
+/etc/ssh/sshd_config
+
+PasswordAuthentication no
+KbdInteractiveAuthentication no
+UsePAM no
+
+sudo systemctl restart sshd
+```
+
 ## Ресурсы
 - [Как защитить Linux (youtube)](https://www.youtube.com/watch?v=SF6e_aYOGRE)
