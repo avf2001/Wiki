@@ -66,7 +66,7 @@ sudo ufw allow OpenSSH          # 2
 sudo ufw allow 443/tcp          # 3
 sudo ufw enable                 # 4
 ```
-Правила docker обходят правила ufw
+Правила docker обходят правила ufw. Как исправить: 1. Публиковать порт только на 127.0.0.1 2. sudo iptables -I DOCKER-USER -i eth0 ! -s 192.0.2.10 -j DROP
 
 ## Ресурсы
 - [Как защитить Linux (youtube)](https://www.youtube.com/watch?v=SF6e_aYOGRE)
