@@ -41,8 +41,8 @@ userdel -r username # удаление пользователя
 /etc/ssh/sshd_config
 
 PasswordAuthentication no # Вход только по SSH ключам
-KbdInteractiveAuthentication no #
-UsePAM no #
+PermitRootLogin no # запрещает заходить root
+AllowUsers deploy username # задает список разрешенных пользователей
 
 sudo systemctl restart sshd
 ```
