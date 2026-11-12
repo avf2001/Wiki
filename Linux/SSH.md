@@ -1,4 +1,6 @@
-# Create and copy SSH key file to remote server
+# SSH
+
+## Create and copy SSH key file to remote server
 1. Generate SSH key for server
 ```shell
 ssh-keygen -t ed25519 -f ~/.ssh/server.name.com_key -C "user@sserver.name.com"
@@ -30,7 +32,7 @@ chmod 600 ~/.ssh/config
 chmod 600 ~/.ssh/server1_key
 ```
 
-# Remove SSH key from remote server
+## Remove SSH key from remote server
 1. Connect to remote server using SSH
 ```shell
 ssh username@remote-server
@@ -58,7 +60,7 @@ chmod 700 ~/.ssh
 exit
 ```
 
-# How to Implement Multiple Keys (If You Choose That)
+## How to Implement Multiple Keys (If You Choose That)
 If you decide to use different keys, you can manage them via ~/.ssh/config:
 
 ```
