@@ -27,7 +27,7 @@ journalctl --disk-usage
 
 Обратить внимание на `failed password`, `invalid user`, `accepted`.
 
-Настроить копирование логов с сервера (Grafana Loki)
+Настроить копирование логов с сервера (Grafana Loki, Grafana Alloy)
 
 ## Автоматическое обновление безопасности
 unattended-upgrades
