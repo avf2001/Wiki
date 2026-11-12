@@ -31,5 +31,9 @@ ls /var/log/unattended-upgrades/
 unattended-upgrades.log
 ```
 
+```shell
+sudo -l -U username # просмотр списка привилегий sudo для пользователя username
+```
+
 ## Ресурсы
 - [Как защитить Linux (youtube)](https://www.youtube.com/watch?v=SF6e_aYOGRE)
