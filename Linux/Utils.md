@@ -3,10 +3,11 @@
 * [Сеть](#сеть)
 * [Терминалы](#терминалы)
 * [Менеджеры паролей](#менеджеры-паролей)
+* [Электронные книги](#электронные-книги)
 * [Git клиенты](#git-клиенты)
   * [SourceGit](#sourcegit)
 * [sysbench](#sysbench)
-* [File Managers](#file-managers)  
+* [File Managers](#file-managers)
 * [Офис](#офис)
   * [Распознавание документов](#распознавание-документов)
   * [PDF](#pdf)
@@ -134,6 +135,14 @@ sudo apt install -y nethogs
 ```bash
 # sudo dnf install keepassxc
 ```
+
+
+
+# Электронные книги
+## Foliate
+[Github](https://johnfactotum.github.io/foliate/)
+
+
 
 # Git клиенты
 
