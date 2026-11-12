@@ -1,4 +1,4 @@
-# Firewall
+# Файрвол
 * [nftables](#nftables)
 * [CSF (ConfigServer Security & Firewall)](#csf-configserver-security--firewall)
 * [APF (Advanced Policy Firewall)](#apf-advanced-policy-firewall)
