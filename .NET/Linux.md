@@ -43,3 +43,8 @@ If you want to install .NET for a specific user instead of system-wide, you can 
 ```bash
 sudo tar -xzf dotnet-sdk-10.0.100-preview.5.25277.114-linux.tar.gz -C /usr/share/dotnet
 ```
+Проверка:
+```shell
+dotnet --list-sdks
+dotnet --list-runtimes
+```
