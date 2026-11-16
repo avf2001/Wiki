@@ -98,6 +98,10 @@ sudo ufw enable                 # 4
 4. crontab
 5. authorized_keys
 
+## Сканеры уязвимостей
+- masscan
+- shodan
+- censys
+
 ## Ресурсы
 - [Как защитить Linux (youtube)](https://www.youtube.com/watch?v=SF6e_aYOGRE)
-
