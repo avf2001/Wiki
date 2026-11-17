@@ -12,7 +12,8 @@
   * [Распознавание документов](#распознавание-документов)
   * [PDF](#pdf)
 * [Процессор](#процессор)
-* [Screen](screen)
+* [Screen](#screen)
+* [Sql](#sql)
 * [Web](#web)
 
 
@@ -347,6 +348,25 @@ rpm-ostree install s-tui
 ## cmatrix
 ```shell
 sudo dnf install cmatrix
+```
+
+
+
+# SQL
+
+## sqlcmd
+[Github](https://github.com/microsoft/go-sqlcmd)
+
+### Установка (оффлайн)
+```shell
+tar -xjf sqlcmd-linux-amd64.tar.bz2
+sudo mv sqlcmd /usr/local/bin/
+sudo chmod +x /usr/local/bin/sqlcmd
+```
+
+### Использование
+```shell
+sqlcmd -S localhost -U sa -C
 ```
 
 
