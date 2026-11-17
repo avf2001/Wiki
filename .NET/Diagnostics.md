@@ -1,7 +1,16 @@
 # Диагностика
+- [Инструменты](#инструменты)
+  - [dotnet-counters](#dotnet-counters)
 - [Сценарии](#сценарии)
   - [Медленные HTTP соединения](#медленные-http-соединения)
   - [Entity Framework](#entity-framework)
+
+## Инструменты
+
+### dotnet-counters
+```shell
+dotnet-counters ps
+```
 
 ## Сценарии
 
