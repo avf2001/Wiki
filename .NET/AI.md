@@ -5,3 +5,8 @@
 
 [Site](https://www.foundrylocal.ai/)
 
+### Запуск
+```shell
+foundry server status     # получение статуса работы сервера
+foundry server logs       # отображение логов работы сервера
+```
