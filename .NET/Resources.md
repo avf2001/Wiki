@@ -6,7 +6,7 @@
 - Примеры проектов
 - Проекты, реализованные на .NET
 - Youtube каналы
-- Онлайн
+- [Онлайн](#онлайн)
 
 ## Разное
 - [Awesome .NET!](https://github.com/quozd/awesome-dotnet) - A collection of awesome .NET libraries, tools, frameworks, and software.
@@ -35,4 +35,4 @@
 - [Rainer Stropek](https://www.youtube.com/@rstropek)
 
 ## Онлайн
-- [.NET Fiddle](https://dotnetfiddle.net/)
+- [.NET Fiddle](https://dotnetfiddle.net/) - онлайн-компилятор и среда для быстрого запуска кода на C#
