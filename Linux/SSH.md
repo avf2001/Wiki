@@ -76,3 +76,69 @@ Host server2
     IdentityFile ~/.ssh/server2_key
 ```
 Then, just run ssh server1 or ssh server2, and SSH will automatically use the correct key.
+
+# SSH Advanced Techniques
+
+## Configuration
+
+## Jump Hosts (ProxyJump)
+
+## Connection Multiplexing
+
+## Local Port Forwarding (-L)
+
+## Remote Port Forwarding (-R)
+
+## Dynamic Port Forwarding (-D)
+
+## Reverse Tunneling
+
+## Agent Forwarding
+
+## Remote Command Execution
+Выполнение команд на удаленном сервере:
+```shell
+ssh some-server 'uptime; free -h; df -h'
+```
+Запуск локального скрипта на удаленном сервере:
+```shell
+ssh some-server 'bash -s' < ./some-script.sh
+```
+Запуск команды на нескольких серверах
+```shell
+for host in vcs monitoring webext web1; do echo "== $host"; ssh "$host" uptime; done
+```
+
+## SCP and SFTP
+
+## RSync over SSH
+
+## Unix Socket Forwarding
+
+## ProxyCommand
+
+## Troubleshooting
+### На стороне клиента
+Подробная информация о подключении
+```shell
+ssh -vv some-server true
+```
+Анализ конфигурации
+```shell
+ssh -G vcs | grep -E '^(hostname|user|port|identityfile|proxyjump) '
+```
+```shell
+ssh -Q kex | tail -3
+```
+### На стороне сервера
+```shell
+journalctl -u ssh -f
+```
+```shell
+sudo ss -tnp | grep ':22'
+```
+
+## Advanced Techniques
+```shell
+ssh -o ServerAliveInterval=30 -o ServerAliveCountMax=3 some-server
+```
