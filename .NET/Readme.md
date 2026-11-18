@@ -1,3 +1,4 @@
+- [AI](AI.md) - искусственный интеллект
 - [Best Practices](Best%20Practices/README.md) - подходы к структуре проекта
 - [Диагностика](Diagnostics.md)
 - [Инструменты](Tools/README.md)
