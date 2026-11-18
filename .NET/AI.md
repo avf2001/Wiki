@@ -10,3 +10,8 @@
 foundry server status     # получение статуса работы сервера
 foundry server logs       # отображение логов работы сервера
 ```
+
+### Работа с OpenWebUI
+```shell
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data -e WEBUI_SECRET_KEY=your-secret-key --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+```
