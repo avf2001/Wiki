@@ -3,22 +3,19 @@
 ```shell
 sudo mkdir /opt/jetbrains/rider-2026.2.3.1
 ```
-
-3. Распаковать архив в папку
+2. Распаковать архив в папку
 ```
 sudo tar -xzf ./JetBrains.Rider-2026.2.3.1.tar.gz -C /opt/jetbrains/rider-2026.2.3.1 --strip-components=1
 ```
-4. 
+3. Сменить владельца
 ```shell
 sudo chown -R flinalev /opt/jetbrains/rider-2026.2.3.1
 ```
-
-5. В файл /opt/jetbrains/rider-2026.2.3.1/bin/rider64.vmoptions
+4. В файл /opt/jetbrains/rider-2026.2.3.1/bin/rider64.vmoptions
 ```shell
 -javaagent:/opt/jetbrains/rider-crack/2026.1.1/sniarbtej.jar=id=sniarbtej,user=Downloadly.ir,exp=2048-10-24,force=true
 ```
-
-7. Создать файл /usr/share/applications/rider2026.2.3.1.desktop
+5. Создать файл /usr/share/applications/rider2026.2.3.1.desktop
 ```ini
 [Desktop Entry]
 Version=1.0
