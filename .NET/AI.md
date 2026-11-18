@@ -15,3 +15,4 @@ foundry server logs       # отображение логов работы се�
 ```shell
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data -e WEBUI_SECRET_KEY=your-secret-key --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 ```
+Через интерфейс OpenWebUI настроить прямые подключения. http://host.docker.internal:6435/v1
