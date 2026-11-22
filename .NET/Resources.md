@@ -29,6 +29,7 @@
 - https://github.com/ardalis/RiverBooks
 
 ## Проекты, реализованные на .NET
+- Pinta [github](https://github.com/PintaProject/Pinta) - Pinta is a GTK clone of Paint.Net 3.0, with support for Linux, Windows, and macOS.
 - Task Explorer [github](https://github.com/DavidXanatos/TaskExplorer)
 - Files [site](https://files.community/) [github](https://github.com/files-community/files/)
 
