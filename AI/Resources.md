@@ -33,6 +33,7 @@
 
 ## Programming
 - [ZZZ Code AI](https://zzzcode.ai/)
+- [OpenCodeReview](https://github.com/alibaba/open-code-review) - AI-powered code review CLI tool
 
 ## Utils
 - [llmfit](https://github.com/AlexsJones/llmfit) - llmfit inspects your CPU, system RAM, GPU(s), VRAM, and accelerator configuration to recommend models across popular quantizations.
