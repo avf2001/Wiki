@@ -284,17 +284,14 @@ rsync -av /source/directory/ /destination/directory/
 
 `mtr` combines the functionality of `ping` and `traceroute` into a single tool.
 
-#### Example
-
 Trace the route to a remote host:
-
 ```bash
 mtr google.com
 ```
 
-### Conclusion
+### tracepath
 
-Linux provides a comprehensive set of network utilities that allow you to manage, monitor, and troubleshoot network connections. The examples provided should help you get started with using these tools in your Linux environment.
+
 
 # Settings
 ## Debian
