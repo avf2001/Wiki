@@ -1,10 +1,6 @@
 # Сеть
 
-* [View Network Interfaces](#view-network-interfaces)
-  * [Option 1 - `ip link`]()
-  * [Option 2 - `ip addr`]()
-  * [Option 3 - `ifconfig`]()
-  * [Option 4 - `nmcli`]()
+* [Просмотр сетевых интерфейсов](#просмотр-сетевых-интерфейсов)  
 * [View Network Devices]()
   * [Option 1 - `lspci`]()
   * [Option 1 - `lsusb`]()
@@ -18,30 +14,21 @@
 * [Show Port is Used](#show-port-is-used)
 * [Посмотреть кто слушает порт]()
 
-# View Network Interfaces
-
-## Option 1 - `ip link`
-```bash
-$ ip link show
+## Просмотр сетевых интерфейсов
 ```
+# Option 1 - `ip link`
+ip -br link # однострочная форма
 
-## Option 2 - `ip addr`
-```bash
-$ ip addr show
-```
+# Option 2 - `ip a`
+ip a
+ip -br a    # однострочная форма
 
-## Option 3 - `ifconfig`
-```basg
-$ ifconfig
-```
+# Option 3 - `ifconfig`
+ifconfig    # устаревшая форма
 
-## Option 4 - `nmcli`
-```bash
-$ nmcli device status
+# Option 4 - `nmcli`
+nmcli device status
 ```
-<details><summary>Результат</summary>
- 
-</details>
 
 # View Network Devices
 
