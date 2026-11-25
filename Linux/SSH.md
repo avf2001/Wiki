@@ -6,12 +6,12 @@
 ssh-keygen -t ed25519 -f ~/.ssh/server.name.com_key -C "user@sserver.name.com"
 ```
 
-2. Просмотреть созданный файл
+2. Просмотреть созданный файл:
 ```shell
 ls ~/.ssh/
 ```
 
-3. Copy public key to remote server
+3. Скопировать сгенерированный открытый ключ на удаленный сервер:
 ```shell
 ssh-copy-id -i ~/.ssh/server.name.com_key.pub user@server.name.com
 ```
