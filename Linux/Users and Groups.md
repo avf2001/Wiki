@@ -1,5 +1,5 @@
-# Content
-* Users
+# Содержание
+* [Пользователи](#пользователи)
   * [List all users](#list-all-users)
   * [Create new user](#create-new-user)
   * [Change password for another user]()
@@ -11,7 +11,8 @@
   * [Create new group]()  
 * [Users and Groups](#users-and-groups)
   * [List groups of specific user]()
-# Users
+
+# Пользователи
 ## List all users
 Полная информация
 ```shell
