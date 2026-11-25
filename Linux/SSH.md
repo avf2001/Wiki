@@ -18,7 +18,7 @@ ls ~/.ssh/
 ssh-copy-id -i ~/.ssh/server.name.com_key.pub user@server.name.com
 ```
 
-4. Test SSH connection
+4. Проверить SSH подключение
 ```shell
 ssh username@server.name.com
 ```
