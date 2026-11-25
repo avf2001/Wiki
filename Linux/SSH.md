@@ -21,7 +21,7 @@ ssh-copy-id -i ~/.ssh/server.name.com_key.pub user@server.name.com
 ssh username@server.name.com
 ```
 
-6. Добавить в файл `~/.ssh/config` строки:
+5. Добавить в файл `~/.ssh/config` строки:
 ```shell
 Host server
     HostName server.name.com
