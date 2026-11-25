@@ -1,7 +1,7 @@
 # Содержание
 * [Пользователи](#пользователи)
-  * [List all users](#list-all-users)
-  * [Create new user](#create-new-user)
+  * [Получение списка пользователей](#получение-списка-пользователей)
+  * [Создание пользователя](#создание-пользователя)
   * [Change password for another user]()
   * [Scenario: Create User with Administrative Rights](#scenario-create-user-with-administrative-rights)
   * [Кто залогинен на машине]()
@@ -13,7 +13,8 @@
   * [List groups of specific user]()
 
 # Пользователи
-## List all users
+
+## Получение списка пользователей
 Полная информация
 ```shell
 cat /etc/passwd   # Option 1
@@ -25,7 +26,7 @@ $ awk -F: '{ print $1}' /etc/passwd   # Option 1
 $ sed 's/:.*//' /etc/passwd           # Option 2 
 ```
 
-## Create new user
+## Создание пользователя
 ```shell
 $ sudo adduser <username>
 ```
