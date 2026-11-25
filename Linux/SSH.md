@@ -17,8 +17,11 @@ ssh-copy-id -i ~/.ssh/server.name.com_key.pub user@server.name.com
 ```
 
 4. Test SSH connection
+```shell
+ssh username@server.name.com
+```
 
-5. Edit `~/.ssh/config` file
+6. Edit `~/.ssh/config` file
 ```shell
 Host server
     HostName server.name.com
