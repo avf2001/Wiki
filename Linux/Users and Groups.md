@@ -2,6 +2,7 @@
 * [Пользователи](#пользователи)
   * [Получение списка пользователей](#получение-списка-пользователей)
   * [Создание пользователя](#создание-пользователя)
+    * [Сценарий: Создание пользователя с административными правами (sudo)]()
   * [Change password for another user]()
   * [Scenario: Create User with Administrative Rights](#scenario-create-user-with-administrative-rights)
   * [Кто залогинен на машине]()
@@ -30,28 +31,20 @@ $ sed 's/:.*//' /etc/passwd           # Option 2
 ```shell
 $ sudo adduser <username>
 ```
+
+### Сценарий: Создание пользователя с административными правами (sudo)
+```shell
+sudo adduser username              # 1. Создать пользователя
+sudo passwd -S username            # 2. Check password status
+getent group sudo                  # 3. Проверить что группа sudo существует
+sudo usermod -aG wheel username    # 4. Добавить пользователя в группу sudo (или wheel)
+id username                        # 5. Просмотреть группы пользователя: - вариант 1
+groups username                                                          - вариант 2
+```
+
 ## Change password for another user
 ```shell
 $ sudo passwd <username> <password>
-```
-
-## Сценарий: Создание пользователя с административными правами
-```bash
-sudo adduser username       # 1. Создать пользователя
-sudo passwd -S username     # 2. Check password status
-getent group sudo           # 3. Проверить что группа sudo существует
-```
-
-5. Add user to sudo (or wheel) group
-```bash
-$ sudo usermod -aG wheel username
-```
-
-6. View user groups
-```bash
-$ id username
-# or
-$ groups username
 ```
 
 ## Кто залогинен на машине
