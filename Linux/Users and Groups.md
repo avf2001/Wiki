@@ -2,7 +2,7 @@
 * [Пользователи](#пользователи)
   * [Получение списка пользователей](#получение-списка-пользователей)
   * [Создание пользователя](#создание-пользователя)
-    * [Сценарий: Создание пользователя с административными правами (sudo)]()
+    * [Сценарий: Создание пользователя с административными правами (sudo)](#сценарий-создание-пользователя-с-административными-правами-sudo)
   * [Change password for another user]()
   * [Scenario: Create User with Administrative Rights](#scenario-create-user-with-administrative-rights)
   * [Кто залогинен на машине]()
@@ -23,8 +23,8 @@ getent passwd     # Option 2
 ```
 Только имена пользователей
 ```shell
-$ awk -F: '{ print $1}' /etc/passwd   # Option 1
-$ sed 's/:.*//' /etc/passwd           # Option 2 
+awk -F: '{ print $1}' /etc/passwd   # Option 1
+sed 's/:.*//' /etc/passwd           # Option 2 
 ```
 
 ## Создание пользователя
@@ -37,7 +37,7 @@ $ sudo adduser <username>
 sudo adduser username              # 1. Создать пользователя
 sudo passwd -S username            # 2. Check password status
 getent group sudo                  # 3. Проверить что группа sudo существует
-sudo usermod -aG wheel username    # 4. Добавить пользователя в группу sudo (или wheel)
+sudo usermod -aG sudo username     # 4. Добавить пользователя в группу sudo (или wheel)
 id username                        # 5. Просмотреть группы пользователя: - вариант 1
 groups username                                                          - вариант 2
 ```
