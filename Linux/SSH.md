@@ -1,12 +1,12 @@
 # SSH
 
-## Create and copy SSH key file to remote server
-1. Generate SSH key for server
+## Сценарий: Создание и копирование SSH ключа на удаленный сервер
+1. Сгенерировать SSH ключ для сервера:
 ```shell
 ssh-keygen -t ed25519 -f ~/.ssh/server.name.com_key -C "user@sserver.name.com"
 ```
 
-2. View created file:
+2. Просмотреть созданный файл
 ```shell
 ls ~/.ssh/
 ```
