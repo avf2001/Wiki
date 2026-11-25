@@ -35,25 +35,11 @@ $ sudo adduser <username>
 $ sudo passwd <username> <password>
 ```
 
-## Scenario: Create User with Administrative Rights
-1. Create user
+## Сценарий: Создание пользователя с административными правами
 ```bash
-$ sudo adduser username
-```
-
-2. Check password status
-```bash
-$ sudo passwd -S username
-```
-
-3. Set user password
-```bash
-$ sudo passwd username
-```
-
-4. Check group exists
-```bash
-$ getent group sudo
+sudo adduser username       # 1. Создать пользователя
+sudo passwd -S username     # 2. Check password status
+getent group sudo           # 3. Проверить что группа sudo существует
 ```
 
 5. Add user to sudo (or wheel) group
