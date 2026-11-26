@@ -49,3 +49,5 @@ The GC (garbage collector) reclaims dead objects and compacts the survivors, exc
 Everything now runs as good old-fashioned machine code. There's no interpreter on desktop and server CoreCLR. Native libraries (.dll, .so, .dylib) come in through P/Invoke.
 
 Two publish options change this, both opt-in. ReadyToRun ships precompiled methods, so Tier 0 code is already there, but the JIT still re-JITs hot methods to Tier 1. Native AOT publishes one native executable with no JIT at all.
+
+![image](files/Users/jzhang/Desktop/Isolated.png)
